@@ -10,9 +10,10 @@ How the order is computed:
   - `required` and `helpful` links are hard rules: X always comes before Y.
   - `context` links are soft: they only affect where optional books get placed.
   - The core path orders core works, preferring easier, earlier books when free to choose.
+  - A core work with a sourced `start_here` goes first.
   - Non-core works are slotted in around that spine: just before the core book they
-    lead into, or (for the author's own books) in publication order, or right after
-    the core books they depend on.
+    lead into, or (for the author's own books) after the latest core book published
+    before them, or right after the core books they depend on.
 """
 
 from __future__ import annotations
@@ -129,6 +130,12 @@ def validate(lists: dict, sources: dict, report: Report, strict: bool) -> None:
                 report.error(f"{where}: difficulty must be a whole number from 1 to 5")
             if w.get("position") is not None and w.get("position") not in POSITIONS:
                 report.error(f"{where}: position must be one of {POSITIONS}")
+            if w.get("start_here") is not None:
+                sh = w["start_here"]
+                if not isinstance(sh, dict) or not (sh.get("why") or "").strip():
+                    report.error(f"{where}: start_here needs a 'why'")
+                else:
+                    check_citations(sh, f"{where} (start_here)", True, sources, report, must_verify)
 
             for link in w.get("after") or []:
                 ref = link.get("work", "")
@@ -141,21 +148,7 @@ def validate(lists: dict, sources: dict, report: Report, strict: bool) -> None:
                     report.error(f"{lwhere}: strength must be one of {STRENGTHS}")
                 if not (link.get("why") or "").strip():
                     report.error(f"{lwhere}: every link needs a 'why'")
-                cites = link.get("sources") or []
-                if not cites:
-                    report.error(f"{lwhere}: every link needs at least one source")
-                tiers = []
-                for c in cites:
-                    sid = c.get("source")
-                    if sid not in sources:
-                        report.error(f"{lwhere}: unknown source '{sid}' (add it to sources/sources.yaml)")
-                        continue
-                    tiers.append(sources[sid].get("tier"))
-                    if not c.get("verified"):
-                        msg = f"{lwhere}: citation '{sid}' not yet verified"
-                        (report.error if must_verify else report.warn)(msg)
-                if strength == "required" and not STRONG_SOURCE_TIERS & set(tiers):
-                    report.error(f"{lwhere}: a 'required' link needs an author (tier 1) or scholarly (tier 2) source")
+                check_citations(link, lwhere, strength == "required", sources, report, must_verify)
 
                 # The core path must be readable on its own.
                 if (
@@ -169,6 +162,26 @@ def validate(lists: dict, sources: dict, report: Report, strict: bool) -> None:
         cycle = find_cycle(works, lid)
         if cycle:
             report.error(f"{lid}: circular ordering: {' -> '.join(cycle)}")
+
+
+def check_citations(claim: dict, where: str, needs_strong: bool, sources: dict, report: Report, must_verify: bool) -> None:
+    cites = claim.get("sources") or []
+    if not cites:
+        report.error(f"{where}: needs at least one source")
+    tiers = []
+    for c in cites:
+        sid = c.get("source")
+        if sid not in sources:
+            report.error(f"{where}: unknown source '{sid}' (add it to sources/sources.yaml)")
+            continue
+        tiers.append(sources[sid].get("tier"))
+        if c.get("verified") and not (c.get("checked_in") or "").strip():
+            report.error(f"{where}: verified citation '{sid}' must say which edition it was checked in ('checked_in')")
+        if not c.get("verified"):
+            msg = f"{where}: citation '{sid}' not yet verified"
+            (report.error if must_verify else report.warn)(msg)
+    if needs_strong and not STRONG_SOURCE_TIERS & set(tiers):
+        report.error(f"{where}: needs an author (tier 1) or scholarly (tier 2) source")
 
 
 def hard_edges(works: list, list_id: str):
@@ -266,7 +279,11 @@ def compute_order(data: dict) -> tuple[list[str], list[str]]:
     core = [w["id"] for w in works if w["tier"] == "core"]
     core_set = set(core)
     core_edges = [(a, b) for a in core for b in reachable(a, hard_succ) if b in core_set]
-    core_order = topo(core, core_edges, key=lambda n: (by_id[n]["difficulty"], year(by_id[n])))
+    core_order = topo(
+        core,
+        core_edges,
+        key=lambda n: (0 if by_id[n].get("start_here") else 1, by_id[n]["difficulty"], year(by_id[n])),
+    )
     pos = {n: i for i, n in enumerate(core_order)}
 
     # Where each non-core work fits relative to the spine.
@@ -276,6 +293,7 @@ def compute_order(data: dict) -> tuple[list[str], list[str]]:
         any_succ.setdefault(a, []).append(b)
         any_pred.setdefault(b, []).append(a)
     memo: dict[str, float] = {}
+    starts_with_entry = bool(core_order) and bool(by_id[core_order[0]].get("start_here"))
 
     def prio(n: str, visiting=frozenset()) -> float:
         if n in pos:
@@ -293,9 +311,9 @@ def compute_order(data: dict) -> tuple[list[str], list[str]]:
             if leads_to:
                 p = min(leads_to) - 0.5
         if p is None and w["kind"] == "primary" and w.get("year"):
-            later = [pos[c] for c in core if year(by_id[c]) > w["year"]]
-            if later:
-                p = min(later) - 0.5
+            # The author's own books: right after the latest core book published before it.
+            earlier = [pos[c] for c in core if year(by_id[c]) < w["year"]]
+            p = max(earlier) + 0.5 if earlier else -0.5
         if p is None:
             # Prefer the core works it directly builds on; fall back to indirect ones.
             builds_on = [pos[m] for m in any_pred.get(n, []) if m in pos]
@@ -306,14 +324,24 @@ def compute_order(data: dict) -> tuple[list[str], list[str]]:
             nxt = [prio(m, visiting | {n}) for m in any_succ.get(n, []) if m not in visiting]
             nxt = [x for x in nxt if x != INF]
             p = min(nxt) - 0.1 if nxt else INF
+        # A sourced "start here" book stays first; only pinned works go before it.
+        if starts_with_entry and p < 0.5 and w.get("position") != "start":
+            p = 0.5
         memo[n] = p
         return p
+
+    def sort_year(n: str) -> int:
+        # Undated background works sort with the earliest book that uses them.
+        w = by_id[n]
+        if w.get("year"):
+            return w["year"]
+        return min((year(by_id[m]) for m in any_succ.get(n, [])), default=9999)
 
     tier_rank = {t: i for i, t in enumerate(TIERS)}
     full_order = topo(
         [w["id"] for w in works],
         hard,
-        key=lambda n: (prio(n), year(by_id[n]), tier_rank[by_id[n]["tier"]], by_id[n]["difficulty"]),
+        key=lambda n: (prio(n), sort_year(n), tier_rank[by_id[n]["tier"]], by_id[n]["difficulty"]),
     )
     return core_order, full_order
 
@@ -330,7 +358,9 @@ def cite(c: dict, sources: dict) -> str:
     if c.get("locator"):
         text += f", {c['locator']}"
     text += f" [{SOURCE_TIER_NAMES[s['tier']]}]"
-    if not c.get("verified"):
+    if c.get("verified"):
+        text += f" ✓ checked in {c['checked_in']}"
+    else:
         text += " ⚠️ unverified"
     return text
 
@@ -345,8 +375,9 @@ def render(data: dict, lists: dict, sources: dict) -> str:
         w = next(x for x in lists[tl]["works"] if x["id"] == tw)
         return f"*{w['title']}*" + ("" if tl == lid else f" (from the {lists[tl]['title']} list)")
 
-    links = [l for w in data["works"] for l in (w.get("after") or [])]
-    cites = [c for l in links for c in (l.get("sources") or [])]
+    claims = [l for w in data["works"] for l in (w.get("after") or [])]
+    claims += [w["start_here"] for w in data["works"] if w.get("start_here")]
+    cites = [c for l in claims for c in (l.get("sources") or [])]
     verified = sum(1 for c in cites if c.get("verified"))
 
     out = [
@@ -368,7 +399,8 @@ def render(data: dict, lists: dict, sources: dict) -> str:
     out += ["## Core path", "", "The shortest route through the essentials.", ""]
     for i, n in enumerate(core_order, 1):
         w = by_id[n]
-        out.append(f"{i}. **{w['title']}** ({w.get('year', '')}) · difficulty {stars(w['difficulty'])}")
+        star = " · ★ start here" if w.get("start_here") else ""
+        out.append(f"{i}. **{w['title']}** ({w.get('year', '')}) · difficulty {stars(w['difficulty'])}{star}")
     out.append("")
 
     out += [
@@ -390,6 +422,10 @@ def render(data: dict, lists: dict, sources: dict) -> str:
             out += [w["note"].strip(), ""]
         if w.get("translation"):
             out += [f"**Translation:** {w['translation']}", ""]
+        if w.get("start_here"):
+            out += [f"**★ Good place to start.** {w['start_here']['why'].strip()}", ""]
+            out += [f"- {cite(c, sources)}" for c in w["start_here"].get("sources") or []]
+            out.append("")
         if w.get("after"):
             out.append("**Read first:**")
             out.append("")

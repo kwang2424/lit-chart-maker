@@ -25,6 +25,18 @@
   title: The Gay Science
   year: 1882
 
+- id: nietzsche-birth-of-tragedy-text
+  tier: 1
+  author: Friedrich Nietzsche
+  title: The Birth of Tragedy (with its "Foreword to Richard Wagner")
+  year: 1872
+
+- id: nietzsche-antichrist-text
+  tier: 1
+  author: Friedrich Nietzsche
+  title: The Antichrist
+  year: 1895
+
 - id: nietzsche-self-criticism
   tier: 1
   author: Friedrich Nietzsche
@@ -36,6 +48,7 @@
   author: Friedrich Nietzsche
   title: Letter to Jacob Burckhardt, 22 September 1886
   year: 1886
+  url: http://www.nietzschesource.org/#eKGWB/BVN-1886,754
 
 - id: nietzsche-untimely-schopenhauer
   tier: 1
@@ -66,10 +79,10 @@
 - id: leiter-guidebook
   tier: 2
   author: Brian Leiter
-  title: Routledge Philosophy GuideBook to Nietzsche on Morality
+  title: Nietzsche on Morality (2nd ed.)
   publisher: Routledge
   year: 2015
-  note: 2nd edition.
+  note: First edition (2002) was titled Routledge Philosophy GuideBook to Nietzsche on Morality.
 
 - id: lampert-teaching
   tier: 2

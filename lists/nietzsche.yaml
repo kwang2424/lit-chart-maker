@@ -9,13 +9,15 @@ status: draft   # draft -> reviewed -> stable
 #   tier:        core | extended | optional
 #   kind:        primary (by the author) | secondary (guide/commentary) | background
 #   difficulty:  1 (easy) .. 5 (very hard)
+#   position:    start | end   (optional; pins a non-core work to the start or end)
+#   start_here:  {why, sources}  (optional; a sourced claim that this is a good first book)
 #   after:       links to works best read first
 #     strength:  required | helpful | context
 #     why:       one sentence, in plain words
-#     sources:   [{source: <id in sources/sources.yaml>, locator: "...", verified: bool}]
+#     sources:   [{source, locator, verified, checked_in}]
 #
-# Rule: a `required` link needs at least one tier 1 or 2 source.
-# `verified: true` means a person checked the locator against the actual text.
+# Rule: `required` links and `start_here` need at least one tier 1 or 2 source.
+# `verified: true` means a person checked the locator against the text named in `checked_in`.
 
 works:
 
@@ -37,8 +39,8 @@ works:
     tier: optional
     difficulty: 4
     note: >
-      Nietzsche's starting point, which he later turned against. Book IV
-      (on the will and pessimism) matters most. A summary is enough for most readers.
+      Nietzsche's starting point, which he later turned against. A good
+      summary is enough for most readers.
 
   - id: gospels
     title: The Gospels and Paul's letters
@@ -74,20 +76,23 @@ works:
       ("Attempt at a Self-Criticism") last, since it is his later verdict on the book.
     after:
       - work: greek-tragedy
-        strength: context
-        why: The book is an argument about where tragedy came from and why it died.
+        strength: helpful
+        why: The book is a speculative account of how Greek tragic culture rose and collapsed.
         sources:
           - source: sep-nietzsche
-            locator: section on The Birth of Tragedy
-            verified: false
+            locator: "§1 Life and Works"
+            verified: true
+            checked_in: SEP online, accessed 2026-11
       - work: wwr
         strength: helpful
         why: >
-          It leans on Schopenhauer's ideas, as Nietzsche himself later complained.
+          It is written in Schopenhauer's terms, which Nietzsche later regretted
+          using ("Kantian and Schopenhauerian formulae").
         sources:
           - source: nietzsche-self-criticism
             locator: "§6"
-            verified: false
+            verified: true
+            checked_in: Haussmann trans. (1909), Project Gutenberg #51356
 
   - id: untimely
     title: Untimely Meditations
@@ -103,10 +108,12 @@ works:
     after:
       - work: wwr
         strength: context
-        why: The third essay is a tribute to Schopenhauer as a model philosopher.
+        why: The third essay, "Schopenhauer as Educator", holds Schopenhauer up as a model philosopher.
         sources:
           - source: nietzsche-untimely-schopenhauer
-            verified: false
+            locator: whole essay
+            verified: true
+            checked_in: Collins trans. (Thoughts out of Season II), Project Gutenberg #38226
 
   # ---------- Middle period ----------
 
@@ -128,14 +135,20 @@ works:
     tier: extended
     difficulty: 2
     translation: Hollingdale (Cambridge)
-    note: Nietzsche dates the start of his "campaign against morality" to this book.
+    note: >
+      Nietzsche wrote that with this book "I open my campaign against
+      morality" (Ecce Homo).
     after:
       - work: human-all-too-human
         strength: context
-        why: Same aphoristic style, continuing the same project.
+        why: >
+          Both belong to his aphoristic "middle period" (Human, All Too Human,
+          Daybreak, The Gay Science), a critique of morality and its psychology.
         sources:
-          - source: kaufmann-nietzsche
-            verified: false
+          - source: sep-nietzsche
+            locator: "§1 Life and Works"
+            verified: true
+            checked_in: SEP online, accessed 2026-11
 
   - id: gay-science
     title: The Gay Science
@@ -151,10 +164,12 @@ works:
     after:
       - work: daybreak
         strength: context
-        why: The last book of his aphoristic middle period, continuing Daybreak.
+        why: The last book of his middle period, following straight on from Daybreak.
         sources:
-          - source: kaufmann-nietzsche
-            verified: false
+          - source: sep-nietzsche
+            locator: "§1 Life and Works"
+            verified: true
+            checked_in: SEP online, accessed 2026-11
 
   # ---------- Mature period ----------
 
@@ -173,15 +188,18 @@ works:
       - work: gay-science
         strength: helpful
         why: >
-          The Gay Science introduces eternal recurrence (§341), and §342
-          is nearly word for word the opening of Zarathustra.
+          The Gay Science introduces eternal recurrence (§341), and §342 is nearly
+          word for word the opening of Zarathustra. Nietzsche said it "shows the
+          beginning of Zarathustra".
         sources:
           - source: nietzsche-gay-science-text
             locator: "§341–342"
-            verified: false
+            verified: true
+            checked_in: Cohn trans. (The Joyful Wisdom), Project Gutenberg #52124
           - source: nietzsche-ecce-homo
             locator: '"Thus Spoke Zarathustra" §1'
-            verified: false
+            verified: true
+            checked_in: Ludovici trans. (1911), Project Gutenberg #52190
 
   - id: bge
     title: Beyond Good and Evil
@@ -192,8 +210,9 @@ works:
     difficulty: 3
     translation: Kaufmann (Vintage) or Norman (Cambridge)
     note: >
-      A good first book for many readers. Nietzsche said it says
-      the same things as Zarathustra, "but differently, very differently."
+      Nietzsche told Jacob Burckhardt it says "the same things as my Zarathustra,
+      but differently, very differently" (letter of 22 Sept 1886), and in Ecce Homo
+      called it the start of the "negative portion" of his task.
 
   - id: genealogy
     title: On the Genealogy of Morality
@@ -204,32 +223,37 @@ works:
     difficulty: 3
     translation: Kaufmann & Hollingdale (Vintage) or Clark & Swensen (Hackett)
     note: >
-      Three connected essays and his most systematic book. Often the best
-      single place to start, especially for readers interested in ethics.
+      Three connected essays and his most systematic book. Especially good
+      for readers interested in ethics.
     after:
       - work: bge
         strength: helpful
-        why: Its title page calls it a supplement to and clarification of Beyond Good and Evil.
+        why: >
+          Its title page says it was added to Beyond Good and Evil "as a supplement
+          and clarification" ("zur Ergänzung und Verdeutlichung").
         sources:
           - source: nietzsche-genealogy-text
             locator: title page
-            verified: false
+            verified: true
+            checked_in: German edition, C. G. Naumann (Leipzig, 1892), archive.org/details/zurgenealogieder00niet
       - work: human-all-too-human
         strength: context
-        why: The Preface says its central ideas were first sketched in Human, All Too Human.
+        why: The Preface says its ideas first appeared, in rough form, in Human, All Too Human.
         sources:
           - source: nietzsche-genealogy-text
             locator: "Preface §2"
-            verified: false
+            verified: true
+            checked_in: Samuel trans. (1913), Project Gutenberg #52319
       - work: zarathustra
         strength: context
         why: >
-          The Preface says the book assumes you have read his earlier writings,
+          The Preface says it assumes you have read his earlier writings,
           and names Zarathustra.
         sources:
           - source: nietzsche-genealogy-text
             locator: "Preface §8"
-            verified: false
+            verified: true
+            checked_in: Samuel trans. (1913), Project Gutenberg #52319
 
   - id: case-of-wagner
     title: The Case of Wagner (with Nietzsche contra Wagner)
@@ -243,10 +267,18 @@ works:
     after:
       - work: birth-of-tragedy
         strength: helpful
-        why: The Birth of Tragedy praised Wagner; these attack him. They read as a reversal.
+        why: >
+          The Birth of Tragedy opens with a foreword to Wagner and champions him;
+          these attack him. They read as a reversal.
         sources:
-          - source: young-biography
-            verified: false
+          - source: nietzsche-birth-of-tragedy-text
+            locator: '"Foreword to Richard Wagner"'
+            verified: true
+            checked_in: Haussmann trans. (1909), Project Gutenberg #51356
+          - source: sep-nietzsche
+            locator: "§1 Life and Works (the friendship and the break)"
+            verified: true
+            checked_in: SEP online, accessed 2026-11
 
   - id: twilight
     title: Twilight of the Idols
@@ -257,18 +289,17 @@ works:
     difficulty: 2
     translation: Hollingdale (Penguin) or Large (Oxford)
     note: >
-      Short and fast; a summary of his late views. Some readers start here.
-      "The Problem of Socrates" and "How the 'True World' Finally Became a
-      Fable" are key.
-    after:
-      - work: genealogy
-        strength: helpful
-        why: >
-          It compresses positions argued at length in Beyond Good and Evil and the
-          Genealogy, so it lands harder after them.
-        sources:
-          - source: tanner-vsi
-            verified: false
+      Short and fast; a summary of his late views. "The Problem of Socrates"
+      and "How the 'True World' Finally Became a Fable" are key.
+    start_here:
+      why: >
+        Nietzsche's own advice: anyone wanting "a rapid sketch" of his thought
+        "should begin reading me in this book".
+      sources:
+        - source: nietzsche-ecce-homo
+          locator: '"The Twilight of the Idols" §1'
+          verified: true
+          checked_in: Ludovici trans. (1911), Project Gutenberg #52190
 
   - id: antichrist
     title: The Antichrist
@@ -282,18 +313,22 @@ works:
     after:
       - work: gospels
         strength: context
-        why: Much of it is a reading of Jesus and Paul.
+        why: Much of it is a reading of Jesus, the Gospels and Paul.
         sources:
-          - source: sep-nietzsche
-            verified: false
+          - source: nietzsche-antichrist-text
+            locator: "§41 (and the surrounding sections)"
+            verified: true
+            checked_in: Mencken trans. (1918), Project Gutenberg #19322
       - work: genealogy
         strength: helpful
         why: >
-          The Genealogy's account of "slave morality" and the ascetic ideal is the
-          theory behind this book's attack.
+          It relies on the Genealogy's account of "noble" vs. "ressentiment"
+          morality, and refers the reader back to it.
         sources:
-          - source: kaufmann-nietzsche
-            verified: false
+          - source: nietzsche-antichrist-text
+            locator: "§24"
+            verified: true
+            checked_in: Mencken trans. (1918), Project Gutenberg #19322
 
   - id: ecce-homo
     title: Ecce Homo
@@ -313,14 +348,16 @@ works:
         sources:
           - source: nietzsche-ecce-homo
             locator: '"Why I Write Such Good Books"'
-            verified: false
+            verified: true
+            checked_in: Ludovici trans. (1911), Project Gutenberg #52190
       - work: zarathustra
         strength: helpful
         why: It treats Zarathustra as his central work and comments on it at length.
         sources:
           - source: nietzsche-ecce-homo
-            locator: '"Thus Spoke Zarathustra"'
-            verified: false
+            locator: '"Thus Spoke Zarathustra" §§1–8'
+            verified: true
+            checked_in: Ludovici trans. (1911), Project Gutenberg #52190
 
   # ---------- Further secondary reading ----------
 
@@ -336,27 +373,32 @@ works:
     after:
       - work: genealogy
         strength: helpful
-        why: It assumes you have read the main works and argues about how to read them.
+        why: >
+          It is an argument about how to read his ideas on power (against the
+          "might makes right" reading), so it helps to know the books first.
         sources:
           - source: sep-nietzsche
-            verified: false
+            locator: "§5 (on Kaufmann's reading of power)"
+            verified: true
+            checked_in: SEP online, accessed 2026-11
 
   - id: leiter-guidebook
-    title: Routledge Philosophy GuideBook to Nietzsche on Morality
+    title: Nietzsche on Morality
     author: Brian Leiter
     year: 2015
     kind: secondary
     tier: optional
     difficulty: 4
-    note: A close, analytic reading of the Genealogy.
+    note: A close, analytic reading of the Genealogy, essay by essay.
     after:
       - work: genealogy
         strength: required
-        why: It is a guide to the Genealogy and assumes you have it open.
+        why: It is a commentary on the Genealogy, with a chapter on each of its three essays.
         sources:
           - source: leiter-guidebook
-            locator: Introduction
-            verified: false
+            locator: table of contents
+            verified: true
+            checked_in: Routledge catalog listing, 2nd ed. (2015)
 
   - id: lampert-teaching
     title: "Nietzsche's Teaching: An Interpretation of Thus Spoke Zarathustra"
@@ -372,7 +414,9 @@ works:
         why: It is a running commentary on Zarathustra.
         sources:
           - source: lampert-teaching
-            verified: false
+            locator: title and subtitle
+            verified: true
+            checked_in: Yale University Press edition (1986)
 
   - id: will-to-power
     title: The Will to Power
@@ -383,15 +427,16 @@ works:
     position: end
     difficulty: 4
     note: >
-      Not a book Nietzsche wrote. His sister assembled it from notebooks after
+      Not a book Nietzsche wrote. His sister assembled it from his notebooks after
       his death. Read it only once you know the published works, and with caution.
     after:
       - work: genealogy
         strength: helpful
         why: >
-          Scholars warn against reading the notebooks before, or in place of,
-          the books he chose to publish.
+          The SEP calls the editing "not well founded in Nietzsche's surviving plans"
+          and says it gives "a somewhat misleading impression" of his notebooks.
         sources:
           - source: sep-nietzsche
-            locator: discussion of the Nachlass
-            verified: false
+            locator: "§1 Life and Works"
+            verified: true
+            checked_in: SEP online, accessed 2026-11

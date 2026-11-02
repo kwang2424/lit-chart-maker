@@ -36,7 +36,7 @@ class BuildTests(unittest.TestCase):
 
     def test_required_needs_strong_source(self):
         self.link("twilight", work="genealogy", strength="required", why="x", sources=[{"source": "forum"}])
-        self.assertTrue(any("'required' link needs" in e for e in errors(self.bad, self.sources)))
+        self.assertTrue(any("needs an author (tier 1)" in e for e in errors(self.bad, self.sources)))
 
     def test_core_cannot_depend_on_noncore(self):
         self.link("zarathustra", work="birth-of-tragedy", strength="helpful", why="x",
@@ -56,7 +56,24 @@ class BuildTests(unittest.TestCase):
         for a, c in b.hard_edges(data["works"], "nietzsche"):
             self.assertLess(pos[a], pos[c], f"{a} should come before {c}")
 
+    def test_verified_needs_checked_in(self):
+        self.link("twilight", work="genealogy", strength="context", why="x",
+                  sources=[{"source": "sep-nietzsche", "verified": True}])
+        self.assertTrue(any("checked_in" in e for e in errors(self.bad, self.sources)))
+
+    def test_start_here_needs_strong_source(self):
+        self.works["bge"]["start_here"] = {"why": "x", "sources": [{"source": "forum"}]}
+        self.assertTrue(any("start_here" in e and "tier 1" in e for e in errors(self.bad, self.sources)))
+
+    def test_start_here_goes_first(self):
+        core, _ = b.compute_order(self.lists["nietzsche"])
+        self.assertTrue(self.works["twilight"].get("start_here"))
+        self.assertEqual(core[0], "twilight")
+
     def test_stable_requires_verified(self):
+        for w in self.bad["nietzsche"]["works"]:
+            for l in w.get("after") or []:
+                l["sources"][0]["verified"] = False
         self.bad["nietzsche"]["status"] = "stable"
         self.assertTrue(any("not yet verified" in e for e in errors(self.bad, self.sources)))
 
