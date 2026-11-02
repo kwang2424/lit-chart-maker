@@ -1,0 +1,86 @@
+# Shared bibliography. Every claim in a list cites a source by `id`.
+#
+# tier:
+#   1 author     - the author's own statements (books, prefaces, letters, interviews)
+#   2 scholarly  - peer-reviewed or academic-press guides, companions, encyclopedias
+#   3 syllabus   - what university courses assign, and in what order
+#   4 community  - reading guides from forums, blogs, etc. (hints only)
+
+- id: nietzsche-ecce-homo
+  tier: 1
+  author: Friedrich Nietzsche
+  title: Ecce Homo
+  year: 1888
+  note: Chapter "Why I Write Such Good Books" reviews each earlier book in turn.
+
+- id: nietzsche-genealogy-text
+  tier: 1
+  author: Friedrich Nietzsche
+  title: On the Genealogy of Morality (title page and Preface)
+  year: 1887
+
+- id: nietzsche-gay-science-text
+  tier: 1
+  author: Friedrich Nietzsche
+  title: The Gay Science
+  year: 1882
+
+- id: nietzsche-self-criticism
+  tier: 1
+  author: Friedrich Nietzsche
+  title: '"Attempt at a Self-Criticism" (1886 preface to The Birth of Tragedy)'
+  year: 1886
+
+- id: nietzsche-letter-burckhardt-1886
+  tier: 1
+  author: Friedrich Nietzsche
+  title: Letter to Jacob Burckhardt, 22 September 1886
+  year: 1886
+
+- id: nietzsche-untimely-schopenhauer
+  tier: 1
+  author: Friedrich Nietzsche
+  title: '"Schopenhauer as Educator" (Untimely Meditations III)'
+  year: 1874
+
+- id: sep-nietzsche
+  tier: 2
+  author: R. Lanier Anderson
+  title: '"Friedrich Nietzsche", Stanford Encyclopedia of Philosophy'
+  url: https://plato.stanford.edu/entries/nietzsche/
+
+- id: tanner-vsi
+  tier: 2
+  author: Michael Tanner
+  title: 'Nietzsche: A Very Short Introduction'
+  publisher: Oxford University Press
+  year: 2000
+
+- id: kaufmann-nietzsche
+  tier: 2
+  author: Walter Kaufmann
+  title: 'Nietzsche: Philosopher, Psychologist, Antichrist'
+  publisher: Princeton University Press
+  year: 1950
+
+- id: leiter-guidebook
+  tier: 2
+  author: Brian Leiter
+  title: Routledge Philosophy GuideBook to Nietzsche on Morality
+  publisher: Routledge
+  year: 2015
+  note: 2nd edition.
+
+- id: lampert-teaching
+  tier: 2
+  author: Laurence Lampert
+  title: "Nietzsche's Teaching: An Interpretation of Thus Spoke Zarathustra"
+  publisher: Yale University Press
+  year: 1986
+
+- id: young-biography
+  tier: 2
+  author: Julian Young
+  title: 'Friedrich Nietzsche: A Philosophical Biography'
+  publisher: Cambridge University Press
+  year: 2010

@@ -1,0 +1,397 @@
+id: nietzsche
+title: Friedrich Nietzsche
+scope: >
+  Nietzsche's published books, the background he assumes, and a few
+  standard secondary guides. Not his unpublished notebooks (Nachlass).
+status: draft   # draft -> reviewed -> stable
+
+# Each work:
+#   tier:        core | extended | optional
+#   kind:        primary (by the author) | secondary (guide/commentary) | background
+#   difficulty:  1 (easy) .. 5 (very hard)
+#   after:       links to works best read first
+#     strength:  required | helpful | context
+#     why:       one sentence, in plain words
+#     sources:   [{source: <id in sources/sources.yaml>, locator: "...", verified: bool}]
+#
+# Rule: a `required` link needs at least one tier 1 or 2 source.
+# `verified: true` means a person checked the locator against the actual text.
+
+works:
+
+  # ---------- Background ----------
+
+  - id: greek-tragedy
+    title: Greek tragedy (Aeschylus' Oresteia, Sophocles' Oedipus the King)
+    author: Aeschylus, Sophocles
+    kind: background
+    tier: optional
+    difficulty: 2
+    note: The art form The Birth of Tragedy is about. One or two plays is plenty.
+
+  - id: wwr
+    title: The World as Will and Representation, vol. 1
+    author: Arthur Schopenhauer
+    year: 1818
+    kind: background
+    tier: optional
+    difficulty: 4
+    note: >
+      Nietzsche's starting point, which he later turned against. Book IV
+      (on the will and pessimism) matters most. A summary is enough for most readers.
+
+  - id: gospels
+    title: The Gospels and Paul's letters
+    kind: background
+    tier: optional
+    difficulty: 1
+    note: The Antichrist assumes you know them.
+
+  # ---------- Entry guides ----------
+
+  - id: tanner-vsi
+    title: 'Nietzsche: A Very Short Introduction'
+    author: Michael Tanner
+    year: 2000
+    kind: secondary
+    tier: extended
+    position: start
+    difficulty: 1
+    note: A short overview before or alongside your first Nietzsche book.
+
+  # ---------- Early period ----------
+
+  - id: birth-of-tragedy
+    title: The Birth of Tragedy
+    author: Friedrich Nietzsche
+    year: 1872
+    kind: primary
+    tier: extended
+    difficulty: 3
+    translation: Kaufmann (in Basic Writings of Nietzsche)
+    note: >
+      His first book: Apollonian vs. Dionysian. Read the 1886 preface
+      ("Attempt at a Self-Criticism") last, since it is his later verdict on the book.
+    after:
+      - work: greek-tragedy
+        strength: context
+        why: The book is an argument about where tragedy came from and why it died.
+        sources:
+          - source: sep-nietzsche
+            locator: section on The Birth of Tragedy
+            verified: false
+      - work: wwr
+        strength: helpful
+        why: >
+          It leans on Schopenhauer's ideas, as Nietzsche himself later complained.
+        sources:
+          - source: nietzsche-self-criticism
+            locator: "§6"
+            verified: false
+
+  - id: untimely
+    title: Untimely Meditations
+    author: Friedrich Nietzsche
+    year: 1876
+    kind: primary
+    tier: optional
+    difficulty: 2
+    translation: Hollingdale (Cambridge)
+    note: >
+      Four essays. "On the Uses and Disadvantages of History for Life" and
+      "Schopenhauer as Educator" are the ones worth reading.
+    after:
+      - work: wwr
+        strength: context
+        why: The third essay is a tribute to Schopenhauer as a model philosopher.
+        sources:
+          - source: nietzsche-untimely-schopenhauer
+            verified: false
+
+  # ---------- Middle period ----------
+
+  - id: human-all-too-human
+    title: Human, All Too Human
+    author: Friedrich Nietzsche
+    year: 1878
+    kind: primary
+    tier: extended
+    difficulty: 2
+    translation: Hollingdale (Cambridge)
+    note: The break with Wagner and Schopenhauer; first book of short aphorisms.
+
+  - id: daybreak
+    title: Daybreak
+    author: Friedrich Nietzsche
+    year: 1881
+    kind: primary
+    tier: extended
+    difficulty: 2
+    translation: Hollingdale (Cambridge)
+    note: Nietzsche dates the start of his "campaign against morality" to this book.
+    after:
+      - work: human-all-too-human
+        strength: context
+        why: Same aphoristic style, continuing the same project.
+        sources:
+          - source: kaufmann-nietzsche
+            verified: false
+
+  - id: gay-science
+    title: The Gay Science
+    author: Friedrich Nietzsche
+    year: 1882
+    kind: primary
+    tier: core
+    difficulty: 2
+    translation: Kaufmann (Vintage)
+    note: >
+      "God is dead" (§125) and the first statement of eternal recurrence (§341).
+      Book V was added in 1887; it is worth reading after Beyond Good and Evil.
+    after:
+      - work: daybreak
+        strength: context
+        why: The last book of his aphoristic middle period, continuing Daybreak.
+        sources:
+          - source: kaufmann-nietzsche
+            verified: false
+
+  # ---------- Mature period ----------
+
+  - id: zarathustra
+    title: Thus Spoke Zarathustra
+    author: Friedrich Nietzsche
+    year: 1885
+    kind: primary
+    tier: core
+    difficulty: 4
+    translation: Kaufmann (Viking/Penguin) or Del Caro (Cambridge)
+    note: >
+      Poetic and allusive; it reads better once you know the ideas from
+      The Gay Science. Don't start here.
+    after:
+      - work: gay-science
+        strength: helpful
+        why: >
+          The Gay Science introduces eternal recurrence (§341), and §342
+          is nearly word for word the opening of Zarathustra.
+        sources:
+          - source: nietzsche-gay-science-text
+            locator: "§341–342"
+            verified: false
+          - source: nietzsche-ecce-homo
+            locator: '"Thus Spoke Zarathustra" §1'
+            verified: false
+
+  - id: bge
+    title: Beyond Good and Evil
+    author: Friedrich Nietzsche
+    year: 1886
+    kind: primary
+    tier: core
+    difficulty: 3
+    translation: Kaufmann (Vintage) or Norman (Cambridge)
+    note: >
+      A good first book for many readers. Nietzsche said it says
+      the same things as Zarathustra, "but differently, very differently."
+
+  - id: genealogy
+    title: On the Genealogy of Morality
+    author: Friedrich Nietzsche
+    year: 1887
+    kind: primary
+    tier: core
+    difficulty: 3
+    translation: Kaufmann & Hollingdale (Vintage) or Clark & Swensen (Hackett)
+    note: >
+      Three connected essays and his most systematic book. Often the best
+      single place to start, especially for readers interested in ethics.
+    after:
+      - work: bge
+        strength: helpful
+        why: Its title page calls it a supplement to and clarification of Beyond Good and Evil.
+        sources:
+          - source: nietzsche-genealogy-text
+            locator: title page
+            verified: false
+      - work: human-all-too-human
+        strength: context
+        why: The Preface says its central ideas were first sketched in Human, All Too Human.
+        sources:
+          - source: nietzsche-genealogy-text
+            locator: "Preface §2"
+            verified: false
+      - work: zarathustra
+        strength: context
+        why: >
+          The Preface says the book assumes you have read his earlier writings,
+          and names Zarathustra.
+        sources:
+          - source: nietzsche-genealogy-text
+            locator: "Preface §8"
+            verified: false
+
+  - id: case-of-wagner
+    title: The Case of Wagner (with Nietzsche contra Wagner)
+    author: Friedrich Nietzsche
+    year: 1888
+    kind: primary
+    tier: optional
+    difficulty: 2
+    translation: Kaufmann (in Basic Writings / The Portable Nietzsche)
+    note: Short polemics against his former friend.
+    after:
+      - work: birth-of-tragedy
+        strength: helpful
+        why: The Birth of Tragedy praised Wagner; these attack him. They read as a reversal.
+        sources:
+          - source: young-biography
+            verified: false
+
+  - id: twilight
+    title: Twilight of the Idols
+    author: Friedrich Nietzsche
+    year: 1889
+    kind: primary
+    tier: core
+    difficulty: 2
+    translation: Hollingdale (Penguin) or Large (Oxford)
+    note: >
+      Short and fast; a summary of his late views. Some readers start here.
+      "The Problem of Socrates" and "How the 'True World' Finally Became a
+      Fable" are key.
+    after:
+      - work: genealogy
+        strength: helpful
+        why: >
+          It compresses positions argued at length in Beyond Good and Evil and the
+          Genealogy, so it lands harder after them.
+        sources:
+          - source: tanner-vsi
+            verified: false
+
+  - id: antichrist
+    title: The Antichrist
+    author: Friedrich Nietzsche
+    year: 1895
+    kind: primary
+    tier: extended
+    difficulty: 2
+    translation: Hollingdale (Penguin, with Twilight)
+    note: Written in 1888, published 1895. His attack on Christianity.
+    after:
+      - work: gospels
+        strength: context
+        why: Much of it is a reading of Jesus and Paul.
+        sources:
+          - source: sep-nietzsche
+            verified: false
+      - work: genealogy
+        strength: helpful
+        why: >
+          The Genealogy's account of "slave morality" and the ascetic ideal is the
+          theory behind this book's attack.
+        sources:
+          - source: kaufmann-nietzsche
+            verified: false
+
+  - id: ecce-homo
+    title: Ecce Homo
+    author: Friedrich Nietzsche
+    year: 1908
+    kind: primary
+    tier: extended
+    difficulty: 2
+    translation: Kaufmann (in Basic Writings) or Large (Oxford)
+    note: >
+      Written in 1888, published 1908. His self-portrait and his comments on
+      each earlier book. Read it last; it means little without the books it discusses.
+    after:
+      - work: twilight
+        strength: helpful
+        why: It reviews each of his earlier books one by one, including Twilight.
+        sources:
+          - source: nietzsche-ecce-homo
+            locator: '"Why I Write Such Good Books"'
+            verified: false
+      - work: zarathustra
+        strength: helpful
+        why: It treats Zarathustra as his central work and comments on it at length.
+        sources:
+          - source: nietzsche-ecce-homo
+            locator: '"Thus Spoke Zarathustra"'
+            verified: false
+
+  # ---------- Further secondary reading ----------
+
+  - id: kaufmann-nietzsche
+    title: 'Nietzsche: Philosopher, Psychologist, Antichrist'
+    author: Walter Kaufmann
+    year: 1950
+    kind: secondary
+    tier: optional
+    position: end
+    difficulty: 3
+    note: The book that rehabilitated Nietzsche in the English-speaking world.
+    after:
+      - work: genealogy
+        strength: helpful
+        why: It assumes you have read the main works and argues about how to read them.
+        sources:
+          - source: sep-nietzsche
+            verified: false
+
+  - id: leiter-guidebook
+    title: Routledge Philosophy GuideBook to Nietzsche on Morality
+    author: Brian Leiter
+    year: 2015
+    kind: secondary
+    tier: optional
+    difficulty: 4
+    note: A close, analytic reading of the Genealogy.
+    after:
+      - work: genealogy
+        strength: required
+        why: It is a guide to the Genealogy and assumes you have it open.
+        sources:
+          - source: leiter-guidebook
+            locator: Introduction
+            verified: false
+
+  - id: lampert-teaching
+    title: "Nietzsche's Teaching: An Interpretation of Thus Spoke Zarathustra"
+    author: Laurence Lampert
+    year: 1986
+    kind: secondary
+    tier: optional
+    difficulty: 4
+    note: A section-by-section commentary on Zarathustra.
+    after:
+      - work: zarathustra
+        strength: required
+        why: It is a running commentary on Zarathustra.
+        sources:
+          - source: lampert-teaching
+            verified: false
+
+  - id: will-to-power
+    title: The Will to Power
+    author: Friedrich Nietzsche (compiled by Elisabeth Förster-Nietzsche)
+    year: 1901
+    kind: primary
+    tier: optional
+    position: end
+    difficulty: 4
+    note: >
+      Not a book Nietzsche wrote. His sister assembled it from notebooks after
+      his death. Read it only once you know the published works, and with caution.
+    after:
+      - work: genealogy
+        strength: helpful
+        why: >
+          Scholars warn against reading the notebooks before, or in place of,
+          the books he chose to publish.
+        sources:
+          - source: sep-nietzsche
+            locator: discussion of the Nachlass
+            verified: false
