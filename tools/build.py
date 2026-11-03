@@ -10,7 +10,8 @@ How the order is computed:
   - `required` and `helpful` links are hard rules: X always comes before Y.
   - `context` links are soft: they only affect where optional books get placed.
   - The core path orders core works, preferring easier, earlier books when free to choose.
-  - A core work with a sourced `start_here` goes first.
+  - A core work with a sourced `start_here` goes first; then the book most surveyed
+    sources start with; then the average position they give each book (tools/consensus.py).
   - Non-core works are slotted in around that spine: just before the core book they
     lead into, or (for the author's own books) after the latest core book published
     before them, or right after the core books they depend on.
@@ -27,6 +28,7 @@ from pathlib import Path
 import yaml
 
 import chart
+import consensus
 
 ROOT = Path(__file__).resolve().parent.parent
 LISTS_DIR = ROOT / "lists"
@@ -39,7 +41,7 @@ STRENGTHS = ["required", "helpful", "context"]
 HARD = {"required", "helpful"}
 STATUSES = ["draft", "reviewed", "stable"]
 POSITIONS = ["start", "end"]
-SOURCE_TIER_NAMES = {1: "author", 2: "scholarly", 3: "syllabus", 4: "community"}
+SOURCE_TIER_NAMES = {1: "author", 2: "scholarly", 3: "teaching", 4: "community"}
 STRONG_SOURCE_TIERS = {1, 2}
 
 
@@ -160,10 +162,10 @@ def validate(lists: dict, sources: dict, report: Report, strict: bool) -> None:
                     report.error(f"{lwhere}: every link needs a 'why'")
                 check_citations(link, lwhere, strength == "required", sources, report, must_verify)
 
-                # The core path must be readable on its own.
+                # The core path must be readable on its own: nothing it strictly needs is left out.
                 if (
                     w.get("tier") == "core"
-                    and strength in HARD
+                    and strength == "required"
                     and tl == lid
                     and by_id.get(tw, {}).get("tier") not in (None, "core")
                 ):
@@ -172,6 +174,7 @@ def validate(lists: dict, sources: dict, report: Report, strict: bool) -> None:
         cycle = find_cycle(works, lid)
         if cycle:
             report.error(f"{lid}: circular ordering: {' -> '.join(cycle)}")
+        consensus.validate(data, sources, report, must_verify, check_citations)
 
 
 def check_citations(claim: dict, where: str, needs_strong: bool, sources: dict, report: Report, must_verify: bool) -> None:
@@ -289,10 +292,26 @@ def compute_order(data: dict) -> tuple[list[str], list[str]]:
     core = [w["id"] for w in works if w["tier"] == "core"]
     core_set = set(core)
     core_edges = [(a, b) for a in core for b in reachable(a, hard_succ) if b in core_set]
+    # Where the links leave the order open: a sourced start first, then the average
+    # position the surveyed sources give each book, then easier and earlier books.
+    avg_pos = consensus.positions(data)
+    survey = consensus.compute(data)["works"]
+
+    def start_votes(n):  # one source alone is too little to reorder the path
+        v = survey.get(n, {}).get("starts", 0)
+        return v if v >= 2 else 0
+
     core_order = topo(
         core,
         core_edges,
-        key=lambda n: (0 if by_id[n].get("start_here") else 1, by_id[n]["difficulty"], year(by_id[n])),
+        key=lambda n: (
+            0 if by_id[n].get("start_here") else 1,
+            -start_votes(n),
+            -(survey.get(n, {}).get("mentions", 0) if start_votes(n) else 0),
+            avg_pos.get(n, 0.5),
+            by_id[n]["difficulty"],
+            year(by_id[n]),
+        ),
     )
     pos = {n: i for i, n in enumerate(core_order)}
 
@@ -389,6 +408,7 @@ def render(data: dict, lists: dict, sources: dict) -> str:
     claims += [w["start_here"] for w in data["works"] if w.get("start_here")]
     claims += [t for w in data["works"] for t in (w.get("tips") or [])]
     cites = [c for l in claims for c in (l.get("sources") or [])]
+    cites += list(data.get("survey") or [])
     verified = sum(1 for c in cites if c.get("verified"))
 
     out = [
@@ -412,9 +432,13 @@ def render(data: dict, lists: dict, sources: dict) -> str:
     for i, n in enumerate(core_order, 1):
         w = by_id[n]
         star = " · ★ start here" if w.get("start_here") else ""
+        votes = consensus.compute(data)["works"].get(n, {}).get("starts", 0)
+        if votes:
+            star += f" · first book in {votes} surveyed source{'s' if votes != 1 else ''}"
         out.append(f"{i}. **{w['title']}** ({w.get('year', '')}) · difficulty {stars(w['difficulty'])}{star}")
     out.append("")
 
+    out += consensus.render_md(data, sources, SOURCE_TIER_NAMES)
     out += [
         "## Full path",
         "",
@@ -432,6 +456,8 @@ def render(data: dict, lists: dict, sources: dict) -> str:
         out.append("")
         if w.get("note"):
             out += [w["note"].strip(), ""]
+        if w.get("tier_note"):
+            out += [f"*Why this tier:* {w['tier_note'].strip()}", ""]
         if w.get("translation"):
             out += [f"**Translation:** {w['translation']}", ""]
         if w.get("start_here"):

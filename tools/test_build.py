@@ -3,6 +3,7 @@ import unittest
 import xml.dom.minidom
 
 import chart
+import consensus
 
 import build as b
 
@@ -42,7 +43,7 @@ class BuildTests(unittest.TestCase):
         self.assertTrue(any("needs an author (tier 1)" in e for e in errors(self.bad, self.sources)))
 
     def test_core_cannot_depend_on_noncore(self):
-        self.link("zarathustra", work="birth-of-tragedy", strength="helpful", why="x",
+        self.link("zarathustra", work="untimely", strength="required", why="x",
                   sources=[{"source": "sep-nietzsche"}])
         self.assertTrue(any("core work can't depend" in e for e in errors(self.bad, self.sources)))
 
@@ -86,6 +87,28 @@ class BuildTests(unittest.TestCase):
             svg = chart.render_svg(data, full, core, list(b.hard_edges(data["works"], lid)),
                                    list(b.all_edges(data["works"], lid)), self.lists)
             xml.dom.minidom.parseString(svg)  # raises if malformed
+
+    def test_survey_rules(self):
+        sv = self.bad["nietzsche"]["survey"]
+        sv.append({"source": "syl-bard-pl320", "includes": ["nope"], "starts_with": "gay-science"})
+        errs = errors(self.bad, self.sources)
+        self.assertTrue(any("surveyed twice" in e for e in errs))
+        self.assertTrue(any("unknown work 'nope'" in e for e in errs))
+        self.assertTrue(any("starts_with 'gay-science' must also be in 'includes'" in e for e in errs))
+
+    def test_survey_counts_and_beginner_lists(self):
+        data = {"id": "t", "works": [], "survey": [
+            {"source": "a", "includes": ["x", "y"], "starts_with": "x", "ordered": True},
+            {"source": "b", "includes": ["y", "x"], "starts_with": "y", "ordered": True},
+            {"source": "c", "includes": ["z"], "starts_with": "z", "covers": "beginning"},
+        ]}
+        st = consensus.compute(data)
+        self.assertEqual(st["n"], 2)          # beginner list left out of core shares
+        self.assertEqual(st["n_all"], 3)
+        self.assertEqual(st["works"]["x"]["count"], 2)
+        self.assertEqual(st["works"]["z"]["starts"], 1)
+        self.assertEqual(st["works"]["z"]["count"], 0)
+        self.assertEqual(consensus.positions(data), {"x": 0.5, "y": 0.5})
 
     def test_stable_requires_verified(self):
         for w in self.bad["nietzsche"]["works"]:

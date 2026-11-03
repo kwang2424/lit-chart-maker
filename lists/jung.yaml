@@ -9,6 +9,42 @@ status: draft   # draft -> reviewed -> stable
 
 # Format: see the header of lists/nietzsche.yaml.
 
+# What independent sources recommend. Most Jung sources found are beginner's
+# guides (covers: beginning), so they inform where to start, not what's core.
+survey:
+  - source: jung-seattle-reading
+    covers: beginning
+    starts_with: memories-dreams
+    includes: [memories-dreams, stein-map]
+    ordered: true
+    locator: '"For Absolute Beginners in Jungian Depth Psychology"'
+    verified: true
+    checked_in: Web page, accessed 2026-11
+  - source: jcss-beginners-guide
+    covers: beginning
+    starts_with: undiscovered-self
+    includes: [undiscovered-self, memories-dreams, jung-speaking]
+    ordered: true
+    locator: closing recommendation ("If I were asked by a beginner...")
+    verified: true
+    checked_in: Web page, accessed 2026-11
+  - source: syl-rollins-psy315
+    covers: beginning
+    starts_with: stein-map
+    includes: [stein-map, memories-dreams, modern-man]
+    ordered: false
+    locator: required and suggested texts
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: princeton-cw7
+    covers: beginning
+    starts_with: two-essays
+    includes: [two-essays]
+    ordered: false
+    locator: volume description ("perhaps the best introduction to Jung's work")
+    verified: true
+    checked_in: Princeton University Press website, accessed 2026-11
+
 works:
 
   # ---------- Background ----------
@@ -119,15 +155,16 @@ works:
     note: >
       "On the Psychology of the Unconscious" and "The Relations between the Ego
       and the Unconscious": persona, shadow, anima/animus, individuation.
-    start_here:
-      why: >
-        Its publisher calls it "perhaps the best introduction to Jung's work",
-        and says the two essays present "the essential core of his system".
-      sources:
-        - source: princeton-cw7
-          locator: volume description
-          verified: true
-          checked_in: Princeton University Press website, accessed 2026-11
+    tips:
+      - text: >
+          Its publisher calls it "perhaps the best introduction to Jung's work", and the
+          essays present "the essential core of his system". Most beginner guides still
+          suggest the memoir or a secondary guide first.
+        sources:
+          - source: princeton-cw7
+            locator: volume description
+            verified: true
+            checked_in: Princeton University Press website, accessed 2026-11
 
   - id: memories-dreams
     title: Memories, Dreams, Reflections
@@ -201,6 +238,15 @@ works:
             checked_in: Princeton University Press website, accessed 2026-11
 
   # ---------- Later works ----------
+
+  - id: jung-speaking
+    title: 'C. G. Jung Speaking: Interviews and Encounters'
+    author: C. G. Jung (ed. William McGuire and R. F. C. Hull)
+    year: 1977
+    kind: primary
+    tier: optional
+    difficulty: 1
+    note: Interviews over fifty years, including the BBC "Face to Face" interview. Easy reading.
 
   - id: modern-man
     title: Modern Man in Search of a Soul

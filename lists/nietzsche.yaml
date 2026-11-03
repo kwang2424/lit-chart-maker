@@ -10,6 +10,7 @@ status: draft   # draft -> reviewed -> stable
 #   kind:        primary (by the author) | secondary (guide/commentary) | background
 #   difficulty:  1 (easy) .. 5 (very hard)
 #   position:    start | end   (optional; pins a non-core work to the start or end)
+#   tier_note:   why the tier differs from what the survey suggests (silences that warning)
 #   start_here:  {why, sources}  (optional; a sourced claim that this is a good first book)
 #   tips:        [{text, sources}]  (optional; sourced advice on how to read it)
 #   after:       links to works best read first
@@ -19,6 +20,50 @@ status: draft   # draft -> reviewed -> stable
 #
 # Rule: `required` links and `start_here` need at least one tier 1 or 2 source.
 # `verified: true` means a person checked the locator against the text named in `checked_in`.
+
+# What independent sources assign. See tools/consensus.py.
+survey:
+  - source: syl-bard-pl320
+    starts_with: birth-of-tragedy
+    includes: [birth-of-tragedy, truth-and-lies, untimely, human-all-too-human, daybreak, gay-science, zarathustra, bge, genealogy, twilight, antichrist, ecce-homo]
+    ordered: true
+    locator: course schedule
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: syl-umbc-phil452
+    starts_with: daybreak
+    includes: [daybreak, gay-science, bge, genealogy, zarathustra]
+    ordered: true
+    locator: schedule of readings
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: syl-western-3030g
+    includes: [birth-of-tragedy, genealogy, ecce-homo, gay-science, bge]
+    ordered: false
+    locator: required texts (no schedule given)
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: syl-hmc-phil170
+    starts_with: birth-of-tragedy
+    includes: [birth-of-tragedy, untimely, case-of-wagner, gay-science, zarathustra, bge, genealogy, twilight, antichrist, ecce-homo]
+    ordered: true
+    locator: schedule
+    verified: true
+    checked_in: Course web page, accessed 2026-11
+  - source: syl-chicago-wellbery
+    starts_with: birth-of-tragedy
+    includes: [birth-of-tragedy, truth-and-lies, untimely, human-all-too-human, zarathustra, gay-science, bge, genealogy, twilight, case-of-wagner]
+    ordered: true
+    locator: course schedule (Zarathustra in selections)
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: syl-warwick-ph334
+    starts_with: gay-science
+    includes: [gay-science, zarathustra, birth-of-tragedy, genealogy, bge]
+    ordered: true
+    locator: indicative reading list, weeks 1–8
+    verified: true
+    checked_in: Module web page, accessed 2026-11
 
 works:
 
@@ -69,7 +114,7 @@ works:
     author: Friedrich Nietzsche
     year: 1872
     kind: primary
-    tier: extended
+    tier: core
     difficulty: 3
     translation: Kaufmann (in Basic Writings of Nietzsche)
     note: >
@@ -94,6 +139,17 @@ works:
             locator: "§6"
             verified: true
             checked_in: Haussmann trans. (1909), Project Gutenberg #51356
+
+  - id: truth-and-lies
+    title: On Truth and Lies in a Nonmoral Sense
+    author: Friedrich Nietzsche
+    year: 1873
+    kind: primary
+    tier: extended
+    difficulty: 2
+    note: >
+      A short early essay, unpublished in his lifetime, on language, concepts
+      and truth. Often taught right after The Birth of Tragedy.
 
   - id: untimely
     title: Untimely Meditations
