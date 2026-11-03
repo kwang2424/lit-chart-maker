@@ -219,15 +219,16 @@ works:
         strength: helpful
         why: >
           His studies of other philosophers were "preliminary sketches" for this book,
-          and he credited Nietzsche with getting him out of plain history of philosophy.
+          and he said "It was Nietzsche who extricated me" from academic history of philosophy.
         sources:
           - source: sep-deleuze
             locator: "§3.1 Difference and Repetition"
             verified: true
             checked_in: SEP online (2022 revision), accessed 2026-11
-          - source: deleuze-harsh-critic
-            locator: "p. 6"
-            verified: false
+          - source: grace-2014
+            locator: "p. 99 (quoting Deleuze, \"Letter to a Harsh Critic\", Negotiations p. 6)"
+            verified: true
+            checked_in: Foucault Studies 17 (2014), open-access PDF
       - work: bergsonism
         strength: helpful
         why: Bergsonism develops the virtual and multiplicity, which this book depends on.
@@ -487,8 +488,15 @@ works:
             checked_in: SEP bibliography entry
       - work: thousand-plateaus
         strength: context
-        why: It covers both volumes, though it leans on A Thousand Plateaus.
+        why: >
+          It is a guide to all of Capitalism and Schizophrenia, and A Thousand
+          Plateaus is that project's second volume.
         sources:
           - source: massumi-users-guide
             locator: title
-            verified: false
+            verified: true
+            checked_in: SEP bibliography entry
+          - source: deleuze-guattari-atp-text
+            locator: "Authors' Note (\"Together they make up Capitalism and Schizophrenia\")"
+            verified: true
+            checked_in: Massumi trans. (1987), The Anarchist Library edition

@@ -119,6 +119,13 @@
   publisher: Columbia University Press
   year: 1995
 
+- id: grace-2014
+  tier: 2
+  author: Wendy Grace
+  title: '"Foucault and Deleuze: Making a Difference with Nietzsche", Foucault Studies 17'
+  year: 2014
+  url: https://rauli.cbs.dk/index.php/foucault-studies/article/view/4255
+
 - id: williams-dr-guide
   tier: 2
   author: James Williams
