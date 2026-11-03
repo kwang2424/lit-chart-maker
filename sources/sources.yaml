@@ -139,3 +139,56 @@
   title: A User's Guide to Capitalism and Schizophrenia
   publisher: MIT Press
   year: 1992
+
+# ---------- Jung ----------
+# Princeton University Press publishes the Collected Works; its volume
+# descriptions are treated as scholarly (tier 2) for claims about contents.
+
+- id: jung-types-text
+  tier: 1
+  author: C. G. Jung
+  title: Psychological Types
+  year: 1921
+
+- id: jung-theory-psa-text
+  tier: 1
+  author: C. G. Jung
+  title: The Theory of Psychoanalysis
+  year: 1913
+
+- id: hinkle-intro
+  tier: 2
+  author: Beatrice M. Hinkle
+  title: Translator's introduction to Psychology of the Unconscious
+  publisher: Moffat, Yard & Co.
+  year: 1916
+
+- id: princeton-cw5
+  tier: 2
+  author: Princeton University Press
+  title: Collected Works of C. G. Jung, Vol. 5 (Symbols of Transformation), volume description
+  url: https://press.princeton.edu/isbn/9780691018157
+
+- id: princeton-cw7
+  tier: 2
+  author: Princeton University Press
+  title: Collected Works of C. G. Jung, Vol. 7 (Two Essays), volume description
+  url: https://press.princeton.edu/isbn/9780691017822
+
+- id: princeton-cw9i
+  tier: 2
+  author: Princeton University Press
+  title: Collected Works of C. G. Jung, Vol. 9i (The Archetypes and the Collective Unconscious), volume description
+  url: https://press.princeton.edu/isbn/9780691018331
+
+- id: princeton-cw9ii
+  tier: 2
+  author: Princeton University Press
+  title: Collected Works of C. G. Jung, Vol. 9ii (Aion), volume description
+  url: https://press.princeton.edu/isbn/9780691018263
+
+- id: princeton-zarathustra-seminar
+  tier: 2
+  author: Princeton University Press
+  title: "Nietzsche's Zarathustra: Notes of the Seminar Given in 1934–1939, description"
+  url: https://press.princeton.edu/isbn/9780691099538

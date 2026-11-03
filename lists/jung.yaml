@@ -1,0 +1,315 @@
+id: jung
+title: C. G. Jung
+scope: >
+  Jung's main books and essay collections (cited by Collected Works volume
+  where there is one), the Freud background he started from, a few popular
+  books, and standard introductions. Links into the Nietzsche list mark
+  where Jung reads Nietzsche.
+status: draft   # draft -> reviewed -> stable
+
+# Format: see the header of lists/nietzsche.yaml.
+
+works:
+
+  # ---------- Background ----------
+
+  - id: freud-dreams
+    title: The Interpretation of Dreams (and a short Freud introduction)
+    author: Sigmund Freud
+    year: 1899
+    kind: background
+    tier: optional
+    difficulty: 3
+    note: >
+      Jung began as Freud's closest collaborator, and his early books are
+      arguments with Freud. Knowing the basics of psychoanalysis is enough.
+
+  # ---------- Introductions ----------
+
+  - id: stevens-vsi
+    title: 'Jung: A Very Short Introduction'
+    author: Anthony Stevens
+    year: 1994
+    kind: secondary
+    tier: extended
+    position: start
+    difficulty: 1
+    note: A brief overview of his life and main ideas.
+
+  - id: stein-map
+    title: "Jung's Map of the Soul"
+    author: Murray Stein
+    year: 1998
+    kind: secondary
+    tier: extended
+    position: start
+    difficulty: 2
+    note: A clear tour of the main concepts (ego, shadow, persona, anima/animus, Self).
+
+  - id: man-and-his-symbols
+    title: Man and His Symbols
+    author: C. G. Jung and collaborators
+    year: 1964
+    kind: primary
+    tier: extended
+    position: start
+    difficulty: 1
+    note: >
+      Illustrated and written for general readers. Jung wrote only the first
+      essay, "Approaching the Unconscious"; his collaborators wrote the rest.
+
+  # ---------- The break with Freud ----------
+
+  - id: theory-psychoanalysis
+    title: The Theory of Psychoanalysis
+    author: C. G. Jung
+    year: 1913
+    kind: primary
+    tier: optional
+    difficulty: 3
+    note: Lectures given in New York in 1912. Now in Collected Works vol. 4 (Freud and Psychoanalysis).
+    after:
+      - work: freud-dreams
+        strength: helpful
+        why: >
+          Jung says these lectures are where he first defines his own theoretical
+          position toward Freud's principles.
+        sources:
+          - source: jung-theory-psa-text
+            locator: Introduction
+            verified: true
+            checked_in: English trans. (1915), Project Gutenberg #66041
+
+  - id: symbols-transformation
+    title: Symbols of Transformation (first published as Psychology of the Unconscious)
+    author: C. G. Jung
+    year: 1912
+    kind: primary
+    tier: extended
+    difficulty: 4
+    note: >
+      Collected Works vol. 5. Long and dense with mythology. Jung later revised
+      it completely; read the Collected Works version unless you want the 1912 text.
+    after:
+      - work: freud-dreams
+        strength: helpful
+        why: >
+          It is Jung's "first important statement of his independent position"; it
+          widens Freud's idea of libido from sexuality to psychic energy in general.
+        sources:
+          - source: princeton-cw5
+            locator: volume description
+            verified: true
+            checked_in: Princeton University Press website, accessed 2026-11
+          - source: hinkle-intro
+            locator: Introduction (on libido)
+            verified: true
+            checked_in: Hinkle trans. (1916), Project Gutenberg #65903
+
+  # ---------- Core ideas ----------
+
+  - id: two-essays
+    title: Two Essays on Analytical Psychology
+    author: C. G. Jung
+    year: 1928
+    kind: primary
+    tier: core
+    difficulty: 3
+    translation: Hull (Collected Works vol. 7, Princeton)
+    note: >
+      "On the Psychology of the Unconscious" and "The Relations between the Ego
+      and the Unconscious": persona, shadow, anima/animus, individuation.
+    start_here:
+      why: >
+        Its publisher calls it "perhaps the best introduction to Jung's work",
+        and says the two essays present "the essential core of his system".
+      sources:
+        - source: princeton-cw7
+          locator: volume description
+          verified: true
+          checked_in: Princeton University Press website, accessed 2026-11
+
+  - id: memories-dreams
+    title: Memories, Dreams, Reflections
+    author: C. G. Jung, recorded and edited by Aniela Jaffé
+    year: 1962
+    kind: primary
+    tier: core
+    difficulty: 2
+    note: >
+      His late autobiography, mostly about his inner life. Not written by Jung
+      alone: Aniela Jaffé recorded and edited much of it, so treat it as a memoir,
+      not a statement of theory.
+
+  - id: psychological-types
+    title: Psychological Types
+    author: C. G. Jung
+    year: 1921
+    kind: primary
+    tier: core
+    difficulty: 4
+    translation: Baynes, rev. Hull (Collected Works vol. 6)
+    note: >
+      Introversion/extraversion and the four functions. The first nine chapters
+      trace the "type problem" through the history of ideas.
+    tips:
+      - text: >
+          Jung put the definitions of his terms in the final chapter. Keep it at hand;
+          many readers also read chapter X, the general description of the types, first.
+        sources:
+          - source: jung-types-text
+            locator: Introduction (last paragraph); table of contents
+            verified: true
+            checked_in: Baynes trans. (1923), archive.org/details/psychological_types
+    after:
+      - work: nietzsche:birth-of-tragedy
+        strength: context
+        why: >
+          Chapter III, "The Apollonian and the Dionysian", is a reading of
+          Nietzsche's Birth of Tragedy as a study of types.
+        sources:
+          - source: jung-types-text
+            locator: Chapter III
+            verified: true
+            checked_in: Baynes trans. (1923), archive.org/details/psychological_types
+
+  - id: archetypes-cu
+    title: The Archetypes and the Collective Unconscious
+    author: C. G. Jung
+    year: 1934   # first of its main essays; the collected volume appeared in 1959
+    kind: primary
+    tier: core
+    difficulty: 4
+    translation: Hull (Collected Works vol. 9i)
+    note: >
+      Essays from the 1930s–50s. "Archetypes of the Collective Unconscious" and
+      "The Concept of the Collective Unconscious" are the place to start.
+    after:
+      - work: two-essays
+        strength: helpful
+        why: >
+          Two Essays sets out the core of his system; these essays describe and
+          elaborate its two central concepts, the archetypes and the collective unconscious.
+        sources:
+          - source: princeton-cw7
+            locator: volume description
+            verified: true
+            checked_in: Princeton University Press website, accessed 2026-11
+          - source: princeton-cw9i
+            locator: volume description
+            verified: true
+            checked_in: Princeton University Press website, accessed 2026-11
+
+  # ---------- Later works ----------
+
+  - id: modern-man
+    title: Modern Man in Search of a Soul
+    author: C. G. Jung
+    year: 1933
+    kind: primary
+    tier: extended
+    difficulty: 2
+    note: Lectures and essays for a general audience. Easy to dip into.
+
+  - id: zarathustra-seminar
+    title: "Nietzsche's Zarathustra: Notes of the Seminar Given in 1934–1939"
+    author: C. G. Jung (ed. James L. Jarrett)
+    year: 1988
+    kind: primary
+    tier: optional
+    difficulty: 3
+    note: >
+      Transcripts of an informal seminar, given in English, that went through
+      Zarathustra over five years. Very long; read selectively.
+    after:
+      - work: nietzsche:zarathustra
+        strength: required
+        why: It is a running psychological commentary on Thus Spoke Zarathustra.
+        sources:
+          - source: princeton-zarathustra-seminar
+            locator: book description
+            verified: true
+            checked_in: Princeton University Press website, accessed 2026-11
+
+  - id: psychology-alchemy
+    title: Psychology and Alchemy
+    author: C. G. Jung
+    year: 1944
+    kind: primary
+    tier: optional
+    difficulty: 5
+    translation: Hull (Collected Works vol. 12)
+    note: Reads alchemy as a symbolic record of individuation. Heavily illustrated.
+
+  - id: aion
+    title: 'Aion: Researches into the Phenomenology of the Self'
+    author: C. G. Jung
+    year: 1951
+    kind: primary
+    tier: extended
+    difficulty: 5
+    translation: Hull (Collected Works vol. 9ii)
+    note: One of the major works of his later years, on the Self and its symbols in Christianity, Gnosticism and alchemy.
+    tips:
+      - text: >
+          The first three chapters (the ego, the shadow, the syzygy: anima and animus)
+          summarise key concepts of his psychology and work well on their own.
+        sources:
+          - source: princeton-cw9ii
+            locator: volume description
+            verified: true
+            checked_in: Princeton University Press website, accessed 2026-11
+    after:
+      - work: archetypes-cu
+        strength: helpful
+        why: >
+          It treats the Self, shadow and anima/animus, archetypes that the essays
+          in vol. 9i introduce, so it reads best after them.
+        sources:
+          - source: princeton-cw9i
+            locator: volume description
+            verified: true
+            checked_in: Princeton University Press website, accessed 2026-11
+          - source: princeton-cw9ii
+            locator: volume description
+            verified: true
+            checked_in: Princeton University Press website, accessed 2026-11
+
+  - id: answer-to-job
+    title: Answer to Job
+    author: C. G. Jung
+    year: 1952
+    kind: primary
+    tier: optional
+    difficulty: 3
+    note: A short, provocative psychological reading of the Book of Job. Now in Collected Works vol. 11.
+
+  - id: synchronicity
+    title: 'Synchronicity: An Acausal Connecting Principle'
+    author: C. G. Jung
+    year: 1952
+    kind: primary
+    tier: optional
+    difficulty: 4
+    note: "His most speculative idea, meaningful coincidence. Collected Works vol. 8."
+
+  - id: undiscovered-self
+    title: The Undiscovered Self
+    author: C. G. Jung
+    year: 1957
+    kind: primary
+    tier: optional
+    difficulty: 2
+    note: A short late essay on the individual and mass society.
+
+  - id: red-book
+    title: 'The Red Book: Liber Novus'
+    author: C. G. Jung (ed. Sonu Shamdasani)
+    year: 2009
+    kind: primary
+    tier: optional
+    position: end
+    difficulty: 4
+    note: >
+      Jung's private illustrated record of his visions (1913–1930), unpublished in
+      his lifetime. Best approached after Memories, Dreams, Reflections and the core works.

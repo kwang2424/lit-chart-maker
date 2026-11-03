@@ -81,7 +81,11 @@ def load_sources(report: Report) -> dict:
 def load_lists(report: Report) -> dict:
     lists = {}
     for path in sorted(LISTS_DIR.glob("*.yaml")):
-        data = load_yaml(path) or {}
+        try:
+            data = load_yaml(path) or {}
+        except yaml.YAMLError as e:
+            report.error(f"{path.name}: not valid YAML ({e}). Tip: quote text that contains ': '")
+            continue
         lid = data.get("id")
         if lid != path.stem:
             report.error(f"{path.name}: id '{lid}' must match the file name '{path.stem}'")
