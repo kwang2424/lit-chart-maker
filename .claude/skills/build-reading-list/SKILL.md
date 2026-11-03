@@ -55,6 +55,13 @@ required-texts list. Note whether a source is a real sequence (`ordered: true`),
 thematic outline or reading list (`ordered: false`), or a beginner-only list
 (`covers: beginning`). One institution counts once.
 
+Prefer, in order: official department documents (Cambridge's *Guide to Courses*, Oxford's
+*Course Descriptions*, Edinburgh course guides, Warwick module pages), professional bodies
+(e.g. societies of analysts), recent course PDFs from university departments, then older
+or adult-education courses. A source counts as a reading sequence only if it gives one.
+Official documents often hold reading advice worth a `tip` ("The best introduction to Plato
+is Plato…") or a prerequisite worth a link ("study Kant before this paper").
+
 **Tier 4, community.** Blogs and forum guides are hints for where to look, never evidence.
 
 Some sites block automated access (Oxford Bibliographies, Open Syllabus, Britannica,
@@ -88,6 +95,13 @@ The build computes the order; steer it with evidence, not by hand:
 
 If a book lands somewhere odd, find which rule put it there and fix the evidence (a
 missing link, a mislabelled survey entry) rather than adding a rule.
+
+## Auditing existing lists
+
+`python -I .claude/skills/build-reading-list/scripts/source_inventory.py` prints, per list,
+sources by tier and flags thin surveys (<4), undated, old (pre-2011) and non-university
+sources. Strengthen the flagged lists first, re-check any core path that moves, and keep a
+weaker source only when nothing better covers the same ground.
 
 ## Build, check, ship
 

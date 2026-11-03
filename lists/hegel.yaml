@@ -46,6 +46,13 @@ survey:
     locator: course description
     verified: true
     checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: edinburgh-early-continentals
+    starts_with: phenomenology
+    includes: [phenomenology]
+    ordered: true
+    locator: "weeks 3–6 (after two weeks on Kant)"
+    verified: true
+    checked_in: Course guide (PDF), accessed 2026-11
 
 works:
 
@@ -104,10 +111,18 @@ works:
             locator: secondary literature
             verified: true
             checked_in: Course syllabus (PDF), accessed 2026-11
+          - source: edinburgh-early-continentals
+            locator: "course guide (Stern's guidebook 'is really helpful')"
+            verified: true
+            checked_in: Course guide (PDF), accessed 2026-11
       - work: kant:kant-cpr
         strength: context
-        why: The SEP traces Hegel's idea of a "phenomenology" as a propaedeutic to Kant, and reads Hegel within the post-Kantian idealist tradition.
+        why: The SEP traces Hegel's idea of a "phenomenology" as a propaedeutic to Kant, and Edinburgh's course spends two weeks on Kant "setting us up to see how Hegel's Phenomenology is shaped by it".
         sources:
+          - source: edinburgh-early-continentals
+            locator: "Week 2: From Kant to Hegel"
+            verified: true
+            checked_in: Course guide (PDF), accessed 2026-11
           - source: sep-hegel
             locator: "§2.1 and §3.1.1"
             verified: true

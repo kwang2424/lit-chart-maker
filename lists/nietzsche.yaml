@@ -66,6 +66,13 @@ survey:
     locator: indicative reading list, weeks 1–8
     verified: true
     checked_in: Module web page, accessed 2026-11
+  - source: edinburgh-early-continentals
+    starts_with: truth-and-lies
+    includes: [truth-and-lies, genealogy, twilight]
+    ordered: true
+    locator: "weeks 7–11 (after Kant and Hegel)"
+    verified: true
+    checked_in: Course guide (PDF), accessed 2026-11
 
 works:
 

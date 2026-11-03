@@ -781,3 +781,79 @@
   author: PhilPapers (ed. Paul Catanu)
   title: "Friedrich Nietzsche: category summary and key works"
   url: https://philpapers.org/browse/friedrich-nietzsche
+
+# ---------- Husserl ----------
+
+- id: sep-husserl
+  tier: 2
+  author: Stanford Encyclopedia of Philosophy
+  title: '"Edmund Husserl", Stanford Encyclopedia of Philosophy'
+  url: https://plato.stanford.edu/entries/husserl/
+
+- id: iep-husserl
+  tier: 2
+  author: Internet Encyclopedia of Philosophy
+  title: '"Edmund Husserl (1859–1938)"'
+  url: https://iep.utm.edu/husserl/
+
+- id: syl-guelph-3350
+  tier: 3
+  author: University of Guelph, Department of Philosophy
+  title: "PHIL 3350: Introduction to Phenomenology (Winter 2013)"
+  url: https://www.uoguelph.ca/arts/sites/default/files/syllabus/PHIL3350.pdf
+
+- id: syl-deree-ph4031
+  tier: 3
+  author: Deree – The American College of Greece
+  title: "PH 4031: Phenomenology: Husserl and Heidegger"
+  url: https://www.acg.edu/dereeacg/files/pdfs/PH4031.pdf
+
+- id: syl-wiltsche-365
+  tier: 3
+  author: Harald Wiltsche
+  title: "Philosophy 365: Phenomenology and Philosophy of Science (graduate seminar)"
+  url: https://www.haraldwiltsche.com/uploads/5/0/4/6/50464133/syllabusphenphilscience.pdf
+
+# ---------- Audit additions: department syllabi and professional bodies ----------
+
+- id: cambridge-gtc-2025
+  tier: 3
+  author: University of Cambridge, Faculty of Philosophy
+  title: "Philosophy Tripos Guide to Courses (Syllabus) 2025–2026"
+  url: https://www.phil.cam.ac.uk/files/gtc_2025-26_-_final_2025_07.pdf
+
+- id: oxford-finals
+  tier: 3
+  author: University of Oxford, Faculty of Philosophy
+  title: "Course Descriptions: Finals"
+  url: https://www.philosophy.ox.ac.uk/course-descriptions-finals
+
+- id: edinburgh-early-continentals
+  tier: 3
+  author: University of Edinburgh
+  title: "PHIL10047: The Early Continentals: Hegel and Nietzsche, course guide (2017–18)"
+  url: https://edwebcontent.ed.ac.uk/sites/default/files/atoms/files/the_early_continentals_course_guide_2017_18.pdf
+
+- id: warwick-ph3c4
+  tier: 3
+  author: University of Warwick
+  title: "PH3C4: Schopenhauer (2024 module page)"
+  url: https://courses.warwick.ac.uk/modules/2024/PH3C4-15
+
+- id: masny-schopenhauer
+  tier: 3
+  author: Michal Masny
+  title: "The Philosophy of Arthur Schopenhauer (course syllabus)"
+  url: https://michalmasny.com/resources/Masny-Schopenhauer.pdf
+
+- id: irsja-reading
+  tier: 3
+  author: Inter-Regional Society of Jungian Analysts
+  title: "Suggested Reading in Jungian Psychology (2022)"
+  url: https://irsja.org/wp-content/uploads/2023/01/READING-LIST-2022.12.22.pdf
+
+- id: essex-basic-jung
+  tier: 3
+  author: University of Essex
+  title: "Basic Jungian Concepts (short course)"
+  url: https://shortcoursesgateway.essex.ac.uk/Course?dates=0&courseref=PPS%3ABAS.JUNG.ONLINE

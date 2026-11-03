@@ -46,6 +46,19 @@ survey:
     locator: volume description ("perhaps the best introduction to Jung's work")
     verified: true
     checked_in: Princeton University Press website, accessed 2026-11
+  - source: irsja-reading
+    includes: [memories-dreams, stevens-vsi, man-and-his-symbols, portable-jung, archetypes-cu, red-book, stein-map, aion, modern-man]
+    ordered: false
+    locator: suggested reading list
+    verified: true
+    checked_in: Reading list (PDF), accessed 2026-11
+  - source: essex-basic-jung
+    covers: beginning
+    includes: [memories-dreams, portable-jung, modern-man, aion]
+    ordered: false
+    locator: course readings
+    verified: true
+    checked_in: Course web page, accessed 2026-11
 
 works:
 
@@ -70,6 +83,16 @@ works:
     position: start
     difficulty: 2
     note: A clear tour of the main concepts (ego, shadow, persona, anima/animus, Self).
+
+  - id: portable-jung
+    title: The Portable Jung
+    author: C. G. Jung (ed. Joseph Campbell)
+    year: 1971
+    kind: primary
+    tier: extended
+    position: start
+    difficulty: 3
+    note: A one-volume selection of key essays; used by the University of Essex and on the IRSJA's suggested list.
 
   - id: man-and-his-symbols
     title: Man and His Symbols

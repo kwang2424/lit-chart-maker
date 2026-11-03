@@ -38,6 +38,12 @@ survey:
     locator: schedule (Descartes, then Spinoza, then Leibniz and Deleuze)
     verified: true
     checked_in: Course syllabus, accessed 2026-11
+  - source: cambridge-gtc-2025
+    includes: [ethics]
+    ordered: false
+    locator: "Part II paper 5, set texts (Ethics, Books 1 and 5)"
+    verified: true
+    checked_in: Guide to Courses 2025–26 (PDF), accessed 2026-11
 
 works:
 

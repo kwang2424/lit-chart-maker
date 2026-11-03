@@ -52,6 +52,18 @@ survey:
     locator: schedule (week 1, What is Enlightenment?)
     verified: true
     checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: cambridge-gtc-2025
+    includes: [kant-cpr, groundwork, cj]
+    ordered: false
+    locator: "Part II paper 4, Kant (set texts)"
+    verified: true
+    checked_in: Guide to Courses 2025–26 (PDF), accessed 2026-11
+  - source: oxford-finals
+    includes: [kant-cpr, groundwork]
+    ordered: false
+    locator: "paper 112, The Philosophy of Kant (main focus the Critique; option the Groundwork)"
+    verified: true
+    checked_in: Course web page, accessed 2026-11
 
 works:
 
@@ -77,6 +89,21 @@ works:
     note: >
       Kant's own short version of the Critique of Pure Reason. For most readers of
       Nietzsche, Deleuze or Jung this, plus a good guide, is enough Kant.
+    after:
+      - work: hume:first-enquiry
+        strength: context
+        why: >
+          Kant: "the suggestion of David Hume was the very thing, which many years ago first
+          interrupted my dogmatic slumber". Oxford recommends early modern philosophy first.
+        sources:
+          - source: kant-prolegomena-text
+            locator: Preface
+            verified: true
+            checked_in: Carus trans. (Open Court, 1912), Project Gutenberg #52821
+          - source: oxford-finals
+            locator: "paper 112 (recommended: paper 101, Early Modern Philosophy)"
+            verified: true
+            checked_in: Course web page, accessed 2026-11
     start_here:
       why: >
         Kant wrote it as "a preliminary exercise" and the "plan" of the Critique of Pure
