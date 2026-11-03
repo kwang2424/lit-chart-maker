@@ -203,6 +203,7 @@ graph TD
 - *Three Essays on the Theory of Sexuality* → *Anti-Oedipus (Capitalism and Schizophrenia, vol. 1)* (Gilles Deleuze) — context. The Freud side of its critique: the same course suggests Freud's Three Essays on sexuality as preparation.
 - *The Interpretation of Dreams* → *The Theory of Psychoanalysis* (C. G. Jung) — helpful. Jung says these lectures are where he first defines his own theoretical position toward Freud's principles.
 - *The Interpretation of Dreams* → *Symbols of Transformation (first published as Psychology of the Unconscious)* (C. G. Jung) — helpful. It is Jung's "first important statement of his independent position"; it widens Freud's idea of libido from sexuality to psychic energy in general.
+- *The Interpretation of Dreams* → *Discourse, Figure* (Jean-François Lyotard) — context. The second part "uses Freudian psychoanalysis to undermine both Lacanian psychoanalysis and certain aspects of phenomenology".
 
 ## Sources
 

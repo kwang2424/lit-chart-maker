@@ -1,0 +1,312 @@
+id: lyotard
+title: Jean-François Lyotard
+group: thinkers
+sequence: 7
+born: 1924
+scope: >
+  Lyotard's books from the 1954 Phenomenology to the unfinished Confession of
+  Augustine: the libidinal works of the 1970s, the "postmodern" works around 1980, and
+  the later books on time, the sublime and Kant. Few public Lyotard syllabi exist, so
+  the survey is thin and the order leans on the SEP and IEP.
+status: draft
+
+# Format: see the header of lists/nietzsche.yaml. His texts are in copyright; the
+# evidence is the SEP and IEP entries and the few course outlines found. Years are
+# first French publication, as the SEP and IEP bibliographies give them.
+
+survey:
+  - source: syl-lingnan-phi4369
+    starts_with: postmodern-condition
+    includes: [postmodern-condition, differend, inhuman]
+    ordered: false
+    locator: "indicative content, unit 1 (Lyotard) and readings"
+    verified: true
+    checked_in: Course outline (PDF), accessed 2026-11
+  - source: syl-auckland-french711
+    includes: [libidinal-economy]
+    ordered: true
+    locator: class schedule, week 10 (pp. 1–42)
+    verified: true
+    checked_in: Course syllabus (web page), accessed 2026-11
+  - source: mscp-jones-lyotard
+    covers: beginning
+    starts_with: phenomenology
+    includes: [phenomenology, why-philosophize, discourse-figure, libidinal-economy]
+    ordered: true
+    locator: course description and seminars 1–5 (part 1 of a chronological survey)
+    verified: true
+    checked_in: Course page, accessed 2026-11
+
+works:
+
+  # ---------- Phenomenology and Marxism ----------
+
+  - id: phenomenology
+    title: Phenomenology
+    author: Jean-François Lyotard
+    year: 1954
+    kind: primary
+    tier: optional
+    difficulty: 2
+    translation: Beakley (SUNY 1991)
+    note: >
+      His first book, a short introduction to and examination of phenomenology that
+      went through some ten editions. It then asks what phenomenology can say to the
+      human sciences and to Marxism.
+    after:
+      - work: husserl:ideas-1
+        strength: context
+        why: >
+          Its first part "introduces phenomenology through the work of Edmund Husserl";
+          the second turns to Merleau-Ponty.
+        sources:
+          - source: iep-lyotard
+            locator: "§2.a Phenomenology"
+            verified: true
+            checked_in: IEP entry, accessed 2026-11
+
+  - id: why-philosophize
+    title: Why Philosophize?
+    author: Jean-François Lyotard
+    kind: primary
+    tier: optional
+    position: start
+    difficulty: 2
+    note: A short early work; MSCP's Lyotard course opens with it and Phenomenology.
+
+  # ---------- Libidinal works ----------
+
+  - id: discourse-figure
+    title: Discourse, Figure
+    author: Jean-François Lyotard
+    year: 1971
+    kind: primary
+    tier: extended
+    difficulty: 5
+    translation: Hudek and Lydon (Minnesota 2011)
+    note: >
+      His doctoral thesis, against structuralism: discourse (the written text studied
+      by semiotics) against the figural (the visual), first through Merleau-Ponty's
+      phenomenology, then through Freud (SEP §3.1, IEP §2.c). Translated into English
+      only in 2011.
+    after:
+      - work: freud:interpretation-of-dreams
+        strength: context
+        why: >
+          The second part "uses Freudian psychoanalysis to undermine both Lacanian
+          psychoanalysis and certain aspects of phenomenology".
+        sources:
+          - source: iep-lyotard
+            locator: "§2.c Discourse, Figure"
+            verified: true
+            checked_in: IEP entry, accessed 2026-11
+
+  - id: libidinal-economy
+    title: Libidinal Economy
+    author: Jean-François Lyotard
+    year: 1974
+    kind: primary
+    tier: extended
+    difficulty: 5
+    translation: Grant (Athlone 1993)
+    note: >
+      Political economy rethought as libidinal economy. Lyotard later called it "my evil
+      book" and repudiated it. The SEP: "not an easy read"; the IEP: "an unusual and
+      difficult work".
+    after:
+      - work: deleuze:anti-oedipus
+        strength: context
+        why: >
+          The SEP calls it "very much a reflection of its era": Deleuze and Guattari's
+          Anti-Oedipus (1972) came out two years earlier, and its account of desire is
+          "quite similar".
+        sources:
+          - source: sep-lyotard
+            locator: "§3.1 The Limits of Representation"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+      - work: marx:capital-1
+        strength: context
+        why: >
+          It looks at "the desire or libido behind the so-called scientific works of the
+          later Marx", and argues against Marx that desire is not alienated in capitalism.
+        sources:
+          - source: sep-lyotard
+            locator: "§3.1"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+
+  # ---------- The postmodern and the differend ----------
+
+  - id: postmodern-condition
+    title: "The Postmodern Condition: A Report on Knowledge"
+    author: Jean-François Lyotard
+    year: 1979
+    kind: primary
+    tier: core
+    difficulty: 3
+    translation: Bennington and Massumi (Minnesota 1984)
+    note: >
+      A report on knowledge in the contemporary age that defines the postmodern as
+      "incredulity towards metanarratives" (SEP §3.2). Its language games come from the
+      later Wittgenstein.
+    tips:
+      - text: >
+          The IEP: he is "best known" for this book, but "this book is in fact one of his
+          more minor works". Read it as an entry point, not the summit.
+        sources:
+          - source: iep-lyotard
+            locator: opening summary
+            verified: true
+            checked_in: IEP entry, accessed 2026-11
+
+  - id: just-gaming
+    title: Just Gaming
+    author: Jean-François Lyotard and Jean-Loup Thébaud
+    year: 1979
+    kind: primary
+    tier: extended
+    difficulty: 3
+    translation: Godzich (Minnesota 1985)
+    note: >
+      With Jean-Loup Thébaud. It analyses questions of justice and judgement as language
+      games, from his "paganism" period (IEP §4.a).
+
+  - id: differend
+    title: "The Differend: Phrases in Dispute"
+    author: Jean-François Lyotard
+    year: 1983
+    kind: primary
+    tier: core
+    difficulty: 4
+    translation: Van Den Abbeele (Minnesota 1988)
+    note: >
+      On conflicts that cannot be fairly resolved for lack of a rule of judgement both
+      sides share. In 264 numbered paragraphs, it moves from language games to
+      "phrases". The SEP calls it his "masterwork"; by Lyotard's own estimate it was his
+      "most philosophical and most important" book (IEP §4.c).
+    tips:
+      - text: >
+          Begin with the opening "Reading Dossier", which sets out the book's question,
+          theses, context and addressee in separate short paragraphs.
+        sources:
+          - source: sep-lyotard
+            locator: "§3.3 The Differend"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+    after:
+      - work: postmodern-condition
+        strength: helpful
+        why: >
+          It develops "most fully" the philosophy of language underlying his work on
+          paganism and postmodernism.
+        sources:
+          - source: iep-lyotard
+            locator: "§4.c The Differend"
+            verified: true
+            checked_in: IEP entry, accessed 2026-11
+      - work: kant:cj
+        strength: context
+        why: >
+          He analyses the feeling that signals a differend "in terms of Kant's idea of the
+          sublime".
+        sources:
+          - source: iep-lyotard
+            locator: "§5 Reason and Representation"
+            verified: true
+            checked_in: IEP entry, accessed 2026-11
+
+  - id: postmodern-explained
+    title: "The Postmodern Explained to Children: Correspondence 1982–1985"
+    author: Jean-François Lyotard
+    year: 1986
+    kind: primary
+    tier: optional
+    difficulty: 2
+    note: Letters from 1982–1985 (Le Postmoderne expliqué aux enfants).
+
+  - id: enthusiasm
+    title: "Enthusiasm: The Kantian Critique of History"
+    author: Jean-François Lyotard
+    year: 1986
+    kind: primary
+    tier: optional
+    difficulty: 4
+    translation: Van Den Abbeele (Stanford 2009)
+    note: On Kant's critique of history, as its title says.
+
+  # ---------- Time, the sublime, late works ----------
+
+  - id: inhuman
+    title: "The Inhuman: Reflections on Time"
+    author: Jean-François Lyotard
+    year: 1988
+    kind: primary
+    tier: core
+    difficulty: 3
+    translation: Bennington and Bowlby (Polity 1991)
+    note: >
+      Essays, most first given as lectures, on time, capitalism and the event, and on
+      art and the "postmodern sublime" (SEP §3.4).
+    after:
+      - work: kant:cj
+        strength: context
+        why: >
+          Its account of the event draws on "the terror and pleasure found in Immanuel
+          Kant's account of the sublime in The Critique of Judgment".
+        sources:
+          - source: sep-lyotard
+            locator: "§3.4 The Inhuman and the Event"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+
+  - id: heidegger-jews
+    title: Heidegger and "the jews"
+    author: Jean-François Lyotard
+    year: 1988
+    kind: primary
+    tier: optional
+    difficulty: 4
+    translation: Michel and Roberts (Minnesota 1990)
+    note: On Heidegger.
+
+  - id: peregrinations
+    title: "Peregrinations: Law, Form, Event"
+    author: Jean-François Lyotard
+    year: 1988
+    kind: primary
+    tier: optional
+    difficulty: 2
+    note: Opens with an autobiographical essay, which the SEP draws on for his life.
+
+  - id: lessons-sublime
+    title: "Lessons on the Analytic of the Sublime: Kant's Critique of Judgment, 23–29"
+    author: Jean-François Lyotard
+    year: 1991
+    kind: primary
+    tier: optional
+    difficulty: 5
+    translation: Rottenberg (Stanford 1994)
+    note: A commentary on Kant's Analytic of the Sublime.
+    after:
+      - work: kant:cj
+        strength: required
+        why: It is a commentary on §§23–29 of Kant's Critique of Judgment, as its title says.
+        sources:
+          - source: iep-lyotard
+            locator: "§11.a Books by Lyotard"
+            verified: true
+            checked_in: IEP entry, accessed 2026-11
+
+  - id: confession-augustine
+    title: The Confession of Augustine
+    author: Jean-François Lyotard
+    year: 1998
+    kind: primary
+    tier: optional
+    position: end
+    difficulty: 3
+    translation: Beardsworth (Stanford 2000)
+    note: >
+      Incomplete at his death and published posthumously with working notes. Reads
+      Augustine as a precursor of the phenomenology of time (IEP §10.b).

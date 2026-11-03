@@ -401,6 +401,10 @@ graph TD
 - *Value, Price and Profit* (Karl Marx) → *Anti-Oedipus (Capitalism and Schizophrenia, vol. 1)* — context. The same course also suggests Marx's Value, Price and Profit as preparation.
 - *Three Essays on the Theory of Sexuality* (Sigmund Freud) → *Anti-Oedipus (Capitalism and Schizophrenia, vol. 1)* — context. The Freud side of its critique: the same course suggests Freud's Three Essays on sexuality as preparation.
 
+**Who builds on Gilles Deleuze**
+
+- *Anti-Oedipus (Capitalism and Schizophrenia, vol. 1)* → *Libidinal Economy* (Jean-François Lyotard) — context. The SEP calls it "very much a reflection of its era": Deleuze and Guattari's Anti-Oedipus (1972) came out two years earlier, and its account of desire is "quite similar".
+
 ## Sources
 
 - **[author]** Gilles Deleuze & Félix Guattari, *A Thousand Plateaus ("Author's Note")*, 1980
