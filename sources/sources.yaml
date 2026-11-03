@@ -1,0 +1,194 @@
+# Shared bibliography. Every claim in a list cites a source by `id`.
+#
+# tier:
+#   1 author     - the author's own statements (books, prefaces, letters, interviews)
+#   2 scholarly  - peer-reviewed or academic-press guides, companions, encyclopedias
+#   3 syllabus   - what university courses assign, and in what order
+#   4 community  - reading guides from forums, blogs, etc. (hints only)
+
+- id: nietzsche-ecce-homo
+  tier: 1
+  author: Friedrich Nietzsche
+  title: Ecce Homo
+  year: 1888
+  note: Chapter "Why I Write Such Good Books" reviews each earlier book in turn.
+
+- id: nietzsche-genealogy-text
+  tier: 1
+  author: Friedrich Nietzsche
+  title: On the Genealogy of Morality (title page and Preface)
+  year: 1887
+
+- id: nietzsche-gay-science-text
+  tier: 1
+  author: Friedrich Nietzsche
+  title: The Gay Science
+  year: 1882
+
+- id: nietzsche-birth-of-tragedy-text
+  tier: 1
+  author: Friedrich Nietzsche
+  title: The Birth of Tragedy (with its "Foreword to Richard Wagner")
+  year: 1872
+
+- id: nietzsche-antichrist-text
+  tier: 1
+  author: Friedrich Nietzsche
+  title: The Antichrist
+  year: 1895
+
+- id: nietzsche-self-criticism
+  tier: 1
+  author: Friedrich Nietzsche
+  title: '"Attempt at a Self-Criticism" (1886 preface to The Birth of Tragedy)'
+  year: 1886
+
+- id: nietzsche-letter-burckhardt-1886
+  tier: 1
+  author: Friedrich Nietzsche
+  title: Letter to Jacob Burckhardt, 22 September 1886
+  year: 1886
+  url: http://www.nietzschesource.org/#eKGWB/BVN-1886,754
+
+- id: nietzsche-untimely-schopenhauer
+  tier: 1
+  author: Friedrich Nietzsche
+  title: '"Schopenhauer as Educator" (Untimely Meditations III)'
+  year: 1874
+
+- id: sep-nietzsche
+  tier: 2
+  author: R. Lanier Anderson
+  title: '"Friedrich Nietzsche", Stanford Encyclopedia of Philosophy'
+  url: https://plato.stanford.edu/entries/nietzsche/
+
+- id: tanner-vsi
+  tier: 2
+  author: Michael Tanner
+  title: 'Nietzsche: A Very Short Introduction'
+  publisher: Oxford University Press
+  year: 2000
+
+- id: kaufmann-nietzsche
+  tier: 2
+  author: Walter Kaufmann
+  title: 'Nietzsche: Philosopher, Psychologist, Antichrist'
+  publisher: Princeton University Press
+  year: 1950
+
+- id: leiter-guidebook
+  tier: 2
+  author: Brian Leiter
+  title: Nietzsche on Morality (2nd ed.)
+  publisher: Routledge
+  year: 2015
+  note: First edition (2002) was titled Routledge Philosophy GuideBook to Nietzsche on Morality.
+
+- id: lampert-teaching
+  tier: 2
+  author: Laurence Lampert
+  title: "Nietzsche's Teaching: An Interpretation of Thus Spoke Zarathustra"
+  publisher: Yale University Press
+  year: 1986
+
+- id: young-biography
+  tier: 2
+  author: Julian Young
+  title: 'Friedrich Nietzsche: A Philosophical Biography'
+  publisher: Cambridge University Press
+  year: 2010
+
+# ---------- Deleuze ----------
+
+- id: sep-deleuze
+  tier: 2
+  author: Daniel Smith, John Protevi, Daniela Voss
+  title: '"Gilles Deleuze", Stanford Encyclopedia of Philosophy'
+  url: https://plato.stanford.edu/entries/deleuze/
+
+- id: deleuze-guattari-atp-text
+  tier: 1
+  author: Gilles Deleuze & Félix Guattari
+  title: A Thousand Plateaus ("Author's Note")
+  year: 1980
+
+- id: deleuze-harsh-critic
+  tier: 1
+  author: Gilles Deleuze
+  title: '"Letter to a Harsh Critic" (1973), in Negotiations'
+  publisher: Columbia University Press
+  year: 1995
+
+- id: williams-dr-guide
+  tier: 2
+  author: James Williams
+  title: "Gilles Deleuze's Difference and Repetition: A Critical Introduction and Guide"
+  publisher: Edinburgh University Press
+  year: 2004
+
+- id: holland-ao-guide
+  tier: 2
+  author: Eugene Holland
+  title: "Deleuze and Guattari's Anti-Oedipus: Introduction to Schizoanalysis"
+  publisher: Routledge
+  year: 1999
+
+- id: massumi-users-guide
+  tier: 2
+  author: Brian Massumi
+  title: A User's Guide to Capitalism and Schizophrenia
+  publisher: MIT Press
+  year: 1992
+
+# ---------- Jung ----------
+# Princeton University Press publishes the Collected Works; its volume
+# descriptions are treated as scholarly (tier 2) for claims about contents.
+
+- id: jung-types-text
+  tier: 1
+  author: C. G. Jung
+  title: Psychological Types
+  year: 1921
+
+- id: jung-theory-psa-text
+  tier: 1
+  author: C. G. Jung
+  title: The Theory of Psychoanalysis
+  year: 1913
+
+- id: hinkle-intro
+  tier: 2
+  author: Beatrice M. Hinkle
+  title: Translator's introduction to Psychology of the Unconscious
+  publisher: Moffat, Yard & Co.
+  year: 1916
+
+- id: princeton-cw5
+  tier: 2
+  author: Princeton University Press
+  title: Collected Works of C. G. Jung, Vol. 5 (Symbols of Transformation), volume description
+  url: https://press.princeton.edu/isbn/9780691018157
+
+- id: princeton-cw7
+  tier: 2
+  author: Princeton University Press
+  title: Collected Works of C. G. Jung, Vol. 7 (Two Essays), volume description
+  url: https://press.princeton.edu/isbn/9780691017822
+
+- id: princeton-cw9i
+  tier: 2
+  author: Princeton University Press
+  title: Collected Works of C. G. Jung, Vol. 9i (The Archetypes and the Collective Unconscious), volume description
+  url: https://press.princeton.edu/isbn/9780691018331
+
+- id: princeton-cw9ii
+  tier: 2
+  author: Princeton University Press
+  title: Collected Works of C. G. Jung, Vol. 9ii (Aion), volume description
+  url: https://press.princeton.edu/isbn/9780691018263
+
+- id: princeton-zarathustra-seminar
+  tier: 2
+  author: Princeton University Press
+  title: "Nietzsche's Zarathustra: Notes of the Seminar Given in 1934–1939, description"
+  url: https://press.princeton.edu/isbn/9780691099538
