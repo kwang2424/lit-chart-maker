@@ -1,5 +1,8 @@
 import copy
 import unittest
+import xml.dom.minidom
+
+import chart
 
 import build as b
 
@@ -76,6 +79,13 @@ class BuildTests(unittest.TestCase):
         core, _ = b.compute_order(self.lists["nietzsche"])
         self.assertTrue(self.works["twilight"].get("start_here"))
         self.assertEqual(core[0], "twilight")
+
+    def test_charts_are_valid_svg(self):
+        for lid, data in self.lists.items():
+            core, full = b.compute_order(data)
+            svg = chart.render_svg(data, full, core, list(b.hard_edges(data["works"], lid)),
+                                   list(b.all_edges(data["works"], lid)), self.lists)
+            xml.dom.minidom.parseString(svg)  # raises if malformed
 
     def test_stable_requires_verified(self):
         for w in self.bad["nietzsche"]["works"]:

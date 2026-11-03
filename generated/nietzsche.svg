@@ -7,7 +7,7 @@
 <text x="546.0" y="94" text-anchor="middle" font-size="17" fill="#6b6256">A reading order. Follow the numbers; gold boxes are the core path.</text>
 <text x="190.0" y="132" text-anchor="middle" font-size="15" letter-spacing="2" fill="#6b6256">EXTENDED</text>
 <text x="546.0" y="132" text-anchor="middle" font-size="15" letter-spacing="2" fill="#6b6256">CORE PATH</text>
-<text x="902.0" y="132" text-anchor="middle" font-size="15" letter-spacing="2" fill="#6b6256">OPTIONAL & BACKGROUND</text>
+<text x="902.0" y="132" text-anchor="middle" font-size="15" letter-spacing="2" fill="#6b6256">OPTIONAL &amp; BACKGROUND</text>
 <path d="M902.0,376 C902.0,406 190.0,377 190.0,407" fill="none" stroke="#8c8072" stroke-width="1.6" opacity="0.9" marker-end="url(#arrow)"/>
 <path d="M902.0,246 C902.0,326.5 190.0,326.5 190.0,407" fill="none" stroke="#8c8072" stroke-width="1.6" opacity="0.9" marker-end="url(#arrow)"/>
 <path d="M546.0,896 C546.0,926 546.0,897 546.0,927" fill="none" stroke="#8c8072" stroke-width="1.6" opacity="0.9" marker-end="url(#arrow)"/>

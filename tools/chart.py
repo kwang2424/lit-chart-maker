@@ -96,7 +96,7 @@ def render_svg(data: dict, order: list[str], core_order: list[str], hard: list, 
         x = MARGIN + i * (CARD_W + GAP_X) + CARD_W / 2
         out.append(
             f'<text x="{x}" y="{HEADER_H - 18}" text-anchor="middle" font-size="15" '
-            f'letter-spacing="2" fill="{t["muted"]}">{label.upper()}</text>'
+            f'letter-spacing="2" fill="{t["muted"]}">{escape(label.upper())}</text>'
         )
 
     # Links first, so cards sit on top.

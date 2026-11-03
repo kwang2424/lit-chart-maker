@@ -29,12 +29,21 @@ contradict itself.
 at the top of each list page. For a shareable image run `node tools/png.js`
 (needs Playwright + Chromium), which writes `generated/<list>.png`.
 
+## Website
+
+`python tools/site.py` builds a static site into `site/`: a home page plus one
+page per list, with the chart, filters (core only / unread) and a "read"
+checkbox per book that's saved in the browser. On every push to `main`,
+`.github/workflows/pages.yml` builds and publishes it to GitHub Pages
+(Settings → Pages → Source: GitHub Actions).
+
 ## Usage
 
 ```sh
 pip install -r requirements.txt
 python tools/build.py           # validate and regenerate generated/*.md
 python tools/build.py --check   # what CI runs
+python tools/site.py            # build the website into site/
 python -m unittest discover tools
 ```
 
