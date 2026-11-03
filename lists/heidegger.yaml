@@ -96,6 +96,10 @@ works:
             locator: "§1 Life and Works"
             verified: true
             checked_in: IEP online, accessed 2026-11
+          - source: oxford-finals
+            locator: "paper 113: Husserl's work 'serves to introduce one to phenomenology, the philosophical method later developed and refined by Heidegger'"
+            verified: true
+            checked_in: Course web page, accessed 2026-11
           - source: syl-bard-pl318
             locator: course description ("radicalization of Husserlian phenomenology")
             verified: true

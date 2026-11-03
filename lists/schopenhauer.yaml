@@ -24,6 +24,19 @@ survey:
     locator: reading list (both required)
     verified: true
     checked_in: Study group web page, accessed 2026-11
+  - source: warwick-ph3c4
+    includes: [wwr]
+    ordered: false
+    locator: module outline (arranged by theme)
+    verified: true
+    checked_in: Course web page, accessed 2026-11
+  - source: masny-schopenhauer
+    starts_with: wwr
+    includes: [wwr]
+    ordered: true
+    locator: "Week 1: WWR I Introduction and Preface to the First Edition"
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
 
 works:
 
@@ -42,6 +55,8 @@ works:
     tier: core
     difficulty: 4
     translation: Payne (Open Court)
+    tier_note: >
+      Kept core though most courses go straight to the World as Will: Schopenhauer says that without it the main work cannot be properly understood.
     note: >
       His dissertation, and the "centerpiece of his later philosophy" according to the
       SEP: everything we explain falls under one of four kinds of ground.
@@ -69,8 +84,13 @@ works:
     tips:
       - text: >
           He advises reading his appendix, "Criticism of the Kantian Philosophy", first,
-          and warns that the appendix and the book "must be read twice".
+          and warns that the appendix and the book "must be read twice". Courses open with that
+          preface.
         sources:
+          - source: masny-schopenhauer
+            locator: "Week 1"
+            verified: true
+            checked_in: Course syllabus (PDF), accessed 2026-11
           - source: schopenhauer-wwr-preface
             locator: Preface to the first edition
             verified: true

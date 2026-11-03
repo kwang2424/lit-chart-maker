@@ -32,14 +32,6 @@ survey:
     locator: detailed schedule (Apology and Crito recommended)
     verified: true
     checked_in: Course web page, accessed 2026-11
-  - source: syl-midcoast-hauptli
-    covers: beginning
-    starts_with: euthyphro
-    includes: [euthyphro, apology, crito, meno]
-    ordered: true
-    locator: schedule
-    verified: true
-    checked_in: Course web page, accessed 2026-11
   - source: hackett-five-dialogues
     covers: beginning
     starts_with: euthyphro
@@ -55,6 +47,19 @@ survey:
     locator: "III.58, Thrasyllus' first tetralogy"
     verified: true
     checked_in: Hicks trans. (1925), Wikisource
+  - source: cambridge-gtc-2025
+    starts_with: meno
+    includes: [meno, phaedo]
+    ordered: true
+    locator: "Part IA set text (Meno); Part IB set text for 2025–26 (Phaedo)"
+    verified: true
+    checked_in: Guide to Courses 2025–26 (PDF), accessed 2026-11
+  - source: oxford-finals
+    includes: [republic, theaetetus, sophist]
+    ordered: false
+    locator: "papers 115 (Republic) and 131/137 (Theaetetus and Sophist)"
+    verified: true
+    checked_in: Course web page, accessed 2026-11
 
 works:
 
@@ -108,6 +113,8 @@ works:
     kind: primary
     tier: core
     difficulty: 1
+    tier_note: >
+      Kept core though few full courses assign it: it is part of the trial-and-death sequence in Thrasyllus' first tetralogy and in Hackett's Five Dialogues, and very short.
     note: Socrates in prison refuses to escape. Very short.
     after:
       - work: apology
@@ -197,6 +204,14 @@ works:
       Justice, the ideal city, and the Forms. Books VI–VII (sun, line, cave) and X
       (Ideas and copies) are the "true world" Nietzsche mocks and Deleuze sets out to overturn.
     tips:
+      - text: >
+          Oxford's course description: "The best introduction to Plato is Plato". Start from
+          the beginning of Book I, or Glaucon's challenge at the start of Book II (357a–362d).
+        sources:
+          - source: oxford-finals
+            locator: "paper 115, Plato, Republic"
+            verified: true
+            checked_in: Course web page, accessed 2026-11
       - text: >
           Book VII opens with the cave; Book X explains Ideas and copies with the
           example of beds and tables.
