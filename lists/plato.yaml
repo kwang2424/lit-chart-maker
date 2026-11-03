@@ -61,6 +61,13 @@ survey:
     locator: "papers 115 (Republic) and 131/137 (Theaetetus and Sophist)"
     verified: true
     checked_in: Course web page, accessed 2026-11
+  - source: fivebooks-lane-plato
+    covers: shortlist
+    includes: [republic]
+    ordered: false
+    locator: "pick 2 (her other primary pick, the Statesman, isn't on this list)"
+    verified: true
+    checked_in: Five Books interview (web page), accessed 2026-11
 
 works:
 

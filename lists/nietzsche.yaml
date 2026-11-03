@@ -74,6 +74,14 @@ survey:
     locator: "weeks 7–11 (after Kant and Hegel)"
     verified: true
     checked_in: Course guide (PDF), accessed 2026-11
+  - source: fivebooks-leiter-nietzsche
+    covers: shortlist
+    starts_with: bge
+    includes: [bge, genealogy]
+    ordered: false
+    locator: "picks 4–5 and advice on where to start"
+    verified: true
+    checked_in: Five Books interview (web page), accessed 2026-11
 
 works:
 
@@ -268,6 +276,18 @@ works:
             checked_in: Ludovici trans. (1911), Project Gutenberg #52190
 
   - id: bge
+    tips:
+      - text: >
+          Brian Leiter: if you start with a primary text, "Beyond Good and Evil would be
+          a great choice, because it covers all the distinctive and important
+          Nietzschean themes and as it's broken into bite-size pieces you don't get
+          overwhelmed." For readers new to philosophy he suggests Safranski's biography
+          first.
+        sources:
+          - source: fivebooks-leiter-nietzsche
+            locator: "on where to start"
+            verified: true
+            checked_in: Five Books interview (web page), accessed 2026-11
     title: Beyond Good and Evil
     author: Friedrich Nietzsche
     year: 1886

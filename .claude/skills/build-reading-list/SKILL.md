@@ -45,7 +45,11 @@ say exactly how to read them in a preface (Schopenhauer, Kant, Hume did).
 **Tier 2, scholarly.** SEP (`https://plato.stanford.edu/entries/<slug>/`) and IEP
 (`https://iep.utm.edu/<slug>/`); publisher descriptions of scholarly editions (Princeton,
 Cambridge); translator or editor prefaces (e.g. Ernest Jones on Freud); open-access
-journal articles that quote a text you can't reach. Convert with
+journal articles that quote a text you can't reach. Five Books interviews
+(`https://fivebooks.com/category/philosophy/great-philosophers/` lists them) give a named
+scholar's picks and often say where to start: record the picks as a survey entry with
+`covers: shortlist` (counts toward mentions and starts, not core shares) and quote the
+start advice as a `tip`. Fetch with a browser User-Agent; picks are the `#### 1 …` headings. Convert with
 `scripts/html_to_text.py`, then get exact locators with
 `scripts/find_section.py entry.txt "phrase"`. Section numbers written from memory are
 often wrong.
@@ -55,7 +59,8 @@ often wrong.
 convert with `pdftotext -layout`, and read the dated schedule lines, not the
 required-texts list. Note whether a source is a real sequence (`ordered: true`), a
 thematic outline or reading list (`ordered: false`), or a beginner-only list
-(`covers: beginning`). One institution counts once.
+(`covers: beginning`), or an expert's top picks (`covers: shortlist`). One institution
+counts once.
 
 Prefer, in order: official department documents (Cambridge's *Guide to Courses*, Oxford's
 *Course Descriptions*, Edinburgh course guides, Warwick module pages), professional bodies

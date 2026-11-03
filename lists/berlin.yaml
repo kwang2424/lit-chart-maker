@@ -22,6 +22,7 @@ survey:
     verified: true
     checked_in: Course page (coursetexts.org), accessed 2026-11
   - source: fivebooks-hardy-berlin
+    covers: shortlist
     starts_with: proper-study
     includes: [liberty, proper-study, personal-impressions, hedgehog-fox]
     ordered: false
@@ -83,6 +84,16 @@ works:
   # ---------- Liberty and history ----------
 
   - id: karl-marx
+    tips:
+      - text: >
+          Terrell Carver puts it first among books on Marx: "a short intellectual
+          biography" whose "take on Marx is quite fresh and independent of the
+          generalised Marxism" of its day.
+        sources:
+          - source: fivebooks-carver-marx
+            locator: "pick 1"
+            verified: true
+            checked_in: Five Books interview (web page), accessed 2026-11
     title: "Karl Marx: His Life and Environment"
     author: Isaiah Berlin
     year: 1939

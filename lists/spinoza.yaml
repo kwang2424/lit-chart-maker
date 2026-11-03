@@ -45,6 +45,14 @@ survey:
     locator: "Part II paper 5, set texts (Ethics, Books 1 and 5)"
     verified: true
     checked_in: Guide to Courses 2025–26 (PDF), accessed 2026-11
+  - source: fivebooks-nadler-spinoza
+    covers: shortlist
+    starts_with: ttp
+    includes: [ttp, ethics]
+    ordered: true
+    locator: "picks 1–5 and advice for first-time readers"
+    verified: true
+    checked_in: Five Books interview (web page), accessed 2026-11
 
 works:
 
@@ -104,6 +112,17 @@ works:
             checked_in: SEP online, accessed 2026-11
 
   - id: ttp
+    tips:
+      - text: >
+          Steven Nadler, asked what a newcomer should read first: "I want to say you
+          should go for the Ethics first because that is his philosophical masterpiece.
+          But it's a really tough book... So I would suggest the Theological-Political
+          Treatise... And then you'll be ready for the Ethics."
+        sources:
+          - source: fivebooks-nadler-spinoza
+            locator: "pick 1"
+            verified: true
+            checked_in: Five Books interview (web page), accessed 2026-11
     title: Theological-Political Treatise
     author: Baruch Spinoza
     year: 1670
@@ -126,6 +145,16 @@ works:
       His masterpiece, set out "in geometrical order": God or Nature (I), mind (II), the
       emotions (III–IV) and freedom (V). Read slowly, one Part at a time.
     tips:
+      - text: >
+          Nadler suggests reading it alongside Edwin Curley's Behind the Geometrical
+          Method, "relatively short, only about 130 pages... a nice accessible
+          introduction to the main themes of Spinoza's philosophy", focused on the
+          Ethics.
+        sources:
+          - source: fivebooks-nadler-spinoza
+            locator: "pick 2"
+            verified: true
+            checked_in: Five Books interview (web page), accessed 2026-11
       - text: >
           The Appendix to Part I is a vivid, readable attack on the idea that nature acts for
           ends, and is often assigned with the Part I propositions.
