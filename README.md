@@ -51,4 +51,5 @@ python tools/site.py            # build the website into site/
 python -m unittest discover tools
 ```
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) to add or fix a list.
+See [CONTRIBUTING.md](CONTRIBUTING.md) to add or fix a list. If you use Claude Code, the
+`build-reading-list` skill in `.claude/skills/` walks through the full research method.
