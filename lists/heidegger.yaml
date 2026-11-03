@@ -57,17 +57,6 @@ survey:
 
 works:
 
-  - id: husserl-li
-    title: Logical Investigations
-    author: Edmund Husserl
-    year: 1900
-    kind: background
-    tier: optional
-    difficulty: 5
-    note: Husserl's founding work of phenomenology. A good introduction to phenomenology serves most readers.
-
-  # ---------- Being and Time and around it ----------
-
   - id: being-and-time
     title: Being and Time
     author: Martin Heidegger
@@ -97,7 +86,7 @@ works:
             verified: true
             checked_in: Course syllabus, accessed 2026-11
     after:
-      - work: husserl-li
+      - work: husserl:logical-investigations
         strength: context
         why: >
           Heidegger studied the Logical Investigations as a student and kept valuing it while

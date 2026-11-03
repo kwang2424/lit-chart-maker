@@ -1,0 +1,178 @@
+id: husserl
+title: Edmund Husserl
+group: predecessors
+sequence: 9
+scope: >
+  The founder of phenomenology: his main published books and the introductions he
+  kept writing to them. Background for Heidegger, and through him for Sartre,
+  Merleau-Ponty, Derrida and others.
+status: draft
+
+# Format: see the header of lists/nietzsche.yaml. Few full Husserl courses were
+# reachable, so the survey is thin and the SEP and IEP carry most of the weight.
+
+survey:
+  - source: syl-guelph-3350
+    starts_with: pure-phenomenology-1917
+    includes: [pure-phenomenology-1917, britannica-article, ideas-1, time-consciousness]
+    ordered: true
+    locator: "schedule ('Introductions to Phenomenology', then analyses)"
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: syl-deree-ph4031
+    includes: [cartesian-meditations, crisis, rigorous-science, ideas-1, logical-investigations]
+    ordered: false
+    locator: primary readings
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: syl-wiltsche-365
+    starts_with: crisis
+    includes: [crisis, logical-investigations]
+    ordered: true
+    locator: schedule (a seminar centred on the Crisis)
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+
+works:
+
+  - id: logical-investigations
+    title: Logical Investigations
+    author: Edmund Husserl
+    year: 1900
+    kind: primary
+    tier: core
+    difficulty: 5
+    translation: Findlay, ed. Moran (Routledge)
+    note: >
+      Volume 1, the "Prolegomena to Pure Logic", attacks psychologism; volume 2's
+      investigations of meaning and intentionality found phenomenology.
+    tips:
+      - text: The SEP's account of his early thought centres on its theory of ideality and intentionality.
+        sources:
+          - source: sep-husserl
+            locator: "§2 Ideality and intentionality in the Logical Investigations"
+            verified: true
+            checked_in: SEP online, accessed 2026-11
+
+  - id: time-consciousness
+    title: On the Phenomenology of the Consciousness of Internal Time
+    author: Edmund Husserl
+    kind: primary
+    tier: extended
+    difficulty: 4
+    note: Lectures and notes from 1893–1917 on how we experience time.
+
+  - id: rigorous-science
+    title: '"Philosophy as Rigorous Science"'
+    author: Edmund Husserl
+    year: 1911
+    kind: primary
+    tier: extended
+    difficulty: 3
+    translation: Lauer, in Phenomenology and the Crisis of Philosophy
+    note: A programmatic essay on phenomenology as a rigorous science of consciousness.
+
+  - id: ideas-1
+    title: 'Ideas I (Ideas Pertaining to a Pure Phenomenology: General Introduction to Pure Phenomenology)'
+    author: Edmund Husserl
+    year: 1913
+    kind: primary
+    tier: core
+    difficulty: 5
+    translation: Dahlstrom (Hackett) or Kersten (Nijhoff)
+    note: The epoché, the phenomenological reduction and transcendental idealism.
+    tips:
+      - text: >
+          Its turn to transcendental idealism "caused consternation": many early
+          phenomenologists saw it as "a betrayal of the core ideas of phenomenology".
+        sources:
+          - source: sep-husserl
+            locator: "§1 Life and work"
+            verified: true
+            checked_in: SEP online, accessed 2026-11
+    after:
+      - work: logical-investigations
+        strength: context
+        why: The SEP reads it as his next major work after the Investigations, marking his explicit transcendental turn.
+        sources:
+          - source: sep-husserl
+            locator: "§1 Life and work; §3"
+            verified: true
+            checked_in: SEP online, accessed 2026-11
+      - work: kant:kant-cpr
+        strength: context
+        why: >
+          In calling his phenomenology "transcendental", Husserl "was precisely pointing to
+          the Kantian legacy".
+        sources:
+          - source: sep-husserl
+            locator: "§3 The transcendental turn"
+            verified: true
+            checked_in: SEP online, accessed 2026-11
+
+  - id: pure-phenomenology-1917
+    title: '"Pure Phenomenology, Its Method and Its Field of Investigation"'
+    author: Edmund Husserl
+    year: 1917
+    kind: primary
+    tier: optional
+    difficulty: 2
+    note: His 1917 inaugural lecture at Freiburg. Short.
+
+  - id: ideas-2
+    title: Ideas II
+    author: Edmund Husserl
+    kind: primary
+    tier: optional
+    position: end
+    difficulty: 5
+    note: Studies of the body, nature and the person, published after his death.
+
+  - id: britannica-article
+    title: '"Phenomenology" (Encyclopaedia Britannica article)'
+    author: Edmund Husserl
+    year: 1927
+    kind: primary
+    tier: extended
+    difficulty: 3
+    note: His own short summary of phenomenology for a general encyclopedia.
+
+  - id: cartesian-meditations
+    title: 'Cartesian Meditations: An Introduction to Phenomenology'
+    author: Edmund Husserl
+    year: 1931
+    kind: primary
+    tier: core
+    difficulty: 4
+    translation: Cairns (Nijhoff)
+    note: Includes his account of how objectivity is constituted intersubjectively, through our experience of others.
+    start_here:
+      why: >
+        It grew out of "a series of lectures meant to introduce a French audience to the
+        basic ideas of phenomenology", one of the introductions Husserl kept writing.
+      sources:
+        - source: sep-husserl
+          locator: "§1 Life and work"
+          verified: true
+          checked_in: SEP online, accessed 2026-11
+
+  - id: crisis
+    title: 'The Crisis of European Sciences and Transcendental Phenomenology: An Introduction to Phenomenological Philosophy'
+    author: Edmund Husserl
+    year: 1936
+    kind: primary
+    tier: core
+    difficulty: 4
+    translation: Carr (Northwestern)
+    note: >
+      His last work, on the "lifeworld" and how modern science lost sight of it. Only
+      its first two parts appeared in his lifetime.
+    after:
+      - work: cartesian-meditations
+        strength: context
+        why: It is the last of his attempts at an introduction to phenomenology, as its subtitle says.
+        sources:
+          - source: sep-husserl
+            locator: "§1 Life and work; Bibliography (Hua 6)"
+            verified: true
+            checked_in: SEP online, accessed 2026-11

@@ -47,19 +47,13 @@ We surveyed 6 independent sources (6 course syllabi and teaching lists) and reco
 
 Every work, in order. Extended and optional works are placed where they fit best.
 
-### 1. Logical Investigations (1900)
-
-`optional · background · difficulty ●●●●●` · Edmund Husserl
-
-Husserl's founding work of phenomenology. A good introduction to phenomenology serves most readers.
-
-### 2. Heidegger's Being and Time: A Reader's Guide (2006)
+### 1. Heidegger's Being and Time: A Reader's Guide (2006)
 
 `extended · secondary · difficulty ●●●○○` · William Blattner
 
 A section-by-section guide.
 
-### 3. Being and Time (1927)
+### 2. Being and Time (1927)
 
 `core · primary · difficulty ●●●●●` · Martin Heidegger
 
@@ -76,14 +70,14 @@ The analysis of human existence (Dasein): being-in-the-world, care, death, authe
 
 **Read first:**
 
-- *Logical Investigations* — *context*. Heidegger studied the Logical Investigations as a student and kept valuing it while he radically reinterpreted Husserl's phenomenology.
+- *Logical Investigations* (from the [Edmund Husserl list](husserl.md)) — *context*. Heidegger studied the Logical Investigations as a student and kept valuing it while he radically reinterpreted Husserl's phenomenology.
   - Internet Encyclopedia of Philosophy, *"Martin Heidegger (1889–1976)"*, §1 Life and Works [scholarly] ✓ checked in IEP online, accessed 2026-11
   - Tracy Colony, Bard College, *PL318: The Thought of Martin Heidegger*, course description ("radicalization of Husserlian phenomenology") [teaching] ✓ checked in Course syllabus, accessed 2026-11
 - *Heidegger's Being and Time: A Reader's Guide* — *context*. Two of the surveyed courses recommend a reader's guide to read alongside it.
   - William Blattner, Georgetown University, *PHIL 521: Heidegger's Being and Time*, recommended texts [teaching] ✓ checked in Course syllabus, accessed 2026-11
   - University of Windsor, *Phil 470/570: Recent German Philosophy: Heidegger's Being and Time (Fall 2015)*, secondary texts [teaching] ✓ checked in Course syllabus, accessed 2026-11
 
-### 4. The Basic Problems of Phenomenology (1927)
+### 3. The Basic Problems of Phenomenology (1927)
 
 `extended · primary · difficulty ●●●●○` · Martin Heidegger
 
@@ -95,7 +89,7 @@ The 1927 lecture course, published in 1975.
   - William Blattner, Georgetown University, *PHIL 521: Heidegger's Being and Time*, course description [teaching] ✓ checked in Course syllabus, accessed 2026-11
   - Villanova University, *Philosophy 8220: Heidegger's Being and Time (Fall 2014)*, texts [teaching] ✓ checked in Course web page, accessed 2026-11
 
-### 5. Being-in-the-World: A Commentary on Heidegger's Being and Time, Division I (1991)
+### 4. Being-in-the-World: A Commentary on Heidegger's Being and Time, Division I (1991)
 
 `optional · secondary · difficulty ●●●○○` · Hubert Dreyfus
 
@@ -106,7 +100,7 @@ An influential commentary on the first half.
 - *Being and Time* — *helpful*. It is a commentary on Division I of Being and Time, as its title says.
   - University of Windsor, *Phil 470/570: Recent German Philosophy: Heidegger's Being and Time (Fall 2015)*, secondary texts [teaching] ✓ checked in Course syllabus, accessed 2026-11
 
-### 6. "What Is Metaphysics?" (1929)
+### 5. "What Is Metaphysics?" (1929)
 
 `core · primary · difficulty ●●●○○` · Martin Heidegger
 
@@ -116,7 +110,7 @@ A short 1929 lecture on the nothing and anxiety.
 
 **Translation:** in Basic Writings (ed. Krell) or Pathmarks
 
-### 7. Kant and the Problem of Metaphysics (1929)
+### 6. Kant and the Problem of Metaphysics (1929)
 
 `optional · primary · difficulty ●●●●●` · Martin Heidegger
 
@@ -127,13 +121,13 @@ His reading of Kant's first Critique.
 - *Critique of Pure Reason* (from the [Immanuel Kant list](kant.md)) — *helpful*. It is an interpretation of the Critique of Pure Reason.
   - Stanford Encyclopedia of Philosophy, *"Martin Heidegger", Stanford Encyclopedia of Philosophy*, Bibliography, GA3 [scholarly] ✓ checked in SEP online, accessed 2026-11
 
-### 8. "On the Essence of Truth" (1930)
+### 7. "On the Essence of Truth" (1930)
 
 `extended · primary · difficulty ●●●●○` · Martin Heidegger
 
 Truth as unconcealment. Courses read it after Being and Time.
 
-### 9. Introduction to Metaphysics (1935)
+### 8. Introduction to Metaphysics (1935)
 
 `optional · primary · difficulty ●●●●○` · Martin Heidegger
 
@@ -141,7 +135,7 @@ The 1935 lecture course, published in 1953.
 
 **Translation:** Fried & Polt (Yale)
 
-### 10. "The Origin of the Work of Art"
+### 9. "The Origin of the Work of Art"
 
 `core · primary · difficulty ●●●●○` · Martin Heidegger
 
@@ -154,13 +148,13 @@ Art as the happening of truth; the Greek temple and Van Gogh's shoes.
 - *Being and Time* — *context*. The SEP treats its new "attention to the role that artworks and poetry play in disclosing being" as a mark of the "turning" after Being and Time.
   - Stanford Encyclopedia of Philosophy, *"Martin Heidegger", Stanford Encyclopedia of Philosophy*, §4 The “Turning” and Heidegger’s Later Thought [scholarly] ✓ checked in SEP online, accessed 2026-11
 
-### 11. "The Age of the World Picture"
+### 10. "The Age of the World Picture"
 
 `extended · primary · difficulty ●●●○○` · Martin Heidegger
 
 Modern science and the world grasped as a picture.
 
-### 12. "The Question Concerning Technology" (1954)
+### 11. "The Question Concerning Technology" (1954)
 
 `core · primary · difficulty ●●●○○` · Martin Heidegger
 
@@ -168,7 +162,7 @@ Technology as a way of revealing that treats everything as "standing reserve", m
 
 **Translation:** in Basic Writings or The Question Concerning Technology and Other Essays (Lovitt)
 
-### 13. "Letter on Humanism" (1947)
+### 12. "Letter on Humanism" (1947)
 
 `core · primary · difficulty ●●●○○` · Martin Heidegger
 
@@ -176,7 +170,7 @@ His postwar essay on humanism, language and thinking, written as a letter in 194
 
 *Why this tier:* Kept core: half the surveyed courses cover only Being and Time; two of the three that go further assign it.
 
-### 14. Nietzsche (lecture courses, 4 vols. in English) (1961)
+### 13. Nietzsche (lecture courses, 4 vols. in English) (1961)
 
 `optional · primary · difficulty ●●●●○` · Martin Heidegger
 
@@ -188,19 +182,19 @@ His lecture courses on Nietzsche. PhilPapers calls them the "canonical reading o
   - PhilPapers (ed. Paul Catanu), *Friedrich Nietzsche: category summary and key works*, key works (Heidegger 1979) [scholarly] ✓ checked in PhilPapers category page, accessed 2026-11
   - Friedrich Nietzsche, *Twilight of the Idols*, "How the True World Ultimately Became a Fable" [author] ✓ checked in Ludovici trans. (1911), Project Gutenberg
 
-### 15. "The End of Philosophy and the Task of Thinking" (1964)
+### 14. "The End of Philosophy and the Task of Thinking" (1964)
 
 `optional · primary · difficulty ●●●○○` · Martin Heidegger
 
 A late essay, written in 1964.
 
-### 16. Contributions to Philosophy (Of the Event) (1936)
+### 15. Contributions to Philosophy (Of the Event) (1936)
 
 `optional · primary · difficulty ●●●●●` · Martin Heidegger
 
 A private manuscript of 1936–38, published in 1989. For specialists.
 
-### 17. What Is Called Thinking?
+### 16. What Is Called Thinking?
 
 `optional · primary · difficulty ●●●○○` · Martin Heidegger
 
@@ -212,7 +206,6 @@ Solid arrows: required or helpful. Dotted: context.
 
 ```mermaid
 graph TD
-  husserl_li["Logical Investigations"]:::optional
   blattner_guide["Heidegger's Being and Time: A Reader's Guide"]:::extended
   being_and_time["Being and Time"]:::core
   basic_problems["The Basic Problems of Phenomenology"]:::extended
@@ -229,7 +222,6 @@ graph TD
   end_of_philosophy["'The End of Philosophy and the Task of Thinking'"]:::optional
   contributions["Contributions to Philosophy (Of the Event)"]:::optional
   what_is_called_thinking["What Is Called Thinking?"]:::optional
-  husserl_li -.-> being_and_time
   blattner_guide -.-> being_and_time
   being_and_time --> dreyfus_being_in_world
   being_and_time -.-> basic_problems
