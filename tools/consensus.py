@@ -9,6 +9,8 @@ the author's own advice, an encyclopedia, a guide) and records what it says:
       includes: [birth-of-tragedy, gay-science, ...]   # books it assigns/recommends
       ordered: true                  # true if `includes` is in its reading order
       covers: beginning              # optional: a beginner's list; counts toward starts only
+                                     # (or `shortlist`: an expert's top picks, e.g. a Five Books
+                                     # interview; counts toward mentions and starts only)
       locator: course schedule
       verified: true
       checked_in: syllabus PDF, Fall 2025
@@ -25,6 +27,9 @@ CORE_SHARE = 0.75   # included by at least this share of sources -> should proba
 WEAK_SHARE = 0.34   # core works included by fewer than this share get a warning
 MIN_SOURCES = 4     # don't second-guess tiers with fewer sources than this
 DISAGREE_SHARE = 0.75  # a hard link that this share of ordered sources reverse gets a warning
+
+# How much of a reading course a survey entry covers, and the label shown for partial ones.
+COVERS = {"full": "", "beginning": " (beginner's list)", "shortlist": " (expert's shortlist)"}
 
 
 def validate(data: dict, sources: dict, report, must_verify: bool, check_citations) -> None:
@@ -43,8 +48,8 @@ def validate(data: dict, sources: dict, report, must_verify: bool, check_citatio
         for w in inc:
             if w not in ids:
                 report.error(f"{where}: unknown work '{w}'")
-        if s.get("covers", "full") not in ("full", "beginning"):
-            report.error(f"{where}: covers must be 'full' or 'beginning'")
+        if s.get("covers", "full") not in COVERS:
+            report.error(f"{where}: covers must be one of {', '.join(COVERS)}")
         if len(set(inc)) != len(inc):
             report.error(f"{where}: a work is listed twice in 'includes'")
         st = s.get("starts_with")
@@ -170,7 +175,7 @@ def render_md(data: dict, sources: dict, tier_names: dict) -> list[str]:
         seq = " → ".join(by_id[w]["title"] for w in s["includes"]) if s.get("ordered") else \
             ", ".join(by_id[w]["title"] for w in s["includes"])
         mark = f"✓ checked in {s['checked_in']}" if s.get("verified") else "⚠️ unverified"
-        kind = " (beginner's list)" if s.get("covers") == "beginning" else ""
+        kind = COVERS[s.get("covers", "full")]
         out.append(f"- **{source_label(s['source'], sources)}** [{tier_names[src['tier']]}]{kind}: {seq}. {mark}")
     out.append("")
     return out
@@ -200,7 +205,7 @@ def render_html(data: dict, sources: dict, tier_names: dict) -> str:
         if src.get("url"):
             title = f'<a href="{escape(src["url"])}">{title}</a>'
         joiner = " → " if s.get("ordered") else ", "
-        kind = " (beginner's list)" if s.get("covers") == "beginning" else ""
+        kind = COVERS[s.get("covers", "full")]
         seq = joiner.join(escape(by_id[w]["title"]) for w in s["includes"])
         mark = (f'<span class="ok">✓ checked in {escape(s["checked_in"])}</span>' if s.get("verified")
                 else '<span class="warn">⚠ not yet verified</span>')

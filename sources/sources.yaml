@@ -1055,3 +1055,59 @@
   author: Jon Roffe, Melbourne School of Continental Philosophy
   title: "Introduction to the Thought of Jacques Derrida (Summer School 2025)"
   url: https://mscp.org.au/past-courses/introduction-to-the-thought-of-jacques-derrida
+
+# ---------- Five Books expert interviews (tier 2: a named scholar's own recommendations) ----------
+
+- id: fivebooks-nadler-spinoza
+  tier: 2
+  author: Steven Nadler, interviewed by Five Books
+  title: "The Best Books on Spinoza (2020)"
+  url: https://fivebooks.com/best-books/spinoza-steven-nadler/
+
+- id: fivebooks-woods-schopenhauer
+  tier: 2
+  author: David Bather Woods, interviewed by Five Books
+  title: "The Best Books on Schopenhauer (2020)"
+  url: https://fivebooks.com/best-books/arthur-schopenhauer-david-bather-woods/
+
+- id: fivebooks-blackburn-hume
+  tier: 2
+  author: Simon Blackburn, interviewed by Five Books
+  title: "The Best Books on David Hume (2013)"
+  url: https://fivebooks.com/best-books/david-hume-simon-blackburn/
+
+- id: fivebooks-moore-kant
+  tier: 2
+  author: Adrian Moore, interviewed by Nigel Warburton for Five Books
+  title: "The Best Immanuel Kant Books (2016)"
+  url: https://fivebooks.com/best-books/kant/
+
+- id: fivebooks-houlgate-hegel
+  tier: 2
+  author: Stephen Houlgate, interviewed by Five Books
+  title: "The Best Hegel Books (2018)"
+  url: https://fivebooks.com/best-books/hegel-stephen-houlgate/
+
+- id: fivebooks-hill-arendt
+  tier: 2
+  author: Samantha Rose Hill, interviewed by Five Books
+  title: "The Best Books on Hannah Arendt (2020)"
+  url: https://fivebooks.com/best-books/hannah-arendt-samantha-rose-hill/
+
+- id: fivebooks-leiter-nietzsche
+  tier: 2
+  author: Brian Leiter, interviewed by Five Books
+  title: "The Best Nietzsche Books (2011)"
+  url: https://fivebooks.com/best-books/nietzsche-brian-leiter/
+
+- id: fivebooks-lane-plato
+  tier: 2
+  author: Melissa Lane, interviewed by Five Books
+  title: "The Best Plato Books (2014)"
+  url: https://fivebooks.com/best-books/plato-melissa-lane/
+
+- id: fivebooks-carver-marx
+  tier: 2
+  author: Terrell Carver, interviewed by Nigel Warburton for Five Books
+  title: "The Best Books on Marx and Marxism (2016)"
+  url: https://fivebooks.com/best-books/marx-marxism-terrell-carver/

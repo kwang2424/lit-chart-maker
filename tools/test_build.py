@@ -110,6 +110,18 @@ class BuildTests(unittest.TestCase):
         self.assertEqual(st["works"]["z"]["count"], 0)
         self.assertEqual(consensus.positions(data), {"x": 0.5, "y": 0.5})
 
+    def test_expert_shortlists_count_as_mentions_only(self):
+        data = {"id": "t", "works": [], "survey": [
+            {"source": "a", "includes": ["x", "y"], "ordered": True},
+            {"source": "b", "includes": ["x"], "starts_with": "x", "covers": "shortlist"},
+        ]}
+        st = consensus.compute(data)
+        self.assertEqual(st["n"], 1)          # shortlist left out of core shares
+        self.assertEqual(st["n_all"], 2)
+        self.assertEqual(st["works"]["x"]["count"], 1)
+        self.assertEqual(st["works"]["x"]["mentions"], 2)
+        self.assertEqual(st["works"]["x"]["starts"], 1)
+
     def test_group_rules(self):
         self.bad["plato"]["group"] = "nonsense"
         del self.bad["kant"]["sequence"]

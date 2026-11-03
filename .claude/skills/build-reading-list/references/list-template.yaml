@@ -17,6 +17,7 @@ survey:                     # one entry per independent source that recommends b
     includes: [first-book, second-book]
     ordered: true           # false if it's a reading list or a thematic outline, not a sequence
     # covers: beginning     # beginner-only lists: count toward "where to start", not core shares
+    # covers: shortlist     # an expert's top picks (e.g. Five Books): mentions and starts only
     locator: schedule
     verified: true
     checked_in: Course syllabus (PDF), accessed YYYY-MM

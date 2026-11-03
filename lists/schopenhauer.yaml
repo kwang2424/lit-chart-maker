@@ -38,6 +38,14 @@ survey:
     locator: "Week 1: WWR I Introduction and Preface to the First Edition"
     verified: true
     checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: fivebooks-woods-schopenhauer
+    covers: shortlist
+    starts_with: two-problems-ethics
+    includes: [two-problems-ethics, wwr, parerga]
+    ordered: false
+    locator: "picks 1–3 (Essays and Aphorisms is Hollingdale's selection from Parerga)"
+    verified: true
+    checked_in: Five Books interview (web page), accessed 2026-11
 
 works:
 
@@ -185,6 +193,17 @@ works:
             checked_in: SEP online, accessed 2026-11
 
   - id: two-problems-ethics
+    tips:
+      - text: >
+          David Bather Woods: the essays had to stand on their own, since he couldn't
+          refer to his main work, so "if somebody was reading Schopenhauer for the first
+          time and wanted to get a handle on his thought, it would be a good place to
+          start."
+        sources:
+          - source: fivebooks-woods-schopenhauer
+            locator: "pick 1"
+            verified: true
+            checked_in: Five Books interview (web page), accessed 2026-11
     title: The Two Fundamental Problems of Ethics (On the Freedom of the Will; On the Basis of Morality)
     author: Arthur Schopenhauer
     year: 1841
@@ -194,6 +213,15 @@ works:
     note: Two prize essays, published together. Clear and self-contained; the Basis of Morality grounds ethics in compassion.
 
   - id: parerga
+    tips:
+      - text: >
+          Woods recommends Hollingdale's selection, Essays and Aphorisms: "the
+          most user-friendly writings of Schopenhauer".
+        sources:
+          - source: fivebooks-woods-schopenhauer
+            locator: "pick 3"
+            verified: true
+            checked_in: Five Books interview (web page), accessed 2026-11
     title: Parerga and Paralipomena
     author: Arthur Schopenhauer
     year: 1851

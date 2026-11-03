@@ -65,6 +65,13 @@ survey:
     locator: "paper 112, The Philosophy of Kant (main focus the Critique; option the Groundwork)"
     verified: true
     checked_in: Course web page, accessed 2026-11
+  - source: fivebooks-moore-kant
+    covers: shortlist
+    includes: [kant-cpr, groundwork, cj, religion]
+    ordered: false
+    locator: "picks 1–4"
+    verified: true
+    checked_in: Five Books interview (web page), accessed 2026-11
 
 works:
 
@@ -177,6 +184,15 @@ works:
   # ---------- Moral philosophy ----------
 
   - id: groundwork
+    tips:
+      - text: >
+          Adrian Moore: despite the "rather forbidding title... basically, this is an
+          introduction to Kant's moral philosophy".
+        sources:
+          - source: fivebooks-moore-kant
+            locator: "pick 2"
+            verified: true
+            checked_in: Five Books interview (web page), accessed 2026-11
     title: Groundwork of the Metaphysics of Morals
     author: Immanuel Kant
     year: 1785

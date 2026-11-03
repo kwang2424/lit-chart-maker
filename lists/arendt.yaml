@@ -54,6 +54,14 @@ survey:
     locator: required texts (a seminar on Schmitt, Strauss and Arendt)
     verified: true
     checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: fivebooks-hill-arendt
+    covers: shortlist
+    starts_with: origins
+    includes: [origins, human-condition, men-dark-times]
+    ordered: false
+    locator: "picks 1–3"
+    verified: true
+    checked_in: Five Books interview (web page), accessed 2026-11
 
 works:
 
@@ -83,6 +91,16 @@ works:
     note: Her essays on Jewish politics and identity, collected after her death.
 
   - id: origins
+    tips:
+      - text: >
+          Samantha Rose Hill: "I begin with The Origins of Totalitarianism because it's
+          a study of the various elements that crystallized in the appearance of
+          totalitarianism in the 20th century."
+        sources:
+          - source: fivebooks-hill-arendt
+            locator: "pick 1"
+            verified: true
+            checked_in: Five Books interview (web page), accessed 2026-11
     title: The Origins of Totalitarianism
     author: Hannah Arendt
     year: 1951
