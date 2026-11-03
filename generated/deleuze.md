@@ -7,6 +7,8 @@
 
 > ⚠️ Some citations haven't been checked against the actual text yet. See [CONTRIBUTING.md](../CONTRIBUTING.md) to help verify them.
 
+![Gilles Deleuze reading chart](deleuze.svg)
+
 ## Core path
 
 The shortest route through the essentials.

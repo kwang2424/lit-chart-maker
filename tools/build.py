@@ -26,6 +26,8 @@ from pathlib import Path
 
 import yaml
 
+import chart
+
 ROOT = Path(__file__).resolve().parent.parent
 LISTS_DIR = ROOT / "lists"
 SOURCES_FILE = ROOT / "sources" / "sources.yaml"
@@ -401,6 +403,7 @@ def render(data: dict, lists: dict, sources: dict) -> str:
             "",
         ]
 
+    out += [f"![{data['title']} reading chart]({lid}.svg)", ""]
     out += ["## Core path", "", "The shortest route through the essentials.", ""]
     for i, n in enumerate(core_order, 1):
         w = by_id[n]
@@ -503,14 +506,18 @@ def main() -> int:
     stale = []
     OUT_DIR.mkdir(exist_ok=True)
     for lid, data in lists.items():
-        text = render(data, lists, sources)
-        path = OUT_DIR / f"{lid}.md"
-        if args.check:
-            if not path.exists() or path.read_text(encoding="utf-8") != text:
-                stale.append(path.name)
-        else:
-            path.write_text(text, encoding="utf-8")
-            print(f"wrote {path.relative_to(ROOT)}")
+        core_order, full_order = compute_order(data)
+        svg = chart.render_svg(
+            data, full_order, core_order, list(hard_edges(data["works"], lid)), list(all_edges(data["works"], lid)), lists
+        )
+        outputs = {OUT_DIR / f"{lid}.md": render(data, lists, sources), OUT_DIR / f"{lid}.svg": svg}
+        for path, text in outputs.items():
+            if args.check:
+                if not path.exists() or path.read_text(encoding="utf-8") != text:
+                    stale.append(path.name)
+            else:
+                path.write_text(text, encoding="utf-8")
+                print(f"wrote {path.relative_to(ROOT)}")
 
     if stale:
         print(f"ERROR: out of date: {', '.join(stale)}. Run `python tools/build.py` and commit the result.")

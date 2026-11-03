@@ -23,6 +23,12 @@ contradict itself.
   every citation is verified.
 - Links can point to other lists, e.g. `nietzsche:genealogy`.
 
+## Charts
+
+`tools/build.py` also draws each list as a chart (`generated/<list>.svg`), shown
+at the top of each list page. For a shareable image run `node tools/png.js`
+(needs Playwright + Chromium), which writes `generated/<list>.png`.
+
 ## Usage
 
 ```sh

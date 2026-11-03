@@ -5,6 +5,8 @@
 
 **Scope:** Nietzsche's published books, the background he assumes, and a few standard secondary guides. Not his unpublished notebooks (Nachlass).
 
+![Friedrich Nietzsche reading chart](nietzsche.svg)
+
 ## Core path
 
 The shortest route through the essentials.
