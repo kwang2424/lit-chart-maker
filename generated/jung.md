@@ -252,6 +252,15 @@ graph TD
   classDef optional fill:#eeeeee,stroke:#888,color:#000
 ```
 
+## Connections
+
+**Builds on**
+
+- *The Interpretation of Dreams* (Sigmund Freud) → *The Theory of Psychoanalysis* — helpful. Jung says these lectures are where he first defines his own theoretical position toward Freud's principles.
+- *The Interpretation of Dreams* (Sigmund Freud) → *Symbols of Transformation (first published as Psychology of the Unconscious)* — helpful. It is Jung's "first important statement of his independent position"; it widens Freud's idea of libido from sexuality to psychic energy in general.
+- *The Birth of Tragedy* (Friedrich Nietzsche) → *Psychological Types* — context. Chapter III, "The Apollonian and the Dionysian", is a reading of Nietzsche's Birth of Tragedy as a study of types.
+- *Thus Spoke Zarathustra* (Friedrich Nietzsche) → *Nietzsche's Zarathustra: Notes of the Seminar Given in 1934–1939* — required. It is a running psychological commentary on Thus Spoke Zarathustra.
+
 ## Sources
 
 - **[author]** C. G. Jung, *The Theory of Psychoanalysis*, 1913

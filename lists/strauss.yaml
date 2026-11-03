@@ -1,0 +1,262 @@
+id: strauss
+title: Leo Strauss
+group: thinkers
+sequence: 4
+born: 1899
+scope: >
+  Strauss's books and best-known essays, from the Spinoza study and the Schmitt review
+  of his German years to the Chicago books on natural right, Machiavelli and classical
+  political philosophy. Only two independent courses with a reading order were found
+  (Yale and Cornell), so the consensus section is thin.
+status: draft
+
+# Format: see the header of lists/nietzsche.yaml. His texts are in copyright, so the
+# evidence is the SEP entry, publisher pages and course syllabi. Years are given only
+# where the SEP bibliography or narrative states them.
+
+survey:
+  - source: syl-yale-smith
+    starts_with: spinoza-critique
+    includes: [spinoza-critique, notes-schmitt, rebirth, persecution, what-is-pp, natural-right, jerusalem-athens, liberalism-ancient-modern]
+    ordered: true
+    locator: outline (II "How Did Strauss Become Strauss?" through XII)
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: syl-cornell-frank
+    starts_with: spinoza-critique
+    includes: [spinoza-critique, notes-schmitt, persecution, what-is-pp, natural-right]
+    ordered: true
+    locator: weekly readings (weeks 3, 6, 8 and later)
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+# Yale's 2015 political theory exam list (cited in tips below) and Steven Smith's 2025
+# Yale course also assign Strauss, but one institution counts once in the survey.
+
+works:
+
+  # ---------- German years ----------
+
+  - id: spinoza-critique
+    title: "Spinoza's Critique of Religion (read the 1965 preface)"
+    author: Leo Strauss
+    year: 1930
+    kind: primary
+    tier: core
+    difficulty: 4
+    translation: Sinclair (Schocken 1965)
+    note: >
+      His first book, on Spinoza's Theologico-Political Treatise. The long preface
+      he added to the 1965 English translation, also reprinted in Liberalism Ancient
+      and Modern, is what courses assign.
+    start_here:
+      why: >
+        In the 1965 preface Strauss "describes the beginnings of his intellectual
+        journey" and the "theologico-political predicament" that the SEP calls his most
+        basic question. Both ordered courses found open with it.
+      sources:
+        - source: sep-strauss
+          locator: "§4 The Theologico-Political Predicament of Modernity"
+          verified: true
+          checked_in: SEP entry (rev. 2021), accessed 2026-11
+        - source: syl-yale-smith
+          locator: 'outline II, "How Did Strauss Become Strauss?"'
+          verified: true
+          checked_in: Course syllabus (PDF), accessed 2026-11
+    after:
+      - work: spinoza:ttp
+        strength: helpful
+        why: >
+          Strauss: "This study of Spinoza's Theologico-Political Treatise was written
+          during the years 1925–28 in Germany" (preface, quoted in the SEP).
+        sources:
+          - source: sep-strauss
+            locator: "§4"
+            verified: true
+            checked_in: SEP entry (rev. 2021), accessed 2026-11
+
+  - id: notes-schmitt
+    title: "Notes on Carl Schmitt, The Concept of the Political"
+    author: Leo Strauss
+    year: 1932
+    kind: primary
+    tier: extended
+    difficulty: 3
+    note: >
+      A review essay arguing that Schmitt remained "within the horizon of modern
+      liberalism". Strauss later said reading Schmitt changed his orientation toward
+      philosophy and politics (SEP §1).
+
+  - id: philosophy-hobbes
+    title: "The Political Philosophy of Hobbes: Its Basis and Its Genesis"
+    author: Leo Strauss
+    year: 1936
+    kind: primary
+    tier: extended
+    difficulty: 3
+    translation: Sinclair (Oxford 1936)
+    note: >
+      Written in Paris and England on a Rockefeller fellowship. Treats Hobbes as the
+      founding theorist of the liberal state (SEP §1).
+
+  # ---------- New School and Chicago ----------
+
+  - id: on-tyranny
+    title: "On Tyranny: An Interpretation of Xenophon's Hiero"
+    author: Leo Strauss
+    year: 1948
+    kind: primary
+    tier: extended
+    difficulty: 3
+    translation: Gourevitch and Roth ed., with the Strauss–Kojève correspondence (Chicago 2000)
+    note: >
+      A close reading of Xenophon's dialogue on the tension between the philosophical
+      quest for truth and the requirements of society (SEP §1). The 2000 edition adds
+      the Strauss–Kojève correspondence.
+
+  - id: persecution
+    title: Persecution and the Art of Writing
+    author: Leo Strauss
+    year: 1952
+    kind: primary
+    tier: core
+    difficulty: 3
+    note: >
+      Essays arguing that some pre-modern thinkers must be read "between the lines":
+      the threat of persecution produced writing with one message for most readers and
+      another for a few (SEP §1, §3). Includes "How to Read Spinoza's Theologico-Political
+      Treatise".
+    tips:
+      - text: >
+          Courses assign the opening pages: the Introduction and the title essay
+          (Cornell pp. 7–37; Yale's political theory exam list pp. 22–37).
+        sources:
+          - source: syl-cornell-frank
+            locator: week 8
+            verified: true
+            checked_in: Course syllabus (PDF), accessed 2026-11
+          - source: yale-pt-exam-2015
+            locator: Appendix A
+            verified: true
+            checked_in: Exam reading list (PDF), accessed 2026-11
+    after:
+      - work: spinoza:ttp
+        strength: context
+        why: >
+          One of its essays is "How to Read Spinoza's Theologico-Political Treatise",
+          which Yale's Strauss course reads as "esotericism in practice".
+        sources:
+          - source: syl-yale-smith
+            locator: outline V
+            verified: true
+            checked_in: Course syllabus (PDF), accessed 2026-11
+
+  - id: natural-right
+    title: Natural Right and History
+    author: Leo Strauss
+    year: 1953
+    kind: primary
+    tier: core
+    difficulty: 4
+    note: >
+      His "best-known American work". It starts from Max Weber and historicism, then
+      contrasts modern natural right, beginning with Hobbes, with ancient natural right,
+      beginning with Plato (SEP §1).
+    tips:
+      - text: >
+          The introduction and first two chapters (pp. 1–80), on historicism and the
+          fact–value distinction, stand on their own; Yale's exam list assigns them as
+          a reading on method.
+        sources:
+          - source: yale-pt-exam-2015
+            locator: Appendix A ("Interpretation and Methods")
+            verified: true
+            checked_in: Exam reading list (PDF), accessed 2026-11
+    after:
+      - work: plato:republic
+        strength: context
+        why: >
+          The book contrasts modern natural right with the ancient conception "beginning
+          with Plato".
+        sources:
+          - source: sep-strauss
+            locator: "§1 Life and Work"
+            verified: true
+            checked_in: SEP entry (rev. 2021), accessed 2026-11
+
+  - id: thoughts-machiavelli
+    title: Thoughts on Machiavelli
+    author: Leo Strauss
+    year: 1958
+    kind: primary
+    tier: extended
+    difficulty: 4
+    note: >
+      "Likely his most controversial study"; it makes Machiavelli's "anti-theological
+      ire" the source of modernity (SEP §1).
+
+  - id: what-is-pp
+    title: What Is Political Philosophy? and Other Studies
+    author: Leo Strauss
+    year: 1959
+    kind: primary
+    tier: core
+    difficulty: 3
+    note: >
+      Yale's course reads the title essay in two parts, on classical political philosophy
+      and on the modern break; the volume also holds "On a Forgotten Kind of Writing" and
+      "Political Philosophy and History".
+
+  - id: city-and-man
+    title: The City and Man
+    author: Leo Strauss
+    kind: primary
+    tier: extended
+    difficulty: 4
+    note: >
+      Essays on Aristotle's Politics, Plato's Republic and Thucydides.
+    after:
+      - work: plato:republic
+        strength: helpful
+        why: >
+          "The center of the book is Strauss's dialogue with Plato's Republic"; its
+          essay on Plato is "a full-scale discussion of Platonic political philosophy".
+        sources:
+          - source: uchicago-meier-city-man
+            locator: course description
+            verified: true
+            checked_in: Department web page, accessed 2026-11
+          - source: ucp-city-and-man
+            locator: book description
+            verified: true
+            checked_in: University of Chicago Press website, accessed 2026-11
+
+  # ---------- Later essays ----------
+
+  - id: jerusalem-athens
+    title: '"Jerusalem and Athens: Some Preliminary Reflections"'
+    author: Leo Strauss
+    kind: primary
+    tier: optional
+    difficulty: 3
+    note: On reason and revelation; Yale's course reads it under that heading.
+
+  - id: liberalism-ancient-modern
+    title: Liberalism Ancient and Modern
+    author: Leo Strauss
+    kind: primary
+    tier: optional
+    position: end
+    difficulty: 3
+    note: >
+      Essays, including "Liberal Education" and the Spinoza preface.
+
+  - id: rebirth
+    title: The Rebirth of Classical Political Rationalism
+    author: Leo Strauss (ed. Thomas L. Pangle)
+    kind: primary
+    tier: optional
+    position: end
+    difficulty: 3
+    note: >
+      A selection of essays and lectures edited by Thomas Pangle, including "Exoteric Teaching" and
+      "Progress or Return?".

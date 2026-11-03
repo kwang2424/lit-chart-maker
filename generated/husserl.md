@@ -153,6 +153,16 @@ graph TD
   classDef optional fill:#eeeeee,stroke:#888,color:#000
 ```
 
+## Connections
+
+**Builds on**
+
+- *Critique of Pure Reason* (Immanuel Kant) → *Ideas I (Ideas Pertaining to a Pure Phenomenology: General Introduction to Pure Phenomenology)* — context. In calling his phenomenology "transcendental", Husserl "was precisely pointing to the Kantian legacy".
+
+**Who builds on Edmund Husserl**
+
+- *Logical Investigations* → *Being and Time* (Martin Heidegger) — context. Heidegger studied the Logical Investigations as a student and kept valuing it while he radically reinterpreted Husserl's phenomenology.
+
 ## Sources
 
 - **[scholarly]** Stanford Encyclopedia of Philosophy, *"Edmund Husserl", Stanford Encyclopedia of Philosophy* — <https://plato.stanford.edu/entries/husserl/>

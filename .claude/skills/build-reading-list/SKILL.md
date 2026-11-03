@@ -11,8 +11,10 @@ long list with plausible guesses. Everything below serves that.
 
 ## The loop
 
-1. **Scope** the author: which works (10–30), which group (`thinkers` or `predecessors`)
-   and `sequence`, and which existing lists it should link to or from.
+1. **Scope** the author: which works (10–30), which group (`thinkers` or `predecessors`),
+   `sequence`, `born` (for the connections map), and which existing lists it should link
+   to or from. Cross-list links are what the map at `site/map.html` is built from, so look
+   for sourced ones in both directions.
 2. **Gather sources by tier**, strongest first (see below). Download everything first,
    then read it; most claims come out of a few documents.
 3. **Verify** each claim against the text before writing it down. Record the locator and

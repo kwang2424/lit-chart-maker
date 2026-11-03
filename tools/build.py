@@ -29,6 +29,7 @@ from pathlib import Path
 import yaml
 
 import chart
+import connections
 import consensus
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -114,6 +115,8 @@ def validate(lists: dict, sources: dict, report: Report, strict: bool) -> None:
                 report.error(f"{lid}: missing '{key}'")
         if data.get("status") not in STATUSES:
             report.error(f"{lid}: status must be one of {STATUSES}")
+        if not isinstance(data.get("born"), int):
+            report.error(f"{lid}: needs 'born' (birth year; negative for BCE) for the connections map")
         if data.get("group", "thinkers") not in ("thinkers", "predecessors"):
             report.error(f"{lid}: group must be 'thinkers' or 'predecessors'")
         if data.get("group") == "predecessors" and not isinstance(data.get("sequence"), int):
@@ -510,6 +513,8 @@ def render(data: dict, lists: dict, sources: dict) -> str:
         "```",
         "",
     ]
+
+    out += connections.section_md(lid, lists)
 
     used = sorted({c["source"] for c in cites}, key=lambda s: (sources[s]["tier"], s))
     out += ["## Sources", ""]

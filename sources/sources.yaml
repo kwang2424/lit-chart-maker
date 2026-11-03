@@ -857,3 +857,105 @@
   author: University of Essex
   title: "Basic Jungian Concepts (short course)"
   url: https://shortcoursesgateway.essex.ac.uk/Course?dates=0&courseref=PPS%3ABAS.JUNG.ONLINE
+
+# ---------- Arendt ----------
+
+- id: sep-arendt
+  tier: 2
+  author: Stanford Encyclopedia of Philosophy
+  title: '"Hannah Arendt", Stanford Encyclopedia of Philosophy'
+  url: https://plato.stanford.edu/entries/arendt/
+
+- id: iep-arendt
+  tier: 2
+  author: Internet Encyclopedia of Philosophy
+  title: '"Hannah Arendt (1906–1975)"'
+  url: https://iep.utm.edu/arendt/
+
+- id: syl-western-calcagno
+  tier: 3
+  author: Antonio Calcagno, Western University
+  title: "CSTC 9154A: The Philosophy of Hannah Arendt (2020)"
+  url: https://www.uwo.ca/theory/current_students/course_descriptions/Calcagno-9154A-2020.pdf
+
+- id: syl-cuny-wolin
+  tier: 3
+  author: Richard Wolin, CUNY Graduate Center
+  title: "The Political Thought of Hannah Arendt (Spring 2020)"
+  url: https://www.gc.cuny.edu/sites/default/files/2022-05/Political-Thought-of-HA_history_syllabus.pdf
+
+- id: syl-newschool-crary
+  tier: 3
+  author: Alice Crary, The New School
+  title: "Hannah Arendt (Spring 2021)"
+  url: https://alicecrary.com/wp-content/uploads/2021/01/syllabus-hannah-arendt-s21_web.pdf
+
+- id: syl-maclachlan-arendt
+  tier: 3
+  author: Alice MacLachlan
+  title: "PHIL 6150: History of Continental Philosophy (Hannah Arendt)"
+  url: https://www.alicemaclachlan.com/PDF/PHIL6150Syllabus.pdf
+
+- id: syl-oregon-mann
+  tier: 3
+  author: Bonnie Mann, University of Oregon
+  title: "PHIL 453/553: Hannah Arendt (Winter 2012)"
+  url: https://pages.uoregon.edu/uophil/files/PHIL_453-553_Arendt.pdf
+
+- id: syl-cornell-frank
+  tier: 3
+  author: Jason Frank, Cornell University
+  title: "Government 6586: Schmitt, Strauss, Arendt (Spring 2017)"
+  url: https://jasonfrank.info/wp-content/uploads/2017/05/Schmitt-Strauss-Arendt-Syllabus.pdf
+
+# ---------- Strauss ----------
+
+- id: sep-strauss
+  tier: 2
+  author: Stanford Encyclopedia of Philosophy
+  title: '"Leo Strauss" (rev. 2021)'
+  url: https://plato.stanford.edu/entries/strauss-leo/
+
+- id: ucp-city-and-man
+  tier: 2
+  author: University of Chicago Press
+  title: "The City and Man (book page)"
+  url: https://press.uchicago.edu/ucp/books/book/chicago/C/bo3637986.html
+
+- id: syl-yale-smith
+  tier: 3
+  author: Steven B. Smith, Yale University
+  title: "PLSC 330b/598b: Leo Strauss & Straussianism (Spring 2008)"
+  url: https://cpb-us-w2.wpmucdn.com/campuspress.yale.edu/dist/d/3326/files/2020/02/Leo-Strauss-Straussianism.pdf
+
+- id: yale-pt-exam-2015
+  tier: 3
+  author: Department of Political Science, Yale University
+  title: "Political Theory Exam List 2015"
+  url: https://politicalscience.yale.edu/sites/default/files/political_theory-reading_list-2015.pdf
+
+- id: uchicago-meier-city-man
+  tier: 3
+  author: Heinrich Meier, Department of Philosophy, University of Chicago
+  title: "Seminar: Politics and Philosophy: Leo Strauss's The City and Man"
+  url: https://philosophy.uchicago.edu/node/9868
+
+# ---------- Berlin ----------
+
+- id: sep-berlin
+  tier: 2
+  author: Stanford Encyclopedia of Philosophy (Joshua Cherniss and Henry Hardy)
+  title: '"Isaiah Berlin"'
+  url: https://plato.stanford.edu/entries/berlin/
+
+- id: fivebooks-hardy-berlin
+  tier: 2
+  author: Henry Hardy (Berlin's editor), interviewed by Five Books
+  title: "The Best Isaiah Berlin Books"
+  url: https://fivebooks.com/best-books/henry-hardy-on-isaiah-berlin/
+
+- id: syl-yale-smith-2025
+  tier: 3
+  author: Steven B. Smith, Yale University
+  title: "HUM 329/PHIL 656: The Revival of Political Theory (Spring 2025)"
+  url: https://coursetexts.org/the-revival-of-political-theory-hum-329phil-656

@@ -382,6 +382,25 @@ graph TD
   classDef optional fill:#eeeeee,stroke:#888,color:#000
 ```
 
+## Connections
+
+**Builds on**
+
+- *A Treatise of Human Nature* (David Hume) → *Empiricism and Subjectivity* — context. It is a study of Hume.
+- *Phenomenology of Spirit* (G. W. F. Hegel) → *Nietzsche and Philosophy* — context. It is written against Hegel: the SEP describes Deleuze's early books as trying to "accelerate however he could a departure from Hegel".
+- *On the Genealogy of Morality* (Friedrich Nietzsche) → *Nietzsche and Philosophy* — helpful. It reads the Genealogy's method and its "noble" forces as the core of Nietzsche's philosophy.
+- *Critique of Pure Reason* (Immanuel Kant) → *Kant's Critical Philosophy* — context. It is a reading of Kant, and Deleuze's later work starts from this reading.
+- *Time and Free Will: An Essay on the Immediate Data of Consciousness* (Henri Bergson) → *Bergsonism* — context. It builds on arguments from Bergson's Creative Evolution and Time and Free Will.
+- *Creative Evolution* (Henri Bergson) → *Bergsonism* — context. It builds on arguments from Bergson's Creative Evolution and Time and Free Will.
+- *Ethics* (Baruch Spinoza) → *Expressionism in Philosophy: Spinoza* — context. It is a reading of Spinoza, whom Deleuze called the "prince" of philosophers.
+- *Being and Time* (Martin Heidegger) → *Difference and Repetition* — context. Its history of how difference was subordinated to identity runs "from Plato (DR 59-63) to Heidegger (DR 64-6)".
+- *Republic* (Plato) → *Difference and Repetition* — context. It attacks Plato's three-tiered system of Idea, copy and simulacrum (DR 59–63).
+- *Republic* (Plato) → *The Logic of Sense* — context. It attacks Plato's three-tiered system of Idea, copy and simulacrum (the appendix, LS 253–65).
+- *On the Genealogy of Morality* (Friedrich Nietzsche) → *Anti-Oedipus (Capitalism and Schizophrenia, vol. 1)* — context. A Deleuze and Guattari course recommends reading Nietzsche's Genealogy beforehand, and assigns it alongside Anti-Oedipus.
+- *Preface to A Contribution to the Critique of Political Economy* (Karl Marx) → *Anti-Oedipus (Capitalism and Schizophrenia, vol. 1)* — context. Its central idea, "desiring-production", is a critique of both Marx and Freud. A Deleuze and Guattari course suggests reading Marx's 1859 Preface beforehand.
+- *Value, Price and Profit* (Karl Marx) → *Anti-Oedipus (Capitalism and Schizophrenia, vol. 1)* — context. The same course also suggests Marx's Value, Price and Profit as preparation.
+- *Three Essays on the Theory of Sexuality* (Sigmund Freud) → *Anti-Oedipus (Capitalism and Schizophrenia, vol. 1)* — context. The Freud side of its critique: the same course suggests Freud's Three Essays on sexuality as preparation.
+
 ## Sources
 
 - **[author]** Gilles Deleuze & Félix Guattari, *A Thousand Plateaus ("Author's Note")*, 1980

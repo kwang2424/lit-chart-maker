@@ -232,6 +232,19 @@ graph TD
   classDef optional fill:#eeeeee,stroke:#888,color:#000
 ```
 
+## Connections
+
+**Builds on**
+
+- *Logical Investigations* (Edmund Husserl) → *Being and Time* — context. Heidegger studied the Logical Investigations as a student and kept valuing it while he radically reinterpreted Husserl's phenomenology.
+- *Critique of Pure Reason* (Immanuel Kant) → *Kant and the Problem of Metaphysics* — helpful. It is an interpretation of the Critique of Pure Reason.
+- *Twilight of the Idols* (Friedrich Nietzsche) → *Nietzsche (lecture courses, 4 vols. in English)* — context. It argues that Nietzsche "over-turns Platonism and completes Western metaphysics"; Twilight's "true world" fable is the short version of that overturning.
+
+**Who builds on Martin Heidegger**
+
+- *Being and Time* → *The Human Condition* (Hannah Arendt) — context. Heidegger's phenomenology had "the greater... lasting influence upon Arendt's work", and one Arendt course opens with Being and Time.
+- *Being and Time* → *Difference and Repetition* (Gilles Deleuze) — context. Its history of how difference was subordinated to identity runs "from Plato (DR 59-63) to Heidegger (DR 64-6)".
+
 ## Sources
 
 - **[author]** Friedrich Nietzsche, *Twilight of the Idols*, 1889

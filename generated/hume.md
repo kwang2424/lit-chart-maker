@@ -147,6 +147,13 @@ graph TD
   classDef optional fill:#eeeeee,stroke:#888,color:#000
 ```
 
+## Connections
+
+**Who builds on David Hume**
+
+- *A Treatise of Human Nature* → *Empiricism and Subjectivity* (Gilles Deleuze) — context. It is a study of Hume.
+- *An Enquiry concerning Human Understanding* → *Prolegomena to Any Future Metaphysics* (Immanuel Kant) — context. Kant: "the suggestion of David Hume was the very thing, which many years ago first interrupted my dogmatic slumber". Oxford recommends early modern philosophy first.
+
 ## Sources
 
 - **[author]** David Hume, *"Advertisement" to Essays and Treatises on Several Subjects*, 1775
