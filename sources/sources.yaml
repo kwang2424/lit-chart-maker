@@ -97,3 +97,45 @@
   title: 'Friedrich Nietzsche: A Philosophical Biography'
   publisher: Cambridge University Press
   year: 2010
+
+# ---------- Deleuze ----------
+
+- id: sep-deleuze
+  tier: 2
+  author: Daniel Smith, John Protevi, Daniela Voss
+  title: '"Gilles Deleuze", Stanford Encyclopedia of Philosophy'
+  url: https://plato.stanford.edu/entries/deleuze/
+
+- id: deleuze-guattari-atp-text
+  tier: 1
+  author: Gilles Deleuze & Félix Guattari
+  title: A Thousand Plateaus ("Author's Note")
+  year: 1980
+
+- id: deleuze-harsh-critic
+  tier: 1
+  author: Gilles Deleuze
+  title: '"Letter to a Harsh Critic" (1973), in Negotiations'
+  publisher: Columbia University Press
+  year: 1995
+
+- id: williams-dr-guide
+  tier: 2
+  author: James Williams
+  title: "Gilles Deleuze's Difference and Repetition: A Critical Introduction and Guide"
+  publisher: Edinburgh University Press
+  year: 2004
+
+- id: holland-ao-guide
+  tier: 2
+  author: Eugene Holland
+  title: "Deleuze and Guattari's Anti-Oedipus: Introduction to Schizoanalysis"
+  publisher: Routledge
+  year: 1999
+
+- id: massumi-users-guide
+  tier: 2
+  author: Brian Massumi
+  title: A User's Guide to Capitalism and Schizophrenia
+  publisher: MIT Press
+  year: 1992

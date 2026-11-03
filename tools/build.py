@@ -136,6 +136,10 @@ def validate(lists: dict, sources: dict, report: Report, strict: bool) -> None:
                     report.error(f"{where}: start_here needs a 'why'")
                 else:
                     check_citations(sh, f"{where} (start_here)", True, sources, report, must_verify)
+            for j, tip in enumerate(w.get("tips") or []):
+                if not (tip.get("text") or "").strip():
+                    report.error(f"{where}: tip {j + 1} needs 'text'")
+                check_citations(tip, f"{where} (tip {j + 1})", False, sources, report, must_verify)
 
             for link in w.get("after") or []:
                 ref = link.get("work", "")
@@ -373,10 +377,11 @@ def render(data: dict, lists: dict, sources: dict) -> str:
     def label(ref: str) -> str:
         tl, tw = resolve(ref, lid)
         w = next(x for x in lists[tl]["works"] if x["id"] == tw)
-        return f"*{w['title']}*" + ("" if tl == lid else f" (from the {lists[tl]['title']} list)")
+        return f"*{w['title']}*" + ("" if tl == lid else f" (from the [{lists[tl]['title']} list]({tl}.md))")
 
     claims = [l for w in data["works"] for l in (w.get("after") or [])]
     claims += [w["start_here"] for w in data["works"] if w.get("start_here")]
+    claims += [t for w in data["works"] for t in (w.get("tips") or [])]
     cites = [c for l in claims for c in (l.get("sources") or [])]
     verified = sum(1 for c in cites if c.get("verified"))
 
@@ -425,6 +430,13 @@ def render(data: dict, lists: dict, sources: dict) -> str:
         if w.get("start_here"):
             out += [f"**★ Good place to start.** {w['start_here']['why'].strip()}", ""]
             out += [f"- {cite(c, sources)}" for c in w["start_here"].get("sources") or []]
+            out.append("")
+        if w.get("tips"):
+            out.append("**Reading tips:**")
+            out.append("")
+            for t in w["tips"]:
+                out.append(f"- {t['text'].strip()}")
+                out += [f"  - {cite(c, sources)}" for c in t.get("sources") or []]
             out.append("")
         if w.get("after"):
             out.append("**Read first:**")

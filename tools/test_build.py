@@ -49,6 +49,13 @@ class BuildTests(unittest.TestCase):
         self.assertTrue(any("unknown work" in e for e in errs))
         self.assertTrue(any("unknown source" in e for e in errs))
 
+    def test_cross_list_links(self):
+        self.assertEqual(errors(self.lists, self.sources), [])
+        d = {w["id"]: w for w in self.bad["deleuze"]["works"]}
+        d["bergsonism"]["after"] = [{"work": "nietzsche:nope", "strength": "context", "why": "x",
+                                     "sources": [{"source": "sep-deleuze"}]}]
+        self.assertTrue(any("nietzsche:nope: unknown work" in e for e in errors(self.bad, self.sources)))
+
     def test_order_respects_hard_links(self):
         data = self.lists["nietzsche"]
         _, full = b.compute_order(data)

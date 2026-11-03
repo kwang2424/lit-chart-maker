@@ -1,0 +1,494 @@
+id: deleuze
+title: Gilles Deleuze
+scope: >
+  Deleuze's books, alone and with Félix Guattari, the philosophers he
+  wrote about, and standard secondary guides. Links into the Nietzsche
+  list mark where that list's books help.
+status: draft   # draft -> reviewed -> stable
+
+# Format: see the header of lists/nietzsche.yaml.
+# Links to another list use "<list>:<work>", e.g. nietzsche:genealogy.
+
+works:
+
+  # ---------- Background: the philosophers he reads ----------
+
+  - id: hume-treatise
+    title: A Treatise of Human Nature
+    author: David Hume
+    year: 1739
+    kind: background
+    tier: optional
+    difficulty: 3
+    note: Book I is the part that matters for Deleuze's first book.
+
+  - id: kant-cpr
+    title: Critique of Pure Reason
+    author: Immanuel Kant
+    year: 1781
+    kind: background
+    tier: optional
+    difficulty: 5
+    note: >
+      Deleuze's whole project is a rewrite of Kant's. A good guide or summary
+      is enough for most readers.
+
+  - id: spinoza-ethics
+    title: Ethics
+    author: Baruch Spinoza
+    year: 1677
+    kind: background
+    tier: optional
+    difficulty: 4
+
+  - id: bergson
+    title: Time and Free Will; Creative Evolution
+    author: Henri Bergson
+    year: 1889
+    kind: background
+    tier: optional
+    difficulty: 3
+    note: Where Deleuze gets "multiplicity" and "the virtual".
+
+  - id: leibniz
+    title: Monadology; Theodicy
+    author: G. W. Leibniz
+    year: 1710
+    kind: background
+    tier: optional
+    difficulty: 3
+
+  - id: freud-marx
+    title: Freud and Marx (any good introduction to each)
+    kind: background
+    tier: optional
+    difficulty: 2
+    note: >
+      Anti-Oedipus is a critique of both. Knowing the Oedipus complex and Marx's
+      idea of production is enough.
+
+  # ---------- Entry guide ----------
+
+  - id: may-intro
+    title: 'Gilles Deleuze: An Introduction'
+    author: Todd May
+    year: 2005
+    kind: secondary
+    tier: extended
+    position: start
+    difficulty: 2
+    note: A readable overview organised around one question. Good before or alongside the first Deleuze book.
+
+  # ---------- Studies of other philosophers ----------
+
+  - id: empiricism-subjectivity
+    title: Empiricism and Subjectivity
+    author: Gilles Deleuze
+    year: 1953
+    kind: primary
+    tier: optional
+    difficulty: 3
+    note: His first book, on Hume.
+    after:
+      - work: hume-treatise
+        strength: context
+        why: It is a study of Hume.
+        sources:
+          - source: sep-deleuze
+            locator: "§1 Life and Works"
+            verified: true
+            checked_in: SEP online (2022 revision), accessed 2026-11
+
+  - id: nietzsche-and-philosophy
+    title: Nietzsche and Philosophy
+    author: Gilles Deleuze
+    year: 1962
+    kind: primary
+    tier: core
+    difficulty: 3
+    translation: Tomlinson (Columbia / Bloomsbury)
+    note: >
+      The book that made his name. Reads Nietzsche as completing and overturning Kant,
+      and against Hegel. Useful even if you mostly care about Nietzsche.
+    after:
+      - work: nietzsche:genealogy
+        strength: helpful
+        why: >
+          It reads the Genealogy's method and its "noble" forces as the core of
+          Nietzsche's philosophy.
+        sources:
+          - source: sep-deleuze
+            locator: "§2 Deleuze's Readings of Other Philosophers"
+            verified: true
+            checked_in: SEP online (2022 revision), accessed 2026-11
+
+  - id: kants-critical-philosophy
+    title: "Kant's Critical Philosophy"
+    author: Gilles Deleuze
+    year: 1963
+    kind: primary
+    tier: extended
+    difficulty: 3
+    note: A short, dense survey of all three Critiques.
+    after:
+      - work: kant-cpr
+        strength: context
+        why: It is a reading of Kant, and Deleuze's later work starts from this reading.
+        sources:
+          - source: sep-deleuze
+            locator: "§2 Deleuze's Readings of Other Philosophers"
+            verified: true
+            checked_in: SEP online (2022 revision), accessed 2026-11
+
+  - id: proust-signs
+    title: Proust and Signs
+    author: Gilles Deleuze
+    year: 1964
+    kind: primary
+    tier: optional
+    difficulty: 2
+
+  - id: bergsonism
+    title: Bergsonism
+    author: Gilles Deleuze
+    year: 1966
+    kind: primary
+    tier: core
+    difficulty: 3
+    translation: Tomlinson & Habberjam (Zone Books)
+    note: Short. Introduces the virtual and multiplicity, the two ideas his later work runs on.
+    after:
+      - work: bergson
+        strength: context
+        why: It builds on arguments from Bergson's Creative Evolution and Time and Free Will.
+        sources:
+          - source: sep-deleuze
+            locator: "§2 Deleuze's Readings of Other Philosophers"
+            verified: true
+            checked_in: SEP online (2022 revision), accessed 2026-11
+
+  - id: expressionism-spinoza
+    title: 'Expressionism in Philosophy: Spinoza'
+    author: Gilles Deleuze
+    year: 1968
+    kind: primary
+    tier: extended
+    difficulty: 4
+    note: His secondary doctoral thesis, written alongside Difference and Repetition.
+    after:
+      - work: spinoza-ethics
+        strength: context
+        why: It is a reading of Spinoza, whom Deleuze called the "prince" of philosophers.
+        sources:
+          - source: sep-deleuze
+            locator: "§1 Life and Works; §2"
+            verified: true
+            checked_in: SEP online (2022 revision), accessed 2026-11
+
+  - id: spinoza-practical
+    title: 'Spinoza: Practical Philosophy'
+    author: Gilles Deleuze
+    year: 1981
+    kind: primary
+    tier: optional
+    difficulty: 2
+    note: A shorter companion to the Spinoza book, with a glossary of Spinoza's terms.
+
+  # ---------- Philosophy "in his own name" ----------
+
+  - id: difference-and-repetition
+    title: Difference and Repetition
+    author: Gilles Deleuze
+    year: 1968
+    kind: primary
+    tier: core
+    difficulty: 5
+    translation: Patton (Columbia / Bloomsbury)
+    note: His major solo work, and the hardest book on this list. Go slowly.
+    tips:
+      - text: >
+          Chapter 3, "The Image of Thought", is the turning point from his readings of
+          other philosophers to his own philosophy. Some readers start there.
+        sources:
+          - source: sep-deleuze
+            locator: "§3.1 Difference and Repetition"
+            verified: true
+            checked_in: SEP online (2022 revision), accessed 2026-11
+    after:
+      - work: nietzsche-and-philosophy
+        strength: helpful
+        why: >
+          His studies of other philosophers were "preliminary sketches" for this book,
+          and he credited Nietzsche with getting him out of plain history of philosophy.
+        sources:
+          - source: sep-deleuze
+            locator: "§3.1 Difference and Repetition"
+            verified: true
+            checked_in: SEP online (2022 revision), accessed 2026-11
+          - source: deleuze-harsh-critic
+            locator: "p. 6"
+            verified: false
+      - work: bergsonism
+        strength: helpful
+        why: Bergsonism develops the virtual and multiplicity, which this book depends on.
+        sources:
+          - source: sep-deleuze
+            locator: "§2 Deleuze's Readings of Other Philosophers"
+            verified: true
+            checked_in: SEP online (2022 revision), accessed 2026-11
+      - work: kants-critical-philosophy
+        strength: context
+        why: The book is still a (rewritten) Kantian, transcendental project.
+        sources:
+          - source: sep-deleuze
+            locator: "§3.1 Difference and Repetition"
+            verified: true
+            checked_in: SEP online (2022 revision), accessed 2026-11
+
+  - id: logic-of-sense
+    title: The Logic of Sense
+    author: Gilles Deleuze
+    year: 1969
+    kind: primary
+    tier: extended
+    difficulty: 5
+    note: On how meaning arises. Built from short "series"; draws on Lewis Carroll and the Stoics.
+    after:
+      - work: difference-and-repetition
+        strength: context
+        why: His second major work of the late 1960s, continuing the philosophy of difference.
+        sources:
+          - source: sep-deleuze
+            locator: "§3.2 Logic of Sense"
+            verified: true
+            checked_in: SEP online (2022 revision), accessed 2026-11
+
+  # ---------- With Guattari ----------
+
+  - id: anti-oedipus
+    title: 'Anti-Oedipus (Capitalism and Schizophrenia, vol. 1)'
+    author: Gilles Deleuze & Félix Guattari
+    year: 1972
+    kind: primary
+    tier: core
+    difficulty: 4
+    translation: Hurley, Seem & Lane (Minnesota / Penguin)
+    note: Deliberately shocking in style. Foucault's preface to the English edition is a good way in.
+    after:
+      - work: difference-and-repetition
+        strength: helpful
+        why: >
+          The books with Guattari take the framework of Difference and Repetition
+          and make it material and political.
+        sources:
+          - source: sep-deleuze
+            locator: "§4 Collaboration with Guattari"
+            verified: true
+            checked_in: SEP online (2022 revision), accessed 2026-11
+      - work: freud-marx
+        strength: context
+        why: Its central idea, "desiring-production", is a critique of both Freud and Marx.
+        sources:
+          - source: sep-deleuze
+            locator: "§4.1 Anti-Oedipus"
+            verified: true
+            checked_in: SEP online (2022 revision), accessed 2026-11
+
+  - id: kafka
+    title: 'Kafka: Toward a Minor Literature'
+    author: Gilles Deleuze & Félix Guattari
+    year: 1975
+    kind: primary
+    tier: optional
+    difficulty: 3
+
+  - id: dialogues
+    title: Dialogues (with Claire Parnet)
+    author: Gilles Deleuze & Claire Parnet
+    year: 1977
+    kind: primary
+    tier: extended
+    difficulty: 2
+    note: Conversational; covers his main ideas in his own voice.
+
+  - id: thousand-plateaus
+    title: 'A Thousand Plateaus (Capitalism and Schizophrenia, vol. 2)'
+    author: Gilles Deleuze & Félix Guattari
+    year: 1980
+    kind: primary
+    tier: core
+    difficulty: 4
+    translation: Massumi (Minnesota)
+    note: >
+      Some consider it his masterwork alongside Difference and Repetition. Start
+      with the introduction, "Rhizome".
+    tips:
+      - text: >
+          The authors say the plateaus "may be read independently of one another,
+          except the conclusion, which should be read at the end."
+        sources:
+          - source: deleuze-guattari-atp-text
+            locator: "Author's Note"
+            verified: true
+            checked_in: Massumi trans. (1987), The Anarchist Library edition
+    after:
+      - work: anti-oedipus
+        strength: helpful
+        why: It is the second volume of Capitalism and Schizophrenia and reworks the first.
+        sources:
+          - source: sep-deleuze
+            locator: "§4.2 A Thousand Plateaus"
+            verified: true
+            checked_in: SEP online (2022 revision), accessed 2026-11
+
+  # ---------- Late works ----------
+
+  - id: francis-bacon
+    title: 'Francis Bacon: The Logic of Sensation'
+    author: Gilles Deleuze
+    year: 1981
+    kind: primary
+    tier: optional
+    difficulty: 3
+
+  - id: cinema-1
+    title: 'Cinema 1: The Movement-Image'
+    author: Gilles Deleuze
+    year: 1983
+    kind: primary
+    tier: optional
+    difficulty: 4
+    note: Easier if you know the films he discusses.
+
+  - id: cinema-2
+    title: 'Cinema 2: The Time-Image'
+    author: Gilles Deleuze
+    year: 1985
+    kind: primary
+    tier: optional
+    difficulty: 4
+    after:
+      - work: cinema-1
+        strength: helpful
+        why: The two volumes are one book on space and time in film.
+        sources:
+          - source: sep-deleuze
+            locator: "§5 Deleuze and the Arts"
+            verified: true
+            checked_in: SEP online (2022 revision), accessed 2026-11
+
+  - id: foucault
+    title: Foucault
+    author: Gilles Deleuze
+    year: 1986
+    kind: primary
+    tier: optional
+    difficulty: 4
+
+  - id: the-fold
+    title: 'The Fold: Leibniz and the Baroque'
+    author: Gilles Deleuze
+    year: 1988
+    kind: primary
+    tier: optional
+    difficulty: 4
+    after:
+      - work: leibniz
+        strength: context
+        why: It is a reading of Leibniz, built around the concept of the fold.
+        sources:
+          - source: sep-deleuze
+            locator: "§2 Deleuze's Readings of Other Philosophers"
+            verified: true
+            checked_in: SEP online (2022 revision), accessed 2026-11
+
+  - id: negotiations
+    title: Negotiations
+    author: Gilles Deleuze
+    year: 1990
+    kind: primary
+    tier: extended
+    difficulty: 2
+    note: >
+      Interviews and short pieces, including "Letter to a Harsh Critic", where he
+      explains his path. Good to dip into at any point.
+
+  - id: what-is-philosophy
+    title: What Is Philosophy?
+    author: Gilles Deleuze & Félix Guattari
+    year: 1991
+    kind: primary
+    tier: extended
+    difficulty: 3
+    note: Philosophy as the creation of concepts, compared with science and art.
+    after:
+      - work: thousand-plateaus
+        strength: context
+        why: Their last collaboration, after a long gap.
+        sources:
+          - source: sep-deleuze
+            locator: "§4.3 What is Philosophy?"
+            verified: true
+            checked_in: SEP online (2022 revision), accessed 2026-11
+
+  # ---------- Guides to single books ----------
+
+  - id: williams-dr-guide
+    title: "Gilles Deleuze's Difference and Repetition: A Critical Introduction and Guide"
+    author: James Williams
+    year: 2004
+    kind: secondary
+    tier: extended
+    difficulty: 3
+    note: Best read alongside Difference and Repetition, chapter by chapter.
+    after:
+      - work: difference-and-repetition
+        strength: required
+        why: It is a guide to Difference and Repetition.
+        sources:
+          - source: williams-dr-guide
+            locator: title
+            verified: true
+            checked_in: SEP bibliography entry
+
+  - id: holland-ao-guide
+    title: "Deleuze and Guattari's Anti-Oedipus: Introduction to Schizoanalysis"
+    author: Eugene Holland
+    year: 1999
+    kind: secondary
+    tier: optional
+    difficulty: 3
+    after:
+      - work: anti-oedipus
+        strength: required
+        why: It is a guide to Anti-Oedipus.
+        sources:
+          - source: holland-ao-guide
+            locator: title
+            verified: true
+            checked_in: SEP bibliography entry
+
+  - id: massumi-guide
+    title: A User's Guide to Capitalism and Schizophrenia
+    author: Brian Massumi
+    year: 1992
+    kind: secondary
+    tier: optional
+    difficulty: 3
+    note: By the translator of A Thousand Plateaus.
+    after:
+      - work: anti-oedipus
+        strength: required
+        why: It is a guide to the two-volume Capitalism and Schizophrenia.
+        sources:
+          - source: massumi-users-guide
+            locator: title
+            verified: true
+            checked_in: SEP bibliography entry
+      - work: thousand-plateaus
+        strength: context
+        why: It covers both volumes, though it leans on A Thousand Plateaus.
+        sources:
+          - source: massumi-users-guide
+            locator: title
+            verified: false

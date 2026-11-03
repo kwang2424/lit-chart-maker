@@ -11,6 +11,7 @@ status: draft   # draft -> reviewed -> stable
 #   difficulty:  1 (easy) .. 5 (very hard)
 #   position:    start | end   (optional; pins a non-core work to the start or end)
 #   start_here:  {why, sources}  (optional; a sourced claim that this is a good first book)
+#   tips:        [{text, sources}]  (optional; sourced advice on how to read it)
 #   after:       links to works best read first
 #     strength:  required | helpful | context
 #     why:       one sentence, in plain words
