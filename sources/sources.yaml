@@ -959,3 +959,35 @@
   author: Steven B. Smith, Yale University
   title: "HUM 329/PHIL 656: The Revival of Political Theory (Spring 2025)"
   url: https://coursetexts.org/the-revival-of-political-theory-hum-329phil-656
+
+# ---------- Lyotard ----------
+
+- id: sep-lyotard
+  tier: 2
+  author: Stanford Encyclopedia of Philosophy
+  title: '"Jean François Lyotard"'
+  url: https://plato.stanford.edu/entries/lyotard/
+
+- id: iep-lyotard
+  tier: 2
+  author: Internet Encyclopedia of Philosophy
+  title: '"Jean-François Lyotard (1924—1998)"'
+  url: https://iep.utm.edu/lyotard/
+
+- id: syl-lingnan-phi4369
+  tier: 3
+  author: Department of Philosophy, Lingnan University
+  title: "PHI4369: Postmodern Philosophy (course outline)"
+  url: https://ln.edu.hk/philoso/f/page/103887/309161/PHI4369.pdf
+
+- id: syl-auckland-french711
+  tier: 3
+  author: University of Auckland
+  title: "FRENCH 711: Special Topic: Theory and Text (2019)"
+  url: https://canvas.auckland.ac.nz/courses/41429/assignments/syllabus
+
+- id: mscp-jones-lyotard
+  tier: 3
+  author: Graham Jones, Melbourne School of Continental Philosophy
+  title: "The Works of Lyotard, Part 1 (Summer School 2023)"
+  url: https://mscp.org.au/past-courses/the-works-of-lyotard-part-1
