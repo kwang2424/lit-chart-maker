@@ -1,0 +1,323 @@
+id: heidegger
+title: Martin Heidegger
+group: thinkers
+sequence: 3
+scope: >
+  Being and Time, the lectures around it, and the later essays on art, technology and
+  language that shaped French philosophy after the war. His support for National
+  Socialism "has been amply documented" (SEP §3); the Black Notebooks (published from
+  2014) belong to any serious study of him.
+status: draft
+
+# Format: see the header of lists/nietzsche.yaml. His texts are in copyright, so the
+# evidence is mostly the SEP, the IEP and course syllabi rather than his own prefaces.
+
+survey:
+  - source: syl-georgetown-blattner
+    starts_with: being-and-time
+    includes: [being-and-time, basic-problems]
+    ordered: true
+    locator: course description and required texts
+    verified: true
+    checked_in: Course syllabus, accessed 2026-11
+  - source: syl-windsor-heidegger
+    starts_with: what-is-metaphysics
+    includes: [what-is-metaphysics, being-and-time, essence-of-truth]
+    ordered: true
+    locator: tentative reading schedule
+    verified: true
+    checked_in: Course syllabus, accessed 2026-11
+  - source: syl-villanova-heidegger
+    starts_with: being-and-time
+    includes: [being-and-time]
+    ordered: true
+    locator: schedule
+    verified: true
+    checked_in: Course web page, accessed 2026-11
+  - source: syl-bard-pl318
+    starts_with: being-and-time
+    includes: [being-and-time, what-is-metaphysics, essence-of-truth, origin-work-of-art, age-world-picture, letter-humanism, question-technology]
+    ordered: true
+    locator: schedule
+    verified: true
+    checked_in: Course syllabus, accessed 2026-11
+  - source: mscp-heidegger-fortunes
+    starts_with: origin-work-of-art
+    includes: [origin-work-of-art, age-world-picture, question-technology, letter-humanism, what-is-called-thinking, end-of-philosophy]
+    ordered: true
+    locator: weekly outline (later thought only)
+    verified: true
+    checked_in: Seminar web page, accessed 2026-11
+  - source: syl-berkeley-190-heidegger
+    includes: [origin-work-of-art, question-technology]
+    ordered: false
+    locator: course description (later philosophy only)
+    verified: true
+    checked_in: Course web page, accessed 2026-11
+
+works:
+
+  - id: husserl-li
+    title: Logical Investigations
+    author: Edmund Husserl
+    year: 1900
+    kind: background
+    tier: optional
+    difficulty: 5
+    note: Husserl's founding work of phenomenology. A good introduction to phenomenology serves most readers.
+
+  # ---------- Being and Time and around it ----------
+
+  - id: being-and-time
+    title: Being and Time
+    author: Martin Heidegger
+    year: 1927
+    kind: primary
+    tier: core
+    difficulty: 5
+    translation: Macquarrie & Robinson (Harper) or Stambaugh rev. Schmidt (SUNY)
+    note: >
+      The analysis of human existence (Dasein): being-in-the-world, care, death,
+      authenticity, temporality. The SEP calls it his magnum opus.
+    tips:
+      - text: >
+          It is unfinished: the published text covers the analysis of Dasein and a
+          preliminary account of time, but not the planned later parts.
+        sources:
+          - source: sep-heidegger
+            locator: "§2.8 The Unfinished Project of Being and Time"
+            verified: true
+            checked_in: SEP online, accessed 2026-11
+      - text: >
+          Translations differ a lot. One Being and Time course tells students to use
+          Macquarrie & Robinson and not Stambaugh's original translation.
+        sources:
+          - source: syl-georgetown-blattner
+            locator: required texts
+            verified: true
+            checked_in: Course syllabus, accessed 2026-11
+    after:
+      - work: husserl-li
+        strength: context
+        why: >
+          Heidegger studied the Logical Investigations as a student and kept valuing it while
+          he radically reinterpreted Husserl's phenomenology.
+        sources:
+          - source: iep-heidegger
+            locator: "§1 Life and Works"
+            verified: true
+            checked_in: IEP online, accessed 2026-11
+          - source: syl-bard-pl318
+            locator: course description ("radicalization of Husserlian phenomenology")
+            verified: true
+            checked_in: Course syllabus, accessed 2026-11
+      - work: blattner-guide
+        strength: context
+        why: Two of the surveyed courses recommend a reader's guide to read alongside it.
+        sources:
+          - source: syl-georgetown-blattner
+            locator: recommended texts
+            verified: true
+            checked_in: Course syllabus, accessed 2026-11
+          - source: syl-windsor-heidegger
+            locator: secondary texts
+            verified: true
+            checked_in: Course syllabus, accessed 2026-11
+
+  - id: blattner-guide
+    title: "Heidegger's Being and Time: A Reader's Guide"
+    author: William Blattner
+    year: 2006
+    kind: secondary
+    tier: extended
+    difficulty: 3
+    note: A section-by-section guide.
+
+  - id: dreyfus-being-in-world
+    title: "Being-in-the-World: A Commentary on Heidegger's Being and Time, Division I"
+    author: Hubert Dreyfus
+    year: 1991
+    kind: secondary
+    tier: optional
+    difficulty: 3
+    note: An influential commentary on the first half.
+    after:
+      - work: being-and-time
+        strength: helpful
+        why: It is a commentary on Division I of Being and Time, as its title says.
+        sources:
+          - source: syl-windsor-heidegger
+            locator: secondary texts
+            verified: true
+            checked_in: Course syllabus, accessed 2026-11
+
+  - id: basic-problems
+    title: The Basic Problems of Phenomenology
+    author: Martin Heidegger
+    year: 1927
+    kind: primary
+    tier: extended
+    difficulty: 4
+    note: The 1927 lecture course, published in 1975.
+    after:
+      - work: being-and-time
+        strength: context
+        why: Courses on Being and Time read parts of it alongside; one calls it "highly recommended".
+        sources:
+          - source: syl-georgetown-blattner
+            locator: course description
+            verified: true
+            checked_in: Course syllabus, accessed 2026-11
+          - source: syl-villanova-heidegger
+            locator: texts
+            verified: true
+            checked_in: Course web page, accessed 2026-11
+
+  - id: kant-problem
+    title: Kant and the Problem of Metaphysics
+    author: Martin Heidegger
+    year: 1929
+    kind: primary
+    tier: optional
+    difficulty: 5
+    note: His reading of Kant's first Critique.
+    after:
+      - work: kant:kant-cpr
+        strength: helpful
+        why: It is an interpretation of the Critique of Pure Reason.
+        sources:
+          - source: sep-heidegger
+            locator: "Bibliography, GA3"
+            verified: true
+            checked_in: SEP online, accessed 2026-11
+
+  - id: what-is-metaphysics
+    title: '"What Is Metaphysics?"'
+    author: Martin Heidegger
+    year: 1929
+    kind: primary
+    tier: core
+    difficulty: 3
+    translation: in Basic Writings (ed. Krell) or Pathmarks
+    tier_note: "Kept core: half the surveyed courses cover only Being and Time; two of the three that go further assign it."
+    note: A short 1929 lecture on the nothing and anxiety.
+
+  - id: essence-of-truth
+    title: '"On the Essence of Truth"'
+    author: Martin Heidegger
+    year: 1930
+    kind: primary
+    tier: extended
+    difficulty: 4
+    note: Truth as unconcealment. Courses read it after Being and Time.
+
+  # ---------- The "turning" and the later thought ----------
+
+  - id: introduction-to-metaphysics
+    title: Introduction to Metaphysics
+    author: Martin Heidegger
+    year: 1935
+    kind: primary
+    tier: optional
+    difficulty: 4
+    translation: Fried & Polt (Yale)
+    note: The 1935 lecture course, published in 1953.
+
+  - id: origin-work-of-art
+    title: '"The Origin of the Work of Art"'
+    author: Martin Heidegger
+    kind: primary
+    tier: core
+    difficulty: 4
+    translation: in Basic Writings or Poetry, Language, Thought
+    note: Art as the happening of truth; the Greek temple and Van Gogh's shoes.
+    after:
+      - work: being-and-time
+        strength: context
+        why: >
+          The SEP treats its new "attention to the role that artworks and poetry play in
+          disclosing being" as a mark of the "turning" after Being and Time.
+        sources:
+          - source: sep-heidegger
+            locator: "§4 The “Turning” and Heidegger’s Later Thought"
+            verified: true
+            checked_in: SEP online, accessed 2026-11
+
+  - id: contributions
+    title: Contributions to Philosophy (Of the Event)
+    author: Martin Heidegger
+    year: 1936
+    kind: primary
+    tier: optional
+    position: end
+    difficulty: 5
+    note: A private manuscript of 1936–38, published in 1989. For specialists.
+
+  - id: nietzsche-lectures
+    title: Nietzsche (lecture courses, 4 vols. in English)
+    author: Martin Heidegger
+    year: 1961
+    kind: primary
+    tier: optional
+    difficulty: 4
+    note: His lecture courses on Nietzsche. PhilPapers calls them the "canonical reading of Nietzsche in the 20th century".
+    after:
+      - work: nietzsche:twilight
+        strength: context
+        why: >
+          It argues that Nietzsche "over-turns Platonism and completes Western metaphysics";
+          Twilight's "true world" fable is the short version of that overturning.
+        sources:
+          - source: philpapers-nietzsche
+            locator: key works (Heidegger 1979)
+            verified: true
+            checked_in: PhilPapers category page, accessed 2026-11
+          - source: nietzsche-twilight-text
+            locator: '"How the True World Ultimately Became a Fable"'
+            verified: true
+            checked_in: Ludovici trans. (1911), Project Gutenberg #52263
+
+  - id: age-world-picture
+    title: '"The Age of the World Picture"'
+    author: Martin Heidegger
+    kind: primary
+    tier: extended
+    difficulty: 3
+    note: Modern science and the world grasped as a picture.
+
+  - id: letter-humanism
+    title: '"Letter on Humanism"'
+    author: Martin Heidegger
+    year: 1947
+    kind: primary
+    tier: core
+    difficulty: 3
+    tier_note: "Kept core: half the surveyed courses cover only Being and Time; two of the three that go further assign it."
+    note: His postwar essay on humanism, language and thinking, written as a letter in 1946.
+
+  - id: what-is-called-thinking
+    title: What Is Called Thinking?
+    author: Martin Heidegger
+    kind: primary
+    tier: optional
+    difficulty: 3
+    note: A late lecture course on thinking.
+
+  - id: question-technology
+    title: '"The Question Concerning Technology"'
+    author: Martin Heidegger
+    year: 1954
+    kind: primary
+    tier: core
+    difficulty: 3
+    translation: in Basic Writings or The Question Concerning Technology and Other Essays (Lovitt)
+    note: Technology as a way of revealing that treats everything as "standing reserve", mere material.
+
+  - id: end-of-philosophy
+    title: '"The End of Philosophy and the Task of Thinking"'
+    author: Martin Heidegger
+    year: 1964
+    kind: primary
+    tier: optional
+    difficulty: 3
+    note: A late essay, written in 1964.

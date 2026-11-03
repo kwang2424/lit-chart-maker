@@ -290,7 +290,7 @@ def index_page(lists: dict) -> str:
     if preds:
         h += [
             "<h2>Their predecessors, in historical order</h2>",
-            "<p>Who Nietzsche, Deleuze and Jung read and argued with. You don't need all of them: "
+            "<p>Who the thinkers above read and argued with. You don't need all of them: "
             "each thinker's page links to the specific books it depends on.</p>",
             '<div class="cards">',
         ] + [card(*l) for l in preds]

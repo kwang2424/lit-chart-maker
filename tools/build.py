@@ -346,7 +346,7 @@ def compute_order(data: dict) -> tuple[list[str], list[str]]:
                 p = min(leads_to) - 0.5
         if p is None and w["kind"] == "primary" and w.get("year"):
             # The author's own books: right after the latest core book published before it.
-            earlier = [pos[c] for c in core if year(by_id[c]) < w["year"]]
+            earlier = [pos[c] for c in core if year(by_id[c]) <= w["year"]]
             p = max(earlier) + 0.5 if earlier else -0.5
         if p is None and n in avg_pos and not w.get("year"):
             # Undated works: slot in after the last core work the surveyed sources put earlier.
