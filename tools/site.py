@@ -14,6 +14,7 @@ from pathlib import Path
 
 import build as b
 import chart
+import connections
 import consensus
 
 SITE = b.ROOT / "site"
@@ -94,6 +95,13 @@ ul.consensus { list-style: none; padding: 0; margin: 12px 0; }
 ul.consensus li { margin: 10px 0; }
 .bar { height: 8px; background: var(--line); border-radius: 99px; overflow: hidden; margin: 4px 0 2px; }
 .bar span { display: block; height: 100%; background: var(--core-edge); }
+svg.connmap { width: 100%; height: auto; margin: 12px 0 24px; }
+svg.connmap .arc { fill: none; stroke: var(--ext-edge); opacity: 0.55; }
+svg.connmap .node circle { fill: var(--opt-edge); }
+svg.connmap .node.thinker circle { fill: var(--core-edge); }
+svg.connmap .node text { font: 13px Georgia, serif; fill: var(--ink); }
+svg.connmap .node text.born { font: 10px -apple-system, Helvetica, sans-serif; fill: var(--muted); }
+svg.connmap a:hover text { text-decoration: underline; }
 """
 
 JS = """
@@ -140,7 +148,7 @@ def page(title: str, body: str, list_id: str = "") -> str:
 <body data-list="{list_id}">
 <div class="wrap">
 <header class="top"><a class="home" href="index.html">Reading Orders</a>
-<a class="sans meta" href="{REPO_URL}">Contribute on GitHub</a></header>
+<span class="sans meta"><a href="map.html">Map</a> · <a href="{REPO_URL}">Contribute</a></span></header>
 {body}
 <footer class="muted">Every link between books is backed by a source.
 Spot a mistake? <a href="{REPO_URL}/blob/main/CONTRIBUTING.md">Help fix it</a>.</footer>
@@ -259,6 +267,7 @@ def list_page(data: dict, lists: dict, sources: dict) -> str:
             parts.append("</ul>")
         parts.append("</div></article>")
         h.append("".join(parts))
+    h.append(connections.section_html(lid, lists))
     return page(f"{data['title']} reading order", "\n".join(h), lid)
 
 
@@ -321,6 +330,7 @@ def main() -> int:
     (SITE / "style.css").write_text(CSS.strip() + "\n", encoding="utf-8")
     (SITE / "app.js").write_text(JS.strip() + "\n", encoding="utf-8")
     (SITE / "index.html").write_text(index_page(lists), encoding="utf-8")
+    (SITE / "map.html").write_text(page("How they connect", connections.map_page_body(lists)), encoding="utf-8")
     for lid, data in lists.items():
         core, full = b.compute_order(data)
         svg = chart.render_svg(

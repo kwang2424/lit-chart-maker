@@ -234,6 +234,17 @@ graph TD
   classDef optional fill:#eeeeee,stroke:#888,color:#000
 ```
 
+## Connections
+
+**Who builds on Plato**
+
+- *Republic* → *Difference and Repetition* (Gilles Deleuze) — context. It attacks Plato's three-tiered system of Idea, copy and simulacrum (DR 59–63).
+- *Republic* → *The Logic of Sense* (Gilles Deleuze) — context. It attacks Plato's three-tiered system of Idea, copy and simulacrum (the appendix, LS 253–65).
+- *Symposium* → *The Birth of Tragedy* (Friedrich Nietzsche) — context. Its picture of Socrates draws on Plato: it recalls him leaving "the symposium at break of day" and makes "the dying Socrates" the new Greek ideal.
+- *Phaedo* → *Twilight of the Idols* (Friedrich Nietzsche) — context. "The Problem of Socrates" opens with Socrates' dying words ("I owe a cock to the god Asclepius"), from the end of the Phaedo.
+- *Republic* → *Twilight of the Idols* (Friedrich Nietzsche) — context. "How the 'True World' Finally Became a Fable" begins from Plato: its first stage is "a paraphrase of the proposition 'I, Plato, am the truth.'"
+- *Republic* → *The World as Will and Representation, vol. 1* (Arthur Schopenhauer) — helpful. A reader who "has lingered in the school of the divine Plato" will be "so much the better prepared".
+
 ## Sources
 
 - **[author]** Plato, *Crito (with Jowett's introduction)*

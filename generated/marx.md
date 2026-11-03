@@ -232,6 +232,18 @@ graph TD
   classDef optional fill:#eeeeee,stroke:#888,color:#000
 ```
 
+## Connections
+
+**Builds on**
+
+- *Elements of the Philosophy of Right* (G. W. F. Hegel) → *Contribution to the Critique of Hegel's Philosophy of Right: Introduction* — context. It is a critique of Hegel's Philosophy of Right, as its title says.
+- *Science of Logic* (G. W. F. Hegel) → *Capital, Volume 1* — context. He "openly avowed myself the pupil of that mighty thinker" Hegel, whose dialectic "is standing on its head. It must be turned right side up again."
+
+**Who builds on Karl Marx**
+
+- *Preface to A Contribution to the Critique of Political Economy* → *Anti-Oedipus (Capitalism and Schizophrenia, vol. 1)* (Gilles Deleuze) — context. Its central idea, "desiring-production", is a critique of both Marx and Freud. A Deleuze and Guattari course suggests reading Marx's 1859 Preface beforehand.
+- *Value, Price and Profit* → *Anti-Oedipus (Capitalism and Schizophrenia, vol. 1)* (Gilles Deleuze) — context. The same course also suggests Marx's Value, Price and Profit as preparation.
+
 ## Sources
 
 - **[author]** Frederick Engels, *Introduction to Marx's Wage Labour and Capital (1891)* — <https://www.marxists.org/archive/marx/works/1847/wage-labour/intro.htm>

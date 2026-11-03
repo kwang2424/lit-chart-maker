@@ -5,6 +5,7 @@ id: example                 # must match the file name
 title: Firstname Lastname
 group: predecessors         # thinkers | predecessors
 sequence: 9                 # place in historical order within its group
+born: 1900                  # birth year (negative for BCE); places the thinker on the connections map
 scope: >
   One or two sentences: what's in, what's out, and anything unusual about the
   evidence (e.g. "most courses found pair X with Y, which tilts the survey").

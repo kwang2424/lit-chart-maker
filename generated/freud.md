@@ -196,6 +196,14 @@ graph TD
   classDef optional fill:#eeeeee,stroke:#888,color:#000
 ```
 
+## Connections
+
+**Who builds on Sigmund Freud**
+
+- *Three Essays on the Theory of Sexuality* → *Anti-Oedipus (Capitalism and Schizophrenia, vol. 1)* (Gilles Deleuze) — context. The Freud side of its critique: the same course suggests Freud's Three Essays on sexuality as preparation.
+- *The Interpretation of Dreams* → *The Theory of Psychoanalysis* (C. G. Jung) — helpful. Jung says these lectures are where he first defines his own theoretical position toward Freud's principles.
+- *The Interpretation of Dreams* → *Symbols of Transformation (first published as Psychology of the Unconscious)* (C. G. Jung) — helpful. It is Jung's "first important statement of his independent position"; it widens Freud's idea of libido from sexuality to psychic energy in general.
+
 ## Sources
 
 - **[author]** Sigmund Freud, *Civilization and Its Discontents*, 1930

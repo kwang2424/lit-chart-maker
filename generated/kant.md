@@ -178,6 +178,22 @@ graph TD
   classDef optional fill:#eeeeee,stroke:#888,color:#000
 ```
 
+## Connections
+
+**Builds on**
+
+- *An Enquiry concerning Human Understanding* (David Hume) → *Prolegomena to Any Future Metaphysics* — context. Kant: "the suggestion of David Hume was the very thing, which many years ago first interrupted my dogmatic slumber". Oxford recommends early modern philosophy first.
+
+**Who builds on Immanuel Kant**
+
+- *Critique of Pure Reason* → *Kant's Critical Philosophy* (Gilles Deleuze) — context. It is a reading of Kant, and Deleuze's later work starts from this reading.
+- *Critique of Pure Reason* → *Phenomenology of Spirit* (G. W. F. Hegel) — context. The SEP traces Hegel's idea of a "phenomenology" as a propaedeutic to Kant, and Edinburgh's course spends two weeks on Kant "setting us up to see how Hegel's Phenomenology is shaped by it".
+- *Critique of Pure Reason* → *Kant and the Problem of Metaphysics* (Martin Heidegger) — helpful. It is an interpretation of the Critique of Pure Reason.
+- *Critique of Pure Reason* → *Ideas I (Ideas Pertaining to a Pure Phenomenology: General Introduction to Pure Phenomenology)* (Edmund Husserl) — context. In calling his phenomenology "transcendental", Husserl "was precisely pointing to the Kantian legacy".
+- *Prolegomena to Any Future Metaphysics* → *On the Fourfold Root of the Principle of Sufficient Reason* (Arthur Schopenhauer) — helpful. Its claim that the subject–object distinction is the condition of all knowledge comes from Kant's first Critique.
+- *Prolegomena to Any Future Metaphysics* → *The World as Will and Representation, vol. 1* (Arthur Schopenhauer) — required. "The philosophy of Kant ... is the only philosophy with which a thorough acquaintance is directly presupposed." The Prolegomena is Kant's own summary.
+- *Critique of Pure Reason* → *The World as Will and Representation, vol. 1* (Arthur Schopenhauer) — helpful. The Kant he presupposes and criticizes in his appendix is above all the Critique.
+
 ## Sources
 
 - **[author]** Immanuel Kant, *Critique of Judgement, Preface*, 1790

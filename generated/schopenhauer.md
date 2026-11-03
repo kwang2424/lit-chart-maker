@@ -138,6 +138,20 @@ graph TD
   classDef optional fill:#eeeeee,stroke:#888,color:#000
 ```
 
+## Connections
+
+**Builds on**
+
+- *Prolegomena to Any Future Metaphysics* (Immanuel Kant) → *On the Fourfold Root of the Principle of Sufficient Reason* — helpful. Its claim that the subject–object distinction is the condition of all knowledge comes from Kant's first Critique.
+- *Prolegomena to Any Future Metaphysics* (Immanuel Kant) → *The World as Will and Representation, vol. 1* — required. "The philosophy of Kant ... is the only philosophy with which a thorough acquaintance is directly presupposed." The Prolegomena is Kant's own summary.
+- *Critique of Pure Reason* (Immanuel Kant) → *The World as Will and Representation, vol. 1* — helpful. The Kant he presupposes and criticizes in his appendix is above all the Critique.
+- *Republic* (Plato) → *The World as Will and Representation, vol. 1* — helpful. A reader who "has lingered in the school of the divine Plato" will be "so much the better prepared".
+
+**Who builds on Arthur Schopenhauer**
+
+- *The World as Will and Representation, vol. 1* → *The Birth of Tragedy* (Friedrich Nietzsche) — helpful. It is written in Schopenhauer's terms, which Nietzsche later regretted using ("Kantian and Schopenhauerian formulae").
+- *The World as Will and Representation, vol. 1* → *Untimely Meditations* (Friedrich Nietzsche) — context. The third essay, "Schopenhauer as Educator", holds Schopenhauer up as a model philosopher.
+
 ## Sources
 
 - **[author]** Arthur Schopenhauer, *The World as Will and Representation, Preface to the first edition*, 1818

@@ -154,6 +154,18 @@ graph TD
   classDef optional fill:#eeeeee,stroke:#888,color:#000
 ```
 
+## Connections
+
+**Builds on**
+
+- *Critique of Pure Reason* (Immanuel Kant) → *Phenomenology of Spirit* — context. The SEP traces Hegel's idea of a "phenomenology" as a propaedeutic to Kant, and Edinburgh's course spends two weeks on Kant "setting us up to see how Hegel's Phenomenology is shaped by it".
+
+**Who builds on G. W. F. Hegel**
+
+- *Phenomenology of Spirit* → *Nietzsche and Philosophy* (Gilles Deleuze) — context. It is written against Hegel: the SEP describes Deleuze's early books as trying to "accelerate however he could a departure from Hegel".
+- *Elements of the Philosophy of Right* → *Contribution to the Critique of Hegel's Philosophy of Right: Introduction* (Karl Marx) — context. It is a critique of Hegel's Philosophy of Right, as its title says.
+- *Science of Logic* → *Capital, Volume 1* (Karl Marx) — context. He "openly avowed myself the pupil of that mighty thinker" Hegel, whose dialectic "is standing on its head. It must be turned right side up again."
+
 ## Sources
 
 - **[scholarly]** Paul Redding, *"Georg Wilhelm Friedrich Hegel", Stanford Encyclopedia of Philosophy* — <https://plato.stanford.edu/entries/hegel/>

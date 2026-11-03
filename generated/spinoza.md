@@ -155,6 +155,12 @@ graph TD
   classDef optional fill:#eeeeee,stroke:#888,color:#000
 ```
 
+## Connections
+
+**Who builds on Baruch Spinoza**
+
+- *Ethics* → *Expressionism in Philosophy: Spinoza* (Gilles Deleuze) — context. It is a reading of Spinoza, whom Deleuze called the "prince" of philosophers.
+
 ## Sources
 
 - **[scholarly]** Steven Nadler, *"Baruch Spinoza", Stanford Encyclopedia of Philosophy* — <https://plato.stanford.edu/entries/spinoza/>

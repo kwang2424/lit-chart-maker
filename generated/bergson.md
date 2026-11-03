@@ -126,6 +126,13 @@ graph TD
   classDef optional fill:#eeeeee,stroke:#888,color:#000
 ```
 
+## Connections
+
+**Who builds on Henri Bergson**
+
+- *Time and Free Will: An Essay on the Immediate Data of Consciousness* → *Bergsonism* (Gilles Deleuze) — context. It builds on arguments from Bergson's Creative Evolution and Time and Free Will.
+- *Creative Evolution* → *Bergsonism* (Gilles Deleuze) — context. It builds on arguments from Bergson's Creative Evolution and Time and Free Will.
+
 ## Sources
 
 - **[author]** Henri Bergson, *Creative Evolution*, 1907
