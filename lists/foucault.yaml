@@ -1,0 +1,354 @@
+id: foucault
+title: Michel Foucault
+group: thinkers
+sequence: 9
+born: 1926
+scope: >
+  Foucault's books, the key essays and the most-read Collège de France lectures, from
+  the History of Madness to the late volumes on ancient sexuality. Most courses found
+  centre on the genealogical books (Discipline and Punish, History of Sexuality vol. 1),
+  which tilts the survey away from the archaeological ones.
+status: draft
+
+# Format: see the header of lists/nietzsche.yaml. Years are first French publication
+# as the SEP bibliography gives them; lecture courses and essays are left undated
+# where the sources checked don't give a year.
+
+survey:
+  - source: syl-ucsc-koopman
+    includes: [history-of-madness, order-of-things, archaeology, order-of-discourse, ngh, discipline-punish, hs1, security-territory, birth-biopolitics, use-pleasure]
+    ordered: true
+    locator: working seminar schedule
+    verified: true
+    checked_in: Course web page, accessed 2026-11
+  - source: syl-lsu-protevi-foucault
+    starts_with: discipline-punish
+    includes: [discipline-punish, hs1, society-defended]
+    ordered: true
+    locator: schedule
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: syl-acg-ph4032
+    includes: [discipline-punish, ngh]
+    ordered: false
+    locator: "indicative content, Part I (Foucault): panopticism; his reading of Nietzsche and genealogy"
+    verified: true
+    checked_in: Course outline (PDF, updated Fall 2022), accessed 2026-11
+  - source: syl-ubc-hendricks
+    starts_with: ngh
+    includes: [ngh, discipline-punish, hs1, care-self, may-philosophy]
+    ordered: true
+    locator: weekly schedule (after Nietzsche's Genealogy)
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+
+works:
+
+  - id: may-philosophy
+    title: The Philosophy of Foucault
+    author: Todd May
+    year: 2006
+    kind: secondary
+    tier: optional
+    position: start
+    difficulty: 2
+    note: An introduction; UBC's course assigns its chapters alongside the primary texts.
+
+  # ---------- Archaeology ----------
+
+  - id: mental-illness
+    title: Mental Illness and Psychology
+    author: Michel Foucault
+    year: 1954
+    kind: primary
+    tier: optional
+    difficulty: 2
+    translation: Sheridan (Harper and Row 1976)
+    note: >
+      A short early book, first published as Maladie mentale et personnalité (1954) and
+      significantly revised in 1962; written, the SEP says, "in the grip of" Marxism.
+
+  - id: history-of-madness
+    title: History of Madness
+    author: Michel Foucault
+    year: 1961
+    kind: primary
+    tier: extended
+    difficulty: 4
+    translation: Murphy and Khalfa (Routledge 2006); abridged as Madness and Civilization
+    note: >
+      His doctoral thesis, on how the modern concept of "mental illness" emerged, and
+      his "first canonical monograph". For decades English readers had only the abridged
+      Madness and Civilization (IEP §3.a).
+    after:
+      - work: nietzsche:birth-of-tragedy
+        strength: context
+        why: >
+          The IEP: it "resembles Friedrich Nietzsche's Birth of Tragedy in style and form",
+          with a reason/unreason split like the Apollonian/Dionysian one.
+        sources:
+          - source: iep-foucault
+            locator: "§3.a The History of Madness"
+            verified: true
+            checked_in: IEP entry, accessed 2026-11
+
+  - id: birth-clinic
+    title: The Birth of the Clinic
+    author: Michel Foucault
+    year: 1963
+    kind: primary
+    tier: optional
+    difficulty: 3
+    translation: Sheridan (Pantheon 1973)
+    note: On the origins of modern medicine; one of his "structuralist histories" (SEP §2).
+
+  - id: order-of-things
+    title: "The Order of Things: An Archaeology of the Human Sciences"
+    author: Michel Foucault
+    year: 1966
+    kind: primary
+    tier: extended
+    tier_note: >
+      The SEP gives it the longest treatment of any of his books, but only one of the
+      three courses surveyed assigns it (in selections). Courses that focus on genealogy
+      skip it.
+    difficulty: 5
+    translation: Sheridan (Routledge 1970)
+    note: >
+      "The book that made Foucault famous": an analysis of what knowledge meant, and how
+      that changed, "in Western thought from the Renaissance to the present" (SEP §3.2).
+      Koopman's course reads the preface and selected passages.
+    after:
+      - work: kant:kant-cpr
+        strength: context
+        why: >
+          For Foucault "the great 'turn' in modern philosophy occurs with Kant", who asks
+          whether and how ideas represent their objects.
+        sources:
+          - source: sep-foucault
+            locator: "§3.2.2"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+
+  - id: archaeology
+    title: The Archaeology of Knowledge
+    author: Michel Foucault
+    year: 1969
+    kind: primary
+    tier: extended
+    difficulty: 4
+    translation: Sheridan (Harper and Row 1972)
+    note: >
+      A methodological treatise; the only one of his major works that is not a
+      historical study, "and thus his most theoretical work" (IEP §3.e).
+    after:
+      - work: order-of-things
+        strength: helpful
+        why: >
+          It "explicitly formulates" the archaeological method he had used in The Order of
+          Things and, implicitly, in the earlier histories.
+        sources:
+          - source: sep-foucault
+            locator: "§3.3 From Archaeology to Genealogy"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+
+  - id: order-of-discourse
+    title: '"The Order of Discourse" ("The Discourse on Language")'
+    author: Michel Foucault
+    year: 1971
+    kind: primary
+    tier: optional
+    difficulty: 3
+    note: >
+      His inaugural lecture at the Collège de France. The IEP notes he began talking about
+      power here, as soon as he began to do genealogy.
+
+  # ---------- Genealogy ----------
+
+  - id: ngh
+    title: '"Nietzsche, Genealogy, History"'
+    author: Michel Foucault
+    kind: primary
+    tier: core
+    difficulty: 3
+    note: An essay on Nietzsche's idea of genealogy.
+    after:
+      - work: nietzsche:genealogy
+        strength: helpful
+        why: >
+          His term "genealogy" was meant "to evoke Nietzsche's genealogy of morals"; UBC's
+          course reads this essay straight after On the Genealogy of Morality.
+        sources:
+          - source: sep-foucault
+            locator: "§3.3"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+          - source: syl-ubc-hendricks
+            locator: weekly schedule, week 6
+            verified: true
+            checked_in: Course syllabus (PDF), accessed 2026-11
+
+  - id: discipline-punish
+    title: "Discipline and Punish: The Birth of the Prison"
+    author: Michel Foucault
+    year: 1975
+    kind: primary
+    tier: core
+    difficulty: 3
+    translation: Sheridan (Pantheon 1977)
+    note: >
+      The emergence of the prison and of disciplinary power, including Bentham's
+      Panopticon and "docile bodies". The first book to use his genealogical method
+      (SEP §3.3).
+    after:
+      - work: nietzsche:genealogy
+        strength: context
+        why: >
+          Genealogy, "first deployed in Discipline and Punish", was meant to evoke
+          Nietzsche's genealogy of morals.
+        sources:
+          - source: sep-foucault
+            locator: "§3.3"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+
+  - id: hs1
+    title: "The History of Sexuality, Vol. 1: The Will to Knowledge"
+    author: Michel Foucault
+    year: 1976
+    kind: primary
+    tier: core
+    difficulty: 3
+    translation: Hurley (Pantheon 1978), as An Introduction
+    note: >
+      Intended as the introduction to a series on modern sexuality; it sets out the
+      viewpoint and methods (SEP §3.5).
+    after:
+      - work: discipline-punish
+        strength: helpful
+        why: >
+          The history of sexuality "was originally projected as a fairly straightforward
+          extension of the genealogical approach of Discipline and Punish". All three
+          courses surveyed read it straight after.
+        sources:
+          - source: sep-foucault
+            locator: "§3.5 History of Modern Sexuality"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+
+  - id: society-defended
+    title: '"Society Must Be Defended": Lectures at the Collège de France, 1975–76'
+    author: Michel Foucault
+    kind: primary
+    tier: extended
+    difficulty: 3
+    note: >
+      On the genealogy of racism. The IEP: "a useful companion to The Will to Knowledge"
+      with "perhaps the clearest exposition" of his thoughts on biopower.
+    after:
+      - work: hs1
+        strength: context
+        why: The IEP calls it "a useful companion to The Will to Knowledge".
+        sources:
+          - source: iep-foucault
+            locator: "§4.c Lecture Series"
+            verified: true
+            checked_in: IEP entry, accessed 2026-11
+
+  - id: security-territory
+    title: "Security, Territory, Population: Lectures at the Collège de France, 1977–78"
+    author: Michel Foucault
+    kind: primary
+    tier: extended
+    difficulty: 3
+    note: >
+      With The Birth of Biopolitics, "especially influential"; they introduce his ideas on
+      government and governmentality (SEP §4).
+
+  - id: birth-biopolitics
+    title: "The Birth of Biopolitics: Lectures at the Collège de France, 1978–79"
+    author: Michel Foucault
+    kind: primary
+    tier: extended
+    difficulty: 3
+    note: Governmentality continued, with "a lengthy examination of neoliberal governmentality" (SEP §4).
+    after:
+      - work: security-territory
+        strength: helpful
+        why: >
+          It is the next year's course; Koopman's seminar reads the two together, and the
+          SEP treats them as a pair introducing governmentality.
+        sources:
+          - source: sep-foucault
+            locator: "§4 Foucault after Foucault"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+          - source: syl-ucsc-koopman
+            locator: "May 14, \"Genealogy of Governmentality\""
+            verified: true
+            checked_in: Course web page, accessed 2026-11
+
+  # ---------- Ethics ----------
+
+  - id: use-pleasure
+    title: "The History of Sexuality, Vol. 2: The Use of Pleasure"
+    author: Michel Foucault
+    year: 1984
+    kind: primary
+    tier: extended
+    difficulty: 3
+    translation: Hurley (Pantheon 1985)
+    note: >
+      Greek sexuality and the ethical self. Koopman's course reads the Introduction
+      (pp. 3–32) on its own first.
+    after:
+      - work: hs1
+        strength: helpful
+        why: >
+          Volume 1 was "a general introduction" to the history of sexuality; the late
+          volumes move to ancient conceptions of the ethical self.
+        sources:
+          - source: sep-foucault
+            locator: "§3.6 Sex in the Ancient World"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+
+  - id: care-self
+    title: "The History of Sexuality, Vol. 3: The Care of the Self"
+    author: Michel Foucault
+    year: 1984
+    kind: primary
+    tier: optional
+    difficulty: 3
+    translation: Hurley (Pantheon 1986)
+    note: Roman sexuality; published with volume 2 in 1984.
+    after:
+      - work: use-pleasure
+        strength: helpful
+        why: The SEP treats volumes 2 and 3 as his last two books, a pair on Greek and Roman sexuality.
+        sources:
+          - source: sep-foucault
+            locator: "§3.6"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+
+  - id: what-is-enlightenment
+    title: '"What Is Enlightenment?"'
+    author: Michel Foucault
+    year: 1984
+    kind: primary
+    tier: extended
+    difficulty: 2
+    note: A late essay that takes up the question of Kant's 1784 essay of the same name.
+    after:
+      - work: kant:enlightenment
+        strength: helpful
+        why: >
+          It "takes up the same question 200 years later"; Edinburgh's course reads the two
+          essays together.
+        sources:
+          - source: edinburgh-early-continentals
+            locator: "Week 2 tutorials"
+            verified: true
+            checked_in: Course guide (PDF), accessed 2026-11

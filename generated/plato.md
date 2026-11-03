@@ -241,6 +241,7 @@ graph TD
 - *Republic* → *The Human Condition* (Hannah Arendt) — context. It argues against the tradition in which "Platonism, Stoicism and Christianity elevated the sphere of contemplation above the sphere of action".
 - *Republic* → *Difference and Repetition* (Gilles Deleuze) — context. It attacks Plato's three-tiered system of Idea, copy and simulacrum (DR 59–63).
 - *Republic* → *The Logic of Sense* (Gilles Deleuze) — context. It attacks Plato's three-tiered system of Idea, copy and simulacrum (the appendix, LS 253–65).
+- *Phaedrus* → *Dissemination* (Jacques Derrida) — helpful. "Plato's Pharmacy" is a reading of the Phaedrus; Oregon's course teaches it as "Reading Plato with Derrida".
 - *Symposium* → *The Birth of Tragedy* (Friedrich Nietzsche) — context. Its picture of Socrates draws on Plato: it recalls him leaving "the symposium at break of day" and makes "the dying Socrates" the new Greek ideal.
 - *Phaedo* → *Twilight of the Idols* (Friedrich Nietzsche) — context. "The Problem of Socrates" opens with Socrates' dying words ("I owe a cock to the god Asclepius"), from the end of the Phaedo.
 - *Republic* → *Twilight of the Idols* (Friedrich Nietzsche) — context. "How the 'True World' Finally Became a Fable" begins from Plato: its first stage is "a paraphrase of the proposition 'I, Plato, am the truth.'"

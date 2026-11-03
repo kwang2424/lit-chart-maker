@@ -348,6 +348,9 @@ graph TD
 
 - *On the Genealogy of Morality* → *Nietzsche and Philosophy* (Gilles Deleuze) — helpful. It reads the Genealogy's method and its "noble" forces as the core of Nietzsche's philosophy.
 - *On the Genealogy of Morality* → *Anti-Oedipus (Capitalism and Schizophrenia, vol. 1)* (Gilles Deleuze) — context. A Deleuze and Guattari course recommends reading Nietzsche's Genealogy beforehand, and assigns it alongside Anti-Oedipus.
+- *The Birth of Tragedy* → *History of Madness* (Michel Foucault) — context. The IEP: it "resembles Friedrich Nietzsche's Birth of Tragedy in style and form", with a reason/unreason split like the Apollonian/Dionysian one.
+- *On the Genealogy of Morality* → *"Nietzsche, Genealogy, History"* (Michel Foucault) — helpful. His term "genealogy" was meant "to evoke Nietzsche's genealogy of morals"; UBC's course reads this essay straight after On the Genealogy of Morality.
+- *On the Genealogy of Morality* → *Discipline and Punish: The Birth of the Prison* (Michel Foucault) — context. Genealogy, "first deployed in Discipline and Punish", was meant to evoke Nietzsche's genealogy of morals.
 - *Twilight of the Idols* → *Nietzsche (lecture courses, 4 vols. in English)* (Martin Heidegger) — context. It argues that Nietzsche "over-turns Platonism and completes Western metaphysics"; Twilight's "true world" fable is the short version of that overturning.
 - *The Birth of Tragedy* → *Psychological Types* (C. G. Jung) — context. Chapter III, "The Apollonian and the Dionysian", is a reading of Nietzsche's Birth of Tragedy as a study of types.
 - *Thus Spoke Zarathustra* → *Nietzsche's Zarathustra: Notes of the Seminar Given in 1934–1939* (C. G. Jung) — required. It is a running psychological commentary on Thus Spoke Zarathustra.
