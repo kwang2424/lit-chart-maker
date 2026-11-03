@@ -213,7 +213,7 @@ def render_svg(data: dict, order: list[str], core_order: list[str], hard: list, 
     )
     out.append(
         f'<text x="{width / 2}" y="{fy + 20}" text-anchor="middle" font-size="12" fill="{t["muted"]}">'
-        f"Status: {escape(data['status'])} · github.com/kwang2424/reading-order-maker</text>"
+        f"Status: {escape(data['status'])} · github.com/kwang2424/lit-chart-maker</text>"
     )
     out.append("</svg>")
     return "\n".join(out) + "\n"

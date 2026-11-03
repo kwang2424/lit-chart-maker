@@ -16,7 +16,7 @@ import build as b
 import chart
 
 SITE = b.ROOT / "site"
-REPO_URL = "https://github.com/kwang2424/reading-order-maker"
+REPO_URL = "https://github.com/kwang2424/lit-chart-maker"
 
 CSS = """
 :root {

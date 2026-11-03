@@ -1,4 +1,4 @@
-# reading-order-maker
+# lit-chart-maker
 
 Reading orders for philosophers and thinkers, in the spirit of the old /lit/
 reading charts, but with every "read X before Y" backed by a reason and a source.
