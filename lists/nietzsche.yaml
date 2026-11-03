@@ -1,5 +1,7 @@
 id: nietzsche
 title: Friedrich Nietzsche
+group: thinkers
+sequence: 1
 scope: >
   Nietzsche's published books, the background he assumes, and a few
   standard secondary guides. Not his unpublished notebooks (Nachlass).
@@ -118,7 +120,7 @@ works:
             locator: "§1 Life and Works"
             verified: true
             checked_in: SEP online, accessed 2026-11
-      - work: foundations:symposium
+      - work: plato:symposium
         strength: context
         why: >
           Its picture of Socrates draws on Plato: it recalls him leaving "the symposium at
@@ -128,7 +130,7 @@ works:
             locator: "§13"
             verified: true
             checked_in: Haussmann trans. (1909), Project Gutenberg #51356
-      - work: foundations:wwr
+      - work: schopenhauer:wwr
         strength: helpful
         why: >
           It is written in Schopenhauer's terms, which Nietzsche later regretted
@@ -162,7 +164,7 @@ works:
       Four essays. "On the Uses and Disadvantages of History for Life" and
       "Schopenhauer as Educator" are the ones worth reading.
     after:
-      - work: foundations:wwr
+      - work: schopenhauer:wwr
         strength: context
         why: The third essay, "Schopenhauer as Educator", holds Schopenhauer up as a model philosopher.
         sources:
@@ -348,7 +350,7 @@ works:
       Short and fast; a summary of his late views. "The Problem of Socrates"
       and "How the 'True World' Finally Became a Fable" are key.
     after:
-      - work: foundations:phaedo
+      - work: plato:phaedo
         strength: context
         why: >
           "The Problem of Socrates" opens with Socrates' dying words ("I owe a cock to
@@ -362,7 +364,7 @@ works:
             locator: ending
             verified: true
             checked_in: Jowett trans., Project Gutenberg #1658
-      - work: foundations:republic
+      - work: plato:republic
         strength: context
         why: >
           "How the 'True World' Finally Became a Fable" begins from Plato: its first stage

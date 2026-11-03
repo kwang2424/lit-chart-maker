@@ -1,0 +1,190 @@
+id: hume
+title: David Hume
+group: predecessors
+sequence: 3
+scope: >
+  Hume's philosophical works. Courses mostly teach the Treatise; Hume himself asked
+  to be judged by the later Enquiries. This list shows both and lets you choose.
+status: draft
+
+# Format: see the header of lists/nietzsche.yaml.
+
+survey:
+  - source: syl-cmu-zollman
+    starts_with: treatise
+    includes: [treatise]
+    ordered: true
+    locator: course description and readings
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: syl-jayasekera-hume
+    starts_with: treatise
+    includes: [treatise, first-enquiry, second-enquiry]
+    ordered: true
+    locator: tentative schedule (Enquiry passages late in term)
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: syl-guelph-sheridan
+    starts_with: first-enquiry
+    includes: [first-enquiry, second-enquiry]
+    ordered: true
+    locator: course description (first half EHU, second half EPM)
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: oxford-millican-hume
+    starts_with: treatise
+    includes: [treatise, first-enquiry, abstract]
+    ordered: false
+    locator: lecture handouts (citations to T, E and the Abstract)
+    verified: true
+    checked_in: Lecture handouts (PDF), accessed 2026-11
+
+works:
+
+  - id: treatise
+    title: A Treatise of Human Nature
+    author: David Hume
+    year: 1739
+    kind: primary
+    tier: core
+    difficulty: 4
+    translation: Norton & Norton (Oxford) or Selby-Bigge
+    note: >
+      Book 1 (understanding), Book 2 (passions), Book 3 (morals). The deeper and more
+      detailed work, and the one most courses teach. Hume later disowned it.
+    tips:
+      - text: >
+          Books 1 and 2 were published first because, Hume said, "the subjects of the
+          Understanding and Passions make a compleat chain of reasoning by themselves."
+        sources:
+          - source: hume-treatise-advertisement
+            locator: Advertisement
+            verified: true
+            checked_in: Project Gutenberg #4705
+    after:
+      - work: first-enquiry
+        strength: context
+        why: >
+          Hume asked that the Enquiries "alone be regarded as containing his philosophical
+          sentiments", calling the Treatise "that juvenile work, which the author never
+          acknowledged". Many readers take the Enquiry first and the Treatise for depth.
+        sources:
+          - source: hume-advertisement-1775
+            locator: Advertisement
+            verified: true
+            checked_in: Open Court ed., Project Gutenberg #4320
+
+  - id: abstract
+    title: An Abstract of a Book lately Published, entitled A Treatise of Human Nature
+    author: David Hume
+    year: 1740
+    kind: primary
+    tier: optional
+    difficulty: 2
+    note: A very short summary of the Treatise's main argument, published in 1740.
+
+  - id: first-enquiry
+    title: An Enquiry concerning Human Understanding
+    author: David Hume
+    year: 1748
+    kind: primary
+    tier: core
+    difficulty: 3
+    translation: Beauchamp (Oxford) or Millican (Oxford World's Classics)
+    note: >
+      Ideas, causation, induction, free will, miracles and scepticism, in Hume's mature
+      and readable form.
+    start_here:
+      why: >
+        Hume's own instruction: he "cast the whole anew" in the Enquiries and asked that
+        they "alone be regarded as containing his philosophical sentiments and principles."
+      sources:
+        - source: hume-advertisement-1775
+          locator: Advertisement
+          verified: true
+          checked_in: Open Court ed., Project Gutenberg #4320
+        - source: sep-hume
+          locator: "§1 Life and Works"
+          verified: true
+          checked_in: SEP online, accessed 2026-11
+    tips:
+      - text: It covers much the same ground as Book 1 of the Treatise.
+        sources:
+          - source: sep-hume
+            locator: "§1 Life and Works"
+            verified: true
+            checked_in: SEP online, accessed 2026-11
+
+  - id: second-enquiry
+    title: An Enquiry concerning the Principles of Morals
+    author: David Hume
+    year: 1751
+    kind: primary
+    tier: core
+    difficulty: 3
+    note: Morality grounded in sentiment and usefulness; his mature ethics.
+    after:
+      - work: first-enquiry
+        strength: context
+        why: The two Enquiries recast Books 1 and 3 of the Treatise, and were published as companions.
+        sources:
+          - source: sep-hume
+            locator: "§1 Life and Works"
+            verified: true
+            checked_in: SEP online, accessed 2026-11
+
+  - id: dissertation-passions
+    title: A Dissertation on the Passions
+    author: David Hume
+    year: 1757
+    kind: primary
+    tier: optional
+    difficulty: 3
+    note: Short; scholars read it as his later reworking of Treatise Book 2.
+    after:
+      - work: treatise
+        strength: context
+        why: It "repeats key points from Book 2, sometimes verbatim", as a later reworking.
+        sources:
+          - source: sep-hume
+            locator: "§3.4 Treatise Book 2 versus A Dissertation on the Passions"
+            verified: true
+            checked_in: SEP online, accessed 2026-11
+
+  - id: natural-history-religion
+    title: The Natural History of Religion
+    author: David Hume
+    year: 1757
+    kind: primary
+    tier: optional
+    difficulty: 2
+    note: How religious belief arose, from polytheism to monotheism.
+
+  - id: essays
+    title: Essays, Moral, Political, and Literary (selections, e.g. "Of the Standard of Taste")
+    author: David Hume
+    year: 1741
+    kind: primary
+    tier: optional
+    difficulty: 2
+    note: Written for a wider public, and much better received in his day than the Treatise.
+
+  - id: dialogues
+    title: Dialogues concerning Natural Religion
+    author: David Hume
+    year: 1779
+    kind: primary
+    tier: extended
+    difficulty: 3
+    note: >
+      Three characters debate the argument from design. Published after his death; one of
+      the few works not in his own voice, so be careful about who speaks for Hume.
+    after:
+      - work: first-enquiry
+        strength: context
+        why: The SEP treats it alongside his other religion writings (miracles in the Enquiry, the Natural History).
+        sources:
+          - source: sep-hume
+            locator: "§5 Religion"
+            verified: true
+            checked_in: SEP online, accessed 2026-11

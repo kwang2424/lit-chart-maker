@@ -1,5 +1,7 @@
 id: deleuze
 title: Gilles Deleuze
+group: thinkers
+sequence: 3
 scope: >
   Deleuze's books, alone and with Félix Guattari, the philosophers he
   wrote about, and standard secondary guides. Links into the Nietzsche
@@ -44,32 +46,6 @@ survey:
 works:
 
   # ---------- Background: the philosophers he reads ----------
-
-  - id: hume-treatise
-    title: A Treatise of Human Nature
-    author: David Hume
-    year: 1739
-    kind: background
-    tier: optional
-    difficulty: 3
-    note: Book I is the part that matters for Deleuze's first book.
-
-  - id: spinoza-ethics
-    title: Ethics
-    author: Baruch Spinoza
-    year: 1677
-    kind: background
-    tier: optional
-    difficulty: 4
-
-  - id: bergson
-    title: Time and Free Will; Creative Evolution
-    author: Henri Bergson
-    year: 1889
-    kind: background
-    tier: optional
-    difficulty: 3
-    note: Where Deleuze gets "multiplicity" and "the virtual".
 
   - id: leibniz
     title: Monadology; Theodicy
@@ -129,7 +105,7 @@ works:
     difficulty: 3
     note: His first book, on Hume.
     after:
-      - work: hume-treatise
+      - work: hume:treatise
         strength: context
         why: It is a study of Hume.
         sources:
@@ -154,6 +130,16 @@ works:
       The book that made his name. Reads Nietzsche as completing and overturning Kant,
       and against Hegel. Useful even if you mostly care about Nietzsche.
     after:
+      - work: hegel:phenomenology
+        strength: context
+        why: >
+          It is written against Hegel: the SEP describes Deleuze's early books as trying to
+          "accelerate however he could a departure from Hegel".
+        sources:
+          - source: sep-deleuze
+            locator: "§2 Deleuze's Readings of Other Philosophers"
+            verified: true
+            checked_in: SEP online (2022 revision), accessed 2026-11
       - work: nietzsche:genealogy
         strength: helpful
         why: >
@@ -174,7 +160,7 @@ works:
     difficulty: 3
     note: A short, dense survey of all three Critiques.
     after:
-      - work: foundations:kant-cpr
+      - work: kant:kant-cpr
         strength: context
         why: It is a reading of Kant, and Deleuze's later work starts from this reading.
         sources:
@@ -205,7 +191,15 @@ works:
       the SEP calls "preliminary sketches" for Difference and Repetition.
     note: Short. Introduces the virtual and multiplicity, the two ideas his later work runs on.
     after:
-      - work: bergson
+      - work: bergson:time-and-free-will
+        strength: context
+        why: It builds on arguments from Bergson's Creative Evolution and Time and Free Will.
+        sources:
+          - source: sep-deleuze
+            locator: "§2 Deleuze's Readings of Other Philosophers"
+            verified: true
+            checked_in: SEP online (2022 revision), accessed 2026-11
+      - work: bergson:creative-evolution
         strength: context
         why: It builds on arguments from Bergson's Creative Evolution and Time and Free Will.
         sources:
@@ -223,7 +217,7 @@ works:
     difficulty: 4
     note: His secondary doctoral thesis, written alongside Difference and Repetition.
     after:
-      - work: spinoza-ethics
+      - work: spinoza:ethics
         strength: context
         why: It is a reading of Spinoza, whom Deleuze called the "prince" of philosophers.
         sources:
@@ -276,7 +270,7 @@ works:
             verified: true
             checked_in: SEP online (2022 revision), accessed 2026-11
     after:
-      - work: foundations:republic
+      - work: plato:republic
         strength: context
         why: >
           It attacks Plato's three-tiered system of Idea, copy and simulacrum
@@ -326,7 +320,7 @@ works:
     difficulty: 5
     note: On how meaning arises. Built from short "series"; draws on Lewis Carroll and the Stoics.
     after:
-      - work: foundations:republic
+      - work: plato:republic
         strength: context
         why: >
           It attacks Plato's three-tiered system of Idea, copy and simulacrum

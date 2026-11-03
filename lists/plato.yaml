@@ -1,0 +1,292 @@
+id: plato
+title: Plato
+group: predecessors
+sequence: 1
+scope: >
+  The dialogues most read and taught, grouped as the SEP describes the common
+  (and disputed) early, middle and late division. Plato's dates are uncertain,
+  so works carry no years and the order comes from the links and the survey.
+status: draft
+
+# Format: see the header of lists/nietzsche.yaml.
+
+survey:
+  - source: syl-ucsd-rickless
+    starts_with: apology
+    includes: [apology, euthyphro, meno, protagoras, republic, laches, gorgias, parmenides, theaetetus]
+    ordered: true
+    locator: lecture schedule
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: syl-uccs-plato
+    starts_with: apology
+    includes: [apology, protagoras, phaedo, symposium, republic, phaedrus]
+    ordered: true
+    locator: schedule
+    verified: true
+    checked_in: Course syllabus (.doc), accessed 2026-11
+  - source: syl-marquette-taylor
+    starts_with: euthyphro
+    includes: [euthyphro, apology, crito, gorgias, meno, phaedo, republic, parmenides, timaeus, theaetetus, sophist]
+    ordered: true
+    locator: detailed schedule (Apology and Crito recommended)
+    verified: true
+    checked_in: Course web page, accessed 2026-11
+  - source: syl-midcoast-hauptli
+    covers: beginning
+    starts_with: euthyphro
+    includes: [euthyphro, apology, crito, meno]
+    ordered: true
+    locator: schedule
+    verified: true
+    checked_in: Course web page, accessed 2026-11
+  - source: hackett-five-dialogues
+    covers: beginning
+    starts_with: euthyphro
+    includes: [euthyphro, apology, crito, meno, phaedo]
+    ordered: true
+    locator: title and contents
+    verified: true
+    checked_in: Book title (cited in the Midcoast syllabus)
+  - source: diogenes-laertius-3
+    covers: beginning
+    includes: [euthyphro, apology, crito, phaedo]
+    ordered: true
+    locator: "III.58, Thrasyllus' first tetralogy"
+    verified: true
+    checked_in: Hicks trans. (1925), Wikisource
+
+works:
+
+  # ---------- The trial and death of Socrates ----------
+
+  - id: euthyphro
+    title: Euthyphro
+    author: Plato
+    kind: primary
+    tier: core
+    difficulty: 1
+    note: Socrates on his way to his indictment asks what piety is. The model of a Socratic dialogue.
+
+  - id: apology
+    title: Apology
+    author: Plato
+    kind: primary
+    tier: core
+    difficulty: 1
+    translation: Grube (Hackett, Five Dialogues) or Jowett (free online)
+    note: Socrates' defence at his trial, and the Socrates Nietzsche argues with.
+    tips:
+      - text: >
+          Where to begin Plato was already debated in antiquity: some put the Republic
+          first, others the Alcibiades, the Timaeus or the Phaedrus, "while many begin
+          with the Apology".
+        sources:
+          - source: diogenes-laertius-3
+            locator: "III.62"
+            verified: true
+            checked_in: Hicks trans. (1925), Wikisource
+    after:
+      - work: euthyphro
+        strength: context
+        why: >
+          Thrasyllus' ancient arrangement puts the Euthyphro first and the Apology second;
+          the Euthyphro is set at the court where the indictment was lodged.
+        sources:
+          - source: diogenes-laertius-3
+            locator: "III.58"
+            verified: true
+            checked_in: Hicks trans. (1925), Wikisource
+          - source: plato-euthyphro-text
+            locator: scene heading; Jowett's introduction
+            verified: true
+            checked_in: Jowett trans., Project Gutenberg #1642
+
+  - id: crito
+    title: Crito
+    author: Plato
+    kind: primary
+    tier: core
+    difficulty: 1
+    note: Socrates in prison refuses to escape. Very short.
+    after:
+      - work: apology
+        strength: helpful
+        why: >
+          It is set in prison after the trial, while Socrates waits for "the ship
+          from Delos" whose return means his execution.
+        sources:
+          - source: plato-crito-text
+            locator: opening exchange; Jowett's introduction (on the trial)
+            verified: true
+            checked_in: Jowett trans., Project Gutenberg #1657
+
+  - id: phaedo
+    title: Phaedo
+    author: Plato
+    kind: primary
+    tier: core
+    difficulty: 2
+    note: >
+      Socrates' last day: arguments that the soul is immortal and belongs to a truer
+      world than the body. Ends with his death.
+    after:
+      - work: crito
+        strength: helpful
+        why: It tells how the sacred ship's voyage delayed the execution, then narrates the death.
+        sources:
+          - source: plato-phaedo-text
+            locator: opening (the ship to Delos) and ending
+            verified: true
+            checked_in: Jowett trans., Project Gutenberg #1658
+
+  # ---------- Socratic questioning ----------
+
+  - id: meno
+    title: Meno
+    author: Plato
+    kind: primary
+    tier: core
+    difficulty: 2
+    note: Can virtue be taught? Introduces learning as recollection, with the slave-boy geometry lesson.
+
+  - id: protagoras
+    title: Protagoras
+    author: Plato
+    kind: primary
+    tier: extended
+    difficulty: 2
+    note: Socrates against the most famous sophist, on whether virtue is one and can be taught.
+
+  - id: gorgias
+    title: Gorgias
+    author: Plato
+    kind: primary
+    tier: extended
+    difficulty: 2
+    note: Rhetoric, power and justice; Callicles argues that the stronger should rule.
+
+  - id: laches
+    title: Laches
+    author: Plato
+    kind: primary
+    tier: optional
+    difficulty: 1
+    note: A short search for a definition of courage.
+
+  # ---------- The "middle" dialogues ----------
+
+  - id: symposium
+    title: Symposium
+    author: Plato
+    kind: primary
+    tier: extended
+    difficulty: 2
+    note: >
+      Speeches on love at a drinking party, crashed at the end by a drunk Alcibiades.
+      Matters most for The Birth of Tragedy.
+
+  - id: republic
+    title: Republic
+    author: Plato
+    kind: primary
+    tier: core
+    difficulty: 3
+    translation: Grube rev. Reeve (Hackett) or Jowett (free online)
+    note: >
+      Justice, the ideal city, and the Forms. Books VI–VII (sun, line, cave) and X
+      (Ideas and copies) are the "true world" Nietzsche mocks and Deleuze sets out to overturn.
+    tips:
+      - text: >
+          Book VII opens with the cave; Book X explains Ideas and copies with the
+          example of beds and tables.
+        sources:
+          - source: plato-republic-text
+            locator: Book VII opening; Book X
+            verified: true
+            checked_in: Jowett trans., Project Gutenberg #1497
+
+  - id: phaedrus
+    title: Phaedrus
+    author: Plato
+    kind: primary
+    tier: extended
+    difficulty: 3
+    note: Love, madness and the soul as a charioteer; ends with a critique of writing.
+
+  # ---------- The "late" dialogues ----------
+
+  - id: theaetetus
+    title: Theaetetus
+    author: Plato
+    kind: primary
+    tier: extended
+    difficulty: 4
+    note: What is knowledge? Three definitions tested and none survives.
+    tips:
+      - text: >
+          It ends with Socrates leaving "to go to the porch of the King Archon, where I am
+          to meet Meletus and his indictment", the scene where the Euthyphro begins.
+        sources:
+          - source: plato-theaetetus-text
+            locator: closing lines
+            verified: true
+            checked_in: Jowett trans., Project Gutenberg #1726
+
+  - id: parmenides
+    title: Parmenides
+    author: Plato
+    kind: primary
+    tier: optional
+    difficulty: 5
+    note: A young Socrates' theory of Forms is put through hard objections. Very difficult.
+
+  - id: sophist
+    title: Sophist
+    author: Plato
+    kind: primary
+    tier: optional
+    difficulty: 5
+    note: Being, not-being, images and appearances; the Eleatic Stranger hunts for a definition of the sophist.
+    after:
+      - work: theaetetus
+        strength: helpful
+        why: It opens "true to our agreement of yesterday", continuing the Theaetetus's conversation.
+        sources:
+          - source: plato-sophist-text
+            locator: opening line
+            verified: true
+            checked_in: Jowett trans., Project Gutenberg #1735
+      - work: parmenides
+        strength: context
+        why: The SEP suggests Plato signals that the lessons of the Parmenides should be brought to bear on the Sophist.
+        sources:
+          - source: sep-plato
+            locator: "§11 The historical Socrates: early, middle, and late dialogues"
+            verified: true
+            checked_in: SEP online, accessed 2026-11
+
+  - id: timaeus
+    title: Timaeus
+    author: Plato
+    kind: primary
+    tier: optional
+    difficulty: 4
+    note: Plato's account of the cosmos and its making.
+    after:
+      - work: republic
+        strength: helpful
+        why: It opens with a reminder of the principal ethical and political doctrines of the Republic.
+        sources:
+          - source: sep-plato
+            locator: "§11 The historical Socrates: early, middle, and late dialogues"
+            verified: true
+            checked_in: SEP online, accessed 2026-11
+
+  - id: laws
+    title: Laws
+    author: Plato
+    kind: primary
+    tier: optional
+    difficulty: 4
+    note: Plato's longest and probably last work, a second, more practical political philosophy.

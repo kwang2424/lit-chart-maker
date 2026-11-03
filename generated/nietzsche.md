@@ -71,10 +71,10 @@ Short and fast; a summary of his late views. "The Problem of Socrates" and "How 
 
 **Read first:**
 
-- *Phaedo* (from the [Foundations list](foundations.md)) — *context*. "The Problem of Socrates" opens with Socrates' dying words ("I owe a cock to the god Asclepius"), from the end of the Phaedo.
+- *Phaedo* (from the [Plato list](plato.md)) — *context*. "The Problem of Socrates" opens with Socrates' dying words ("I owe a cock to the god Asclepius"), from the end of the Phaedo.
   - Friedrich Nietzsche, *Twilight of the Idols*, "The Problem of Socrates" §1 [author] ✓ checked in Ludovici trans. (1911), Project Gutenberg
   - Plato, *Phaedo*, ending [author] ✓ checked in Jowett trans., Project Gutenberg
-- *Republic (at least Books VI–VII and X)* (from the [Foundations list](foundations.md)) — *context*. "How the 'True World' Finally Became a Fable" begins from Plato: its first stage is "a paraphrase of the proposition 'I, Plato, am the truth.'"
+- *Republic* (from the [Plato list](plato.md)) — *context*. "How the 'True World' Finally Became a Fable" begins from Plato: its first stage is "a paraphrase of the proposition 'I, Plato, am the truth.'"
   - Friedrich Nietzsche, *Twilight of the Idols*, "How the True World Ultimately Became a Fable" §1 [author] ✓ checked in Ludovici trans. (1911), Project Gutenberg
 
 ### 3. Greek tragedy (Aeschylus' Oresteia, Sophocles' Oedipus the King)
@@ -95,9 +95,9 @@ His first book: Apollonian vs. Dionysian. Read the 1886 preface ("Attempt at a S
 
 - *Greek tragedy (Aeschylus' Oresteia, Sophocles' Oedipus the King)* — *helpful*. The book is a speculative account of how Greek tragic culture rose and collapsed.
   - R. Lanier Anderson, *"Friedrich Nietzsche", Stanford Encyclopedia of Philosophy*, §1 Life and Works [scholarly] ✓ checked in SEP online, accessed 2026-11
-- *Symposium* (from the [Foundations list](foundations.md)) — *context*. Its picture of Socrates draws on Plato: it recalls him leaving "the symposium at break of day" and makes "the dying Socrates" the new Greek ideal.
+- *Symposium* (from the [Plato list](plato.md)) — *context*. Its picture of Socrates draws on Plato: it recalls him leaving "the symposium at break of day" and makes "the dying Socrates" the new Greek ideal.
   - Friedrich Nietzsche, *The Birth of Tragedy (with its "Foreword to Richard Wagner")*, §13 [author] ✓ checked in Haussmann trans. (1909), Project Gutenberg
-- *The World as Will and Representation, vol. 1* (from the [Foundations list](foundations.md)) — *helpful*. It is written in Schopenhauer's terms, which Nietzsche later regretted using ("Kantian and Schopenhauerian formulae").
+- *The World as Will and Representation, vol. 1* (from the [Arthur Schopenhauer list](schopenhauer.md)) — *helpful*. It is written in Schopenhauer's terms, which Nietzsche later regretted using ("Kantian and Schopenhauerian formulae").
   - Friedrich Nietzsche, *"Attempt at a Self-Criticism" (1886 preface to The Birth of Tragedy)*, §6 [author] ✓ checked in Haussmann trans. (1909), Project Gutenberg
 
 ### 5. On Truth and Lies in a Nonmoral Sense (1873)
@@ -116,7 +116,7 @@ Four essays. "On the Uses and Disadvantages of History for Life" and "Schopenhau
 
 **Read first:**
 
-- *The World as Will and Representation, vol. 1* (from the [Foundations list](foundations.md)) — *context*. The third essay, "Schopenhauer as Educator", holds Schopenhauer up as a model philosopher.
+- *The World as Will and Representation, vol. 1* (from the [Arthur Schopenhauer list](schopenhauer.md)) — *context*. The third essay, "Schopenhauer as Educator", holds Schopenhauer up as a model philosopher.
   - Friedrich Nietzsche, *"Schopenhauer as Educator" (Untimely Meditations III)*, whole essay [author] ✓ checked in Collins trans. (Thoughts out of Season II), Project Gutenberg
 
 ### 7. Human, All Too Human (1878)

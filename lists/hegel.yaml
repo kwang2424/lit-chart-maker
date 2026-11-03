@@ -1,0 +1,208 @@
+id: hegel
+title: G. W. F. Hegel
+group: predecessors
+sequence: 5
+scope: >
+  Hegel's books and the lecture courses published after his death, with the two
+  guides courses most often recommend. Nietzsche and Deleuze both define themselves
+  against him, so a summary-level grasp is enough for most readers of this site.
+status: draft
+
+# Format: see the header of lists/nietzsche.yaml.
+
+survey:
+  - source: syl-oregon-hegel
+    starts_with: phenomenology
+    includes: [phenomenology]
+    ordered: true
+    locator: course description and schedule
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: syl-ucsd-hardimon
+    starts_with: phenomenology
+    includes: [phenomenology]
+    ordered: true
+    locator: "schedule (Preface and Introduction first)"
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: syl-nyu-bowman
+    starts_with: philosophy-of-history
+    includes: [philosophy-of-history, phenomenology, philosophy-of-right]
+    ordered: true
+    locator: schedule (then Marx, then Nietzsche's Genealogy)
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: syl-mcgill-460
+    starts_with: phenomenology
+    includes: [phenomenology]
+    ordered: true
+    locator: course description
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: syl-ucr-hegel
+    starts_with: phenomenology
+    includes: [phenomenology]
+    ordered: true
+    locator: course description
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+
+works:
+
+  - id: houlgate-intro
+    title: 'An Introduction to Hegel: Freedom, Truth and History'
+    author: Stephen Houlgate
+    year: 2005
+    kind: secondary
+    tier: extended
+    position: start
+    difficulty: 2
+    note: An overview of the whole philosophy. Good before or instead of the primary texts.
+    tips:
+      - text: Recommended as background reading in two surveyed courses and listed in the SEP bibliography.
+        sources:
+          - source: syl-oregon-hegel
+            locator: recommended reading
+            verified: true
+            checked_in: Course syllabus (PDF), accessed 2026-11
+          - source: syl-mcgill-460
+            locator: recommended reading
+            verified: true
+            checked_in: Course syllabus (PDF), accessed 2026-11
+
+  - id: phenomenology
+    title: Phenomenology of Spirit
+    author: G. W. F. Hegel
+    year: 1807
+    kind: primary
+    tier: core
+    difficulty: 5
+    translation: Pinkard (Cambridge) or Miller (Oxford)
+    note: >
+      Consciousness climbs from sense-certainty to absolute knowing; includes the famous
+      master–slave ("lordship and bondage") section. Courses begin with the Preface and
+      Introduction.
+    start_here:
+      why: >
+        Every surveyed course assigns it, and the SEP describes it as "a type of
+        propaedeutic to philosophy", an education of the reader into Hegel's standpoint.
+      sources:
+        - source: sep-hegel
+          locator: "§3.1.1 Phenomenology of Spirit"
+          verified: true
+          checked_in: SEP online, accessed 2026-11
+    after:
+      - work: stern-guide
+        strength: context
+        why: Two surveyed courses recommend Stern's guidebook as a commentary to read alongside.
+        sources:
+          - source: syl-oregon-hegel
+            locator: commentaries on the Phenomenology
+            verified: true
+            checked_in: Course syllabus (PDF), accessed 2026-11
+          - source: syl-ucr-hegel
+            locator: secondary literature
+            verified: true
+            checked_in: Course syllabus (PDF), accessed 2026-11
+      - work: kant:kant-cpr
+        strength: context
+        why: The SEP traces Hegel's idea of a "phenomenology" as a propaedeutic to Kant, and reads Hegel within the post-Kantian idealist tradition.
+        sources:
+          - source: sep-hegel
+            locator: "§2.1 and §3.1.1"
+            verified: true
+            checked_in: SEP online, accessed 2026-11
+
+  - id: stern-guide
+    title: Routledge Philosophy Guidebook to Hegel and the Phenomenology of Spirit
+    author: Robert Stern
+    year: 2002
+    kind: secondary
+    tier: optional
+    difficulty: 3
+    note: A section-by-section guide to the Phenomenology.
+
+  - id: science-of-logic
+    title: Science of Logic
+    author: G. W. F. Hegel
+    year: 1812
+    kind: primary
+    tier: extended
+    difficulty: 5
+    note: The core of the system, and one of the hardest books in philosophy.
+    after:
+      - work: phenomenology
+        strength: helpful
+        why: The Phenomenology is meant to bring the reader to the standpoint of "purely conceptual thought" from which the Logic proceeds.
+        sources:
+          - source: sep-hegel
+            locator: "§3.1.1 Phenomenology of Spirit"
+            verified: true
+            checked_in: SEP online, accessed 2026-11
+          - source: syl-mcgill-460
+            locator: course description ("Hegel's introduction to his science of logic")
+            verified: true
+            checked_in: Course syllabus (PDF), accessed 2026-11
+
+  - id: encyclopaedia
+    title: Encyclopaedia of the Philosophical Sciences (esp. Part I, the "Lesser Logic")
+    author: G. W. F. Hegel
+    year: 1817
+    kind: primary
+    tier: optional
+    difficulty: 5
+    note: A teaching handbook of the whole system; Part I is an abbreviated Science of Logic.
+    after:
+      - work: science-of-logic
+        strength: context
+        why: Its first part is "an abbreviated version of the earlier Science of Logic".
+        sources:
+          - source: sep-hegel
+            locator: "§1 Life, Work, and Influence"
+            verified: true
+            checked_in: SEP online, accessed 2026-11
+
+  - id: philosophy-of-right
+    title: Elements of the Philosophy of Right
+    author: G. W. F. Hegel
+    year: 1820
+    kind: primary
+    tier: extended
+    difficulty: 4
+    translation: Nisbet, ed. Wood (Cambridge)
+    note: His political philosophy (family, civil society, the state). The Preface has the "owl of Minerva".
+    after:
+      - work: encyclopaedia
+        strength: context
+        why: The SEP calls it effectively an expansion of the Encyclopaedia's section on objective spirit.
+        sources:
+          - source: sep-hegel
+            locator: "§1 and §3.1"
+            verified: true
+            checked_in: SEP online, accessed 2026-11
+
+  - id: philosophy-of-history
+    title: Lectures on the Philosophy of World History (esp. the Introduction)
+    author: G. W. F. Hegel
+    year: 1837
+    kind: primary
+    tier: extended
+    difficulty: 3
+    translation: "Sibree (free online) or Nisbet (\"Introduction: Reason in History\")"
+    note: Published from lecture notes after his death. The Introduction is the most approachable Hegel.
+    tips:
+      - text: One surveyed course starts with passages from its Introduction before turning to the Phenomenology.
+        sources:
+          - source: syl-nyu-bowman
+            locator: schedule (first meeting)
+            verified: true
+            checked_in: Course syllabus (PDF), accessed 2026-11
+
+  - id: aesthetics
+    title: Lectures on Aesthetics
+    author: G. W. F. Hegel
+    year: 1835
+    kind: primary
+    tier: optional
+    difficulty: 4
+    note: Art as a form of absolute spirit, alongside religion and philosophy.

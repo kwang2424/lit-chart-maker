@@ -1,5 +1,7 @@
 id: jung
 title: C. G. Jung
+group: thinkers
+sequence: 2
 scope: >
   Jung's main books and essay collections (cited by Collected Works volume
   where there is one), the Freud background he started from, a few popular
@@ -49,19 +51,6 @@ works:
 
   # ---------- Background ----------
 
-  - id: freud-dreams
-    title: The Interpretation of Dreams (and a short Freud introduction)
-    author: Sigmund Freud
-    year: 1899
-    kind: background
-    tier: optional
-    difficulty: 3
-    note: >
-      Jung began as Freud's closest collaborator, and his early books are
-      arguments with Freud. Knowing the basics of psychoanalysis is enough.
-
-  # ---------- Introductions ----------
-
   - id: stevens-vsi
     title: 'Jung: A Very Short Introduction'
     author: Anthony Stevens
@@ -105,7 +94,7 @@ works:
     difficulty: 3
     note: Lectures given in New York in 1912. Now in Collected Works vol. 4 (Freud and Psychoanalysis).
     after:
-      - work: freud-dreams
+      - work: freud:interpretation-of-dreams
         strength: helpful
         why: >
           Jung says these lectures are where he first defines his own theoretical
@@ -127,7 +116,7 @@ works:
       Collected Works vol. 5. Long and dense with mythology. Jung later revised
       it completely; read the Collected Works version unless you want the 1912 text.
     after:
-      - work: freud-dreams
+      - work: freud:interpretation-of-dreams
         strength: helpful
         why: >
           It is Jung's "first important statement of his independent position"; it

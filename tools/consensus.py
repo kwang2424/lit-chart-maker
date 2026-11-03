@@ -216,12 +216,21 @@ def render_html(data: dict, sources: dict, tier_names: dict) -> str:
 
 
 def positions(data: dict) -> dict[str, float]:
-    """Average relative position (0 = first, 1 = last) of each book across ordered sources."""
-    acc: dict[str, list] = {}
-    for s in data.get("survey") or []:
-        inc = s.get("includes") or []
-        if s.get("ordered") and len(inc) > 1:
-            for i, w in enumerate(inc):
-                acc.setdefault(w, []).append(i / (len(inc) - 1))
-    # One course is too noisy to move a book; require at least two.
-    return {w: sum(v) / len(v) for w, v in acc.items() if len(v) >= 2}
+    """Average relative position (0 = first, 1 = last) of each book across ordered sources.
+
+    Full course lists are used where at least two of them place a book; otherwise
+    beginner lists help fill in. One source alone is too noisy to count.
+    """
+    def collect(entries):
+        acc: dict[str, list] = {}
+        for s in entries:
+            inc = s.get("includes") or []
+            if s.get("ordered") and len(inc) > 1:
+                for i, w in enumerate(inc):
+                    acc.setdefault(w, []).append(i / (len(inc) - 1))
+        return {w: sum(v) / len(v) for w, v in acc.items() if len(v) >= 2}
+
+    out = collect(full_lists(data))
+    for w, p in collect(data.get("survey") or []).items():
+        out.setdefault(w, p)
+    return out

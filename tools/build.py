@@ -11,7 +11,8 @@ How the order is computed:
   - `context` links are soft: they only affect where optional books get placed.
   - The core path orders core works, preferring easier, earlier books when free to choose.
   - A core work with a sourced `start_here` goes first; then the book most surveyed
-    sources start with; then the average position they give each book (tools/consensus.py).
+    sources start with; then the average position they give each book (tools/consensus.py);
+    then publication order.
   - Non-core works are slotted in around that spine: just before the core book they
     lead into, or (for the author's own books) after the latest core book published
     before them, or right after the core books they depend on.
@@ -113,6 +114,10 @@ def validate(lists: dict, sources: dict, report: Report, strict: bool) -> None:
                 report.error(f"{lid}: missing '{key}'")
         if data.get("status") not in STATUSES:
             report.error(f"{lid}: status must be one of {STATUSES}")
+        if data.get("group", "thinkers") not in ("thinkers", "predecessors"):
+            report.error(f"{lid}: group must be 'thinkers' or 'predecessors'")
+        if data.get("group") == "predecessors" and not isinstance(data.get("sequence"), int):
+            report.error(f"{lid}: predecessor lists need a whole-number 'sequence' (historical order)")
         must_verify = strict or data.get("status") == "stable"
 
         seen = set()
@@ -309,8 +314,8 @@ def compute_order(data: dict) -> tuple[list[str], list[str]]:
             -start_votes(n),
             -(survey.get(n, {}).get("mentions", 0) if start_votes(n) else 0),
             avg_pos.get(n, 0.5),
+            year(by_id[n]),  # with no other evidence, publication order
             by_id[n]["difficulty"],
-            year(by_id[n]),
         ),
     )
     pos = {n: i for i, n in enumerate(core_order)}
@@ -343,6 +348,10 @@ def compute_order(data: dict) -> tuple[list[str], list[str]]:
             # The author's own books: right after the latest core book published before it.
             earlier = [pos[c] for c in core if year(by_id[c]) < w["year"]]
             p = max(earlier) + 0.5 if earlier else -0.5
+        if p is None and n in avg_pos and not w.get("year"):
+            # Undated works: slot in after the last core work the surveyed sources put earlier.
+            earlier = [pos[c] for c in core_order if avg_pos.get(c, 2) <= avg_pos[n]]
+            p = (max(earlier) + 0.5) if earlier else -0.5
         if p is None:
             # Prefer the core works it directly builds on; fall back to indirect ones.
             builds_on = [pos[m] for m in any_pred.get(n, []) if m in pos]

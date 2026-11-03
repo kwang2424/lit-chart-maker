@@ -110,6 +110,20 @@ class BuildTests(unittest.TestCase):
         self.assertEqual(st["works"]["z"]["count"], 0)
         self.assertEqual(consensus.positions(data), {"x": 0.5, "y": 0.5})
 
+    def test_group_rules(self):
+        self.bad["plato"]["group"] = "nonsense"
+        del self.bad["kant"]["sequence"]
+        errs = errors(self.bad, self.sources)
+        self.assertTrue(any("plato: group must be" in e for e in errs))
+        self.assertTrue(any("kant: predecessor lists need" in e for e in errs))
+
+    def test_all_cross_list_links_resolve(self):
+        for lid, data in self.lists.items():
+            for w in data["works"]:
+                for l in w.get("after") or []:
+                    tl, tw = b.resolve(l["work"], lid)
+                    self.assertIn(tw, {x["id"] for x in self.lists[tl]["works"]}, f"{lid}:{w['id']} -> {l['work']}")
+
     def test_stable_requires_verified(self):
         for w in self.bad["nietzsche"]["works"]:
             for l in w.get("after") or []:

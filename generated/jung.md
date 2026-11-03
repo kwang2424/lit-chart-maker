@@ -12,8 +12,8 @@
 The shortest route through the essentials.
 
 1. **Memories, Dreams, Reflections** (1962) · difficulty ●●○○○ · first book in 1 surveyed source
-2. **Two Essays on Analytical Psychology** (1928) · difficulty ●●●○○ · first book in 1 surveyed source
-3. **Psychological Types** (1921) · difficulty ●●●●○
+2. **Psychological Types** (1921) · difficulty ●●●●○
+3. **Two Essays on Analytical Psychology** (1928) · difficulty ●●●○○ · first book in 1 surveyed source
 4. **The Archetypes and the Collective Unconscious** (1934) · difficulty ●●●●○
 
 ## What the sources say
@@ -58,13 +58,7 @@ A brief overview of his life and main ideas.
 
 A clear tour of the main concepts (ego, shadow, persona, anima/animus, Self).
 
-### 4. The Interpretation of Dreams (and a short Freud introduction) (1899)
-
-`optional · background · difficulty ●●●○○` · Sigmund Freud
-
-Jung began as Freud's closest collaborator, and his early books are arguments with Freud. Knowing the basics of psychoanalysis is enough.
-
-### 5. Symbols of Transformation (first published as Psychology of the Unconscious) (1912)
+### 4. Symbols of Transformation (first published as Psychology of the Unconscious) (1912)
 
 `extended · primary · difficulty ●●●●○` · C. G. Jung
 
@@ -72,11 +66,11 @@ Collected Works vol. 5. Long and dense with mythology. Jung later revised it com
 
 **Read first:**
 
-- *The Interpretation of Dreams (and a short Freud introduction)* — *helpful*. It is Jung's "first important statement of his independent position"; it widens Freud's idea of libido from sexuality to psychic energy in general.
+- *The Interpretation of Dreams* (from the [Sigmund Freud list](freud.md)) — *helpful*. It is Jung's "first important statement of his independent position"; it widens Freud's idea of libido from sexuality to psychic energy in general.
   - Princeton University Press, *Collected Works of C. G. Jung, Vol. 5 (Symbols of Transformation), volume description*, volume description [scholarly] ✓ checked in Princeton University Press website, accessed 2026-11
   - Beatrice M. Hinkle, *Translator's introduction to Psychology of the Unconscious*, Introduction (on libido) [scholarly] ✓ checked in Hinkle trans. (1916), Project Gutenberg
 
-### 6. The Theory of Psychoanalysis (1913)
+### 5. The Theory of Psychoanalysis (1913)
 
 `optional · primary · difficulty ●●●○○` · C. G. Jung
 
@@ -84,29 +78,16 @@ Lectures given in New York in 1912. Now in Collected Works vol. 4 (Freud and Psy
 
 **Read first:**
 
-- *The Interpretation of Dreams (and a short Freud introduction)* — *helpful*. Jung says these lectures are where he first defines his own theoretical position toward Freud's principles.
+- *The Interpretation of Dreams* (from the [Sigmund Freud list](freud.md)) — *helpful*. Jung says these lectures are where he first defines his own theoretical position toward Freud's principles.
   - C. G. Jung, *The Theory of Psychoanalysis*, Introduction [author] ✓ checked in English trans. (1915), Project Gutenberg
 
-### 7. Memories, Dreams, Reflections (1962)
+### 6. Memories, Dreams, Reflections (1962)
 
 `core · primary · difficulty ●●○○○` · C. G. Jung, recorded and edited by Aniela Jaffé
 
 His late autobiography, mostly about his inner life. Not written by Jung alone: Aniela Jaffé recorded and edited much of it, so treat it as a memoir, not a statement of theory.
 
-### 8. Two Essays on Analytical Psychology (1928)
-
-`core · primary · difficulty ●●●○○` · C. G. Jung
-
-"On the Psychology of the Unconscious" and "The Relations between the Ego and the Unconscious": persona, shadow, anima/animus, individuation.
-
-**Translation:** Hull (Collected Works vol. 7, Princeton)
-
-**Reading tips:**
-
-- Its publisher calls it "perhaps the best introduction to Jung's work", and the essays present "the essential core of his system". Most beginner guides still suggest the memoir or a secondary guide first.
-  - Princeton University Press, *Collected Works of C. G. Jung, Vol. 7 (Two Essays), volume description*, volume description [scholarly] ✓ checked in Princeton University Press website, accessed 2026-11
-
-### 9. Psychological Types (1921)
+### 7. Psychological Types (1921)
 
 `core · primary · difficulty ●●●●○` · C. G. Jung
 
@@ -124,13 +105,26 @@ Introversion/extraversion and the four functions. The first nine chapters trace 
 - *The Birth of Tragedy* (from the [Friedrich Nietzsche list](nietzsche.md)) — *context*. Chapter III, "The Apollonian and the Dionysian", is a reading of Nietzsche's Birth of Tragedy as a study of types.
   - C. G. Jung, *Psychological Types*, Chapter III [author] ✓ checked in Baynes trans. (1923), archive.org/details/psychological_types
 
-### 10. Modern Man in Search of a Soul (1933)
+### 8. Two Essays on Analytical Psychology (1928)
+
+`core · primary · difficulty ●●●○○` · C. G. Jung
+
+"On the Psychology of the Unconscious" and "The Relations between the Ego and the Unconscious": persona, shadow, anima/animus, individuation.
+
+**Translation:** Hull (Collected Works vol. 7, Princeton)
+
+**Reading tips:**
+
+- Its publisher calls it "perhaps the best introduction to Jung's work", and the essays present "the essential core of his system". Most beginner guides still suggest the memoir or a secondary guide first.
+  - Princeton University Press, *Collected Works of C. G. Jung, Vol. 7 (Two Essays), volume description*, volume description [scholarly] ✓ checked in Princeton University Press website, accessed 2026-11
+
+### 9. Modern Man in Search of a Soul (1933)
 
 `extended · primary · difficulty ●●○○○` · C. G. Jung
 
 Lectures and essays for a general audience. Easy to dip into.
 
-### 11. The Archetypes and the Collective Unconscious (1934)
+### 10. The Archetypes and the Collective Unconscious (1934)
 
 `core · primary · difficulty ●●●●○` · C. G. Jung
 
@@ -144,7 +138,7 @@ Essays from the 1930s–50s. "Archetypes of the Collective Unconscious" and "The
   - Princeton University Press, *Collected Works of C. G. Jung, Vol. 7 (Two Essays), volume description*, volume description [scholarly] ✓ checked in Princeton University Press website, accessed 2026-11
   - Princeton University Press, *Collected Works of C. G. Jung, Vol. 9i (The Archetypes and the Collective Unconscious), volume description*, volume description [scholarly] ✓ checked in Princeton University Press website, accessed 2026-11
 
-### 12. Psychology and Alchemy (1944)
+### 11. Psychology and Alchemy (1944)
 
 `optional · primary · difficulty ●●●●●` · C. G. Jung
 
@@ -152,7 +146,7 @@ Reads alchemy as a symbolic record of individuation. Heavily illustrated.
 
 **Translation:** Hull (Collected Works vol. 12)
 
-### 13. Aion: Researches into the Phenomenology of the Self (1951)
+### 12. Aion: Researches into the Phenomenology of the Self (1951)
 
 `extended · primary · difficulty ●●●●●` · C. G. Jung
 
@@ -171,31 +165,31 @@ One of the major works of his later years, on the Self and its symbols in Christ
   - Princeton University Press, *Collected Works of C. G. Jung, Vol. 9i (The Archetypes and the Collective Unconscious), volume description*, volume description [scholarly] ✓ checked in Princeton University Press website, accessed 2026-11
   - Princeton University Press, *Collected Works of C. G. Jung, Vol. 9ii (Aion), volume description*, volume description [scholarly] ✓ checked in Princeton University Press website, accessed 2026-11
 
-### 14. Answer to Job (1952)
+### 13. Answer to Job (1952)
 
 `optional · primary · difficulty ●●●○○` · C. G. Jung
 
 A short, provocative psychological reading of the Book of Job. Now in Collected Works vol. 11.
 
-### 15. Synchronicity: An Acausal Connecting Principle (1952)
+### 14. Synchronicity: An Acausal Connecting Principle (1952)
 
 `optional · primary · difficulty ●●●●○` · C. G. Jung
 
 His most speculative idea, meaningful coincidence. Collected Works vol. 8.
 
-### 16. The Undiscovered Self (1957)
+### 15. The Undiscovered Self (1957)
 
 `optional · primary · difficulty ●●○○○` · C. G. Jung
 
 A short late essay on the individual and mass society.
 
-### 17. C. G. Jung Speaking: Interviews and Encounters (1977)
+### 16. C. G. Jung Speaking: Interviews and Encounters (1977)
 
 `optional · primary · difficulty ●○○○○` · C. G. Jung (ed. William McGuire and R. F. C. Hull)
 
 Interviews over fifty years, including the BBC "Face to Face" interview. Easy reading.
 
-### 18. Nietzsche's Zarathustra: Notes of the Seminar Given in 1934–1939 (1988)
+### 17. Nietzsche's Zarathustra: Notes of the Seminar Given in 1934–1939 (1988)
 
 `optional · primary · difficulty ●●●○○` · C. G. Jung (ed. James L. Jarrett)
 
@@ -206,7 +200,7 @@ Transcripts of an informal seminar, given in English, that went through Zarathus
 - *Thus Spoke Zarathustra* (from the [Friedrich Nietzsche list](nietzsche.md)) — *required*. It is a running psychological commentary on Thus Spoke Zarathustra.
   - Princeton University Press, *Nietzsche's Zarathustra: Notes of the Seminar Given in 1934–1939, description*, book description [scholarly] ✓ checked in Princeton University Press website, accessed 2026-11
 
-### 19. The Red Book: Liber Novus (2009)
+### 18. The Red Book: Liber Novus (2009)
 
 `optional · primary · difficulty ●●●●○` · C. G. Jung (ed. Sonu Shamdasani)
 
@@ -221,12 +215,11 @@ graph TD
   man_and_his_symbols["Man and His Symbols"]:::extended
   stevens_vsi["Jung: A Very Short Introduction"]:::extended
   stein_map["Jung's Map of the Soul"]:::extended
-  freud_dreams["The Interpretation of Dreams (and a short Freud introduction)"]:::optional
   symbols_transformation["Symbols of Transformation (first published as Psychology of the Unconscious)"]:::extended
   theory_psychoanalysis["The Theory of Psychoanalysis"]:::optional
   memories_dreams["Memories, Dreams, Reflections"]:::core
-  two_essays["Two Essays on Analytical Psychology"]:::core
   psychological_types["Psychological Types"]:::core
+  two_essays["Two Essays on Analytical Psychology"]:::core
   modern_man["Modern Man in Search of a Soul"]:::extended
   archetypes_cu["The Archetypes and the Collective Unconscious"]:::core
   psychology_alchemy["Psychology and Alchemy"]:::optional
@@ -237,8 +230,6 @@ graph TD
   jung_speaking["C. G. Jung Speaking: Interviews and Encounters"]:::optional
   zarathustra_seminar["Nietzsche's Zarathustra: Notes of the Seminar Given in 1934–1939"]:::optional
   red_book["The Red Book: Liber Novus"]:::optional
-  freud_dreams --> theory_psychoanalysis
-  freud_dreams --> symbols_transformation
   two_essays --> archetypes_cu
   archetypes_cu --> aion
   classDef core fill:#f4d58d,stroke:#8a6d1f,color:#000

@@ -1,0 +1,184 @@
+id: schopenhauer
+title: Arthur Schopenhauer
+group: predecessors
+sequence: 6
+scope: >
+  Schopenhauer's books in the order he asked readers to take them, plus the
+  later essays that made him famous. He left unusually explicit instructions,
+  so most links here come from his own prefaces.
+status: draft
+
+# Format: see the header of lists/nietzsche.yaml.
+
+survey:
+  - source: syl-auckland-phil209
+    starts_with: wwr
+    includes: [wwr]
+    ordered: true
+    locator: lecture schedule (six weeks on WWR I, then Nietzsche)
+    verified: true
+    checked_in: Course outline (PDF), accessed 2026-11
+  - source: olli-hegel-schopenhauer
+    includes: [fourfold-root, wwr]
+    ordered: false
+    locator: reading list (both required)
+    verified: true
+    checked_in: Study group web page, accessed 2026-11
+
+works:
+
+  - id: upanishads
+    title: The Upanishads (a selection)
+    kind: background
+    tier: optional
+    difficulty: 2
+    note: Ancient Indian philosophical texts Schopenhauer read nightly and called the greatest gift of his century.
+
+  - id: fourfold-root
+    title: On the Fourfold Root of the Principle of Sufficient Reason
+    author: Arthur Schopenhauer
+    year: 1813
+    kind: primary
+    tier: core
+    difficulty: 4
+    translation: Payne (Open Court)
+    note: >
+      His dissertation, and the "centerpiece of his later philosophy" according to the
+      SEP: everything we explain falls under one of four kinds of ground.
+    after:
+      - work: kant:prolegomena
+        strength: helpful
+        why: Its claim that the subject–object distinction is the condition of all knowledge comes from Kant's first Critique.
+        sources:
+          - source: sep-schopenhauer
+            locator: "§2 The Fourfold Root"
+            verified: true
+            checked_in: SEP online, accessed 2026-11
+
+  - id: wwr
+    title: The World as Will and Representation, vol. 1
+    author: Arthur Schopenhauer
+    year: 1818
+    kind: primary
+    tier: core
+    difficulty: 4
+    translation: Payne (Dover) or Norman, Welchman & Janaway (Cambridge)
+    note: >
+      Four books: the world as representation, as will, art, and ethics. Nietzsche's
+      starting point and a major influence on Jung.
+    tips:
+      - text: >
+          He advises reading his appendix, "Criticism of the Kantian Philosophy", first,
+          and warns that the appendix and the book "must be read twice".
+        sources:
+          - source: schopenhauer-wwr-preface
+            locator: Preface to the first edition
+            verified: true
+            checked_in: Haldane & Kemp trans., Project Gutenberg #38427
+    after:
+      - work: fourfold-root
+        strength: required
+        why: >
+          He says that without this "introduction and propaedeutic" it is "absolutely
+          impossible to understand the present work properly".
+        sources:
+          - source: schopenhauer-wwr-preface
+            locator: Preface to the first edition
+            verified: true
+            checked_in: Haldane & Kemp trans., Project Gutenberg #38427
+      - work: kant:prolegomena
+        strength: required
+        why: >
+          "The philosophy of Kant ... is the only philosophy with which a thorough
+          acquaintance is directly presupposed." The Prolegomena is Kant's own summary.
+        sources:
+          - source: schopenhauer-wwr-preface
+            locator: Preface to the first edition
+            verified: true
+            checked_in: Haldane & Kemp trans., Project Gutenberg #38427
+      - work: kant:kant-cpr
+        strength: helpful
+        why: The Kant he presupposes and criticizes in his appendix is above all the Critique.
+        sources:
+          - source: schopenhauer-wwr-preface
+            locator: Preface to the first edition
+            verified: true
+            checked_in: Haldane & Kemp trans., Project Gutenberg #38427
+      - work: plato:republic
+        strength: helpful
+        why: >
+          A reader who "has lingered in the school of the divine Plato" will be "so much
+          the better prepared".
+        sources:
+          - source: schopenhauer-wwr-preface
+            locator: Preface to the first edition
+            verified: true
+            checked_in: Haldane & Kemp trans., Project Gutenberg #38427
+      - work: upanishads
+        strength: helpful
+        why: >
+          The third preparation he names: a reader who "is a partaker of the benefit
+          conferred by the Vedas" through the Upanishads is best prepared of all.
+        sources:
+          - source: schopenhauer-wwr-preface
+            locator: Preface to the first edition
+            verified: true
+            checked_in: Haldane & Kemp trans., Project Gutenberg #38427
+
+  - id: wwr-2
+    title: The World as Will and Representation, vol. 2 (Supplements)
+    author: Arthur Schopenhauer
+    year: 1844
+    kind: primary
+    tier: extended
+    difficulty: 4
+    note: Fifty chapters of supplements, each tied to a book of volume 1. More mature and often clearer.
+    after:
+      - work: wwr
+        strength: required
+        why: >
+          He advises newcomers to "first of all read the first volume without using the
+          supplementary books", and to use them only on a second reading.
+        sources:
+          - source: schopenhauer-wwr-preface2
+            locator: Preface to the second edition
+            verified: true
+            checked_in: Haldane & Kemp trans., Project Gutenberg #38427
+
+  - id: will-in-nature
+    title: On the Will in Nature
+    author: Arthur Schopenhauer
+    year: 1836
+    kind: primary
+    tier: optional
+    difficulty: 3
+    note: A short book confirming his metaphysics with the science of his day.
+    after:
+      - work: wwr
+        strength: context
+        why: The SEP describes it as aiming "to confirm and reiterate his metaphysical views in light of scientific evidence".
+        sources:
+          - source: sep-schopenhauer
+            locator: "§1 Life"
+            verified: true
+            checked_in: SEP online, accessed 2026-11
+
+  - id: two-problems-ethics
+    title: The Two Fundamental Problems of Ethics (On the Freedom of the Will; On the Basis of Morality)
+    author: Arthur Schopenhauer
+    year: 1841
+    kind: primary
+    tier: extended
+    difficulty: 3
+    note: Two prize essays, published together. Clear and self-contained; the Basis of Morality grounds ethics in compassion.
+
+  - id: parerga
+    title: Parerga and Paralipomena
+    author: Arthur Schopenhauer
+    year: 1851
+    kind: primary
+    tier: extended
+    difficulty: 2
+    note: >
+      Essays and aphorisms (including "Aphorisms on the Wisdom of Life"), the book that
+      finally brought him recognition. Easy to dip into at any point.

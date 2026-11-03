@@ -320,3 +320,351 @@
   author: Friedrich Nietzsche
   title: Twilight of the Idols
   year: 1889
+
+# ---------- Plato ----------
+
+- id: sep-plato
+  tier: 2
+  author: Richard Kraut
+  title: '"Plato", Stanford Encyclopedia of Philosophy'
+  url: https://plato.stanford.edu/entries/plato/
+
+- id: diogenes-laertius-3
+  tier: 2
+  author: Diogenes Laertius (trans. R. D. Hicks)
+  title: Lives of the Eminent Philosophers, Book III (Plato)
+  url: https://en.wikisource.org/wiki/Lives_of_the_Eminent_Philosophers/Book_III
+
+- id: plato-euthyphro-text
+  tier: 1
+  author: Plato
+  title: Euthyphro (with Jowett's introduction)
+
+- id: plato-theaetetus-text
+  tier: 1
+  author: Plato
+  title: Theaetetus
+
+- id: plato-sophist-text
+  tier: 1
+  author: Plato
+  title: Sophist
+
+- id: syl-ucsd-rickless
+  tier: 3
+  author: Samuel Rickless, UC San Diego
+  title: "Philosophy 100: Plato (Fall 2017)"
+  url: https://philosophy.ucsd.edu/_files/courses/17fall/phil-100_f17_rickless.pdf
+
+- id: syl-uccs-plato
+  tier: 3
+  author: University of Colorado Colorado Springs
+  title: "Plato seminar (Spring 2019)"
+  url: https://philosophy.uccs.edu/sites/g/files/kjihxj2381/files/inline-files/PlatoSyllabusSpr19.doc
+
+- id: syl-marquette-taylor
+  tier: 3
+  author: Richard Taylor, Marquette University
+  title: "Ancient Philosophy (Spring 2016), detailed syllabus"
+  url: https://academic.mu.edu/taylorr/Ancient_Philosophy_Spring_2016/Detailed_Course_Syllabus_part_2.html
+
+- id: syl-midcoast-hauptli
+  tier: 3
+  author: Bruce Hauptli, Midcoast Senior College
+  title: "What Is This Thing Called Philosophy? (Fall 2016)"
+  url: https://faculty.fiu.edu/~hauptli/Syllabus_For_What_Is_This_Thing_Called_Philosophy.htm
+
+- id: hackett-five-dialogues
+  tier: 3
+  author: Plato, trans. G. M. A. Grube, rev. John M. Cooper (Hackett)
+  title: "Five Dialogues: Euthyphro, Apology, Crito, Meno, Phaedo"
+
+# ---------- Kant ----------
+
+- id: sep-kant
+  tier: 2
+  author: Michael Rohlf
+  title: '"Immanuel Kant", Stanford Encyclopedia of Philosophy'
+  url: https://plato.stanford.edu/entries/kant/
+
+- id: kant-groundwork-text
+  tier: 1
+  author: Immanuel Kant
+  title: Groundwork (Fundamental Principles) of the Metaphysics of Morals, Preface
+  year: 1785
+
+- id: kant-cprr-text
+  tier: 1
+  author: Immanuel Kant
+  title: Critique of Practical Reason, Preface
+  year: 1788
+
+- id: kant-cj-text
+  tier: 1
+  author: Immanuel Kant
+  title: Critique of Judgement, Preface
+  year: 1790
+
+- id: syl-ucsd-watkins
+  tier: 3
+  author: Eric Watkins, UC San Diego
+  title: "Phil 106: Kant (Fall 2018)"
+  url: https://philosophy.ucsd.edu/_files/courses/18fall/Phil106_F18_Watkins.pdf
+
+- id: syl-ufl-kant
+  tier: 3
+  author: University of Florida
+  title: "PHH 4930: Seminar in a Major Philosopher: Kant (Spring 2026)"
+  url: https://phil.ufl.edu/wp-content/uploads/sites/145/2026/01/2026S-PHH4930-Kant-Syllabus-v1.0.pdf
+
+- id: syl-goldhaber-kant
+  tier: 3
+  author: Charles Goldhaber
+  title: "PHIL 335: Topics in Modern European Philosophy: Kant"
+  url: https://charles-goldhaber.squarespace.com/s/Kant-Syllabus-v24.pdf
+
+- id: syl-oregon-kant
+  tier: 3
+  author: Zambrana, University of Oregon
+  title: "PHIL 453/553: Kant's Critique of Pure Reason"
+  url: https://pages.uoregon.edu/uophil/files/PHIL_453-553_Kant.pdf
+
+- id: syl-edinburgh-kant
+  tier: 3
+  author: University of Edinburgh
+  title: "Kant, course guide (2017–18)"
+  url: https://edwebcontent.ed.ac.uk/sites/default/files/atoms/files/kant_course_guide_2017-18.pdf
+
+- id: syl-wolff-kant
+  tier: 3
+  author: J. Wolff
+  title: "Kant seminar (Fall 2012)"
+  url: https://jwolffphilosophy.net/wp-content/uploads/2013/04/syllabus-kant.pdf
+
+# ---------- Schopenhauer ----------
+
+- id: sep-schopenhauer
+  tier: 2
+  author: Robert Wicks
+  title: '"Arthur Schopenhauer", Stanford Encyclopedia of Philosophy'
+  url: https://plato.stanford.edu/entries/schopenhauer/
+
+- id: schopenhauer-wwr-preface2
+  tier: 1
+  author: Arthur Schopenhauer
+  title: The World as Will and Representation, Preface to the second edition
+  year: 1844
+
+- id: syl-auckland-phil209
+  tier: 3
+  author: University of Auckland
+  title: "PHIL 209/329: Schopenhauer and Nietzsche (Semester 1, 2014)"
+  url: https://www.artsfaculty.auckland.ac.nz/courses/docs/PHIL-209-329-Course-Outline-S1-2014.pdf
+
+- id: olli-hegel-schopenhauer
+  tier: 3
+  author: Osher Lifelong Learning Institute (OLLI-DC)
+  title: "Study group 861: Hegel and Schopenhauer"
+  url: https://www.olli-dc.org/StudyGroupDetail?studyGroupID=7420
+
+# ---------- Hume ----------
+
+- id: sep-hume
+  tier: 2
+  author: Stanford Encyclopedia of Philosophy
+  title: '"David Hume", Stanford Encyclopedia of Philosophy'
+  url: https://plato.stanford.edu/entries/hume/
+
+- id: hume-advertisement-1775
+  tier: 1
+  author: David Hume
+  title: '"Advertisement" to Essays and Treatises on Several Subjects'
+  year: 1775
+
+- id: hume-treatise-advertisement
+  tier: 1
+  author: David Hume
+  title: A Treatise of Human Nature, Advertisement to Books 1–2
+  year: 1739
+
+- id: syl-cmu-zollman
+  tier: 3
+  author: Kevin Zollman, Carnegie Mellon University
+  title: "Hume (Fall 2013)"
+  url: https://www.kevinzollman.com/uploads/5/0/3/6/50361245/hume-syllabus-2013.pdf
+
+- id: syl-jayasekera-hume
+  tier: 3
+  author: Marie Jayasekera
+  title: "PHIL 491/591: Hume's Treatise (Spring 2020)"
+  url: https://marie.jayasekera.org/files/syllabi/Jayasekera%20S20%20Hume.pdf
+
+- id: syl-guelph-sheridan
+  tier: 3
+  author: Patricia Sheridan, University of Guelph
+  title: "PHIL 6930/4410: Hume"
+  url: https://www.uoguelph.ca/arts/sites/default/files/syllabus/PHIL6930x4410_Sheridan.pdf
+
+- id: oxford-millican-hume
+  tier: 3
+  author: Peter Millican, University of Oxford
+  title: "Oxford Lectures on David Hume, 2024–25 (handouts)"
+  url: https://davidhume.org/teaching/lectures/Hume_2025_Handouts.pdf
+
+# ---------- Spinoza ----------
+
+- id: sep-spinoza
+  tier: 2
+  author: Steven Nadler
+  title: '"Baruch Spinoza", Stanford Encyclopedia of Philosophy'
+  url: https://plato.stanford.edu/entries/spinoza/
+
+- id: syl-ucsd-spinoza
+  tier: 3
+  author: UC San Diego
+  title: "PHIL 201A: Core Course in History of Philosophy: Spinoza's Ethics (Spring 2011)"
+  url: https://philosophy.ucsd.edu/_files/courses/11spring/phil201a_sp11.pdf
+
+- id: syl-garrett-spinoza
+  tier: 3
+  author: Don Garrett (NYU), at Columbia
+  title: "Spinoza's Metaphysics (Fall 2017)"
+  url: https://columbia.edu/~jrm2182/GR9670.pdf
+
+- id: syl-uw-rosenthal
+  tier: 3
+  author: Michael Rosenthal, University of Washington
+  title: "PHIL 522: Spinoza (Spring 2012)"
+  url: https://faculty.washington.edu/rosentha/PHIL522S12.html
+
+- id: syl-duke-surin
+  tier: 3
+  author: Kenneth Surin, Duke University
+  title: "LIT 284: Descartes, Spinoza, and Leibniz (Fall 2001)"
+  url: https://people.duke.edu/~ksurin/Lit284fall01.html
+
+# ---------- Hegel ----------
+
+- id: sep-hegel
+  tier: 2
+  author: Paul Redding
+  title: '"Georg Wilhelm Friedrich Hegel", Stanford Encyclopedia of Philosophy'
+  url: https://plato.stanford.edu/entries/hegel/
+
+- id: syl-oregon-hegel
+  tier: 3
+  author: Rocío Zambrana, University of Oregon
+  title: "PHIL 453/553: Hegel's Phenomenology of Spirit (Spring 2019)"
+  url: https://profile.uoregon.edu/sites/default/files/hegel,%20syllabus,%202019.pdf
+
+- id: syl-ucsd-hardimon
+  tier: 3
+  author: Michael Hardimon, UC San Diego
+  title: "Philosophy 107: Hegel, The Phenomenology of Spirit (Winter 2019)"
+  url: https://philosophy.ucsd.edu/_files/courses/19winter/W19_Phil%20107_Hardimon.pdf
+
+- id: syl-nyu-bowman
+  tier: 3
+  author: Caroline Bowman, NYU
+  title: "From Hegel to Nietzsche: Freedom and Alienation in 19th-Century German Philosophy"
+  url: https://www.carolinebowman.org/wp-content/uploads/2022/07/Hegel-Nietzsche-Syllabus.pdf
+
+- id: syl-mcgill-460
+  tier: 3
+  author: McGill University
+  title: "PHIL 460: Hegel's Phenomenology of Spirit (Winter 2012)"
+  url: https://www.mcgill.ca/philosophy/files/philosophy/460b12.pdf
+
+- id: syl-ucr-hegel
+  tier: 3
+  author: UC Riverside
+  title: "PHIL 282: Graduate Seminar, Hegel's Phenomenology of Spirit"
+  url: https://static1.squarespace.com/static/5b074ab54611a0bebe31f7b3/t/67929c6d2e34e948ae14cfed/1737661549403/Hegel+Syllabus.pdf
+
+# ---------- Bergson ----------
+
+- id: sep-bergson
+  tier: 2
+  author: Leonard Lawlor and Valentine Moulard-Leonard
+  title: '"Henri Bergson", Stanford Encyclopedia of Philosophy'
+  url: https://plato.stanford.edu/entries/bergson/
+
+- id: bergson-ce-text
+  tier: 1
+  author: Henri Bergson
+  title: Creative Evolution
+  year: 1907
+
+- id: syl-lsu-protevi-bergson
+  tier: 3
+  author: John Protevi, Louisiana State University
+  title: "Bergson Course (Spring 2008)"
+  url: https://www.protevi.com/john/Bergson/index.html
+
+- id: mscp-bergson
+  tier: 3
+  author: Melbourne School of Continental Philosophy
+  title: "Henri Bergson: Tendency and Time (seminar)"
+  url: https://mscp.org.au/past-courses/henri-bergson-tendency-and-time
+
+- id: syl-western-blankenship
+  tier: 3
+  author: Western University, Centre for the Study of Theory and Criticism
+  title: "Bergson: Cine-Perception (9202)"
+  url: https://www.uwo.ca/theory/current_students/course_descriptions/Blankenship-Bergson_CinePerception_9202.pdf
+
+# ---------- Freud ----------
+
+- id: iep-freud
+  tier: 2
+  author: Internet Encyclopedia of Philosophy
+  title: '"Sigmund Freud (1856–1939)"'
+  url: https://iep.utm.edu/freud/
+
+- id: jones-preface-1921
+  tier: 2
+  author: Ernest Jones
+  title: Preface to Freud, Introductory Lectures on Psycho-Analysis (trans. Riviere)
+  year: 1922
+
+- id: freud-ego-id-text
+  tier: 1
+  author: Sigmund Freud
+  title: The Ego and the Id, Introduction
+  year: 1923
+
+- id: freud-civilization-text
+  tier: 1
+  author: Sigmund Freud
+  title: Civilization and Its Discontents
+  year: 1930
+
+- id: freud-dreams-text
+  tier: 1
+  author: Sigmund Freud
+  title: The Interpretation of Dreams, Preface to the third edition
+  year: 1911
+
+- id: syl-columbia-freud
+  tier: 3
+  author: Columbia University, Institute for Comparative Literature and Society
+  title: "Freud (course page)"
+  url: https://icls.columbia.edu/courses/freud-4
+
+- id: syl-warwick-en3e8
+  tier: 3
+  author: University of Warwick
+  title: "EN3E8: Freud and psychoanalysis (2025 module outline)"
+  url: https://courses.warwick.ac.uk/modules/2025/EN3E8-30
+
+- id: syl-uw-freudlit
+  tier: 3
+  author: University of Washington
+  title: "Freud and the Literary Imagination"
+  url: https://courses.washington.edu/freudlit/Syllabus.html
+
+- id: bisr-freud
+  tier: 3
+  author: Brooklyn Institute for Social Research
+  title: "Strangers to Ourselves: An Introduction to Freud (2025)"
+  url: https://thebrooklyninstitute.com/items/courses/strangers-to-ourselves-an-introduction-to-freud-4/
