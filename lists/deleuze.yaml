@@ -9,6 +9,38 @@ status: draft   # draft -> reviewed -> stable
 # Format: see the header of lists/nietzsche.yaml.
 # Links to another list use "<list>:<work>", e.g. nietzsche:genealogy.
 
+# What independent sources assign. Note: most English-language Deleuze courses
+# found pair him with Foucault, which tilts this sample toward the political books.
+survey:
+  - source: syl-lsu-protevi
+    starts_with: anti-oedipus
+    includes: [anti-oedipus, thousand-plateaus]
+    ordered: true
+    locator: schedule
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: syl-oregon-koopman
+    starts_with: bergsonism
+    includes: [bergsonism, difference-and-repetition, logic-of-sense, coldness-cruelty, anti-oedipus]
+    ordered: true
+    locator: course schedule (Bergsonism, D&R and Logic of Sense in excerpts)
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: syl-denver-nail
+    starts_with: anti-oedipus
+    includes: [anti-oedipus, thousand-plateaus, negotiations, foucault]
+    ordered: true
+    locator: schedule of readings
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: syl-ucm-ingala
+    starts_with: difference-and-repetition
+    includes: [difference-and-repetition, nietzsche-and-philosophy, kants-critical-philosophy, proust-signs, logic-of-sense, francis-bacon, dialogues, what-is-philosophy]
+    ordered: false
+    locator: course description (centred on D&R ch. 3) and primary texts
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+
 works:
 
   # ---------- Background: the philosophers he reads ----------
@@ -79,6 +111,24 @@ works:
     difficulty: 2
     note: A readable overview organised around one question. Good before or alongside the first Deleuze book.
 
+  - id: rajchman-connections
+    title: The Deleuze Connections
+    author: John Rajchman
+    year: 2000
+    kind: secondary
+    tier: optional
+    position: start
+    difficulty: 2
+    tips:
+      - text: >
+          The IEP calls it a good text that deals systematically with the whole body of
+          Deleuze's work and is "quite easy to read".
+        sources:
+          - source: iep-deleuze
+            locator: "§8b Secondary texts"
+            verified: true
+            checked_in: IEP online, accessed 2026-11
+
   # ---------- Studies of other philosophers ----------
 
   - id: empiricism-subjectivity
@@ -107,6 +157,10 @@ works:
     tier: core
     difficulty: 3
     translation: Tomlinson (Columbia / Bloomsbury)
+    tier_note: >
+      Kept in the core path although only one surveyed course assigns it: most
+      courses found pair Deleuze with Foucault and skip his early monographs, which
+      the SEP calls "preliminary sketches" for Difference and Repetition.
     note: >
       The book that made his name. Reads Nietzsche as completing and overturning Kant,
       and against Hegel. Useful even if you mostly care about Nietzsche.
@@ -156,6 +210,10 @@ works:
     tier: core
     difficulty: 3
     translation: Tomlinson & Habberjam (Zone Books)
+    tier_note: >
+      Kept in the core path although only one surveyed course assigns it: most
+      courses found pair Deleuze with Foucault and skip his early monographs, which
+      the SEP calls "preliminary sketches" for Difference and Repetition.
     note: Short. Introduces the virtual and multiplicity, the two ideas his later work runs on.
     after:
       - work: bergson
@@ -194,6 +252,15 @@ works:
     difficulty: 2
     note: A shorter companion to the Spinoza book, with a glossary of Spinoza's terms.
 
+  - id: coldness-cruelty
+    title: 'Masochism: Coldness and Cruelty'
+    author: Gilles Deleuze
+    year: 1967
+    kind: primary
+    tier: optional
+    difficulty: 3
+    note: A reading of Sacher-Masoch against Sade; published with Venus in Furs.
+
   # ---------- Philosophy "in his own name" ----------
 
   - id: difference-and-repetition
@@ -208,8 +275,13 @@ works:
     tips:
       - text: >
           Chapter 3, "The Image of Thought", is the turning point from his readings of
-          other philosophers to his own philosophy. Some readers start there.
+          other philosophers to his own philosophy. Some readers start there, and at
+          least one university course is built around it.
         sources:
+          - source: syl-ucm-ingala
+            locator: course description
+            verified: true
+            checked_in: Course syllabus (PDF), accessed 2026-11
           - source: sep-deleuze
             locator: "§3.1 Difference and Repetition"
             verified: true
@@ -219,15 +291,16 @@ works:
         strength: helpful
         why: >
           His studies of other philosophers were "preliminary sketches" for this book,
-          and he credited Nietzsche with getting him out of plain history of philosophy.
+          and he said "It was Nietzsche who extricated me" from academic history of philosophy.
         sources:
           - source: sep-deleuze
             locator: "§3.1 Difference and Repetition"
             verified: true
             checked_in: SEP online (2022 revision), accessed 2026-11
-          - source: deleuze-harsh-critic
-            locator: "p. 6"
-            verified: false
+          - source: grace-2014
+            locator: "p. 99 (quoting Deleuze, \"Letter to a Harsh Critic\", Negotiations p. 6)"
+            verified: true
+            checked_in: Foucault Studies 17 (2014), open-access PDF
       - work: bergsonism
         strength: helpful
         why: Bergsonism develops the virtual and multiplicity, which this book depends on.
@@ -285,6 +358,16 @@ works:
             locator: "§4 Collaboration with Guattari"
             verified: true
             checked_in: SEP online (2022 revision), accessed 2026-11
+      - work: nietzsche:genealogy
+        strength: context
+        why: >
+          A Deleuze and Guattari course recommends reading Nietzsche's Genealogy
+          beforehand, and assigns it alongside Anti-Oedipus.
+        sources:
+          - source: syl-lsu-protevi
+            locator: "Suggested Readings; schedule week 4"
+            verified: true
+            checked_in: Course page and syllabus PDF, accessed 2026-11
       - work: freud-marx
         strength: context
         why: Its central idea, "desiring-production", is a critique of both Freud and Marx.
@@ -476,6 +559,16 @@ works:
     tier: optional
     difficulty: 3
     note: By the translator of A Thousand Plateaus.
+    tips:
+      - text: >
+          The IEP calls it "perhaps the best known and most consistent" commentary on
+          Capitalism and Schizophrenia, while warning that all secondary texts in this
+          area are very difficult.
+        sources:
+          - source: iep-deleuze
+            locator: "§8b Secondary texts"
+            verified: true
+            checked_in: IEP online, accessed 2026-11
     after:
       - work: anti-oedipus
         strength: required
@@ -487,8 +580,15 @@ works:
             checked_in: SEP bibliography entry
       - work: thousand-plateaus
         strength: context
-        why: It covers both volumes, though it leans on A Thousand Plateaus.
+        why: >
+          It is a guide to all of Capitalism and Schizophrenia, and A Thousand
+          Plateaus is that project's second volume.
         sources:
           - source: massumi-users-guide
             locator: title
-            verified: false
+            verified: true
+            checked_in: SEP bibliography entry
+          - source: deleuze-guattari-atp-text
+            locator: "Authors' Note (\"Together they make up Capitalism and Schizophrenia\")"
+            verified: true
+            checked_in: Massumi trans. (1987), The Anarchist Library edition

@@ -3,7 +3,7 @@
 # tier:
 #   1 author     - the author's own statements (books, prefaces, letters, interviews)
 #   2 scholarly  - peer-reviewed or academic-press guides, companions, encyclopedias
-#   3 syllabus   - what university courses assign, and in what order
+#   3 teaching   - what university courses and teaching institutions assign, and in what order
 #   4 community  - reading guides from forums, blogs, etc. (hints only)
 
 - id: nietzsche-ecce-homo
@@ -119,6 +119,13 @@
   publisher: Columbia University Press
   year: 1995
 
+- id: grace-2014
+  tier: 2
+  author: Wendy Grace
+  title: '"Foucault and Deleuze: Making a Difference with Nietzsche", Foucault Studies 17'
+  year: 2014
+  url: https://rauli.cbs.dk/index.php/foucault-studies/article/view/4255
+
 - id: williams-dr-guide
   tier: 2
   author: James Williams
@@ -192,3 +199,89 @@
   author: Princeton University Press
   title: "Nietzsche's Zarathustra: Notes of the Seminar Given in 1934–1939, description"
   url: https://press.princeton.edu/isbn/9780691099538
+
+# ---------- Course syllabi and teaching lists (tier 3) ----------
+
+- id: syl-bard-pl320
+  tier: 3
+  author: Tracy Colony, Bard College
+  title: "PL 320 Nietzsche: Philosophy at the Limit (Fall 2025)"
+  url: https://tools.bard.edu/wwwmedia/resources/files/3076/PL%20320_F25_Syllabus_Colony.pdf
+
+- id: syl-umbc-phil452
+  tier: 3
+  author: University of Maryland, Baltimore County
+  title: "Philosophy 452: Nietzsche (Spring 2016)"
+  url: https://ugc.umbc.edu/wp-content/uploads/sites/232/2017/02/PHIL485Nietzsche-syllabus-1.pdf
+
+- id: syl-western-3030g
+  tier: 3
+  author: Western University, Department of Philosophy
+  title: "Philosophy 3030G: Nietzsche (2023–24)"
+  url: https://www.uwo.ca/philosophy/undergraduate/courses/Outlines/2023_24/3030G.pdf
+
+- id: syl-hmc-phil170
+  tier: 3
+  author: Harvey Mudd College (Beckman)
+  title: "Phil 170: Nietzsche, schedule"
+  url: https://pages.hmc.edu/beckman/philosophy/Nietzsche/sch170.htm
+
+- id: syl-chicago-wellbery
+  tier: 3
+  author: David Wellbery, University of Chicago
+  title: "Nietzsche: Culture, Critique, Self-Transcendence (Winter 2018)"
+  url: https://humanities-web.s3.us-east-2.amazonaws.com/college-prod/s3fs-public/documents/signature-courses/Wellbery%20Nietzsche%20Syllabus.pdf
+
+- id: syl-warwick-ph334
+  tier: 3
+  author: University of Warwick
+  title: "PH334 Nietzsche (2025 module page)"
+  url: https://courses.warwick.ac.uk/modules/2025/PH334-15
+
+- id: iep-deleuze
+  tier: 2
+  author: Internet Encyclopedia of Philosophy
+  title: '"Gilles Deleuze (1925–1995)"'
+  url: https://iep.utm.edu/gilles-deleuze/
+
+- id: syl-lsu-protevi
+  tier: 3
+  author: John Protevi, Louisiana State University
+  title: "French 7410: Deleuze and Guattari (Fall 2013)"
+  url: https://protevi.com/john/DG/index.html
+
+- id: syl-oregon-koopman
+  tier: 3
+  author: Colin Koopman, University of Oregon
+  title: "PHIL 463/563: Michel Foucault & Gilles Deleuze (Fall 2012)"
+  url: https://pages.uoregon.edu/uophil/files/syll_authors_fouc-dlz_cult_crit_FINAL.pdf
+
+- id: syl-denver-nail
+  tier: 3
+  author: Thomas Nail, University of Denver
+  title: "PHIL 2145: Between Deleuze and Foucault (Spring 2013)"
+  url: https://mysite.du.edu/~tnail2/Thomas_Nail/Teaching._files/Between%20Deleuze%20and%20Foucault%20(syllabus).pdf
+
+- id: syl-ucm-ingala
+  tier: 3
+  author: Emma Ingala Gómez, Universidad Complutense de Madrid
+  title: "Current Approaches in Philosophy I: Deleuze (2015–16)"
+  url: https://filosofia.ucm.es/data/cont/docs/25-2015-11-18-SYLLABUS%20Current%20Approaches%20in%20Philosophy%20I.pdf
+
+- id: jung-seattle-reading
+  tier: 3
+  author: Jung Society of Seattle
+  title: Recommended Reading ("For Absolute Beginners")
+  url: https://jungseattle.org/learn/recommended-reading/
+
+- id: jcss-beginners-guide
+  tier: 3
+  author: Jungian Center for the Spiritual Sciences
+  title: A Beginner's Guide to Reading Jung
+  url: https://jungiancenter.org/a-beginners-guide-to-reading-jung-2/
+
+- id: syl-rollins-psy315
+  tier: 3
+  author: David Baker, Rollins College
+  title: "PSY 315M: Carl Jung and the Psychology of Soul (Fall 2008)"
+  url: https://rpublic.rollins.edu/sites/Syllabi/CourseSyllabi/PSY315MH2-200809.pdf

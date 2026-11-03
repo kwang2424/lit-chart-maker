@@ -16,7 +16,7 @@ contradict itself.
   (X makes Y much better), `context` (nice background).
 - **Tiers:** `core` (the short path), `extended`, `optional`.
 - **Sources** live in `sources/sources.yaml`, ranked: 1 author's own words,
-  2 scholarly guides, 3 university syllabi, 4 community lists.
+  2 scholarly guides, 3 teaching (university syllabi, institutes' reading lists), 4 community lists.
   A `required` link needs a tier 1 or 2 source.
 - **Verification:** each citation starts as `verified: false` until a person
   checks it against the actual text. A list can only be marked `stable` once
