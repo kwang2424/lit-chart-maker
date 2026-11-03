@@ -435,7 +435,8 @@ def render(data: dict, lists: dict, sources: dict) -> str:
         votes = consensus.compute(data)["works"].get(n, {}).get("starts", 0)
         if votes:
             star += f" · first book in {votes} surveyed source{'s' if votes != 1 else ''}"
-        out.append(f"{i}. **{w['title']}** ({w.get('year', '')}) · difficulty {stars(w['difficulty'])}{star}")
+        yr = f" ({w['year']})" if w.get("year") else ""
+        out.append(f"{i}. **{w['title']}**{yr} · difficulty {stars(w['difficulty'])}{star}")
     out.append("")
 
     out += consensus.render_md(data, sources, SOURCE_TIER_NAMES)

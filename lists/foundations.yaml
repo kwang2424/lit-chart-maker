@@ -1,0 +1,199 @@
+id: foundations
+title: Foundations
+scope: >
+  The predecessors that Nietzsche, Deleuze and Jung most depend on, read
+  only as far as they need: a handful of Plato dialogues, Kant through his
+  own short introduction, and Schopenhauer. The author lists link here.
+status: draft   # draft -> reviewed -> stable
+
+# Format: see the header of lists/nietzsche.yaml. Plato's dialogues have no
+# reliable dates, so they carry none.
+
+works:
+
+  # ---------- Plato: the death of Socrates ----------
+
+  - id: apology
+    title: Apology
+    author: Plato
+    kind: primary
+    tier: core
+    difficulty: 1
+    translation: Grube (in Hackett's Complete Works) or Jowett (free online)
+    note: Socrates' defence at his trial. Short, readable, and the Socrates Nietzsche argues with.
+
+  - id: crito
+    title: Crito
+    author: Plato
+    kind: primary
+    tier: extended
+    difficulty: 1
+    note: Socrates in prison refuses to escape. Very short.
+    after:
+      - work: apology
+        strength: context
+        why: >
+          It is set in prison after the trial, while Socrates waits for "the ship
+          from Delos" whose return means his execution.
+        sources:
+          - source: plato-crito-text
+            locator: opening exchange; Jowett's introduction (on the trial)
+            verified: true
+            checked_in: Jowett trans., Project Gutenberg #1657
+
+  - id: phaedo
+    title: Phaedo
+    author: Plato
+    kind: primary
+    tier: core
+    difficulty: 2
+    note: >
+      Socrates' last day: arguments that the soul is immortal and belongs to a truer
+      world than the body. Ends with his death.
+    after:
+      - work: crito
+        strength: context
+        why: It tells how the sacred ship's voyage delayed the execution, then narrates the death.
+        sources:
+          - source: plato-phaedo-text
+            locator: opening (the ship to Delos) and ending
+            verified: true
+            checked_in: Jowett trans., Project Gutenberg #1658
+
+  # ---------- Plato: love and the Forms ----------
+
+  - id: symposium
+    title: Symposium
+    author: Plato
+    kind: primary
+    tier: extended
+    difficulty: 2
+    note: >
+      Speeches on love at a drinking party, crashed at the end by a drunk Alcibiades.
+      Read it any time after the Apology; it matters most for The Birth of Tragedy.
+
+  - id: republic
+    title: Republic (at least Books VI–VII and X)
+    author: Plato
+    kind: primary
+    tier: core
+    difficulty: 3
+    translation: Grube rev. Reeve (Hackett) or Jowett (free online)
+    note: >
+      The sun, the divided line and the cave (Books VI–VII) and the Ideas and their
+      copies (Book X): the "true world" Nietzsche mocks and Deleuze sets out to overturn.
+    tips:
+      - text: >
+          Book VII opens with the cave; Book X explains Ideas and copies with the
+          example of beds and tables.
+        sources:
+          - source: plato-republic-text
+            locator: Book VII opening; Book X
+            verified: true
+            checked_in: Jowett trans., Project Gutenberg #1497
+
+  # ---------- Kant ----------
+
+  - id: prolegomena
+    title: Prolegomena to Any Future Metaphysics
+    author: Immanuel Kant
+    year: 1783
+    kind: primary
+    tier: core
+    difficulty: 4
+    translation: Hatfield (Cambridge) or Carus (free online)
+    note: >
+      Kant's own short version of the Critique of Pure Reason. For most readers of
+      Nietzsche, Deleuze or Jung this, plus a good guide, is enough Kant.
+
+  - id: kant-cpr
+    title: Critique of Pure Reason
+    author: Immanuel Kant
+    year: 1781
+    kind: background
+    tier: extended
+    difficulty: 5
+    translation: Guyer & Wood or Pluhar
+    note: The book Schopenhauer and Deleuze rework. Very hard; read with a guide.
+    after:
+      - work: prolegomena
+        strength: helpful
+        why: >
+          Kant wrote the Prolegomena as the Critique's "plan" and "a preliminary exercise",
+          because readers found the Critique too diffuse to follow.
+        sources:
+          - source: kant-prolegomena-text
+            locator: Preface
+            verified: true
+            checked_in: Carus trans. (Open Court, 1912), Project Gutenberg #52821
+
+  # ---------- Schopenhauer ----------
+
+  - id: fourfold-root
+    title: On the Fourfold Root of the Principle of Sufficient Reason
+    author: Arthur Schopenhauer
+    year: 1813
+    kind: primary
+    tier: core
+    difficulty: 4
+    note: His dissertation, which he insisted is the introduction to his main work.
+
+  - id: wwr
+    title: The World as Will and Representation, vol. 1
+    author: Arthur Schopenhauer
+    year: 1818
+    kind: primary
+    tier: core
+    difficulty: 4
+    translation: Payne (Dover) or Norman, Welchman & Janaway (Cambridge)
+    note: >
+      Nietzsche's starting point, which he later turned against, and a major
+      influence on Jung. Book IV (on the will and pessimism) matters most.
+    tips:
+      - text: >
+          Schopenhauer advises reading his appendix, "Criticism of the Kantian
+          Philosophy", first, and warns that the appendix and the book "must be read twice".
+        sources:
+          - source: schopenhauer-wwr-preface
+            locator: Preface to the first edition
+            verified: true
+            checked_in: Haldane & Kemp trans., Project Gutenberg #38427
+    after:
+      - work: fourfold-root
+        strength: required
+        why: >
+          He says that without this "introduction and propaedeutic" it is "absolutely
+          impossible to understand the present work properly".
+        sources:
+          - source: schopenhauer-wwr-preface
+            locator: Preface to the first edition
+            verified: true
+            checked_in: Haldane & Kemp trans., Project Gutenberg #38427
+      - work: prolegomena
+        strength: required
+        why: >
+          "The philosophy of Kant ... is the only philosophy with which a thorough
+          acquaintance is directly presupposed." The Prolegomena is Kant's own summary.
+        sources:
+          - source: schopenhauer-wwr-preface
+            locator: Preface to the first edition
+            verified: true
+            checked_in: Haldane & Kemp trans., Project Gutenberg #38427
+      - work: kant-cpr
+        strength: helpful
+        why: The book he presupposes and criticizes in his appendix is above all the Critique.
+        sources:
+          - source: schopenhauer-wwr-preface
+            locator: Preface to the first edition
+            verified: true
+            checked_in: Haldane & Kemp trans., Project Gutenberg #38427
+      - work: republic
+        strength: helpful
+        why: >
+          A reader who "has lingered in the school of the divine Plato" will be "so much
+          the better prepared".
+        sources:
+          - source: schopenhauer-wwr-preface
+            locator: Preface to the first edition
+            verified: true
+            checked_in: Haldane & Kemp trans., Project Gutenberg #38427

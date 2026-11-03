@@ -3,7 +3,7 @@
 Reading orders for philosophers and thinkers, in the spirit of the old /lit/
 reading charts, but with every "read X before Y" backed by a reason and a source.
 
-**Lists:** [Nietzsche](generated/nietzsche.md) · [Deleuze](generated/deleuze.md) · [Jung](generated/jung.md) (all drafts).
+**Lists:** [Foundations](generated/foundations.md) (Plato, Kant, Schopenhauer) · [Nietzsche](generated/nietzsche.md) · [Deleuze](generated/deleuze.md) · [Jung](generated/jung.md) (all drafts).
 
 ## How it works
 

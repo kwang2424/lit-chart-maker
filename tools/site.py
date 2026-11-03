@@ -209,7 +209,8 @@ def list_page(data: dict, lists: dict, sources: dict) -> str:
     for n in core_order:
         w = by_id[n]
         star = " ★ start here" if w.get("start_here") else ""
-        h.append(f'<li><a href="#{n}">{escape(w["title"])}</a> <span class="muted">({w.get("year", "")}){star}</span></li>')
+        yr = f'({w["year"]})' if w.get("year") else ""
+        h.append(f'<li><a href="#{n}">{escape(w["title"])}</a> <span class="muted">{yr}{star}</span></li>')
     h.append("</ol>")
 
     h.append(consensus.render_html(data, sources, b.SOURCE_TIER_NAMES))

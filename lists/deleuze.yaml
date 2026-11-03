@@ -54,17 +54,6 @@ works:
     difficulty: 3
     note: Book I is the part that matters for Deleuze's first book.
 
-  - id: kant-cpr
-    title: Critique of Pure Reason
-    author: Immanuel Kant
-    year: 1781
-    kind: background
-    tier: optional
-    difficulty: 5
-    note: >
-      Deleuze's whole project is a rewrite of Kant's. A good guide or summary
-      is enough for most readers.
-
   - id: spinoza-ethics
     title: Ethics
     author: Baruch Spinoza
@@ -185,7 +174,7 @@ works:
     difficulty: 3
     note: A short, dense survey of all three Critiques.
     after:
-      - work: kant-cpr
+      - work: foundations:kant-cpr
         strength: context
         why: It is a reading of Kant, and Deleuze's later work starts from this reading.
         sources:
@@ -287,6 +276,16 @@ works:
             verified: true
             checked_in: SEP online (2022 revision), accessed 2026-11
     after:
+      - work: foundations:republic
+        strength: context
+        why: >
+          It attacks Plato's three-tiered system of Idea, copy and simulacrum
+          (DR 59–63).
+        sources:
+          - source: iep-deleuze
+            locator: "§4 Difference and Repetition"
+            verified: true
+            checked_in: IEP online, accessed 2026-11
       - work: nietzsche-and-philosophy
         strength: helpful
         why: >
@@ -327,6 +326,16 @@ works:
     difficulty: 5
     note: On how meaning arises. Built from short "series"; draws on Lewis Carroll and the Stoics.
     after:
+      - work: foundations:republic
+        strength: context
+        why: >
+          It attacks Plato's three-tiered system of Idea, copy and simulacrum
+          (the appendix, LS 253–65).
+        sources:
+          - source: iep-deleuze
+            locator: "§4 Difference and Repetition"
+            verified: true
+            checked_in: IEP online, accessed 2026-11
       - work: difference-and-repetition
         strength: context
         why: His second major work of the late 1960s, continuing the philosophy of difference.

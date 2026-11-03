@@ -285,3 +285,38 @@
   author: David Baker, Rollins College
   title: "PSY 315M: Carl Jung and the Psychology of Soul (Fall 2008)"
   url: https://rpublic.rollins.edu/sites/Syllabi/CourseSyllabi/PSY315MH2-200809.pdf
+
+# ---------- Foundations ----------
+
+- id: plato-crito-text
+  tier: 1
+  author: Plato
+  title: Crito (with Jowett's introduction)
+
+- id: plato-phaedo-text
+  tier: 1
+  author: Plato
+  title: Phaedo
+
+- id: plato-republic-text
+  tier: 1
+  author: Plato
+  title: Republic
+
+- id: kant-prolegomena-text
+  tier: 1
+  author: Immanuel Kant
+  title: Prolegomena to Any Future Metaphysics (Preface)
+  year: 1783
+
+- id: schopenhauer-wwr-preface
+  tier: 1
+  author: Arthur Schopenhauer
+  title: The World as Will and Representation, Preface to the first edition
+  year: 1818
+
+- id: nietzsche-twilight-text
+  tier: 1
+  author: Friedrich Nietzsche
+  title: Twilight of the Idols
+  year: 1889

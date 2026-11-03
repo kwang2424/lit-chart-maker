@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1092" height="2690" viewBox="0 0 1092 2690" font-family="Georgia, 'Times New Roman', serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="1092" height="2560" viewBox="0 0 1092 2560" font-family="Georgia, 'Times New Roman', serif">
 <defs>
 <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c8072"/></marker>
 </defs>
@@ -8,17 +8,18 @@
 <text x="190.0" y="132" text-anchor="middle" font-size="15" letter-spacing="2" fill="#6b6256">EXTENDED</text>
 <text x="546.0" y="132" text-anchor="middle" font-size="15" letter-spacing="2" fill="#6b6256">CORE PATH</text>
 <text x="902.0" y="132" text-anchor="middle" font-size="15" letter-spacing="2" fill="#6b6256">OPTIONAL &amp; BACKGROUND</text>
-<path d="M546.0,1156 C546.0,1236.5 546.0,1236.5 546.0,1317" fill="none" stroke="#8c8072" stroke-width="1.6" opacity="0.9" marker-end="url(#arrow)"/>
-<path d="M546.0,1416 C546.0,1446 546.0,1417 546.0,1447" fill="none" stroke="#8c8072" stroke-width="1.6" opacity="0.9" marker-end="url(#arrow)"/>
-<path d="M902.0,2066 C902.0,2096 902.0,2067 902.0,2097" fill="none" stroke="#8c8072" stroke-width="1.6" opacity="0.9" marker-end="url(#arrow)"/>
-<path d="M546.0,1156 C546.0,1236.5 190.0,1236.5 190.0,1317" fill="none" stroke="#8c8072" stroke-width="1.6" opacity="0.9" marker-end="url(#arrow)"/>
-<path d="M546.0,1416 C546.0,1446 902.0,1417 902.0,1447" fill="none" stroke="#8c8072" stroke-width="1.6" opacity="0.9" marker-end="url(#arrow)"/>
+<path d="M546.0,766 C546.0,846.5 546.0,846.5 546.0,927" fill="none" stroke="#8c8072" stroke-width="1.6" opacity="0.9" marker-end="url(#arrow)"/>
+<path d="M546.0,1026 C546.0,1106.5 546.0,1106.5 546.0,1187" fill="none" stroke="#8c8072" stroke-width="1.6" opacity="0.9" marker-end="url(#arrow)"/>
+<path d="M546.0,1286 C546.0,1316 546.0,1287 546.0,1317" fill="none" stroke="#8c8072" stroke-width="1.6" opacity="0.9" marker-end="url(#arrow)"/>
+<path d="M902.0,1936 C902.0,1966 902.0,1937 902.0,1967" fill="none" stroke="#8c8072" stroke-width="1.6" opacity="0.9" marker-end="url(#arrow)"/>
+<path d="M546.0,1026 C546.0,1106.5 190.0,1106.5 190.0,1187" fill="none" stroke="#8c8072" stroke-width="1.6" opacity="0.9" marker-end="url(#arrow)"/>
+<path d="M546.0,1286 C546.0,1316 902.0,1287 902.0,1317" fill="none" stroke="#8c8072" stroke-width="1.6" opacity="0.9" marker-end="url(#arrow)"/>
 <path d="M902.0,376 C902.0,406 902.0,377 902.0,407" fill="none" stroke="#8c8072" stroke-width="1.6" stroke-dasharray="5 5" opacity="0.55" marker-end="url(#arrow)"/>
-<path d="M752,978.0 L343,978.0" fill="none" stroke="#8c8072" stroke-width="1.6" stroke-dasharray="5 5" opacity="0.55" marker-end="url(#arrow)"/>
 <path d="M902.0,636 C902.0,666 546.0,637 546.0,667" fill="none" stroke="#8c8072" stroke-width="1.6" stroke-dasharray="5 5" opacity="0.55" marker-end="url(#arrow)"/>
-<path d="M190.0,1026 C190.0,1056 546.0,1027 546.0,1057" fill="none" stroke="#8c8072" stroke-width="1.6" stroke-dasharray="5 5" opacity="0.55" marker-end="url(#arrow)"/>
-<path d="M546.0,1156 C546.0,1186 190.0,1157 190.0,1187" fill="none" stroke="#8c8072" stroke-width="1.6" stroke-dasharray="5 5" opacity="0.55" marker-end="url(#arrow)"/>
-<path d="M902.0,1286 C902.0,1316 546.0,1287 546.0,1317" fill="none" stroke="#8c8072" stroke-width="1.6" stroke-dasharray="5 5" opacity="0.55" marker-end="url(#arrow)"/>
+<path d="M902.0,896 C902.0,926 190.0,897 190.0,927" fill="none" stroke="#8c8072" stroke-width="1.6" stroke-dasharray="5 5" opacity="0.55" marker-end="url(#arrow)"/>
+<path d="M190.0,896 C190.0,926 546.0,897 546.0,927" fill="none" stroke="#8c8072" stroke-width="1.6" stroke-dasharray="5 5" opacity="0.55" marker-end="url(#arrow)"/>
+<path d="M546.0,1026 C546.0,1056 190.0,1027 190.0,1057" fill="none" stroke="#8c8072" stroke-width="1.6" stroke-dasharray="5 5" opacity="0.55" marker-end="url(#arrow)"/>
+<path d="M902.0,1156 C902.0,1186 546.0,1157 546.0,1187" fill="none" stroke="#8c8072" stroke-width="1.6" stroke-dasharray="5 5" opacity="0.55" marker-end="url(#arrow)"/>
 <rect x="752" y="150" width="300" height="96" rx="8" fill="#ebe7e0" stroke="#8c8072" stroke-width="1.5"/>
 <circle cx="774" cy="172" r="14" fill="#8c8072"/>
 <text x="774" y="177" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">1</text>
@@ -76,156 +77,150 @@
 <text x="796" y="827" font-size="16" font-weight="bold" fill="#1f1a14">Ethics</text>
 <text x="796" y="848" font-size="13" fill="#6b6256">Baruch Spinoza, 1677</text>
 <text x="766" y="884" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●●●○</text>
+<rect x="40" y="800" width="300" height="96" rx="8" fill="#d6e6f5" stroke="#3b6a91" stroke-width="1.5"/>
+<circle cx="62" cy="822" r="14" fill="#3b6a91"/>
+<text x="62" y="827" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">10</text>
+<text x="84" y="827" font-size="16" font-weight="bold" fill="#1f1a14">Kant&#x27;s Critical Philosophy</text>
+<text x="84" y="848" font-size="13" fill="#6b6256">Gilles Deleuze, 1963</text>
+<text x="54" y="884" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●●○○</text>
 <rect x="752" y="930" width="300" height="96" rx="8" fill="#ebe7e0" stroke="#8c8072" stroke-width="1.5"/>
 <circle cx="774" cy="952" r="14" fill="#8c8072"/>
-<text x="774" y="957" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">10</text>
-<text x="796" y="957" font-size="16" font-weight="bold" fill="#1f1a14">Critique of Pure Reason</text>
-<text x="796" y="978" font-size="13" fill="#6b6256">Immanuel Kant, 1781</text>
-<text x="766" y="1014" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●●●●</text>
+<text x="774" y="957" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">11</text>
+<text x="796" y="957" font-size="16" font-weight="bold" fill="#1f1a14">Masochism: Coldness and</text>
+<text x="796" y="976" font-size="16" font-weight="bold" fill="#1f1a14">Cruelty</text>
+<text x="796" y="997" font-size="13" fill="#6b6256">Gilles Deleuze, 1967</text>
+<text x="766" y="1014" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●●○○</text>
 <rect x="40" y="930" width="300" height="96" rx="8" fill="#d6e6f5" stroke="#3b6a91" stroke-width="1.5"/>
 <circle cx="62" cy="952" r="14" fill="#3b6a91"/>
-<text x="62" y="957" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">11</text>
-<text x="84" y="957" font-size="16" font-weight="bold" fill="#1f1a14">Kant&#x27;s Critical Philosophy</text>
-<text x="84" y="978" font-size="13" fill="#6b6256">Gilles Deleuze, 1963</text>
-<text x="54" y="1014" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●●○○</text>
-<rect x="752" y="1060" width="300" height="96" rx="8" fill="#ebe7e0" stroke="#8c8072" stroke-width="1.5"/>
-<circle cx="774" cy="1082" r="14" fill="#8c8072"/>
-<text x="774" y="1087" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">12</text>
-<text x="796" y="1087" font-size="16" font-weight="bold" fill="#1f1a14">Masochism: Coldness and</text>
-<text x="796" y="1106" font-size="16" font-weight="bold" fill="#1f1a14">Cruelty</text>
-<text x="796" y="1127" font-size="13" fill="#6b6256">Gilles Deleuze, 1967</text>
-<text x="766" y="1144" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●●○○</text>
+<text x="62" y="957" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">12</text>
+<text x="84" y="957" font-size="16" font-weight="bold" fill="#1f1a14">Expressionism in Philosophy:</text>
+<text x="84" y="976" font-size="16" font-weight="bold" fill="#1f1a14">Spinoza</text>
+<text x="84" y="997" font-size="13" fill="#6b6256">Gilles Deleuze, 1968</text>
+<text x="54" y="1014" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●●●○</text>
+<rect x="396" y="930" width="300" height="96" rx="8" fill="#f4d58d" stroke="#8a6d1f" stroke-width="2.5"/>
+<circle cx="418" cy="952" r="14" fill="#8a6d1f"/>
+<text x="418" y="957" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">13</text>
+<text x="440" y="957" font-size="16" font-weight="bold" fill="#1f1a14">Difference and Repetition</text>
+<text x="440" y="978" font-size="13" fill="#6b6256">Gilles Deleuze, 1968</text>
+<text x="410" y="1014" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">core #3  ·  difficulty ●●●●●</text>
+<text x="686" y="924" text-anchor="end" font-size="12" font-style="italic" fill="#6b6256">after: Nietzsche and Philosophy</text>
 <rect x="40" y="1060" width="300" height="96" rx="8" fill="#d6e6f5" stroke="#3b6a91" stroke-width="1.5"/>
 <circle cx="62" cy="1082" r="14" fill="#3b6a91"/>
-<text x="62" y="1087" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">13</text>
-<text x="84" y="1087" font-size="16" font-weight="bold" fill="#1f1a14">Expressionism in Philosophy:</text>
-<text x="84" y="1106" font-size="16" font-weight="bold" fill="#1f1a14">Spinoza</text>
-<text x="84" y="1127" font-size="13" fill="#6b6256">Gilles Deleuze, 1968</text>
-<text x="54" y="1144" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●●●○</text>
-<rect x="396" y="1060" width="300" height="96" rx="8" fill="#f4d58d" stroke="#8a6d1f" stroke-width="2.5"/>
-<circle cx="418" cy="1082" r="14" fill="#8a6d1f"/>
-<text x="418" y="1087" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">14</text>
-<text x="440" y="1087" font-size="16" font-weight="bold" fill="#1f1a14">Difference and Repetition</text>
-<text x="440" y="1108" font-size="13" fill="#6b6256">Gilles Deleuze, 1968</text>
-<text x="410" y="1144" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">core #3  ·  difficulty ●●●●●</text>
-<text x="686" y="1054" text-anchor="end" font-size="12" font-style="italic" fill="#6b6256">after: Nietzsche and Philosophy; Bergsonism</text>
+<text x="62" y="1087" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">14</text>
+<text x="84" y="1087" font-size="16" font-weight="bold" fill="#1f1a14">The Logic of Sense</text>
+<text x="84" y="1108" font-size="13" fill="#6b6256">Gilles Deleuze, 1969</text>
+<text x="54" y="1144" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●●●●</text>
+<rect x="752" y="1060" width="300" height="96" rx="8" fill="#ebe7e0" stroke="#8c8072" stroke-width="1.5"/>
+<circle cx="774" cy="1082" r="14" fill="#8c8072"/>
+<text x="774" y="1087" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">15</text>
+<text x="796" y="1087" font-size="16" font-weight="bold" fill="#1f1a14">Freud and Marx (any good</text>
+<text x="796" y="1106" font-size="16" font-weight="bold" fill="#1f1a14">introduction to each)</text>
+<text x="766" y="1144" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●○○○</text>
 <rect x="40" y="1190" width="300" height="96" rx="8" fill="#d6e6f5" stroke="#3b6a91" stroke-width="1.5"/>
 <circle cx="62" cy="1212" r="14" fill="#3b6a91"/>
-<text x="62" y="1217" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">15</text>
-<text x="84" y="1217" font-size="16" font-weight="bold" fill="#1f1a14">The Logic of Sense</text>
-<text x="84" y="1238" font-size="13" fill="#6b6256">Gilles Deleuze, 1969</text>
-<text x="54" y="1274" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●●●●</text>
+<text x="62" y="1217" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">16</text>
+<text x="84" y="1217" font-size="16" font-weight="bold" fill="#1f1a14">Gilles Deleuze&#x27;s Difference</text>
+<text x="84" y="1236" font-size="16" font-weight="bold" fill="#1f1a14">and Repetition: A Critical…</text>
+<text x="84" y="1257" font-size="13" fill="#6b6256">James Williams, 2004</text>
+<text x="54" y="1274" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●●○○</text>
+<rect x="396" y="1190" width="300" height="96" rx="8" fill="#f4d58d" stroke="#8a6d1f" stroke-width="2.5"/>
+<circle cx="418" cy="1212" r="14" fill="#8a6d1f"/>
+<text x="418" y="1217" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">17</text>
+<text x="440" y="1217" font-size="16" font-weight="bold" fill="#1f1a14">Anti-Oedipus (Capitalism and</text>
+<text x="440" y="1236" font-size="16" font-weight="bold" fill="#1f1a14">Schizophrenia, vol. 1)</text>
+<text x="440" y="1257" font-size="13" fill="#6b6256">Gilles Deleuze &amp; Félix Guattari, 1972</text>
+<text x="410" y="1274" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">core #4  ·  difficulty ●●●●○</text>
 <rect x="752" y="1190" width="300" height="96" rx="8" fill="#ebe7e0" stroke="#8c8072" stroke-width="1.5"/>
 <circle cx="774" cy="1212" r="14" fill="#8c8072"/>
-<text x="774" y="1217" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">16</text>
-<text x="796" y="1217" font-size="16" font-weight="bold" fill="#1f1a14">Freud and Marx (any good</text>
-<text x="796" y="1236" font-size="16" font-weight="bold" fill="#1f1a14">introduction to each)</text>
-<text x="766" y="1274" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●○○○</text>
+<text x="774" y="1217" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">18</text>
+<text x="796" y="1217" font-size="16" font-weight="bold" fill="#1f1a14">Kafka: Toward a Minor</text>
+<text x="796" y="1236" font-size="16" font-weight="bold" fill="#1f1a14">Literature</text>
+<text x="796" y="1257" font-size="13" fill="#6b6256">Gilles Deleuze &amp; Félix Guattari, 1975</text>
+<text x="766" y="1274" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●●○○</text>
 <rect x="40" y="1320" width="300" height="96" rx="8" fill="#d6e6f5" stroke="#3b6a91" stroke-width="1.5"/>
 <circle cx="62" cy="1342" r="14" fill="#3b6a91"/>
-<text x="62" y="1347" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">17</text>
-<text x="84" y="1347" font-size="16" font-weight="bold" fill="#1f1a14">Gilles Deleuze&#x27;s Difference</text>
-<text x="84" y="1366" font-size="16" font-weight="bold" fill="#1f1a14">and Repetition: A Critical…</text>
-<text x="84" y="1387" font-size="13" fill="#6b6256">James Williams, 2004</text>
-<text x="54" y="1404" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●●○○</text>
-<rect x="396" y="1320" width="300" height="96" rx="8" fill="#f4d58d" stroke="#8a6d1f" stroke-width="2.5"/>
-<circle cx="418" cy="1342" r="14" fill="#8a6d1f"/>
-<text x="418" y="1347" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">18</text>
-<text x="440" y="1347" font-size="16" font-weight="bold" fill="#1f1a14">Anti-Oedipus (Capitalism and</text>
-<text x="440" y="1366" font-size="16" font-weight="bold" fill="#1f1a14">Schizophrenia, vol. 1)</text>
-<text x="440" y="1387" font-size="13" fill="#6b6256">Gilles Deleuze &amp; Félix Guattari, 1972</text>
-<text x="410" y="1404" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">core #4  ·  difficulty ●●●●○</text>
+<text x="62" y="1347" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">19</text>
+<text x="84" y="1347" font-size="16" font-weight="bold" fill="#1f1a14">Dialogues (with Claire Parnet)</text>
+<text x="84" y="1368" font-size="13" fill="#6b6256">Gilles Deleuze &amp; Claire Parnet, 1977</text>
+<text x="54" y="1404" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●○○○</text>
 <rect x="752" y="1320" width="300" height="96" rx="8" fill="#ebe7e0" stroke="#8c8072" stroke-width="1.5"/>
 <circle cx="774" cy="1342" r="14" fill="#8c8072"/>
-<text x="774" y="1347" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">19</text>
-<text x="796" y="1347" font-size="16" font-weight="bold" fill="#1f1a14">Kafka: Toward a Minor</text>
-<text x="796" y="1366" font-size="16" font-weight="bold" fill="#1f1a14">Literature</text>
-<text x="796" y="1387" font-size="13" fill="#6b6256">Gilles Deleuze &amp; Félix Guattari, 1975</text>
+<text x="774" y="1347" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">20</text>
+<text x="796" y="1347" font-size="16" font-weight="bold" fill="#1f1a14">Deleuze and Guattari&#x27;s</text>
+<text x="796" y="1366" font-size="16" font-weight="bold" fill="#1f1a14">Anti-Oedipus: Introduction to…</text>
+<text x="796" y="1387" font-size="13" fill="#6b6256">Eugene Holland, 1999</text>
 <text x="766" y="1404" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●●○○</text>
-<rect x="40" y="1450" width="300" height="96" rx="8" fill="#d6e6f5" stroke="#3b6a91" stroke-width="1.5"/>
-<circle cx="62" cy="1472" r="14" fill="#3b6a91"/>
-<text x="62" y="1477" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">20</text>
-<text x="84" y="1477" font-size="16" font-weight="bold" fill="#1f1a14">Dialogues (with Claire Parnet)</text>
-<text x="84" y="1498" font-size="13" fill="#6b6256">Gilles Deleuze &amp; Claire Parnet, 1977</text>
-<text x="54" y="1534" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●○○○</text>
+<rect x="396" y="1320" width="300" height="96" rx="8" fill="#f4d58d" stroke="#8a6d1f" stroke-width="2.5"/>
+<circle cx="418" cy="1342" r="14" fill="#8a6d1f"/>
+<text x="418" y="1347" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">21</text>
+<text x="440" y="1347" font-size="16" font-weight="bold" fill="#1f1a14">A Thousand Plateaus</text>
+<text x="440" y="1366" font-size="16" font-weight="bold" fill="#1f1a14">(Capitalism and Schizophrenia…</text>
+<text x="440" y="1387" font-size="13" fill="#6b6256">Gilles Deleuze &amp; Félix Guattari, 1980</text>
+<text x="410" y="1404" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">core #5  ·  difficulty ●●●●○</text>
 <rect x="752" y="1450" width="300" height="96" rx="8" fill="#ebe7e0" stroke="#8c8072" stroke-width="1.5"/>
 <circle cx="774" cy="1472" r="14" fill="#8c8072"/>
-<text x="774" y="1477" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">21</text>
-<text x="796" y="1477" font-size="16" font-weight="bold" fill="#1f1a14">Deleuze and Guattari&#x27;s</text>
-<text x="796" y="1496" font-size="16" font-weight="bold" fill="#1f1a14">Anti-Oedipus: Introduction to…</text>
-<text x="796" y="1517" font-size="13" fill="#6b6256">Eugene Holland, 1999</text>
+<text x="774" y="1477" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">22</text>
+<text x="796" y="1477" font-size="16" font-weight="bold" fill="#1f1a14">Monadology; Theodicy</text>
+<text x="796" y="1498" font-size="13" fill="#6b6256">G. W. Leibniz, 1710</text>
 <text x="766" y="1534" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●●○○</text>
-<rect x="396" y="1450" width="300" height="96" rx="8" fill="#f4d58d" stroke="#8a6d1f" stroke-width="2.5"/>
-<circle cx="418" cy="1472" r="14" fill="#8a6d1f"/>
-<text x="418" y="1477" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">22</text>
-<text x="440" y="1477" font-size="16" font-weight="bold" fill="#1f1a14">A Thousand Plateaus</text>
-<text x="440" y="1496" font-size="16" font-weight="bold" fill="#1f1a14">(Capitalism and Schizophrenia…</text>
-<text x="440" y="1517" font-size="13" fill="#6b6256">Gilles Deleuze &amp; Félix Guattari, 1980</text>
-<text x="410" y="1534" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">core #5  ·  difficulty ●●●●○</text>
 <rect x="752" y="1580" width="300" height="96" rx="8" fill="#ebe7e0" stroke="#8c8072" stroke-width="1.5"/>
 <circle cx="774" cy="1602" r="14" fill="#8c8072"/>
 <text x="774" y="1607" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">23</text>
-<text x="796" y="1607" font-size="16" font-weight="bold" fill="#1f1a14">Monadology; Theodicy</text>
-<text x="796" y="1628" font-size="13" fill="#6b6256">G. W. Leibniz, 1710</text>
-<text x="766" y="1664" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●●○○</text>
+<text x="796" y="1607" font-size="16" font-weight="bold" fill="#1f1a14">Spinoza: Practical Philosophy</text>
+<text x="796" y="1628" font-size="13" fill="#6b6256">Gilles Deleuze, 1981</text>
+<text x="766" y="1664" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●○○○</text>
 <rect x="752" y="1710" width="300" height="96" rx="8" fill="#ebe7e0" stroke="#8c8072" stroke-width="1.5"/>
 <circle cx="774" cy="1732" r="14" fill="#8c8072"/>
 <text x="774" y="1737" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">24</text>
-<text x="796" y="1737" font-size="16" font-weight="bold" fill="#1f1a14">Spinoza: Practical Philosophy</text>
-<text x="796" y="1758" font-size="13" fill="#6b6256">Gilles Deleuze, 1981</text>
-<text x="766" y="1794" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●○○○</text>
+<text x="796" y="1737" font-size="16" font-weight="bold" fill="#1f1a14">Francis Bacon: The Logic of</text>
+<text x="796" y="1756" font-size="16" font-weight="bold" fill="#1f1a14">Sensation</text>
+<text x="796" y="1777" font-size="13" fill="#6b6256">Gilles Deleuze, 1981</text>
+<text x="766" y="1794" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●●○○</text>
 <rect x="752" y="1840" width="300" height="96" rx="8" fill="#ebe7e0" stroke="#8c8072" stroke-width="1.5"/>
 <circle cx="774" cy="1862" r="14" fill="#8c8072"/>
 <text x="774" y="1867" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">25</text>
-<text x="796" y="1867" font-size="16" font-weight="bold" fill="#1f1a14">Francis Bacon: The Logic of</text>
-<text x="796" y="1886" font-size="16" font-weight="bold" fill="#1f1a14">Sensation</text>
-<text x="796" y="1907" font-size="13" fill="#6b6256">Gilles Deleuze, 1981</text>
-<text x="766" y="1924" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●●○○</text>
+<text x="796" y="1867" font-size="16" font-weight="bold" fill="#1f1a14">Cinema 1: The Movement-Image</text>
+<text x="796" y="1888" font-size="13" fill="#6b6256">Gilles Deleuze, 1983</text>
+<text x="766" y="1924" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●●●○</text>
 <rect x="752" y="1970" width="300" height="96" rx="8" fill="#ebe7e0" stroke="#8c8072" stroke-width="1.5"/>
 <circle cx="774" cy="1992" r="14" fill="#8c8072"/>
 <text x="774" y="1997" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">26</text>
-<text x="796" y="1997" font-size="16" font-weight="bold" fill="#1f1a14">Cinema 1: The Movement-Image</text>
-<text x="796" y="2018" font-size="13" fill="#6b6256">Gilles Deleuze, 1983</text>
+<text x="796" y="1997" font-size="16" font-weight="bold" fill="#1f1a14">Cinema 2: The Time-Image</text>
+<text x="796" y="2018" font-size="13" fill="#6b6256">Gilles Deleuze, 1985</text>
 <text x="766" y="2054" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●●●○</text>
 <rect x="752" y="2100" width="300" height="96" rx="8" fill="#ebe7e0" stroke="#8c8072" stroke-width="1.5"/>
 <circle cx="774" cy="2122" r="14" fill="#8c8072"/>
 <text x="774" y="2127" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">27</text>
-<text x="796" y="2127" font-size="16" font-weight="bold" fill="#1f1a14">Cinema 2: The Time-Image</text>
-<text x="796" y="2148" font-size="13" fill="#6b6256">Gilles Deleuze, 1985</text>
+<text x="796" y="2127" font-size="16" font-weight="bold" fill="#1f1a14">Foucault</text>
+<text x="796" y="2148" font-size="13" fill="#6b6256">Gilles Deleuze, 1986</text>
 <text x="766" y="2184" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●●●○</text>
 <rect x="752" y="2230" width="300" height="96" rx="8" fill="#ebe7e0" stroke="#8c8072" stroke-width="1.5"/>
 <circle cx="774" cy="2252" r="14" fill="#8c8072"/>
 <text x="774" y="2257" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">28</text>
-<text x="796" y="2257" font-size="16" font-weight="bold" fill="#1f1a14">Foucault</text>
-<text x="796" y="2278" font-size="13" fill="#6b6256">Gilles Deleuze, 1986</text>
+<text x="796" y="2257" font-size="16" font-weight="bold" fill="#1f1a14">The Fold: Leibniz and the</text>
+<text x="796" y="2276" font-size="16" font-weight="bold" fill="#1f1a14">Baroque</text>
+<text x="796" y="2297" font-size="13" fill="#6b6256">Gilles Deleuze, 1988</text>
 <text x="766" y="2314" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●●●○</text>
-<rect x="752" y="2360" width="300" height="96" rx="8" fill="#ebe7e0" stroke="#8c8072" stroke-width="1.5"/>
-<circle cx="774" cy="2382" r="14" fill="#8c8072"/>
-<text x="774" y="2387" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">29</text>
-<text x="796" y="2387" font-size="16" font-weight="bold" fill="#1f1a14">The Fold: Leibniz and the</text>
-<text x="796" y="2406" font-size="16" font-weight="bold" fill="#1f1a14">Baroque</text>
-<text x="796" y="2427" font-size="13" fill="#6b6256">Gilles Deleuze, 1988</text>
-<text x="766" y="2444" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●●●○</text>
+<rect x="40" y="2230" width="300" height="96" rx="8" fill="#d6e6f5" stroke="#3b6a91" stroke-width="1.5"/>
+<circle cx="62" cy="2252" r="14" fill="#3b6a91"/>
+<text x="62" y="2257" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">29</text>
+<text x="84" y="2257" font-size="16" font-weight="bold" fill="#1f1a14">Negotiations</text>
+<text x="84" y="2278" font-size="13" fill="#6b6256">Gilles Deleuze, 1990</text>
+<text x="54" y="2314" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●○○○</text>
 <rect x="40" y="2360" width="300" height="96" rx="8" fill="#d6e6f5" stroke="#3b6a91" stroke-width="1.5"/>
 <circle cx="62" cy="2382" r="14" fill="#3b6a91"/>
 <text x="62" y="2387" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">30</text>
-<text x="84" y="2387" font-size="16" font-weight="bold" fill="#1f1a14">Negotiations</text>
-<text x="84" y="2408" font-size="13" fill="#6b6256">Gilles Deleuze, 1990</text>
-<text x="54" y="2444" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●○○○</text>
-<rect x="40" y="2490" width="300" height="96" rx="8" fill="#d6e6f5" stroke="#3b6a91" stroke-width="1.5"/>
-<circle cx="62" cy="2512" r="14" fill="#3b6a91"/>
-<text x="62" y="2517" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">31</text>
-<text x="84" y="2517" font-size="16" font-weight="bold" fill="#1f1a14">What Is Philosophy?</text>
-<text x="84" y="2538" font-size="13" fill="#6b6256">Gilles Deleuze &amp; Félix Guattari, 1991</text>
-<text x="54" y="2574" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●●○○</text>
-<rect x="752" y="2490" width="300" height="96" rx="8" fill="#ebe7e0" stroke="#8c8072" stroke-width="1.5"/>
-<circle cx="774" cy="2512" r="14" fill="#8c8072"/>
-<text x="774" y="2517" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">32</text>
-<text x="796" y="2517" font-size="16" font-weight="bold" fill="#1f1a14">A User&#x27;s Guide to Capitalism</text>
-<text x="796" y="2536" font-size="16" font-weight="bold" fill="#1f1a14">and Schizophrenia</text>
-<text x="796" y="2557" font-size="13" fill="#6b6256">Brian Massumi, 1992</text>
-<text x="766" y="2574" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●●○○</text>
-<text x="1042" y="2484" text-anchor="end" font-size="12" font-style="italic" fill="#6b6256">after: Anti-Oedipus (Capitalism and Schizophrenia,…</text>
-<text x="546.0" y="2650" text-anchor="middle" font-size="13" fill="#6b6256">Solid arrow: read first (required / helpful). Dashed: useful context. Every link is sourced — see generated/deleuze.md</text>
-<text x="546.0" y="2670" text-anchor="middle" font-size="12" fill="#6b6256">Status: draft · github.com/kwang2424/lit-chart-maker</text>
+<text x="84" y="2387" font-size="16" font-weight="bold" fill="#1f1a14">What Is Philosophy?</text>
+<text x="84" y="2408" font-size="13" fill="#6b6256">Gilles Deleuze &amp; Félix Guattari, 1991</text>
+<text x="54" y="2444" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●●○○</text>
+<rect x="752" y="2360" width="300" height="96" rx="8" fill="#ebe7e0" stroke="#8c8072" stroke-width="1.5"/>
+<circle cx="774" cy="2382" r="14" fill="#8c8072"/>
+<text x="774" y="2387" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">31</text>
+<text x="796" y="2387" font-size="16" font-weight="bold" fill="#1f1a14">A User&#x27;s Guide to Capitalism</text>
+<text x="796" y="2406" font-size="16" font-weight="bold" fill="#1f1a14">and Schizophrenia</text>
+<text x="796" y="2427" font-size="13" fill="#6b6256">Brian Massumi, 1992</text>
+<text x="766" y="2444" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●●○○</text>
+<text x="1042" y="2354" text-anchor="end" font-size="12" font-style="italic" fill="#6b6256">after: Anti-Oedipus (Capitalism and Schizophrenia,…</text>
+<text x="546.0" y="2520" text-anchor="middle" font-size="13" fill="#6b6256">Solid arrow: read first (required / helpful). Dashed: useful context. Every link is sourced — see generated/deleuze.md</text>
+<text x="546.0" y="2540" text-anchor="middle" font-size="12" fill="#6b6256">Status: draft · github.com/kwang2424/lit-chart-maker</text>
 </svg>
