@@ -161,6 +161,7 @@ graph TD
 
 **Who builds on Edmund Husserl**
 
+- *Logical Investigations* → *Voice and Phenomenon (also translated as Speech and Phenomena)* (Jacques Derrida) — helpful. It reads Husserl's phenomenology; Oregon's course assigns Logical Investigations §§1–8 alongside its first chapters.
 - *Logical Investigations* → *Being and Time* (Martin Heidegger) — context. Heidegger studied the Logical Investigations as a student and kept valuing it while he radically reinterpreted Husserl's phenomenology.
 - *Ideas I (Ideas Pertaining to a Pure Phenomenology: General Introduction to Pure Phenomenology)* → *Phenomenology* (Jean-François Lyotard) — context. Its first part "introduces phenomenology through the work of Edmund Husserl"; the second turns to Merleau-Ponty.
 

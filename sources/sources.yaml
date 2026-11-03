@@ -991,3 +991,67 @@
   author: Graham Jones, Melbourne School of Continental Philosophy
   title: "The Works of Lyotard, Part 1 (Summer School 2023)"
   url: https://mscp.org.au/past-courses/the-works-of-lyotard-part-1
+
+# ---------- Foucault ----------
+
+- id: sep-foucault
+  tier: 2
+  author: Stanford Encyclopedia of Philosophy
+  title: '"Michel Foucault"'
+  url: https://plato.stanford.edu/entries/foucault/
+
+- id: iep-foucault
+  tier: 2
+  author: Internet Encyclopedia of Philosophy
+  title: '"Michel Foucault (1926–1984)"'
+  url: https://iep.utm.edu/foucault/
+
+- id: syl-ucsc-koopman
+  tier: 3
+  author: Colin Koopman, UC Santa Cruz
+  title: "PHIL 190P: Michel Foucault: Thought, Context, Critique (Spring 2009)"
+  url: https://pages.uoregon.edu/koopman/courses_ucsc_foucault.html
+
+- id: syl-lsu-protevi-foucault
+  tier: 3
+  author: John Protevi, Louisiana State University
+  title: "Foucault and Biopower (Honors, Spring 2013)"
+  url: https://protevi.com/Foucault/S2013syllabus.pdf
+
+- id: syl-ubc-hendricks
+  tier: 3
+  author: Christina Hendricks, University of British Columbia
+  title: "PHIL 449A: Continental Philosophy (Nietzsche and Foucault, Winter 2014)"
+  url: https://blogs.ubc.ca/phil449/files/2014/01/ContSyllabus-S14.pdf
+
+- id: syl-acg-ph4032
+  tier: 3
+  author: Deree – The American College of Greece
+  title: "PH 4032: Postmodern Philosophy: Foucault and Derrida (updated Fall 2022)"
+  url: https://www.acg.edu/dereeacg/files/pdfs/PH4032.pdf
+
+# ---------- Derrida ----------
+
+- id: sep-derrida
+  tier: 2
+  author: Stanford Encyclopedia of Philosophy
+  title: '"Jacques Derrida"'
+  url: https://plato.stanford.edu/entries/derrida/
+
+- id: iep-derrida
+  tier: 2
+  author: Internet Encyclopedia of Philosophy
+  title: '"Jacques Derrida (1930—2004)"'
+  url: https://iep.utm.edu/jacques-derrida/
+
+- id: syl-oregon-stawarska
+  tier: 3
+  author: Beata Stawarska, University of Oregon
+  title: "PHIL 463/563: Author: Jacques Derrida (Fall 2016)"
+  url: https://casprofile.uoregon.edu/sites/casprofile2.uoregon.edu/files/Derrida%20SYLLABUS.pdf
+
+- id: mscp-roffe-derrida
+  tier: 3
+  author: Jon Roffe, Melbourne School of Continental Philosophy
+  title: "Introduction to the Thought of Jacques Derrida (Summer School 2025)"
+  url: https://mscp.org.au/past-courses/introduction-to-the-thought-of-jacques-derrida

@@ -1,0 +1,302 @@
+id: derrida
+title: Jacques Derrida
+group: thinkers
+sequence: 10
+born: 1930
+scope: >
+  Derrida's main books and essays: the three books of 1967, the 1972 collections and
+  interviews, the experimental works of the 1970s, and the later writing on law,
+  politics and religion. Years are first French publication, from the SEP.
+status: draft
+
+# Format: see the header of lists/nietzsche.yaml. His texts are in copyright; the
+# evidence is the SEP and IEP entries and three course outlines.
+
+survey:
+  - source: syl-oregon-stawarska
+    starts_with: voice-phenomenon
+    includes: [voice-phenomenon, positions, dissemination, limited-inc, force-of-law, monolingualism]
+    ordered: true
+    locator: class schedule (after a session of interviews)
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: syl-acg-ph4032
+    starts_with: positions
+    includes: [positions, grammatology]
+    ordered: false
+    locator: "indicative content, Part II (Derrida)"
+    verified: true
+    checked_in: Course outline (PDF, updated Fall 2022), accessed 2026-11
+  - source: mscp-roffe-derrida
+    starts_with: positions
+    includes: [positions, margins, grammatology, truth-painting, dissemination, writing-difference, force-of-law]
+    ordered: true
+    locator: lectures 1–4 and readings
+    verified: true
+    checked_in: Course page, accessed 2026-11
+
+works:
+
+  # ---------- Husserl and the 1967 books ----------
+
+  - id: origin-geometry
+    title: "Edmund Husserl's Origin of Geometry: An Introduction"
+    author: Jacques Derrida
+    year: 1962
+    kind: primary
+    tier: optional
+    difficulty: 5
+    note: >
+      A 150-page introduction to his translation of Husserl's "The Origin of Geometry",
+      stressing the problem of language in Husserl's thought of history (SEP §1).
+
+  - id: voice-phenomenon
+    title: Voice and Phenomenon (also translated as Speech and Phenomena)
+    author: Jacques Derrida
+    year: 1967
+    kind: primary
+    tier: core
+    difficulty: 4
+    translation: Lawlor (Northwestern 2011)
+    note: >
+      A deconstructive reading of Husserl's phenomenology of consciousness and its
+      commitment to the primacy of the voice (Oregon), and of the present "now" (IEP §4).
+      His main Husserl book; it drew many criticisms of his reading of Husserl (SEP §1).
+    after:
+      - work: husserl:logical-investigations
+        strength: helpful
+        why: >
+          It reads Husserl's phenomenology; Oregon's course assigns Logical Investigations
+          §§1–8 alongside its first chapters.
+        sources:
+          - source: syl-oregon-stawarska
+            locator: weeks 1–2
+            verified: true
+            checked_in: Course syllabus (PDF), accessed 2026-11
+
+  - id: writing-difference
+    title: Writing and Difference
+    author: Jacques Derrida
+    year: 1967
+    kind: primary
+    tier: core
+    difficulty: 4
+    translation: Bass (Chicago 1978)
+    note: >
+      Essays including "Violence and Metaphysics" on Levinas, which the SEP calls a
+      leading candidate for his most important early essay.
+
+  - id: cogito-madness
+    title: '"Cogito and the History of Madness"'
+    author: Jacques Derrida
+    year: 1963
+    kind: primary
+    tier: optional
+    difficulty: 4
+    note: An essay written from a seminar taught by Foucault, on Foucault's History of Madness.
+    after:
+      - work: foucault:history-of-madness
+        strength: context
+        why: >
+          "Cogito and the History of Madness" criticises Foucault's early thought,
+          especially his reading of Descartes, and caused a lasting rupture between them.
+        sources:
+          - source: sep-derrida
+            locator: "§1 Life and Works"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+
+  - id: grammatology
+    title: Of Grammatology
+    author: Jacques Derrida
+    year: 1967
+    kind: primary
+    tier: core
+    difficulty: 5
+    translation: Spivak (Johns Hopkins 1974)
+    note: >
+      "His most famous work" (IEP §1): it reveals and then undermines the opposition of
+      speech and writing, through readings of Saussure, Lévi-Strauss and Rousseau.
+    tips:
+      - text: >
+          MSCP's introductory course reads an extract (pp. 6–15) and the remarks on
+          ethnocentrism that open the book, rather than the whole.
+        sources:
+          - source: mscp-roffe-derrida
+            locator: lectures 2 and 4
+            verified: true
+            checked_in: Course page, accessed 2026-11
+
+  # ---------- 1972 ----------
+
+  - id: positions
+    title: Positions
+    author: Jacques Derrida
+    year: 1972
+    kind: primary
+    tier: core
+    difficulty: 2
+    translation: Bass (Chicago 1981)
+    note: >
+      Three interviews. The SEP takes one of its three "classical" definitions of
+      deconstruction, as having "two phases", from "Positions".
+    start_here:
+      why: >
+        Short interviews in which Derrida explains deconstruction. The SEP draws its first
+        classical definition of deconstruction from them, and two of the three courses
+        found open with them.
+      sources:
+        - source: sep-derrida
+          locator: "§5 Deconstruction"
+          verified: true
+          checked_in: SEP entry, accessed 2026-11
+        - source: mscp-roffe-derrida
+          locator: "lecture 1 readings (\"Semiology and Grammatology\", Positions)"
+          verified: true
+          checked_in: Course page, accessed 2026-11
+
+  - id: margins
+    title: Margins of Philosophy
+    author: Jacques Derrida
+    year: 1972
+    kind: primary
+    tier: extended
+    difficulty: 4
+    note: >
+      Essays; the last is "Signature Event Context", on Austin's speech act theory, which
+      started his dispute with John Searle (SEP §1).
+
+  - id: dissemination
+    title: Dissemination
+    author: Jacques Derrida
+    year: 1972
+    kind: primary
+    tier: extended
+    difficulty: 4
+    translation: Johnson (Chicago 1981)
+    note: >
+      Includes "Plato's Pharmacy", on Plato's Phaedrus and the undecidable status of
+      writing as a pharmakon (remedy and/or poison). Its preface gives the "two phases"
+      definition of deconstruction (SEP §5).
+    after:
+      - work: plato:phaedrus
+        strength: helpful
+        why: >
+          "Plato's Pharmacy" is a reading of the Phaedrus; Oregon's course teaches it as
+          "Reading Plato with Derrida".
+        sources:
+          - source: syl-oregon-stawarska
+            locator: course description; weeks 3–5
+            verified: true
+            checked_in: Course syllabus (PDF), accessed 2026-11
+
+  # ---------- Experiments ----------
+
+  - id: glas
+    title: Glas
+    author: Jacques Derrida
+    year: 1974
+    kind: primary
+    tier: optional
+    difficulty: 5
+    note: >
+      Written in two columns, the left on Hegel and the right on Jean Genet; the clearest
+      example of the style he developed in the 1970s (SEP §1).
+
+  - id: limited-inc
+    title: Limited Inc
+    author: Jacques Derrida
+    year: 1977
+    kind: primary
+    tier: extended
+    difficulty: 3
+    translation: Weber (Northwestern 1988)
+    note: >
+      "Signature Event Context", John Searle's reply, and Derrida's ninety-page response
+      "Limited Inc a b c" (1977). Oregon's edition adds an Afterword.
+    after:
+      - work: margins
+        strength: helpful
+        why: >
+          "Limited Inc a b c" answers Searle's reply to "Signature Event Context", the last
+          essay in Margins.
+        sources:
+          - source: sep-derrida
+            locator: "§1 Life and Works"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+
+  - id: truth-painting
+    title: The Truth in Painting
+    author: Jacques Derrida
+    year: 1978
+    kind: primary
+    tier: optional
+    difficulty: 4
+    translation: Bennington and McLeod (Chicago 1987)
+    note: Essays on art; the SEP dates his intensified reading of Heidegger from this book.
+
+  - id: postcard
+    title: "The Post Card: From Socrates to Freud and Beyond"
+    author: Jacques Derrida
+    year: 1980
+    kind: primary
+    tier: optional
+    difficulty: 4
+    note: Its opening two hundred pages are love letters addressed to no one in particular (SEP §1).
+
+  # ---------- Law, politics, religion ----------
+
+  - id: force-of-law
+    title: '"Force of Law: The Mystical Foundation of Authority"'
+    author: Jacques Derrida
+    year: 1989
+    kind: primary
+    tier: extended
+    difficulty: 3
+    note: >
+      Justice, law and three aporias of being just. The SEP sees his turn to politics and
+      religion "first clearly evident" here. In Acts of Religion.
+
+  - id: specters-marx
+    title: Specters of Marx
+    author: Jacques Derrida
+    year: 1993
+    kind: primary
+    tier: extended
+    difficulty: 3
+    translation: Kamuf (Routledge 1994)
+    note: >
+      Argues that a deconstructed Marxist thought is still relevant despite globalization,
+      as a messianism of a "democracy to come" (SEP §1).
+
+  - id: monolingualism
+    title: Monolingualism of the Other
+    author: Jacques Derrida
+    year: 1996
+    kind: primary
+    tier: optional
+    difficulty: 2
+    translation: Mensah (Stanford 1998)
+    note: >
+      Partly autobiographical: language, identity and his Algerian schooling under the Vichy
+      regime's laws (SEP §1).
+
+  - id: rogues
+    title: Rogues
+    author: Jacques Derrida
+    year: 2003
+    kind: primary
+    tier: optional
+    difficulty: 3
+    note: On sovereignty and democracy; the law always contains the possibility of its suspension (SEP §1).
+
+  - id: animal
+    title: The Animal That Therefore I Am
+    author: Jacques Derrida
+    year: 2006
+    kind: primary
+    tier: optional
+    position: end
+    difficulty: 3
+    note: Lectures from 1998 on animality; his first posthumous book (SEP §1).
