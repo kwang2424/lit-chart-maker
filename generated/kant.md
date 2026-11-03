@@ -186,6 +186,8 @@ graph TD
 
 **Who builds on Immanuel Kant**
 
+- *Critique of the Power of Judgment* → *Lectures on Kant's Political Philosophy* (Hannah Arendt) — helpful. She "based her theory of political judgment on Kant's aesthetics in his Critique of Judgment, which she claimed contained Kant's unwritten political philosophy".
+- *Groundwork of the Metaphysics of Morals* → *"Two Concepts of Liberty"* (Isaiah Berlin) — context. Berlin traces positive liberty through Rousseau and Kant, who "identified 'positive' freedom with autonomy", to Kant's German successors.
 - *Critique of Pure Reason* → *Kant's Critical Philosophy* (Gilles Deleuze) — context. It is a reading of Kant, and Deleuze's later work starts from this reading.
 - *Critique of Pure Reason* → *Phenomenology of Spirit* (G. W. F. Hegel) — context. The SEP traces Hegel's idea of a "phenomenology" as a propaedeutic to Kant, and Edinburgh's course spends two weeks on Kant "setting us up to see how Hegel's Phenomenology is shaped by it".
 - *Critique of Pure Reason* → *Kant and the Problem of Metaphysics* (Martin Heidegger) — helpful. It is an interpretation of the Critique of Pure Reason.

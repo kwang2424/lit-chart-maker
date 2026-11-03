@@ -242,6 +242,7 @@ graph TD
 
 **Who builds on Martin Heidegger**
 
+- *Being and Time* → *The Human Condition* (Hannah Arendt) — context. Heidegger's phenomenology had "the greater... lasting influence upon Arendt's work", and one Arendt course opens with Being and Time.
 - *Being and Time* → *Difference and Repetition* (Gilles Deleuze) — context. Its history of how difference was subordinated to identity runs "from Plato (DR 59-63) to Heidegger (DR 64-6)".
 
 ## Sources

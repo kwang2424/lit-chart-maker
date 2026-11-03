@@ -162,6 +162,7 @@ graph TD
 
 **Who builds on G. W. F. Hegel**
 
+- *Lectures on the Philosophy of World History (esp. the Introduction)* → *"Two Concepts of Liberty"* (Isaiah Berlin) — context. It criticises Hegel's definition of liberty as "recognition of, and obedience to, the laws of history as revealed by reason".
 - *Phenomenology of Spirit* → *Nietzsche and Philosophy* (Gilles Deleuze) — context. It is written against Hegel: the SEP describes Deleuze's early books as trying to "accelerate however he could a departure from Hegel".
 - *Elements of the Philosophy of Right* → *Contribution to the Critique of Hegel's Philosophy of Right: Introduction* (Karl Marx) — context. It is a critique of Hegel's Philosophy of Right, as its title says.
 - *Science of Logic* → *Capital, Volume 1* (Karl Marx) — context. He "openly avowed myself the pupil of that mighty thinker" Hegel, whose dialectic "is standing on its head. It must be turned right side up again."

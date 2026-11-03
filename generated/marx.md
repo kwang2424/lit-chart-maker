@@ -241,6 +241,8 @@ graph TD
 
 **Who builds on Karl Marx**
 
+- *Capital, Volume 1* → *The Human Condition* (Hannah Arendt) — context. She is "highly critical of Marx's elevation of animal laborans" to the highest end of human life.
+- *Manifesto of the Communist Party* → *Karl Marx: His Life and Environment* (Isaiah Berlin) — context. It is an intellectual biography of Marx; the SEP notes it is still in print in its fifth edition (2013).
 - *Preface to A Contribution to the Critique of Political Economy* → *Anti-Oedipus (Capitalism and Schizophrenia, vol. 1)* (Gilles Deleuze) — context. Its central idea, "desiring-production", is a critique of both Marx and Freud. A Deleuze and Guattari course suggests reading Marx's 1859 Preface beforehand.
 - *Value, Price and Profit* → *Anti-Oedipus (Capitalism and Schizophrenia, vol. 1)* (Gilles Deleuze) — context. The same course also suggests Marx's Value, Price and Profit as preparation.
 

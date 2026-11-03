@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1092" height="1260" viewBox="0 0 1092 1260" font-family="Georgia, 'Times New Roman', serif">
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c8072"/></marker>
+</defs>
+<rect width="100%" height="100%" fill="#f6f1e7"/>
+<text x="546.0" y="62" text-anchor="middle" font-size="38" font-weight="bold" fill="#1f1a14">Hannah Arendt</text>
+<text x="546.0" y="94" text-anchor="middle" font-size="17" fill="#6b6256">A reading order. Follow the numbers; gold boxes are the core path.</text>
+<text x="190.0" y="132" text-anchor="middle" font-size="15" letter-spacing="2" fill="#6b6256">EXTENDED</text>
+<text x="546.0" y="132" text-anchor="middle" font-size="15" letter-spacing="2" fill="#6b6256">CORE PATH</text>
+<text x="902.0" y="132" text-anchor="middle" font-size="15" letter-spacing="2" fill="#6b6256">OPTIONAL &amp; BACKGROUND</text>
+<path d="M190.0,896 C190.0,926 190.0,897 190.0,927" fill="none" stroke="#8c8072" stroke-width="1.6" stroke-dasharray="5 5" opacity="0.55" marker-end="url(#arrow)"/>
+<rect x="752" y="150" width="300" height="96" rx="8" fill="#ebe7e0" stroke="#8c8072" stroke-width="1.5"/>
+<circle cx="774" cy="172" r="14" fill="#8c8072"/>
+<text x="774" y="177" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">1</text>
+<text x="796" y="177" font-size="16" font-weight="bold" fill="#1f1a14">Love and Saint Augustine</text>
+<text x="796" y="198" font-size="13" fill="#6b6256">Hannah Arendt, 1929</text>
+<text x="766" y="234" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●●●○</text>
+<rect x="396" y="150" width="300" height="96" rx="8" fill="#f4d58d" stroke="#8a6d1f" stroke-width="2.5"/>
+<circle cx="418" cy="172" r="14" fill="#8a6d1f"/>
+<text x="418" y="177" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">2</text>
+<text x="440" y="177" font-size="16" font-weight="bold" fill="#1f1a14">The Origins of Totalitarianism</text>
+<text x="440" y="198" font-size="13" fill="#6b6256">Hannah Arendt, 1951</text>
+<text x="410" y="234" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">core #1  ·  difficulty ●●●●○</text>
+<rect x="396" y="280" width="300" height="96" rx="8" fill="#f4d58d" stroke="#8a6d1f" stroke-width="2.5"/>
+<circle cx="418" cy="302" r="14" fill="#8a6d1f"/>
+<text x="418" y="307" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">3</text>
+<text x="440" y="307" font-size="16" font-weight="bold" fill="#1f1a14">The Human Condition</text>
+<text x="440" y="328" font-size="13" fill="#6b6256">Hannah Arendt, 1958</text>
+<text x="410" y="364" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">core #2  ·  difficulty ●●●●○</text>
+<rect x="396" y="410" width="300" height="96" rx="8" fill="#f4d58d" stroke="#8a6d1f" stroke-width="2.5"/>
+<circle cx="418" cy="432" r="14" fill="#8a6d1f"/>
+<text x="418" y="437" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">4</text>
+<text x="440" y="437" font-size="16" font-weight="bold" fill="#1f1a14">Between Past and Future: Eight</text>
+<text x="440" y="456" font-size="16" font-weight="bold" fill="#1f1a14">Exercises in Political Thought</text>
+<text x="440" y="477" font-size="13" fill="#6b6256">Hannah Arendt, 1961</text>
+<text x="410" y="494" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">core #3  ·  difficulty ●●●○○</text>
+<rect x="396" y="540" width="300" height="96" rx="8" fill="#f4d58d" stroke="#8a6d1f" stroke-width="2.5"/>
+<circle cx="418" cy="562" r="14" fill="#8a6d1f"/>
+<text x="418" y="567" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">5</text>
+<text x="440" y="567" font-size="16" font-weight="bold" fill="#1f1a14">Eichmann in Jerusalem: A</text>
+<text x="440" y="586" font-size="16" font-weight="bold" fill="#1f1a14">Report on the Banality of Evil</text>
+<text x="440" y="607" font-size="13" fill="#6b6256">Hannah Arendt, 1963</text>
+<text x="410" y="624" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">core #4  ·  difficulty ●●○○○</text>
+<rect x="40" y="540" width="300" height="96" rx="8" fill="#d6e6f5" stroke="#3b6a91" stroke-width="1.5"/>
+<circle cx="62" cy="562" r="14" fill="#3b6a91"/>
+<text x="62" y="567" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">6</text>
+<text x="84" y="567" font-size="16" font-weight="bold" fill="#1f1a14">On Revolution</text>
+<text x="84" y="588" font-size="13" fill="#6b6256">Hannah Arendt, 1963</text>
+<text x="54" y="624" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●●○○</text>
+<rect x="752" y="540" width="300" height="96" rx="8" fill="#ebe7e0" stroke="#8c8072" stroke-width="1.5"/>
+<circle cx="774" cy="562" r="14" fill="#8c8072"/>
+<text x="774" y="567" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">7</text>
+<text x="796" y="567" font-size="16" font-weight="bold" fill="#1f1a14">Men in Dark Times</text>
+<text x="796" y="588" font-size="13" fill="#6b6256">Hannah Arendt, 1968</text>
+<text x="766" y="624" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●○○○</text>
+<rect x="40" y="670" width="300" height="96" rx="8" fill="#d6e6f5" stroke="#3b6a91" stroke-width="1.5"/>
+<circle cx="62" cy="692" r="14" fill="#3b6a91"/>
+<text x="62" y="697" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">8</text>
+<text x="84" y="697" font-size="16" font-weight="bold" fill="#1f1a14">On Violence</text>
+<text x="84" y="718" font-size="13" fill="#6b6256">Hannah Arendt, 1970</text>
+<text x="54" y="754" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●○○○</text>
+<rect x="752" y="670" width="300" height="96" rx="8" fill="#ebe7e0" stroke="#8c8072" stroke-width="1.5"/>
+<circle cx="774" cy="692" r="14" fill="#8c8072"/>
+<text x="774" y="697" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">9</text>
+<text x="796" y="697" font-size="16" font-weight="bold" fill="#1f1a14">Crises of the Republic</text>
+<text x="796" y="718" font-size="13" fill="#6b6256">Hannah Arendt, 1972</text>
+<text x="766" y="754" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●○○○</text>
+<rect x="40" y="800" width="300" height="96" rx="8" fill="#d6e6f5" stroke="#3b6a91" stroke-width="1.5"/>
+<circle cx="62" cy="822" r="14" fill="#3b6a91"/>
+<text x="62" y="827" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">10</text>
+<text x="84" y="827" font-size="16" font-weight="bold" fill="#1f1a14">The Life of the Mind</text>
+<text x="84" y="846" font-size="16" font-weight="bold" fill="#1f1a14">(Thinking; Willing)</text>
+<text x="84" y="867" font-size="13" fill="#6b6256">Hannah Arendt, 1978</text>
+<text x="54" y="884" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●●●○</text>
+<rect x="40" y="930" width="300" height="96" rx="8" fill="#d6e6f5" stroke="#3b6a91" stroke-width="1.5"/>
+<circle cx="62" cy="952" r="14" fill="#3b6a91"/>
+<text x="62" y="957" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">11</text>
+<text x="84" y="957" font-size="16" font-weight="bold" fill="#1f1a14">Lectures on Kant&#x27;s Political</text>
+<text x="84" y="976" font-size="16" font-weight="bold" fill="#1f1a14">Philosophy</text>
+<text x="84" y="997" font-size="13" fill="#6b6256">Hannah Arendt, 1982</text>
+<text x="54" y="1014" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●●○○</text>
+<text x="330" y="924" text-anchor="end" font-size="12" font-style="italic" fill="#6b6256">after: Critique of the Power of Judgment (Kant)</text>
+<rect x="752" y="930" width="300" height="96" rx="8" fill="#ebe7e0" stroke="#8c8072" stroke-width="1.5"/>
+<circle cx="774" cy="952" r="14" fill="#8c8072"/>
+<text x="774" y="957" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">12</text>
+<text x="796" y="957" font-size="16" font-weight="bold" fill="#1f1a14">Responsibility and Judgment</text>
+<text x="796" y="976" font-size="16" font-weight="bold" fill="#1f1a14">(incl. &quot;Thinking and Moral…</text>
+<text x="796" y="997" font-size="13" fill="#6b6256">Hannah Arendt, 2003</text>
+<text x="766" y="1014" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●●○○</text>
+<rect x="752" y="1060" width="300" height="96" rx="8" fill="#ebe7e0" stroke="#8c8072" stroke-width="1.5"/>
+<circle cx="774" cy="1082" r="14" fill="#8c8072"/>
+<text x="774" y="1087" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">13</text>
+<text x="796" y="1087" font-size="16" font-weight="bold" fill="#1f1a14">The Jewish Writings (incl. &quot;We</text>
+<text x="796" y="1106" font-size="16" font-weight="bold" fill="#1f1a14">Refugees&quot;, &quot;The Jew as…</text>
+<text x="796" y="1127" font-size="13" fill="#6b6256">Hannah Arendt, 2007</text>
+<text x="766" y="1144" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●○○○</text>
+<text x="546.0" y="1220" text-anchor="middle" font-size="13" fill="#6b6256">Solid arrow: read first (required / helpful). Dashed: useful context. Every link is sourced — see generated/arendt.md</text>
+<text x="546.0" y="1240" text-anchor="middle" font-size="12" fill="#6b6256">Status: draft · github.com/kwang2424/lit-chart-maker</text>
+</svg>

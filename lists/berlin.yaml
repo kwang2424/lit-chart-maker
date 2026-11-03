@@ -1,0 +1,263 @@
+id: berlin
+title: Isaiah Berlin
+group: thinkers
+sequence: 6
+born: 1909
+scope: >
+  Berlin's main essays and books on liberty, pluralism and the history of ideas, with
+  the anthologies that collect them. Most of his work is essays, many gathered by his
+  editor Henry Hardy after the fact. Few public Berlin syllabi exist, so the survey
+  has only two sources.
+status: draft
+
+# Format: see the header of lists/nietzsche.yaml. Years follow the SEP bibliography
+# (first book publication; lecture dates are given in notes).
+
+survey:
+  - source: syl-yale-smith-2025
+    starts_with: two-concepts
+    includes: [two-concepts, historical-inevitability, pursuit-ideal, counter-enlightenment, sense-of-reality]
+    ordered: true
+    locator: course outline, weeks 2–4 ("The Liberal Vision of Isaiah Berlin")
+    verified: true
+    checked_in: Course page (coursetexts.org), accessed 2026-11
+  - source: fivebooks-hardy-berlin
+    starts_with: proper-study
+    includes: [liberty, proper-study, personal-impressions, hedgehog-fox]
+    ordered: false
+    locator: the four Berlin books among Hardy's five picks
+    verified: true
+    checked_in: Five Books interview (web page), accessed 2026-11
+
+works:
+
+  # ---------- Anthologies ----------
+
+  - id: proper-study
+    title: "The Proper Study of Mankind: An Anthology of Essays"
+    author: Isaiah Berlin (ed. Henry Hardy and Roger Hausheer)
+    year: 1997
+    kind: primary
+    tier: extended
+    position: start
+    difficulty: 3
+    note: >
+      A one-volume selection across his career. It holds "Two Concepts of Liberty",
+      "Historical Inevitability", "Herder and the Enlightenment", "The
+      Counter-Enlightenment" and "Winston Churchill in 1940", so it covers most of
+      this list.
+    tips:
+      - text: >
+          His editor: for "a serious person who wants to understand, across the whole
+          range of his thought, what it is that Berlin is up to … The Proper Study of
+          Mankind is the book I would start with." He advises beginning with "the more
+          informal, personal essays before turning to the meatier, more philosophical
+          pieces"; for less philosophical readers, Personal Impressions.
+        sources:
+          - source: fivebooks-hardy-berlin
+            locator: "on The Proper Study of Mankind"
+            verified: true
+            checked_in: Five Books interview (web page), accessed 2026-11
+
+  - id: liberty
+    title: Liberty (incorporating Four Essays on Liberty)
+    author: Isaiah Berlin (ed. Henry Hardy)
+    year: 1969
+    kind: primary
+    tier: extended
+    difficulty: 3
+    note: >
+      Four Essays on Liberty (1969), expanded by Hardy in 2002 as Liberty: his
+      principal essays on liberty, including "Two Concepts of Liberty" and "Historical
+      Inevitability", with material on pluralism.
+    tips:
+      - text: >
+          Asked for his most important book, Berlin named Four Essays on Liberty; Hardy:
+          "I don't disagree with that."
+        sources:
+          - source: fivebooks-hardy-berlin
+            locator: "on Liberty"
+            verified: true
+            checked_in: Five Books interview (web page), accessed 2026-11
+
+  # ---------- Liberty and history ----------
+
+  - id: karl-marx
+    title: "Karl Marx: His Life and Environment"
+    author: Isaiah Berlin
+    year: 1939
+    kind: primary
+    tier: optional
+    difficulty: 2
+    translation: 5th ed., ed. Hardy (Princeton 2013)
+    note: An intellectual biography of Marx.
+    after:
+      - work: marx:manifesto
+        strength: context
+        why: >
+          It is an intellectual biography of Marx; the SEP notes it is still in print in
+          its fifth edition (2013).
+        sources:
+          - source: sep-berlin
+            locator: "§1 Life"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+
+  - id: hedgehog-fox
+    title: "The Hedgehog and the Fox: An Essay on Tolstoy's View of History"
+    author: Isaiah Berlin
+    year: 1953
+    kind: primary
+    tier: extended
+    difficulty: 2
+    note: >
+      An essay on Tolstoy's view of history. It divides thinkers into hedgehogs, who
+      "pursue one single vision", and foxes, natural pluralists (Hardy). Also in Russian
+      Thinkers.
+
+  - id: historical-inevitability
+    title: '"Historical Inevitability"'
+    author: Isaiah Berlin
+    year: 1954
+    kind: primary
+    tier: core
+    difficulty: 3
+    note: >
+      It "radically questioned" determinism and historical inevitability, and argued
+      that belief in inevitability served as an "alibi" for evading responsibility
+      (SEP §2.4). In Liberty and The Proper Study of Mankind.
+
+  - id: two-concepts
+    title: '"Two Concepts of Liberty"'
+    author: Isaiah Berlin
+    year: 1958
+    kind: primary
+    tier: core
+    difficulty: 3
+    note: >
+      His Oxford inaugural lecture: negative liberty ("freedom from" constraints imposed
+      by others) and positive liberty (self-rule), which he argued had been subject to
+      "greater and more sinister transformation" (SEP §5.1). Section VI discusses national self-rule. In Liberty and The
+      Proper Study of Mankind.
+    start_here:
+      why: >
+        The SEP calls it "Berlin's best-known contribution to political theory" and
+        "one of the most influential and widely discussed texts" in the field; Yale's
+        2025 course opens its Berlin weeks with it.
+      sources:
+        - source: sep-berlin
+          locator: "preamble; §5.1 The Concept of Liberty"
+          verified: true
+          checked_in: SEP entry, accessed 2026-11
+        - source: syl-yale-smith-2025
+          locator: week 2, "Freedom and Its Enemies"
+          verified: true
+          checked_in: Course page (coursetexts.org), accessed 2026-11
+    after:
+      - work: kant:groundwork
+        strength: context
+        why: >
+          Berlin traces positive liberty through Rousseau and Kant, who "identified
+          'positive' freedom with autonomy", to Kant's German successors.
+        sources:
+          - source: sep-berlin
+            locator: "§5.1"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+      - work: hegel:philosophy-of-history
+        strength: context
+        why: >
+          It criticises Hegel's definition of liberty as "recognition of, and obedience
+          to, the laws of history as revealed by reason".
+        sources:
+          - source: sep-berlin
+            locator: "§5.1"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+
+  # ---------- Enlightenment, Romanticism, pluralism ----------
+
+  - id: counter-enlightenment
+    title: '"The Counter-Enlightenment"'
+    author: Isaiah Berlin
+    kind: primary
+    tier: extended
+    difficulty: 3
+    note: >
+      On the critics of the Enlightenment he called the "Counter-Enlightenment"; he was
+      most interested in German Romanticism (SEP §3). In Against the Current and The Proper Study of
+      Mankind.
+
+  - id: three-critics
+    title: "Three Critics of the Enlightenment: Vico, Hamann, Herder"
+    author: Isaiah Berlin (ed. Henry Hardy)
+    year: 2000
+    kind: primary
+    tier: extended
+    difficulty: 4
+    note: >
+      Studies from 1960–5 (SEP). On Herder, Yale's course reads "Herder and the
+      Enlightenment" in The Proper Study of Mankind.
+
+  - id: roots-romanticism
+    title: The Roots of Romanticism
+    author: Isaiah Berlin (ed. Henry Hardy)
+    year: 1999
+    kind: primary
+    tier: extended
+    difficulty: 2
+    note: Lectures from 1965 (SEP), edited by Hardy.
+
+  - id: pursuit-ideal
+    title: '"The Pursuit of the Ideal"'
+    author: Isaiah Berlin
+    year: 1988
+    kind: primary
+    tier: core
+    difficulty: 2
+    note: >
+      His Agnelli Prize lecture explaining value pluralism, which the SEP calls "the
+      most eloquent and concentrated summary of pluralism" (§4.3). In The Crooked Timber
+      of Humanity (1990).
+
+  # ---------- Judgement, people, Russia ----------
+
+  - id: sense-of-reality
+    title: "The Sense of Reality: Studies in Ideas and their History"
+    author: Isaiah Berlin (ed. Henry Hardy)
+    year: 1996
+    kind: primary
+    tier: optional
+    difficulty: 3
+    note: >
+      Includes the title essay and "Political Judgement", which Yale's course reads on
+      political theory and judgement.
+
+  - id: personal-impressions
+    title: Personal Impressions
+    author: Isaiah Berlin (ed. Henry Hardy)
+    year: 1980
+    kind: primary
+    tier: extended
+    difficulty: 1
+    note: >
+      Portraits of contemporaries. Hardy calls it "the most assimilable and digestible"
+      of his books.
+
+  - id: russian-thinkers
+    title: Russian Thinkers
+    author: Isaiah Berlin (ed. Henry Hardy and Aileen Kelly)
+    year: 1978
+    kind: primary
+    tier: optional
+    difficulty: 2
+    note: Essays on Russian writers and thinkers, including The Hedgehog and the Fox.
+
+  - id: freedom-betrayal
+    title: "Freedom and its Betrayal: Six Enemies of Human Liberty"
+    author: Isaiah Berlin (ed. Henry Hardy)
+    year: 2002
+    kind: primary
+    tier: optional
+    difficulty: 2
+    note: Lectures from 1952 (SEP), edited by Hardy.

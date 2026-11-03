@@ -1,0 +1,250 @@
+id: arendt
+title: Hannah Arendt
+group: thinkers
+sequence: 5
+born: 1906
+scope: >
+  Arendt's books and essay collections, from her dissertation on Augustine to the
+  unfinished Life of the Mind. Political philosophy: totalitarianism, action, freedom,
+  revolution, judgment.
+status: draft
+
+# Format: see the header of lists/nietzsche.yaml. Her texts are in copyright, so the
+# evidence is the SEP, the IEP and course syllabi.
+
+survey:
+  - source: syl-western-calcagno
+    starts_with: love-augustine
+    includes: [love-augustine, origins, human-condition, eichmann, life-of-mind]
+    ordered: true
+    locator: schedule
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: syl-cuny-wolin
+    starts_with: origins
+    includes: [origins, human-condition, eichmann, on-revolution]
+    ordered: false
+    locator: "course description and texts (opens with Heidegger, then the Origins preface)"
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: syl-newschool-crary
+    starts_with: jewish-writings
+    includes: [jewish-writings, origins, human-condition, on-revolution, between-past-future, crises-republic, eichmann, lectures-kant]
+    ordered: true
+    locator: schedule
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: syl-maclachlan-arendt
+    starts_with: human-condition
+    includes: [human-condition, between-past-future, on-violence, responsibility-judgment, eichmann, lectures-kant]
+    ordered: true
+    locator: schedule
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: syl-oregon-mann
+    starts_with: origins
+    includes: [origins, human-condition, eichmann, between-past-future, on-violence, life-of-mind]
+    ordered: true
+    locator: schedule (readings from The Portable Hannah Arendt)
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: syl-cornell-frank
+    includes: [origins, human-condition, eichmann, between-past-future, crises-republic]
+    ordered: false
+    locator: required texts (a seminar on Schmitt, Strauss and Arendt)
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+
+works:
+
+  - id: love-augustine
+    title: Love and Saint Augustine
+    author: Hannah Arendt
+    year: 1929
+    kind: primary
+    tier: optional
+    difficulty: 4
+    note: Her doctoral dissertation, written under Karl Jaspers.
+    tips:
+      - text: The IEP notes she remained close to Jaspers all her life, though Heidegger's influence proved the greater.
+        sources:
+          - source: iep-arendt
+            locator: "§1 Chronology of Life and Works"
+            verified: true
+            checked_in: IEP online, accessed 2026-11
+
+  - id: jewish-writings
+    title: The Jewish Writings (incl. "We Refugees", "The Jew as Pariah")
+    author: Hannah Arendt
+    year: 2007
+    kind: primary
+    tier: optional
+    difficulty: 2
+    note: Her essays on Jewish politics and identity, collected after her death.
+
+  - id: origins
+    title: The Origins of Totalitarianism
+    author: Hannah Arendt
+    year: 1951
+    kind: primary
+    tier: core
+    difficulty: 4
+    note: >
+      Antisemitism, imperialism and totalitarianism: her study of the Nazi and Stalinist
+      regimes. Several courses concentrate on Part III, "Totalitarianism".
+
+  - id: human-condition
+    title: The Human Condition
+    author: Hannah Arendt
+    year: 1958
+    kind: primary
+    tier: core
+    difficulty: 4
+    note: Labor, work and action, the three activities of the vita activa.
+    after:
+      - work: heidegger:being-and-time
+        strength: context
+        why: >
+          Heidegger's phenomenology had "the greater... lasting influence upon Arendt's
+          work", and one Arendt course opens with Being and Time.
+        sources:
+          - source: iep-arendt
+            locator: "§1 Chronology of Life and Works"
+            verified: true
+            checked_in: IEP online, accessed 2026-11
+          - source: syl-cuny-wolin
+            locator: "schedule (Feb. 10, Arendt and Heidegger I)"
+            verified: true
+            checked_in: Course syllabus (PDF), accessed 2026-11
+      - work: marx:capital-1
+        strength: context
+        why: She is "highly critical of Marx's elevation of animal laborans" to the highest end of human life.
+        sources:
+          - source: iep-arendt
+            locator: "§4.a.i Labor"
+            verified: true
+            checked_in: IEP online, accessed 2026-11
+      - work: plato:republic
+        strength: context
+        why: >
+          It argues against the tradition in which "Platonism, Stoicism and Christianity
+          elevated the sphere of contemplation above the sphere of action".
+        sources:
+          - source: sep-arendt
+            locator: "§4.7 The Unpredictability and Irreversibility of Action"
+            verified: true
+            checked_in: SEP online, accessed 2026-11
+
+  - id: between-past-future
+    title: 'Between Past and Future: Eight Exercises in Political Thought'
+    author: Hannah Arendt
+    year: 1961
+    kind: primary
+    tier: core
+    difficulty: 3
+    note: Essays including "What Is Freedom?", "The Crisis in Culture" and "Truth and Politics".
+    after:
+      - work: berlin:two-concepts
+        strength: context
+        why: >
+          MacLachlan's course reads "What Is Freedom?" in the same session as Berlin's
+          "Two Concepts of Liberty" (1958), the best-known modern statement of the
+          question.
+        sources:
+          - source: syl-maclachlan-arendt
+            locator: schedule, 21/10 ("Freedom")
+            verified: true
+            checked_in: Course syllabus (PDF), accessed 2026-11
+
+  - id: eichmann
+    title: 'Eichmann in Jerusalem: A Report on the Banality of Evil'
+    author: Hannah Arendt
+    year: 1963
+    kind: primary
+    tier: core
+    difficulty: 2
+    note: Her report on the Eichmann trial for The New Yorker, which caused a deep controversy.
+
+  - id: on-revolution
+    title: On Revolution
+    author: Hannah Arendt
+    year: 1963
+    kind: primary
+    tier: extended
+    difficulty: 3
+    note: The American and French revolutions compared.
+
+  - id: men-dark-times
+    title: Men in Dark Times
+    author: Hannah Arendt
+    year: 1968
+    kind: primary
+    tier: optional
+    difficulty: 2
+    note: Essays on individual writers and thinkers.
+
+  - id: on-violence
+    title: On Violence
+    author: Hannah Arendt
+    year: 1970
+    kind: primary
+    tier: extended
+    difficulty: 2
+    note: A short essay; also included in Crises of the Republic.
+
+  - id: crises-republic
+    title: Crises of the Republic
+    author: Hannah Arendt
+    year: 1972
+    kind: primary
+    tier: optional
+    difficulty: 2
+    note: Essays including "Lying in Politics" and "On Violence".
+
+  - id: life-of-mind
+    title: The Life of the Mind (Thinking; Willing)
+    author: Hannah Arendt
+    year: 1978
+    kind: primary
+    tier: extended
+    difficulty: 4
+    note: Her last major work; two of the planned three volumes were finished.
+
+  - id: lectures-kant
+    title: Lectures on Kant's Political Philosophy
+    author: Hannah Arendt
+    year: 1982
+    kind: primary
+    tier: extended
+    difficulty: 3
+    note: Lecture notes standing in for the unwritten third volume, on judging.
+    after:
+      - work: life-of-mind
+        strength: context
+        why: >
+          The volume on Judging was left unfinished; background material and lecture notes
+          were published as these Lectures.
+        sources:
+          - source: sep-arendt
+            locator: "§1 Biographical Sketch"
+            verified: true
+            checked_in: SEP online, accessed 2026-11
+      - work: kant:cj
+        strength: helpful
+        why: >
+          She "based her theory of political judgment on Kant's aesthetics in his Critique of
+          Judgment, which she claimed contained Kant's unwritten political philosophy".
+        sources:
+          - source: sep-arendt
+            locator: "§6.4 Judgment and Politics: Two Models"
+            verified: true
+            checked_in: SEP online, accessed 2026-11
+
+  - id: responsibility-judgment
+    title: Responsibility and Judgment (incl. "Thinking and Moral Considerations")
+    author: Hannah Arendt
+    year: 2003
+    kind: primary
+    tier: optional
+    difficulty: 3
+    note: Late essays and lectures on moral thinking, collected after her death.

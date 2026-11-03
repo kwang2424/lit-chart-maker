@@ -160,6 +160,8 @@ graph TD
 **Who builds on Baruch Spinoza**
 
 - *Ethics* → *Expressionism in Philosophy: Spinoza* (Gilles Deleuze) — context. It is a reading of Spinoza, whom Deleuze called the "prince" of philosophers.
+- *Theological-Political Treatise* → *Spinoza's Critique of Religion (read the 1965 preface)* (Leo Strauss) — helpful. Strauss: "This study of Spinoza's Theologico-Political Treatise was written during the years 1925–28 in Germany" (preface, quoted in the SEP).
+- *Theological-Political Treatise* → *Persecution and the Art of Writing* (Leo Strauss) — context. One of its essays is "How to Read Spinoza's Theologico-Political Treatise", which Yale's Strauss course reads as "esotericism in practice".
 
 ## Sources
 
