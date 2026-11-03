@@ -725,3 +725,59 @@
   author: Melbourne School of Continental Philosophy
   title: "Winter School 2009: Marx & Marxism"
   url: https://www.marxists.org/archive/marx/works/sw/course/mscp.pdf
+
+# ---------- Heidegger ----------
+
+- id: sep-heidegger
+  tier: 2
+  author: Stanford Encyclopedia of Philosophy
+  title: '"Martin Heidegger", Stanford Encyclopedia of Philosophy'
+  url: https://plato.stanford.edu/entries/heidegger/
+
+- id: iep-heidegger
+  tier: 2
+  author: Internet Encyclopedia of Philosophy
+  title: '"Martin Heidegger (1889–1976)"'
+  url: https://iep.utm.edu/heidegge/
+
+- id: syl-georgetown-blattner
+  tier: 3
+  author: William Blattner, Georgetown University
+  title: "PHIL 521: Heidegger's Being and Time"
+  url: https://faculty.georgetown.edu/blattnew/heid/phil-521-syllabus.pdf
+
+- id: syl-windsor-heidegger
+  tier: 3
+  author: University of Windsor
+  title: "Phil 470/570: Recent German Philosophy: Heidegger's Being and Time (Fall 2015)"
+  url: https://www.uwindsor.ca/philosophy/sites/uwindsor.ca.philosophy/files/heideggersbeingandtime.pdf
+
+- id: syl-villanova-heidegger
+  tier: 3
+  author: Villanova University
+  title: "Philosophy 8220: Heidegger's Being and Time (Fall 2014)"
+  url: https://heideggerbeingandtime.wordpress.com/2014/09/09/syllabus/
+
+- id: syl-bard-pl318
+  tier: 3
+  author: Tracy Colony, Bard College
+  title: "PL318: The Thought of Martin Heidegger"
+  url: https://tools.bard.edu/wwwmedia/files/7498724/44/PL318%20The%20Thought%20of%20Martin%20Heidegger%20T%20Colony.pdf
+
+- id: mscp-heidegger-fortunes
+  tier: 3
+  author: Melbourne School of Continental Philosophy
+  title: "Fortunes of Philosophy: Heidegger on Art, Science, Technology, and Humanism"
+  url: https://mscp.org.au/past-courses/fortunes-of-philosophy-heidegger-on-art-science-technology-and-humanism
+
+- id: syl-berkeley-190-heidegger
+  tier: 3
+  author: UC Berkeley, Department of Philosophy
+  title: "Philosophy 190: seminar on Heidegger's later philosophy"
+  url: https://philosophy.berkeley.edu/courses/detail/919
+
+- id: philpapers-nietzsche
+  tier: 2
+  author: PhilPapers (ed. Paul Catanu)
+  title: "Friedrich Nietzsche: category summary and key works"
+  url: https://philpapers.org/browse/friedrich-nietzsche

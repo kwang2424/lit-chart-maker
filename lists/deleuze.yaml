@@ -1,7 +1,7 @@
 id: deleuze
 title: Gilles Deleuze
 group: thinkers
-sequence: 3
+sequence: 4
 scope: >
   Deleuze's books, alone and with Félix Guattari, the philosophers he
   wrote about, and standard secondary guides. Links into the Nietzsche
@@ -259,6 +259,16 @@ works:
             verified: true
             checked_in: SEP online (2022 revision), accessed 2026-11
     after:
+      - work: heidegger:being-and-time
+        strength: context
+        why: >
+          Its history of how difference was subordinated to identity runs "from Plato (DR
+          59-63) to Heidegger (DR 64-6)".
+        sources:
+          - source: iep-deleuze
+            locator: "§4 Difference and Repetition"
+            verified: true
+            checked_in: IEP online, accessed 2026-11
       - work: plato:republic
         strength: context
         why: >

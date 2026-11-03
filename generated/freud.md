@@ -90,13 +90,7 @@ Dreams as disguised wish-fulfilments; chapter VII lays out his model of the mind
 
 Slips of the tongue, forgetting and mistakes. Light and readable.
 
-### 5. "Fragment of an Analysis of a Case of Hysteria" ("Dora") (1905)
-
-`optional · primary · difficulty ●●●○○` · Sigmund Freud
-
-The most discussed of his case histories.
-
-### 6. Three Essays on the Theory of Sexuality (1905)
+### 5. Three Essays on the Theory of Sexuality (1905)
 
 `core · primary · difficulty ●●●○○` · Sigmund Freud
 
@@ -106,6 +100,12 @@ Infantile sexuality and the drives; the other pillar of early psychoanalysis.
 
 - *The Interpretation of Dreams* — *context*. Freud notes that when he wrote the dream book in 1899 the "Sexual Theories" did not yet exist, and that later work on the neuroses changed how he saw dreams.
   - Sigmund Freud, *The Interpretation of Dreams, Preface to the third edition*, Preface to the third edition [author] ✓ checked in Brill trans., Project Gutenberg
+
+### 6. "Fragment of an Analysis of a Case of Hysteria" ("Dora") (1905)
+
+`optional · primary · difficulty ●●●○○` · Sigmund Freud
+
+The most discussed of his case histories.
 
 ### 7. Totem and Taboo (1913)
 
@@ -177,8 +177,8 @@ graph TD
   studies_hysteria["Studies on Hysteria (with Josef Breuer)"]:::extended
   interpretation_of_dreams["The Interpretation of Dreams"]:::core
   psychopathology["The Psychopathology of Everyday Life"]:::extended
-  dora["'Fragment of an Analysis of a Case of Hysteria' ('Dora')"]:::optional
   three_essays["Three Essays on the Theory of Sexuality"]:::core
+  dora["'Fragment of an Analysis of a Case of Hysteria' ('Dora')"]:::optional
   totem_and_taboo["Totem and Taboo"]:::optional
   on_narcissism["'On Narcissism: An Introduction'"]:::extended
   uncanny["'The Uncanny'"]:::optional
