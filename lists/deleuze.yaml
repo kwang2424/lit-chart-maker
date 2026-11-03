@@ -55,17 +55,6 @@ works:
     tier: optional
     difficulty: 3
 
-  - id: freud-marx
-    title: Freud and Marx (any good introduction to each)
-    kind: background
-    tier: optional
-    difficulty: 2
-    note: >
-      Anti-Oedipus is a critique of both. Knowing the Oedipus complex and Marx's
-      idea of production is enough.
-
-  # ---------- Entry guide ----------
-
   - id: may-intro
     title: 'Gilles Deleuze: An Introduction'
     author: Todd May
@@ -349,7 +338,7 @@ works:
     tier: core
     difficulty: 4
     translation: Hurley, Seem & Lane (Minnesota / Penguin)
-    note: Deliberately shocking in style. Foucault's preface to the English edition is a good way in.
+    note: Deliberately shocking in style. The English edition has a preface by Foucault.
     after:
       - work: difference-and-repetition
         strength: helpful
@@ -371,10 +360,38 @@ works:
             locator: "Suggested Readings; schedule week 4"
             verified: true
             checked_in: Course page and syllabus PDF, accessed 2026-11
-      - work: freud-marx
+      - work: marx:contribution-1859
         strength: context
-        why: Its central idea, "desiring-production", is a critique of both Freud and Marx.
+        why: >
+          Its central idea, "desiring-production", is a critique of both Marx and Freud. A
+          Deleuze and Guattari course suggests reading Marx's 1859 Preface beforehand.
         sources:
+          - source: syl-lsu-protevi
+            locator: Suggested Readings
+            verified: true
+            checked_in: Course page, accessed 2026-11
+          - source: sep-deleuze
+            locator: "§4.1 Anti-Oedipus"
+            verified: true
+            checked_in: SEP online (2022 revision), accessed 2026-11
+      - work: marx:value-price-profit
+        strength: context
+        why: The same course also suggests Marx's Value, Price and Profit as preparation.
+        sources:
+          - source: syl-lsu-protevi
+            locator: Suggested Readings
+            verified: true
+            checked_in: Course page, accessed 2026-11
+      - work: freud:three-essays
+        strength: context
+        why: >
+          The Freud side of its critique: the same course suggests Freud's Three Essays on
+          sexuality as preparation.
+        sources:
+          - source: syl-lsu-protevi
+            locator: Suggested Readings
+            verified: true
+            checked_in: Course page, accessed 2026-11
           - source: sep-deleuze
             locator: "§4.1 Anti-Oedipus"
             verified: true

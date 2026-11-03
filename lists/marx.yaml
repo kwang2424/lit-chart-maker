@@ -1,0 +1,309 @@
+id: marx
+title: Karl Marx
+group: predecessors
+sequence: 7
+scope: >
+  Marx's main writings (some with Engels), from the early critiques of Hegel to
+  Capital. Background for Adorno and the Frankfurt School, Althusser, and Deleuze
+  and Guattari's Anti-Oedipus.
+status: draft
+
+# Format: see the header of lists/nietzsche.yaml. Courses read the early writings and
+# the Manifesto far more than Capital, so the survey leans that way.
+
+survey:
+  - source: syl-umd-tismaneanu
+    starts_with: theses-feuerbach
+    includes: [theses-feuerbach, manifesto, critique-hegel-right, socialism-utopian, manuscripts-1844, german-ideology, gotha, eighteenth-brumaire]
+    ordered: true
+    locator: weekly schedule
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: syl-leipold-marx
+    starts_with: jewish-question
+    includes: [jewish-question, manuscripts-1844, critique-hegel-right, german-ideology, manifesto, contribution-1859, grundrisse, capital-1]
+    ordered: true
+    locator: weekly readings
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: syl-bard-pl180
+    starts_with: contribution-1859
+    includes: [contribution-1859, critique-hegel-right, theses-feuerbach, manuscripts-1844, german-ideology, manifesto, eighteenth-brumaire, civil-war-france, capital-1]
+    ordered: true
+    locator: schedule
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: syl-york-marx
+    starts_with: manifesto
+    includes: [manifesto, german-ideology, contribution-1859, theses-feuerbach, manuscripts-1844]
+    ordered: true
+    locator: seminar readings
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: mscp-marx-2009
+    starts_with: manifesto
+    includes: [manifesto, civil-war-france, theses-feuerbach, grundrisse, contribution-1859, critique-hegel-right, eighteenth-brumaire, capital-1]
+    ordered: true
+    locator: prescribed texts, numbered 1–8
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+
+works:
+
+  # ---------- Early writings ----------
+
+  - id: critique-hegel-right
+    title: "Contribution to the Critique of Hegel's Philosophy of Right: Introduction"
+    author: Karl Marx
+    year: 1844
+    kind: primary
+    tier: core
+    difficulty: 3
+    note: Short. Religion as "the opium of the people", and the proletariat as the class that will realize philosophy.
+    after:
+      - work: hegel:philosophy-of-right
+        strength: context
+        why: It is a critique of Hegel's Philosophy of Right, as its title says.
+        sources:
+          - source: syl-leipold-marx
+            locator: week 1 readings (title)
+            verified: true
+            checked_in: Course syllabus (PDF), accessed 2026-11
+
+  - id: jewish-question
+    title: '"On the Jewish Question"'
+    author: Karl Marx
+    year: 1843
+    kind: primary
+    tier: optional
+    difficulty: 3
+    note: Political versus human emancipation.
+
+  - id: manuscripts-1844
+    title: Economic and Philosophic Manuscripts of 1844
+    author: Karl Marx
+    year: 1844
+    kind: primary
+    tier: core
+    difficulty: 3
+    note: Unpublished notebooks; the main source for his theory of alienated labour.
+
+  - id: theses-feuerbach
+    title: '"Theses on Feuerbach"'
+    author: Karl Marx
+    year: 1845
+    kind: primary
+    tier: core
+    difficulty: 2
+    note: Eleven short theses; the last is "The philosophers have only interpreted the world, in various ways; the point is to change it."
+    tips:
+      - text: The SEP reads them as the background to his theory of history, objecting to all earlier materialism and idealism.
+        sources:
+          - source: sep-marx
+            locator: "§2.2 Early Formulations"
+            verified: true
+            checked_in: SEP online, accessed 2026-11
+
+  - id: german-ideology
+    title: The German Ideology (Part I, "Feuerbach")
+    author: Karl Marx and Friedrich Engels
+    year: 1846
+    kind: primary
+    tier: core
+    difficulty: 3
+    note: The first statement of historical materialism. Part I is what courses assign.
+    tips:
+      - text: >
+          Marx says they abandoned the manuscript "to the gnawing criticism of the mice"
+          once it had served its purpose, "self-clarification". It was published long after.
+        sources:
+          - source: marx-1859-preface
+            locator: Preface
+            verified: true
+            checked_in: marxists.org (MECW-based English text), accessed 2026-11
+    after:
+      - work: theses-feuerbach
+        strength: context
+        why: The Theses were written as the groundwork for it, and the SEP treats them together.
+        sources:
+          - source: sep-marx
+            locator: "§2.2 Early Formulations"
+            verified: true
+            checked_in: SEP online, accessed 2026-11
+
+  # ---------- Politics ----------
+
+  - id: manifesto
+    title: Manifesto of the Communist Party
+    author: Karl Marx and Friedrich Engels
+    year: 1848
+    kind: primary
+    tier: core
+    difficulty: 1
+    note: Short and vivid. "The history of all hitherto existing society is the history of class struggles."
+
+  - id: wage-labour-capital
+    title: Wage Labour and Capital
+    author: Karl Marx
+    year: 1849
+    kind: primary
+    tier: extended
+    difficulty: 2
+    note: Lectures to workers on wages and capital. A short way into his economics.
+    tips:
+      - text: >
+          Engels revised the 1891 edition so the worker sells "labour-power" rather than
+          "labour", bringing it into line with Capital; read that edition.
+        sources:
+          - source: engels-wlc-intro
+            locator: Introduction
+            verified: true
+            checked_in: marxists.org (MECW-based English text), accessed 2026-11
+
+  - id: eighteenth-brumaire
+    title: The Eighteenth Brumaire of Louis Bonaparte
+    author: Karl Marx
+    year: 1852
+    kind: primary
+    tier: extended
+    difficulty: 3
+    note: Class analysis of a coup. Opens with history repeating itself, "the first time as tragedy, the second time as farce."
+
+  - id: civil-war-france
+    title: The Civil War in France
+    author: Karl Marx
+    year: 1871
+    kind: primary
+    tier: optional
+    difficulty: 2
+    note: On the Paris Commune.
+
+  - id: gotha
+    title: Critique of the Gotha Programme
+    author: Karl Marx
+    year: 1875
+    kind: primary
+    tier: optional
+    difficulty: 2
+    note: '"From each according to his ability, to each according to his needs!"'
+
+  - id: socialism-utopian
+    title: 'Socialism: Utopian and Scientific'
+    author: Friedrich Engels
+    year: 1880
+    kind: primary
+    tier: optional
+    difficulty: 2
+    note: Engels's short popular summary of their views.
+
+  # ---------- Political economy ----------
+
+  - id: grundrisse
+    title: Grundrisse (esp. the 1857 Introduction)
+    author: Karl Marx
+    year: 1857
+    kind: primary
+    tier: extended
+    difficulty: 4
+    note: Vast draft notebooks for Capital, published long after his death.
+    tips:
+      - text: Courses assign the Introduction, including "The Method of Political Economy", rather than the whole.
+        sources:
+          - source: mscp-marx-2009
+            locator: prescribed text 4
+            verified: true
+            checked_in: Course syllabus (PDF), accessed 2026-11
+          - source: syl-leipold-marx
+            locator: readings (Penguin ed., esp. Introduction, pp. 83–111)
+            verified: true
+            checked_in: Course syllabus (PDF), accessed 2026-11
+
+  - id: contribution-1859
+    title: Preface to A Contribution to the Critique of Political Economy
+    author: Karl Marx
+    year: 1859
+    kind: primary
+    tier: core
+    difficulty: 2
+    note: Two pages summarising the "guiding principle" of his studies, base and superstructure.
+    tips:
+      - text: The SEP says this "1859 Preface" has "achieved canonical status" as the statement of his theory of history.
+        sources:
+          - source: sep-marx
+            locator: "§2.1 Sources"
+            verified: true
+            checked_in: SEP online, accessed 2026-11
+
+  - id: value-price-profit
+    title: Value, Price and Profit
+    author: Karl Marx
+    year: 1865
+    kind: primary
+    tier: extended
+    difficulty: 2
+    note: A lecture to the International Workingmen's Association, given while he was writing Capital.
+
+  - id: capital-1
+    title: Capital, Volume 1
+    author: Karl Marx
+    year: 1867
+    kind: primary
+    tier: core
+    difficulty: 5
+    translation: Fowkes (Penguin) or Moore & Aveling (free online)
+    note: >
+      Commodities, value, exploitation and the history of capitalism. The SEP calls it his
+      masterpiece; how to read it (economics or political theory) is still debated.
+    tips:
+      - text: >
+          Marx warns that the first chapter, "especially the section that contains the analysis
+          of commodities", will "present the greatest difficulty", and that "there is no royal
+          road to science". The later historical chapters are easier.
+        sources:
+          - source: marx-capital-prefaces
+            locator: Preface to the first German edition; Preface to the French edition
+            verified: true
+            checked_in: marxists.org (MECW-based English text), accessed 2026-11
+    after:
+      - work: contribution-1859
+        strength: context
+        why: >
+          Marx calls it "the continuation" of the 1859 Contribution, whose substance is
+          "summarised in the first three chapters of this volume".
+        sources:
+          - source: marx-capital-prefaces
+            locator: Preface to the first German edition
+            verified: true
+            checked_in: marxists.org (MECW-based English text), accessed 2026-11
+      - work: hegel:science-of-logic
+        strength: context
+        why: >
+          He "openly avowed myself the pupil of that mighty thinker" Hegel, whose dialectic "is
+          standing on its head. It must be turned right side up again."
+        sources:
+          - source: marx-capital-prefaces
+            locator: Afterword to the second German edition (1873)
+            verified: true
+            checked_in: marxists.org (MECW-based English text), accessed 2026-11
+
+  - id: capital-2-3
+    title: Capital, Volumes 2 and 3
+    author: Karl Marx (ed. Engels)
+    year: 1885
+    kind: primary
+    tier: optional
+    position: end
+    difficulty: 5
+    note: Published after his death from his manuscripts.
+    after:
+      - work: capital-1
+        strength: required
+        why: >
+          Marx planned them as the continuation: "the process of the circulation of capital
+          (Book II.), and ... the varied forms assumed by capital in the course of its
+          development (Book III.)".
+        sources:
+          - source: marx-capital-prefaces
+            locator: Preface to the first German edition
+            verified: true
+            checked_in: marxists.org (MECW-based English text), accessed 2026-11

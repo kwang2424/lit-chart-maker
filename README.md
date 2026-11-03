@@ -6,7 +6,7 @@ reading charts, but with every "read X before Y" backed by a reason and a source
 **Lists:** [Nietzsche](generated/nietzsche.md) · [Deleuze](generated/deleuze.md) · [Jung](generated/jung.md),
 and the predecessors they build on, in historical order: [Plato](generated/plato.md) ·
 [Spinoza](generated/spinoza.md) · [Hume](generated/hume.md) · [Kant](generated/kant.md) ·
-[Hegel](generated/hegel.md) · [Schopenhauer](generated/schopenhauer.md) ·
+[Hegel](generated/hegel.md) · [Schopenhauer](generated/schopenhauer.md) · [Marx](generated/marx.md) ·
 [Bergson](generated/bergson.md) · [Freud](generated/freud.md). All drafts.
 
 ## How it works
