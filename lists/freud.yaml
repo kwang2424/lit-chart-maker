@@ -1,0 +1,243 @@
+id: freud
+title: Sigmund Freud
+group: predecessors
+sequence: 8
+scope: >
+  Freud's major books and the shorter papers most often taught. Background for
+  Jung, who began as his closest collaborator, and for Deleuze and Guattari's
+  Anti-Oedipus.
+status: draft
+
+# Format: see the header of lists/nietzsche.yaml.
+
+survey:
+  - source: syl-columbia-freud
+    starts_with: studies-hysteria
+    includes: [studies-hysteria, interpretation-of-dreams, three-essays, on-narcissism, beyond-pleasure]
+    ordered: true
+    locator: course description (readings listed in order)
+    verified: true
+    checked_in: Course web page, accessed 2026-11
+  - source: syl-warwick-en3e8
+    includes: [studies-hysteria, three-essays, on-narcissism, ego-and-id, interpretation-of-dreams, moses]
+    ordered: false
+    locator: indicative outline syllabus (arranged by theme)
+    verified: true
+    checked_in: Course web page, accessed 2026-11
+  - source: syl-uw-freudlit
+    includes: [civilization, uncanny, dora]
+    ordered: true
+    locator: schedule (Freud Reader selections)
+    verified: true
+    checked_in: Course web page, accessed 2026-11
+  - source: bisr-freud
+    includes: [interpretation-of-dreams, psychopathology, three-essays, beyond-pleasure, civilization, dora]
+    ordered: false
+    locator: '"central texts will likely include"'
+    verified: true
+    checked_in: Course web page, accessed 2026-11
+
+works:
+
+  # ---------- Introductions ----------
+
+  - id: introductory-lectures
+    title: Introductory Lectures on Psycho-Analysis
+    author: Sigmund Freud
+    year: 1917
+    kind: primary
+    tier: core
+    difficulty: 2
+    translation: Riviere (free online, 1922) or Strachey (Norton)
+    note: Lectures for a general audience on slips, dreams and the neuroses.
+    tier_note: >
+      Kept core as the way in, though the surveyed courses go straight to the major works.
+    start_here:
+      why: >
+        Ernest Jones introduced it as the "suitable text-book with which [beginners] could
+        begin their studies" that the field had lacked.
+      sources:
+        - source: jones-preface-1921
+          locator: Preface
+          verified: true
+          checked_in: Riviere trans. (1922), Project Gutenberg #75810
+    tips:
+      - text: >
+          Parts I (slips) and II (dreams) "presuppose absolutely no knowledge of the
+          subject"; Part III, on the neuroses, assumes more.
+        sources:
+          - source: jones-preface-1921
+            locator: Preface
+            verified: true
+            checked_in: Riviere trans. (1922), Project Gutenberg #75810
+
+  # ---------- Founding works ----------
+
+  - id: studies-hysteria
+    title: Studies on Hysteria (with Josef Breuer)
+    author: Sigmund Freud and Josef Breuer
+    year: 1895
+    kind: primary
+    tier: extended
+    difficulty: 3
+    note: The case histories, including "Anna O.", from which psychoanalysis grew.
+
+  - id: interpretation-of-dreams
+    title: The Interpretation of Dreams
+    author: Sigmund Freud
+    year: 1899
+    kind: primary
+    tier: core
+    difficulty: 4
+    translation: Strachey (Basic Books) or Crick (Oxford); Brill (free online)
+    note: Dreams as disguised wish-fulfilments; chapter VII lays out his model of the mind.
+    tips:
+      - text: The IEP calls it his masterpiece, "generally regarded as his greatest work".
+        sources:
+          - source: iep-freud
+            locator: "§1 Life"
+            verified: true
+            checked_in: IEP online, accessed 2026-11
+
+  - id: psychopathology
+    title: The Psychopathology of Everyday Life
+    author: Sigmund Freud
+    year: 1901
+    kind: primary
+    tier: extended
+    difficulty: 1
+    note: Slips of the tongue, forgetting and mistakes. Light and readable.
+
+  - id: three-essays
+    title: Three Essays on the Theory of Sexuality
+    author: Sigmund Freud
+    year: 1905
+    kind: primary
+    tier: core
+    difficulty: 3
+    note: Infantile sexuality and the drives; the other pillar of early psychoanalysis.
+    after:
+      - work: interpretation-of-dreams
+        strength: context
+        why: >
+          Freud notes that when he wrote the dream book in 1899 the "Sexual Theories" did
+          not yet exist, and that later work on the neuroses changed how he saw dreams.
+        sources:
+          - source: freud-dreams-text
+            locator: Preface to the third edition
+            verified: true
+            checked_in: Brill trans., Project Gutenberg #66048
+
+  - id: dora
+    title: '"Fragment of an Analysis of a Case of Hysteria" ("Dora")'
+    author: Sigmund Freud
+    year: 1905
+    kind: primary
+    tier: optional
+    difficulty: 3
+    note: The most discussed of his case histories.
+
+  # ---------- Metapsychology ----------
+
+  - id: on-narcissism
+    title: '"On Narcissism: An Introduction"'
+    author: Sigmund Freud
+    year: 1914
+    kind: primary
+    tier: extended
+    difficulty: 3
+    note: A short paper that reshapes his theory of the drives.
+
+  - id: uncanny
+    title: '"The Uncanny"'
+    author: Sigmund Freud
+    year: 1919
+    kind: primary
+    tier: optional
+    difficulty: 2
+    note: An essay on literature and the eerie, much read outside psychology.
+
+  - id: beyond-pleasure
+    title: Beyond the Pleasure Principle
+    author: Sigmund Freud
+    year: 1920
+    kind: primary
+    tier: core
+    difficulty: 4
+    note: Repetition and the death drive. Short but speculative.
+
+  - id: ego-and-id
+    title: The Ego and the Id
+    author: Sigmund Freud
+    year: 1923
+    kind: primary
+    tier: extended
+    difficulty: 3
+    note: The structural model of ego, id and super-ego.
+    after:
+      - work: beyond-pleasure
+        strength: helpful
+        why: Freud says it takes the train of thought begun in Beyond the Pleasure Principle and develops it "further".
+        sources:
+          - source: freud-ego-id-text
+            locator: Introduction
+            verified: true
+            checked_in: Riviere trans. (1927), Project Gutenberg #79682
+
+  # ---------- Culture and religion ----------
+
+  - id: totem-and-taboo
+    title: Totem and Taboo
+    author: Sigmund Freud
+    year: 1913
+    kind: primary
+    tier: optional
+    difficulty: 3
+    note: Psychoanalysis applied to the origins of religion and morality.
+
+  - id: future-of-an-illusion
+    title: The Future of an Illusion
+    author: Sigmund Freud
+    year: 1927
+    kind: primary
+    tier: extended
+    difficulty: 2
+    note: Religion as wish-fulfilment. Short.
+
+  - id: civilization
+    title: Civilization and Its Discontents
+    author: Sigmund Freud
+    year: 1930
+    kind: primary
+    tier: core
+    difficulty: 3
+    note: Why civilization makes us unhappy; guilt, aggression and the death drive.
+    after:
+      - work: future-of-an-illusion
+        strength: context
+        why: It opens by recalling the reply to "my little book which treats of religion as an illusion".
+        sources:
+          - source: freud-civilization-text
+            locator: Chapter I
+            verified: true
+            checked_in: Riviere trans. (1930), Project Gutenberg #78221
+      - work: beyond-pleasure
+        strength: helpful
+        why: >
+          Its argument about aggression rests on the death instinct; Freud recalls that he
+          "made the next step in Beyond the Pleasure Principle (1920)".
+        sources:
+          - source: freud-civilization-text
+            locator: Chapter VI
+            verified: true
+            checked_in: Riviere trans. (1930), Project Gutenberg #78221
+
+  - id: moses
+    title: Moses and Monotheism
+    author: Sigmund Freud
+    year: 1939
+    kind: primary
+    tier: optional
+    position: end
+    difficulty: 3
+    note: His last book.

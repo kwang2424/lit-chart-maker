@@ -3,7 +3,11 @@
 Reading orders for philosophers and thinkers, in the spirit of the old /lit/
 reading charts, but with every "read X before Y" backed by a reason and a source.
 
-**Lists:** [Nietzsche](generated/nietzsche.md) · [Deleuze](generated/deleuze.md) · [Jung](generated/jung.md) (all drafts).
+**Lists:** [Nietzsche](generated/nietzsche.md) · [Deleuze](generated/deleuze.md) · [Jung](generated/jung.md),
+and the predecessors they build on, in historical order: [Plato](generated/plato.md) ·
+[Spinoza](generated/spinoza.md) · [Hume](generated/hume.md) · [Kant](generated/kant.md) ·
+[Hegel](generated/hegel.md) · [Schopenhauer](generated/schopenhauer.md) ·
+[Bergson](generated/bergson.md) · [Freud](generated/freud.md). All drafts.
 
 ## How it works
 
@@ -47,4 +51,5 @@ python tools/site.py            # build the website into site/
 python -m unittest discover tools
 ```
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) to add or fix a list.
+See [CONTRIBUTING.md](CONTRIBUTING.md) to add or fix a list. If you use Claude Code, the
+`build-reading-list` skill in `.claude/skills/` walks through the full research method.

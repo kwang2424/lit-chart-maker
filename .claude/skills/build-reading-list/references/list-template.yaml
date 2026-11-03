@@ -1,0 +1,45 @@
+# Template for lists/<id>.yaml. Copy, then delete what you don't use.
+# Full field reference: the header comment in lists/nietzsche.yaml.
+
+id: example                 # must match the file name
+title: Firstname Lastname
+group: predecessors         # thinkers | predecessors
+sequence: 9                 # place in historical order within its group
+scope: >
+  One or two sentences: what's in, what's out, and anything unusual about the
+  evidence (e.g. "most courses found pair X with Y, which tilts the survey").
+status: draft               # draft -> reviewed -> stable (stable requires every citation verified)
+
+survey:                     # one entry per independent source that recommends books
+  - source: syl-some-course # id in sources/sources.yaml (tier 3 for syllabi/teaching lists)
+    starts_with: first-book # optional; must also be in includes
+    includes: [first-book, second-book]
+    ordered: true           # false if it's a reading list or a thematic outline, not a sequence
+    # covers: beginning     # beginner-only lists: count toward "where to start", not core shares
+    locator: schedule
+    verified: true
+    checked_in: Course syllabus (PDF), accessed YYYY-MM
+
+works:
+  - id: first-book          # kebab-case, unique in the list; other lists refer to it as example:first-book
+    title: First Book
+    author: Firstname Lastname
+    year: 1900              # omit when unknown (e.g. Plato); never guess
+    kind: primary           # primary | secondary | background
+    tier: core              # core | extended | optional
+    difficulty: 3           # 1 easy .. 5 very hard
+    translation: Translator (Publisher) or Free Translator (free online)
+    note: Plain description only. No claims you haven't checked.
+    # position: start | end          # pin a non-core work
+    # tier_note: why the tier differs from the survey (silences that warning, shown on the page)
+    # start_here: {why, sources}     # needs a tier 1 or 2 source
+    # tips: [{text, sources}]        # sourced reading advice
+    after:
+      - work: other-list:some-book   # or a same-list id
+        strength: helpful            # required | helpful | context
+        why: One plain sentence; quote the source where you can.
+        sources:
+          - source: some-source-id
+            locator: "Preface §2"
+            verified: true
+            checked_in: Translator trans. (year), Project Gutenberg #NNNN

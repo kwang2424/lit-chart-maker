@@ -1,0 +1,138 @@
+id: bergson
+title: Henri Bergson
+group: predecessors
+sequence: 7
+scope: >
+  Bergson's major books, which courses read in publication order, and the essay
+  the SEP calls the reading guide to his whole philosophy. Background for Deleuze
+  (Bergsonism) and for Jung's idea of psychic energy.
+status: draft
+
+# Format: see the header of lists/nietzsche.yaml.
+
+survey:
+  - source: syl-lsu-protevi-bergson
+    starts_with: time-and-free-will
+    includes: [time-and-free-will, matter-and-memory, creative-evolution]
+    ordered: true
+    locator: schedule
+    verified: true
+    checked_in: Course syllabus, accessed 2026-11
+  - source: mscp-bergson
+    starts_with: introduction-to-metaphysics
+    includes: [introduction-to-metaphysics, time-and-free-will, matter-and-memory, creative-evolution]
+    ordered: true
+    locator: weekly outline
+    verified: true
+    checked_in: Seminar web page, accessed 2026-11
+  - source: syl-western-blankenship
+    starts_with: time-and-free-will
+    includes: [time-and-free-will, laughter, matter-and-memory, creative-evolution, creative-mind]
+    ordered: true
+    locator: course schedule (Laughter recommended)
+    verified: true
+    checked_in: Course syllabus, accessed 2026-11
+
+works:
+
+  - id: introduction-to-metaphysics
+    title: '"Introduction to Metaphysics"'
+    author: Henri Bergson
+    year: 1903
+    kind: primary
+    tier: core
+    difficulty: 2
+    translation: in The Creative Mind (trans. Andison), or Hulme's 1912 translation
+    note: A short essay on intuition versus analysis. Now the centrepiece of The Creative Mind.
+    start_here:
+      why: >
+        The SEP says it "became a crucial reading guide for Bergson's philosophy as a whole",
+        and one surveyed seminar opens with it.
+      sources:
+        - source: sep-bergson
+          locator: "§1 Life and works"
+          verified: true
+          checked_in: SEP online, accessed 2026-11
+
+  - id: time-and-free-will
+    title: 'Time and Free Will: An Essay on the Immediate Data of Consciousness'
+    author: Henri Bergson
+    year: 1889
+    kind: primary
+    tier: core
+    difficulty: 3
+    translation: Pogson (free online)
+    note: His doctoral thesis. Duration versus spatialized time, and freedom.
+
+  - id: matter-and-memory
+    title: Matter and Memory
+    author: Henri Bergson
+    year: 1896
+    kind: primary
+    tier: core
+    difficulty: 4
+    translation: Paul & Palmer (Zone)
+    note: Perception, memory and the body; pure memory as "virtual".
+
+  - id: laughter
+    title: 'Laughter: An Essay on the Meaning of the Comic'
+    author: Henri Bergson
+    year: 1900
+    kind: primary
+    tier: optional
+    difficulty: 1
+    note: Short and entertaining. A good side door into his thought.
+
+  - id: creative-evolution
+    title: Creative Evolution
+    author: Henri Bergson
+    year: 1907
+    kind: primary
+    tier: core
+    difficulty: 4
+    translation: Mitchell (free online)
+    note: Life as a creative "élan vital" rather than mechanism or design.
+    after:
+      - work: time-and-free-will
+        strength: helpful
+        why: Bergson says his views here are "those that we expressed long ago" in the Essai (Time and Free Will).
+        sources:
+          - source: bergson-ce-text
+            locator: Chapter I
+            verified: true
+            checked_in: Mitchell trans. (1911), Project Gutenberg #26163
+      - work: matter-and-memory
+        strength: helpful
+        why: It repeatedly refers back to Matter and Memory ("We have developed this point in Matière et mémoire").
+        sources:
+          - source: bergson-ce-text
+            locator: footnotes to Chapters I–III
+            verified: true
+            checked_in: Mitchell trans. (1911), Project Gutenberg #26163
+
+  - id: two-sources
+    title: The Two Sources of Morality and Religion
+    author: Henri Bergson
+    year: 1932
+    kind: primary
+    tier: extended
+    difficulty: 3
+    note: His last major book, on closed and open societies and religion.
+
+  - id: creative-mind
+    title: 'The Creative Mind: An Introduction to Metaphysics'
+    author: Henri Bergson
+    year: 1934
+    kind: primary
+    tier: extended
+    difficulty: 3
+    note: Late essays on method, including the 1903 essay and a long introduction looking back on his work.
+    after:
+      - work: introduction-to-metaphysics
+        strength: context
+        why: The 1903 essay was "later reproduced as the centerpiece of The Creative Mind".
+        sources:
+          - source: sep-bergson
+            locator: "§1 Life and works"
+            verified: true
+            checked_in: SEP online, accessed 2026-11

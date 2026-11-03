@@ -209,7 +209,8 @@ def list_page(data: dict, lists: dict, sources: dict) -> str:
     for n in core_order:
         w = by_id[n]
         star = " ★ start here" if w.get("start_here") else ""
-        h.append(f'<li><a href="#{n}">{escape(w["title"])}</a> <span class="muted">({w.get("year", "")}){star}</span></li>')
+        yr = f'({w["year"]})' if w.get("year") else ""
+        h.append(f'<li><a href="#{n}">{escape(w["title"])}</a> <span class="muted">{yr}{star}</span></li>')
     h.append("</ol>")
 
     h.append(consensus.render_html(data, sources, b.SOURCE_TIER_NAMES))
@@ -267,19 +268,32 @@ def index_page(lists: dict) -> str:
         "<p>Where to start with a thinker, and what to read before what. Inspired by the old "
         "/lit/ reading charts, but every “read X before Y” comes with a reason and a "
         "citation: the author's own words where possible, then scholarly guides.</p>",
-        '<div class="cards">',
     ]
-    for lid, data in lists.items():
+
+    def card(lid, data):
         core, full = b.compute_order(data)
         done, total = stats(data)
         first = next((w for w in data["works"] if w["id"] == core[0]), None) if core else None
-        h.append(
+        return (
             f'<a class="card" href="{lid}.html"><h3>{escape(data["title"])}</h3>'
             f'<div class="sans meta muted"><span class="badge">{escape(data["status"])}</span>'
             f"{len(full)} works · {done}/{total} citations checked</div>"
             + (f'<p class="meta">Start with <em>{escape(first["title"])}</em></p>' if first else "")
             + "</a>"
         )
+
+    thinkers = sorted((l for l in lists.items() if l[1].get("group", "thinkers") == "thinkers"),
+                      key=lambda kv: (kv[1].get("sequence", 99), kv[1]["title"]))
+    preds = sorted((l for l in lists.items() if l[1].get("group") == "predecessors"),
+                   key=lambda kv: kv[1].get("sequence", 99))
+    h += ["<h2>The thinkers</h2>", '<div class="cards">'] + [card(*l) for l in thinkers] + ["</div>"]
+    if preds:
+        h += [
+            "<h2>Their predecessors, in historical order</h2>",
+            "<p>Who Nietzsche, Deleuze and Jung read and argued with. You don't need all of them: "
+            "each thinker's page links to the specific books it depends on.</p>",
+            '<div class="cards">',
+        ] + [card(*l) for l in preds]
     h.append("</div>")
     h.append(
         "<h2>How it works</h2>"

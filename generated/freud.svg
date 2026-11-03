@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1092" height="1000" viewBox="0 0 1092 1000" font-family="Georgia, 'Times New Roman', serif">
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c8072"/></marker>
+</defs>
+<rect width="100%" height="100%" fill="#f6f1e7"/>
+<text x="546.0" y="62" text-anchor="middle" font-size="38" font-weight="bold" fill="#1f1a14">Sigmund Freud</text>
+<text x="546.0" y="94" text-anchor="middle" font-size="17" fill="#6b6256">A reading order. Follow the numbers; gold boxes are the core path.</text>
+<text x="190.0" y="132" text-anchor="middle" font-size="15" letter-spacing="2" fill="#6b6256">EXTENDED</text>
+<text x="546.0" y="132" text-anchor="middle" font-size="15" letter-spacing="2" fill="#6b6256">CORE PATH</text>
+<text x="902.0" y="132" text-anchor="middle" font-size="15" letter-spacing="2" fill="#6b6256">OPTIONAL &amp; BACKGROUND</text>
+<path d="M546.0,636 C546.0,666 190.0,637 190.0,667" fill="none" stroke="#8c8072" stroke-width="1.6" opacity="0.9" marker-end="url(#arrow)"/>
+<path d="M546.0,636 C546.0,716.5 546.0,716.5 546.0,797" fill="none" stroke="#8c8072" stroke-width="1.6" opacity="0.9" marker-end="url(#arrow)"/>
+<path d="M546.0,376 C546.0,406 546.0,377 546.0,407" fill="none" stroke="#8c8072" stroke-width="1.6" stroke-dasharray="5 5" opacity="0.55" marker-end="url(#arrow)"/>
+<path d="M340,848.0 L393,848.0" fill="none" stroke="#8c8072" stroke-width="1.6" stroke-dasharray="5 5" opacity="0.55" marker-end="url(#arrow)"/>
+<rect x="396" y="150" width="300" height="96" rx="8" fill="#f4d58d" stroke="#8a6d1f" stroke-width="2.5"/>
+<circle cx="418" cy="172" r="14" fill="#8a6d1f"/>
+<text x="418" y="177" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">1</text>
+<text x="440" y="177" font-size="16" font-weight="bold" fill="#1f1a14">Introductory Lectures on</text>
+<text x="440" y="196" font-size="16" font-weight="bold" fill="#1f1a14">Psycho-Analysis</text>
+<text x="440" y="217" font-size="13" fill="#6b6256">Sigmund Freud, 1917</text>
+<text x="410" y="234" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">★ start here  ·  core #1  ·  difficulty ●●○○○</text>
+<rect x="40" y="150" width="300" height="96" rx="8" fill="#d6e6f5" stroke="#3b6a91" stroke-width="1.5"/>
+<circle cx="62" cy="172" r="14" fill="#3b6a91"/>
+<text x="62" y="177" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">2</text>
+<text x="84" y="177" font-size="16" font-weight="bold" fill="#1f1a14">Studies on Hysteria (with</text>
+<text x="84" y="196" font-size="16" font-weight="bold" fill="#1f1a14">Josef Breuer)</text>
+<text x="84" y="217" font-size="13" fill="#6b6256">Sigmund Freud and Josef Breuer, 1895</text>
+<text x="54" y="234" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●●○○</text>
+<rect x="396" y="280" width="300" height="96" rx="8" fill="#f4d58d" stroke="#8a6d1f" stroke-width="2.5"/>
+<circle cx="418" cy="302" r="14" fill="#8a6d1f"/>
+<text x="418" y="307" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">3</text>
+<text x="440" y="307" font-size="16" font-weight="bold" fill="#1f1a14">The Interpretation of Dreams</text>
+<text x="440" y="328" font-size="13" fill="#6b6256">Sigmund Freud, 1899</text>
+<text x="410" y="364" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">core #2  ·  difficulty ●●●●○</text>
+<rect x="40" y="280" width="300" height="96" rx="8" fill="#d6e6f5" stroke="#3b6a91" stroke-width="1.5"/>
+<circle cx="62" cy="302" r="14" fill="#3b6a91"/>
+<text x="62" y="307" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">4</text>
+<text x="84" y="307" font-size="16" font-weight="bold" fill="#1f1a14">The Psychopathology of</text>
+<text x="84" y="326" font-size="16" font-weight="bold" fill="#1f1a14">Everyday Life</text>
+<text x="84" y="347" font-size="13" fill="#6b6256">Sigmund Freud, 1901</text>
+<text x="54" y="364" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●○○○○</text>
+<rect x="752" y="280" width="300" height="96" rx="8" fill="#ebe7e0" stroke="#8c8072" stroke-width="1.5"/>
+<circle cx="774" cy="302" r="14" fill="#8c8072"/>
+<text x="774" y="307" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">5</text>
+<text x="796" y="307" font-size="16" font-weight="bold" fill="#1f1a14">&quot;Fragment of an Analysis of a</text>
+<text x="796" y="326" font-size="16" font-weight="bold" fill="#1f1a14">Case of Hysteria&quot; (&quot;Dora&quot;)</text>
+<text x="796" y="347" font-size="13" fill="#6b6256">Sigmund Freud, 1905</text>
+<text x="766" y="364" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●●○○</text>
+<rect x="396" y="410" width="300" height="96" rx="8" fill="#f4d58d" stroke="#8a6d1f" stroke-width="2.5"/>
+<circle cx="418" cy="432" r="14" fill="#8a6d1f"/>
+<text x="418" y="437" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">6</text>
+<text x="440" y="437" font-size="16" font-weight="bold" fill="#1f1a14">Three Essays on the Theory of</text>
+<text x="440" y="456" font-size="16" font-weight="bold" fill="#1f1a14">Sexuality</text>
+<text x="440" y="477" font-size="13" fill="#6b6256">Sigmund Freud, 1905</text>
+<text x="410" y="494" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">core #3  ·  difficulty ●●●○○</text>
+<rect x="752" y="410" width="300" height="96" rx="8" fill="#ebe7e0" stroke="#8c8072" stroke-width="1.5"/>
+<circle cx="774" cy="432" r="14" fill="#8c8072"/>
+<text x="774" y="437" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">7</text>
+<text x="796" y="437" font-size="16" font-weight="bold" fill="#1f1a14">Totem and Taboo</text>
+<text x="796" y="458" font-size="13" fill="#6b6256">Sigmund Freud, 1913</text>
+<text x="766" y="494" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●●○○</text>
+<rect x="40" y="410" width="300" height="96" rx="8" fill="#d6e6f5" stroke="#3b6a91" stroke-width="1.5"/>
+<circle cx="62" cy="432" r="14" fill="#3b6a91"/>
+<text x="62" y="437" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">8</text>
+<text x="84" y="437" font-size="16" font-weight="bold" fill="#1f1a14">&quot;On Narcissism: An</text>
+<text x="84" y="456" font-size="16" font-weight="bold" fill="#1f1a14">Introduction&quot;</text>
+<text x="84" y="477" font-size="13" fill="#6b6256">Sigmund Freud, 1914</text>
+<text x="54" y="494" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●●○○</text>
+<rect x="752" y="540" width="300" height="96" rx="8" fill="#ebe7e0" stroke="#8c8072" stroke-width="1.5"/>
+<circle cx="774" cy="562" r="14" fill="#8c8072"/>
+<text x="774" y="567" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">9</text>
+<text x="796" y="567" font-size="16" font-weight="bold" fill="#1f1a14">&quot;The Uncanny&quot;</text>
+<text x="796" y="588" font-size="13" fill="#6b6256">Sigmund Freud, 1919</text>
+<text x="766" y="624" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●○○○</text>
+<rect x="396" y="540" width="300" height="96" rx="8" fill="#f4d58d" stroke="#8a6d1f" stroke-width="2.5"/>
+<circle cx="418" cy="562" r="14" fill="#8a6d1f"/>
+<text x="418" y="567" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">10</text>
+<text x="440" y="567" font-size="16" font-weight="bold" fill="#1f1a14">Beyond the Pleasure Principle</text>
+<text x="440" y="588" font-size="13" fill="#6b6256">Sigmund Freud, 1920</text>
+<text x="410" y="624" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">core #4  ·  difficulty ●●●●○</text>
+<rect x="40" y="670" width="300" height="96" rx="8" fill="#d6e6f5" stroke="#3b6a91" stroke-width="1.5"/>
+<circle cx="62" cy="692" r="14" fill="#3b6a91"/>
+<text x="62" y="697" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">11</text>
+<text x="84" y="697" font-size="16" font-weight="bold" fill="#1f1a14">The Ego and the Id</text>
+<text x="84" y="718" font-size="13" fill="#6b6256">Sigmund Freud, 1923</text>
+<text x="54" y="754" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●●○○</text>
+<rect x="40" y="800" width="300" height="96" rx="8" fill="#d6e6f5" stroke="#3b6a91" stroke-width="1.5"/>
+<circle cx="62" cy="822" r="14" fill="#3b6a91"/>
+<text x="62" y="827" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">12</text>
+<text x="84" y="827" font-size="16" font-weight="bold" fill="#1f1a14">The Future of an Illusion</text>
+<text x="84" y="848" font-size="13" fill="#6b6256">Sigmund Freud, 1927</text>
+<text x="54" y="884" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●○○○</text>
+<rect x="396" y="800" width="300" height="96" rx="8" fill="#f4d58d" stroke="#8a6d1f" stroke-width="2.5"/>
+<circle cx="418" cy="822" r="14" fill="#8a6d1f"/>
+<text x="418" y="827" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">13</text>
+<text x="440" y="827" font-size="16" font-weight="bold" fill="#1f1a14">Civilization and Its</text>
+<text x="440" y="846" font-size="16" font-weight="bold" fill="#1f1a14">Discontents</text>
+<text x="440" y="867" font-size="13" fill="#6b6256">Sigmund Freud, 1930</text>
+<text x="410" y="884" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">core #5  ·  difficulty ●●●○○</text>
+<rect x="752" y="800" width="300" height="96" rx="8" fill="#ebe7e0" stroke="#8c8072" stroke-width="1.5"/>
+<circle cx="774" cy="822" r="14" fill="#8c8072"/>
+<text x="774" y="827" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">14</text>
+<text x="796" y="827" font-size="16" font-weight="bold" fill="#1f1a14">Moses and Monotheism</text>
+<text x="796" y="848" font-size="13" fill="#6b6256">Sigmund Freud, 1939</text>
+<text x="766" y="884" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●●○○</text>
+<text x="546.0" y="960" text-anchor="middle" font-size="13" fill="#6b6256">Solid arrow: read first (required / helpful). Dashed: useful context. Every link is sourced — see generated/freud.md</text>
+<text x="546.0" y="980" text-anchor="middle" font-size="12" fill="#6b6256">Status: draft · github.com/kwang2424/lit-chart-maker</text>
+</svg>

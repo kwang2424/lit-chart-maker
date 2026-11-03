@@ -11,7 +11,8 @@ Disagreements are settled by sources, not by who argues loudest.
 2. **Challenge an ordering.** Change the link and cite a source of equal or
    higher tier. If scholars genuinely disagree, keep the weaker strength and
    mention both views in the work's `note`.
-3. **Add a work or a list.** Copy the structure of `lists/nietzsche.yaml`.
+3. **Add a work or a list.** Copy the structure of `lists/nietzsche.yaml`. A list of
+   predecessors gets `group: predecessors` and a `sequence` number for its place in history.
 
 4. **Add a source to a list's survey.** A course syllabus, an institute's reading
    list or a guide that recommends books can go in the list's `survey:` section:

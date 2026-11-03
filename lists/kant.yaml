@@ -1,0 +1,250 @@
+id: kant
+title: Immanuel Kant
+group: predecessors
+sequence: 4
+scope: >
+  The three Critiques, the shorter works Kant wrote to introduce or extend them,
+  a few popular essays, and the standard introductory guide to the first Critique.
+status: draft
+
+# Format: see the header of lists/nietzsche.yaml. Most Kant courses found focus on
+# his theoretical philosophy, which tilts the survey toward the first Critique.
+
+survey:
+  - source: syl-ucsd-watkins
+    starts_with: groundwork
+    includes: [groundwork, prolegomena]
+    ordered: true
+    locator: schedule (the final weeks offer a choice of Critique)
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: syl-ufl-kant
+    starts_with: kant-cpr
+    includes: [kant-cpr, prolegomena]
+    ordered: true
+    locator: "Unit I: A and B Prefaces, then the Prolegomena Preface"
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: syl-goldhaber-kant
+    starts_with: kant-cpr
+    includes: [kant-cpr, groundwork]
+    ordered: true
+    locator: "Part I: Critique of Pure Reason; Part II: Groundwork"
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: syl-oregon-kant
+    starts_with: kant-cpr
+    includes: [kant-cpr]
+    ordered: true
+    locator: course description and schedule
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: syl-edinburgh-kant
+    includes: [kant-cpr, prolegomena]
+    ordered: false
+    locator: weekly primary reading (CPR paired with Prolegomena)
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: syl-wolff-kant
+    starts_with: enlightenment
+    includes: [enlightenment, kant-cpr]
+    ordered: true
+    locator: schedule (week 1, What is Enlightenment?)
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+
+works:
+
+  - id: enlightenment
+    title: '"An Answer to the Question: What is Enlightenment?"'
+    author: Immanuel Kant
+    year: 1784
+    kind: primary
+    tier: extended
+    difficulty: 1
+    note: A short essay ("Sapere aude!"). The easiest way to hear Kant's voice.
+
+  # ---------- Theoretical philosophy ----------
+
+  - id: prolegomena
+    title: Prolegomena to Any Future Metaphysics
+    author: Immanuel Kant
+    year: 1783
+    kind: primary
+    tier: core
+    difficulty: 4
+    translation: Hatfield (Cambridge) or Carus (free online)
+    note: >
+      Kant's own short version of the Critique of Pure Reason. For most readers of
+      Nietzsche, Deleuze or Jung this, plus a good guide, is enough Kant.
+    start_here:
+      why: >
+        Kant wrote it as "a preliminary exercise" and the "plan" of the Critique of Pure
+        Reason, for readers who found the Critique too hard to follow.
+      sources:
+        - source: kant-prolegomena-text
+          locator: Preface
+          verified: true
+          checked_in: Carus trans. (Open Court, 1912), Project Gutenberg #52821
+    tips:
+      - text: >
+          One course calls it Kant's "textbook version" of the Critique, and pairs each
+          week's Critique reading with the matching Prolegomena sections.
+        sources:
+          - source: syl-edinburgh-kant
+            locator: reading list and weekly primary readings
+            verified: true
+            checked_in: Course syllabus (PDF), accessed 2026-11
+
+  - id: kant-cpr
+    title: Critique of Pure Reason
+    author: Immanuel Kant
+    year: 1781
+    kind: primary
+    tier: core
+    difficulty: 5
+    translation: Guyer & Wood (Cambridge) or Pluhar (Hackett)
+    note: >
+      The book Schopenhauer and Deleuze rework. Courses start with the two Prefaces
+      and the Introduction; the second (B) Preface states the "Copernican" turn.
+    after:
+      - work: gardner-cpr
+        strength: context
+        why: >
+          Three of the surveyed courses recommend Gardner's guide as the accessible
+          commentary, "presented in the same order as the text". Read it alongside.
+        sources:
+          - source: syl-ufl-kant
+            locator: recommended secondary reading
+            verified: true
+            checked_in: Course syllabus (PDF), accessed 2026-11
+          - source: syl-goldhaber-kant
+            locator: recommended secondary reading
+            verified: true
+            checked_in: Course syllabus (PDF), accessed 2026-11
+          - source: syl-oregon-kant
+            locator: '"On CPR – Introductory"'
+            verified: true
+            checked_in: Course syllabus (PDF), accessed 2026-11
+      - work: prolegomena
+        strength: helpful
+        why: >
+          Kant wrote the Prolegomena as the Critique's "plan" and "a preliminary exercise",
+          because readers found the Critique too diffuse to follow.
+        sources:
+          - source: kant-prolegomena-text
+            locator: Preface
+            verified: true
+            checked_in: Carus trans. (Open Court, 1912), Project Gutenberg #52821
+
+  - id: gardner-cpr
+    title: Routledge Philosophy Guidebook to Kant and the Critique of Pure Reason
+    author: Sebastian Gardner
+    year: 1999
+    kind: secondary
+    tier: extended
+    difficulty: 3
+    note: A guide that follows the Critique section by section. Read alongside it.
+
+  # ---------- Moral philosophy ----------
+
+  - id: groundwork
+    title: Groundwork of the Metaphysics of Morals
+    author: Immanuel Kant
+    year: 1785
+    kind: primary
+    tier: core
+    difficulty: 3
+    translation: Gregor & Timmermann (Cambridge) or Abbott (free online, as "Fundamental Principles")
+    note: The categorical imperative. Short, and the usual first book of Kant's ethics.
+    tier_note: >
+      Kept core though only two surveyed courses assign it: most courses found are on
+      Kant's theoretical philosophy, and his ethics is usually taught separately.
+
+  - id: cprr
+    title: Critique of Practical Reason
+    author: Immanuel Kant
+    year: 1788
+    kind: primary
+    tier: extended
+    difficulty: 4
+    note: "The second Critique: freedom, the moral law and the highest good."
+    after:
+      - work: groundwork
+        strength: required
+        why: >
+          Kant says it "presupposes, indeed, the Fundamental Principles [Groundwork] of
+          the Metaphysic of Morals", for its formula of duty.
+        sources:
+          - source: kant-cprr-text
+            locator: Preface
+            verified: true
+            checked_in: Abbott trans., Project Gutenberg #5683
+
+  - id: metaphysics-of-morals
+    title: The Metaphysics of Morals
+    author: Immanuel Kant
+    year: 1797
+    kind: primary
+    tier: optional
+    difficulty: 4
+    note: The full system the Groundwork was written to found, covering rights and virtues.
+    after:
+      - work: groundwork
+        strength: helpful
+        why: >
+          The Groundwork was issued "in the first instance", as the foundation for this
+          later metaphysics of morals.
+        sources:
+          - source: kant-groundwork-text
+            locator: Preface
+            verified: true
+            checked_in: Abbott trans., Project Gutenberg #5682
+
+  # ---------- Judgement and later essays ----------
+
+  - id: cj
+    title: Critique of the Power of Judgment
+    author: Immanuel Kant
+    year: 1790
+    kind: primary
+    tier: extended
+    difficulty: 5
+    note: Beauty, the sublime and purpose in nature. Matters for aesthetics and for Deleuze.
+    after:
+      - work: kant-cpr
+        strength: context
+        why: >
+          Kant presents it as the end of the critical project ("Here then I end my
+          whole critical undertaking").
+        sources:
+          - source: kant-cj-text
+            locator: Preface
+            verified: true
+            checked_in: Bernard trans., Project Gutenberg #48433
+      - work: cprr
+        strength: context
+        why: It is meant to bridge the "gulf" between the theoretical and practical parts of his system.
+        sources:
+          - source: sep-kant
+            locator: "§7.1 The great chasm"
+            verified: true
+            checked_in: SEP online, accessed 2026-11
+
+  - id: religion
+    title: Religion within the Bounds of Bare Reason
+    author: Immanuel Kant
+    year: 1793
+    kind: primary
+    tier: optional
+    difficulty: 3
+    note: Radical evil and a moral reading of Christianity.
+
+  - id: perpetual-peace
+    title: '"Toward Perpetual Peace"'
+    author: Immanuel Kant
+    year: 1795
+    kind: primary
+    tier: optional
+    difficulty: 2
+    note: A short sketch of a peaceful order among states.
