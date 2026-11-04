@@ -70,6 +70,17 @@ works:
             verified: true
             checked_in: Project Gutenberg #4705
     after:
+      - work: spinoza:ethics
+        strength: context
+        why: >
+          In "Of the Immateriality of the Soul" Hume argues against "the atheism of
+          Spinoza", "the doctrine of the simplicity of the universe, and the unity of
+          that substance".
+        sources:
+          - source: hume-treatise-text
+            locator: "Book 1, Part 4, Section 5"
+            verified: true
+            checked_in: Project Gutenberg #4705
       - work: first-enquiry
         strength: context
         why: >

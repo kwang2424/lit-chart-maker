@@ -64,6 +64,18 @@ works:
     difficulty: 3
     translation: Pogson (free online)
     note: His doctoral thesis. Duration versus spatialized time, and freedom.
+    after:
+      - work: kant:kant-cpr
+        strength: context
+        why: >
+          Its conclusion: "Kant's great mistake was to take time as a homogeneous
+          medium"; Kant "clung to freedom, but put the self which is free outside both
+          space and time".
+        sources:
+          - source: bergson-tfw-text
+            locator: "Conclusion"
+            verified: true
+            checked_in: Pogson trans. (1910), Project Gutenberg #56852
 
   - id: matter-and-memory
     title: Matter and Memory

@@ -243,6 +243,10 @@ graph TD
 - *Republic* → *Difference and Repetition* (Gilles Deleuze) — context. It attacks Plato's three-tiered system of Idea, copy and simulacrum (DR 59–63).
 - *Republic* → *The Logic of Sense* (Gilles Deleuze) — context. It attacks Plato's three-tiered system of Idea, copy and simulacrum (the appendix, LS 253–65).
 - *Phaedrus* → *Dissemination* (Jacques Derrida) — helpful. "Plato's Pharmacy" is a reading of the Phaedrus; Oregon's course teaches it as "Reading Plato with Derrida".
+- *Symposium* → *Beyond the Pleasure Principle* (Sigmund Freud) — context. To derive an instinct from the need to restore an earlier state, Freud turns to "the theory that Plato in his Symposium puts into the mouth of Aristophanes".
+- *Parmenides* → *Science of Logic* (G. W. F. Hegel) — context. In his lectures on the history of philosophy, the dialectic "familiar from the Phenomenology and the Logic, comes to fruition in Plato's dialogue Parmenides".
+- *Sophist* → *Plato's Sophist (lecture course, 1924–25)* (Martin Heidegger) — required. It is a lecture course on Plato's Sophist.
+- *Republic* → *Critique of Pure Reason* (Immanuel Kant) — context. The Transcendental Dialectic opens its account of "ideas" with Plato's use of the word, and defends "the Platonic Republic" against the charge of being idle "imaginary perfection".
 - *Symposium* → *The Birth of Tragedy* (Friedrich Nietzsche) — context. Its picture of Socrates draws on Plato: it recalls him leaving "the symposium at break of day" and makes "the dying Socrates" the new Greek ideal.
 - *Phaedo* → *Twilight of the Idols* (Friedrich Nietzsche) — context. "The Problem of Socrates" opens with Socrates' dying words ("I owe a cock to the god Asclepius"), from the end of the Phaedo.
 - *Republic* → *Twilight of the Idols* (Friedrich Nietzsche) — context. "How the 'True World' Finally Became a Fable" begins from Plato: its first stage is "a paraphrase of the proposition 'I, Plato, am the truth.'"

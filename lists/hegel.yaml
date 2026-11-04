@@ -164,6 +164,17 @@ works:
     difficulty: 5
     note: The core of the system, and one of the hardest books in philosophy.
     after:
+      - work: plato:parmenides
+        strength: context
+        why: >
+          In his lectures on the history of philosophy, the dialectic "familiar from the
+          Phenomenology and the Logic, comes to fruition in Plato's dialogue
+          Parmenides".
+        sources:
+          - source: sep-hegel
+            locator: "Lectures on the History of Philosophy (LHP I: 261)"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
       - work: phenomenology
         strength: helpful
         why: The Phenomenology is meant to bring the reader to the standpoint of "purely conceptual thought" from which the Logic proceeds.
@@ -205,6 +216,17 @@ works:
     translation: Nisbet, ed. Wood (Cambridge)
     note: His political philosophy (family, civil society, the state). The Preface has the "owl of Minerva".
     after:
+      - work: kant:metaphysics-of-morals
+        strength: context
+        why: >
+          Its account of punishment continues Kant's: "Kant too, in his Metaphysics of
+          Morals had employed the idea of the state's punitive action as a negating of
+          the original criminal act".
+        sources:
+          - source: sep-hegel
+            locator: "section on punishment (Philosophy of Right)"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
       - work: encyclopaedia
         strength: context
         why: The SEP calls it effectively an expansion of the Encyclopaedia's section on objective spirit.

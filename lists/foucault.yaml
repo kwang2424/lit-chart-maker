@@ -225,6 +225,16 @@ works:
       Intended as the introduction to a series on modern sexuality; it sets out the
       viewpoint and methods (SEP §3.5).
     after:
+      - work: nietzsche:will-to-power
+        strength: context
+        why: >
+          Its French title, The Will to Knowledge, "is a reference to Nietzsche's Will
+          to Power".
+        sources:
+          - source: iep-foucault
+            locator: "§4.b The Will to Knowledge"
+            verified: true
+            checked_in: IEP entry, accessed 2026-11
       - work: discipline-punish
         strength: helpful
         why: >
