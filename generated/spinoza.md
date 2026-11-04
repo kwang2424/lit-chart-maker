@@ -23,16 +23,15 @@ We surveyed 6 independent sources (1 scholarly guide and 5 course syllabi and te
 | Ethics | 6/6 | 1 |
 | Theological-Political Treatise | 3/6 | 1 |
 | Treatise on the Emendation of the Intellect | 2/6 | 2 |
-| Meditations on First Philosophy (and Principles of Philosophy, Part I) | 2/6 | 1 |
 | Letters (selected) | 1/6 |  |
 | Political Treatise | 1/6 |  |
 
 **Sources surveyed**
 
 - **UC San Diego, PHIL 201A: Core Course in History of Philosophy: Spinoza's Ethics (Spring 2011)** [teaching]: Treatise on the Emendation of the Intellect → Ethics → Letters (selected). ✓ checked in Course syllabus, accessed 2026-11
-- **Don Garrett (NYU), at Columbia, Spinoza's Metaphysics (Fall 2017)** [teaching]: Ethics → Meditations on First Philosophy (and Principles of Philosophy, Part I). ✓ checked in Course syllabus, accessed 2026-11
+- **Don Garrett (NYU), at Columbia, Spinoza's Metaphysics (Fall 2017)** [teaching]: Ethics. ✓ checked in Course syllabus, accessed 2026-11
 - **Michael Rosenthal, University of Washington, PHIL 522: Spinoza (Spring 2012)** [teaching]: Treatise on the Emendation of the Intellect → Theological-Political Treatise → Ethics. ✓ checked in Course syllabus, accessed 2026-11
-- **Kenneth Surin, Duke University, LIT 284: Descartes, Spinoza, and Leibniz (Fall 2001)** [teaching]: Meditations on First Philosophy (and Principles of Philosophy, Part I) → Ethics → Theological-Political Treatise → Political Treatise. ✓ checked in Course syllabus, accessed 2026-11
+- **Kenneth Surin, Duke University, LIT 284: Descartes, Spinoza, and Leibniz (Fall 2001)** [teaching]: Ethics → Theological-Political Treatise → Political Treatise. ✓ checked in Course syllabus, accessed 2026-11
 - **University of Cambridge, Faculty of Philosophy, Philosophy Tripos Guide to Courses (Syllabus) 2025–2026** [teaching]: Ethics. ✓ checked in Guide to Courses 2025–26 (PDF), accessed 2026-11
 - **Steven Nadler, interviewed by Five Books, The Best Books on Spinoza (2020)** [scholarly] (expert's shortlist): Theological-Political Treatise → Ethics. ✓ checked in Five Books interview (web page), accessed 2026-11
 
@@ -51,13 +50,7 @@ Unfinished essay on method, written in the early 1660s and published after his d
 - Courses that start here assign just the opening sections (§§1–17).
   - UC San Diego, *PHIL 201A: Core Course in History of Philosophy: Spinoza's Ethics (Spring 2011)*, Meeting 1 [teaching] ✓ checked in Course syllabus, accessed 2026-11
 
-### 2. Meditations on First Philosophy (and Principles of Philosophy, Part I) (1641)
-
-`extended · background · difficulty ●●●○○` · René Descartes
-
-The philosophy Spinoza learned first and rebuilt. The Meditations are short.
-
-### 3. Principles of Cartesian Philosophy (1663)
+### 2. Principles of Cartesian Philosophy (1663)
 
 `optional · primary · difficulty ●●●●○` · Baruch Spinoza
 
@@ -65,10 +58,10 @@ The only work he published under his own name in his lifetime.
 
 **Read first:**
 
-- *Meditations on First Philosophy (and Principles of Philosophy, Part I)* — *helpful*. It is his critical exposition of Descartes's Principles of Philosophy.
+- *Principles of Philosophy* (from the [René Descartes list](descartes.md)) — *helpful*. It is his critical exposition of Descartes's Principles of Philosophy.
   - Steven Nadler, *"Baruch Spinoza", Stanford Encyclopedia of Philosophy*, §1 Biography [scholarly] ✓ checked in SEP online, accessed 2026-11
 
-### 4. Theological-Political Treatise (1670)
+### 3. Theological-Political Treatise (1670)
 
 `extended · primary · difficulty ●●●○○` · Baruch Spinoza
 
@@ -79,7 +72,7 @@ Scripture read as history, and a defence of the freedom to philosophize. Publish
 - Steven Nadler, asked what a newcomer should read first: "I want to say you should go for the Ethics first because that is his philosophical masterpiece. But it's a really tough book... So I would suggest the Theological-Political Treatise... And then you'll be ready for the Ethics."
   - Steven Nadler, interviewed by Five Books, *The Best Books on Spinoza (2020)*, pick 1 [scholarly] ✓ checked in Five Books interview (web page), accessed 2026-11
 
-### 5. Ethics (1677)
+### 4. Ethics (1677)
 
 `core · primary · difficulty ●●●●●` · Baruch Spinoza
 
@@ -97,14 +90,14 @@ His masterpiece, set out "in geometrical order": God or Nature (I), mind (II), t
 
 **Read first:**
 
-- *Meditations on First Philosophy (and Principles of Philosophy, Part I)* — *helpful*. Courses read Part I's definitions alongside Descartes's Principles, or read the Meditations first; Spinoza's vocabulary of substance and attribute is Cartesian.
+- *Principles of Philosophy* (from the [René Descartes list](descartes.md)) — *helpful*. Courses read Part I's definitions alongside Descartes's Principles, or read the Meditations first; Spinoza's vocabulary of substance and attribute is Cartesian.
   - Don Garrett (NYU), at Columbia, *Spinoza's Metaphysics (Fall 2017)*, schedule (Ethics I definitions with Descartes, Principles I §§51–64) [teaching] ✓ checked in Course syllabus, accessed 2026-11
   - Kenneth Surin, Duke University, *LIT 284: Descartes, Spinoza, and Leibniz (Fall 2001)*, schedule [teaching] ✓ checked in Course syllabus, accessed 2026-11
 - *Treatise on the Emendation of the Intellect* — *context*. Two of four surveyed courses open with the Emendation's first sections before Part I.
   - UC San Diego, *PHIL 201A: Core Course in History of Philosophy: Spinoza's Ethics (Spring 2011)*, Meeting 1 [teaching] ✓ checked in Course syllabus, accessed 2026-11
   - Michael Rosenthal, University of Washington, *PHIL 522: Spinoza (Spring 2012)*, schedule [teaching] ✓ checked in Course syllabus, accessed 2026-11
 
-### 6. Letters (selected)
+### 5. Letters (selected)
 
 `optional · primary · difficulty ●●●○○` · Baruch Spinoza
 
@@ -115,13 +108,13 @@ His correspondence answers objections to the Ethics; read the relevant letters a
 - *Ethics* — *context*. One course assigns selected letters with each Part of the Ethics.
   - UC San Diego, *PHIL 201A: Core Course in History of Philosophy: Spinoza's Ethics (Spring 2011)*, Meetings 1 and 3 [teaching] ✓ checked in Course syllabus, accessed 2026-11
 
-### 7. Short Treatise on God, Man and His Well-Being (1660)
+### 6. Short Treatise on God, Man and His Well-Being (1660)
 
 `optional · primary · difficulty ●●●○○` · Baruch Spinoza
 
 The SEP calls it "an initial but aborted effort" to lay out the views of the Ethics.
 
-### 8. Political Treatise (1677)
+### 7. Political Treatise (1677)
 
 `optional · primary · difficulty ●●●○○` · Baruch Spinoza
 
@@ -132,7 +125,7 @@ Unfinished at his death.
 - *Theological-Political Treatise* — *context*. Courses that read it take it after the Theological-Political Treatise.
   - Kenneth Surin, Duke University, *LIT 284: Descartes, Spinoza, and Leibniz (Fall 2001)*, schedule [teaching] ✓ checked in Course syllabus, accessed 2026-11
 
-### 9. Spinoza (Routledge Philosophers) (2008)
+### 8. Spinoza (Routledge Philosophers) (2008)
 
 `optional · secondary · difficulty ●●●○○` · Michael Della Rocca
 
@@ -145,7 +138,6 @@ Solid arrows: required or helpful. Dotted: context.
 ```mermaid
 graph TD
   tie["Treatise on the Emendation of the Intellect"]:::core
-  descartes["Meditations on First Philosophy (and Principles of Philosophy, Part I)"]:::extended
   ppc["Principles of Cartesian Philosophy"]:::optional
   ttp["Theological-Political Treatise"]:::extended
   ethics["Ethics"]:::core
@@ -153,8 +145,6 @@ graph TD
   short_treatise["Short Treatise on God, Man and His Well-Being"]:::optional
   political_treatise["Political Treatise"]:::optional
   della_rocca["Spinoza (Routledge Philosophers)"]:::optional
-  descartes --> ppc
-  descartes --> ethics
   tie -.-> ethics
   ethics -.-> letters
   ttp -.-> political_treatise
@@ -164,6 +154,11 @@ graph TD
 ```
 
 ## Connections
+
+**Builds on**
+
+- *Principles of Philosophy* (René Descartes) → *Principles of Cartesian Philosophy* — helpful. It is his critical exposition of Descartes's Principles of Philosophy.
+- *Principles of Philosophy* (René Descartes) → *Ethics* — helpful. Courses read Part I's definitions alongside Descartes's Principles, or read the Meditations first; Spinoza's vocabulary of substance and attribute is Cartesian.
 
 **Who builds on Baruch Spinoza**
 

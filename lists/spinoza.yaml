@@ -1,7 +1,7 @@
 id: spinoza
 title: Baruch Spinoza
 group: predecessors
-sequence: 2
+sequence: 3
 born: 1632
 scope: >
   Spinoza's works, the Descartes he started from, and one modern guide. The Ethics
@@ -20,9 +20,9 @@ survey:
     checked_in: Course syllabus, accessed 2026-11
   - source: syl-garrett-spinoza
     starts_with: ethics
-    includes: [ethics, descartes]
+    includes: [ethics]
     ordered: true
-    locator: schedule (Ethics I with Descartes' Principles I)
+    locator: schedule (Ethics I with Descartes' Principles I; Descartes is now his own list)
     verified: true
     checked_in: Course syllabus, accessed 2026-11
   - source: syl-uw-rosenthal
@@ -33,10 +33,9 @@ survey:
     verified: true
     checked_in: Course syllabus, accessed 2026-11
   - source: syl-duke-surin
-    starts_with: descartes
-    includes: [descartes, ethics, ttp, political-treatise]
+    includes: [ethics, ttp, political-treatise]
     ordered: true
-    locator: schedule (Descartes, then Spinoza, then Leibniz and Deleuze)
+    locator: schedule (after two weeks on Descartes, then Leibniz and Deleuze)
     verified: true
     checked_in: Course syllabus, accessed 2026-11
   - source: cambridge-gtc-2025
@@ -55,15 +54,6 @@ survey:
     checked_in: Five Books interview (web page), accessed 2026-11
 
 works:
-
-  - id: descartes
-    title: Meditations on First Philosophy (and Principles of Philosophy, Part I)
-    author: René Descartes
-    year: 1641
-    kind: background
-    tier: extended
-    difficulty: 3
-    note: The philosophy Spinoza learned first and rebuilt. The Meditations are short.
 
   - id: tie
     title: Treatise on the Emendation of the Intellect
@@ -102,7 +92,7 @@ works:
     difficulty: 4
     note: The only work he published under his own name in his lifetime.
     after:
-      - work: descartes
+      - work: descartes:principles
         strength: helpful
         why: It is his critical exposition of Descartes's Principles of Philosophy.
         sources:
@@ -168,7 +158,7 @@ works:
             verified: true
             checked_in: Course syllabus, accessed 2026-11
     after:
-      - work: descartes
+      - work: descartes:principles
         strength: helpful
         why: >
           Courses read Part I's definitions alongside Descartes's Principles, or read the

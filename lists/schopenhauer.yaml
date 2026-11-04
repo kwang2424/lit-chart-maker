@@ -1,7 +1,7 @@
 id: schopenhauer
 title: Arthur Schopenhauer
 group: predecessors
-sequence: 6
+sequence: 7
 born: 1788
 scope: >
   Schopenhauer's books in the order he asked readers to take them, plus the
@@ -105,6 +105,16 @@ works:
             verified: true
             checked_in: Haldane & Kemp trans., Project Gutenberg #38427
     after:
+      - work: descartes:meditations
+        strength: context
+        why: >
+          Its opening claim, "The world is idea", was "implicitly involved in the
+          sceptical reflections from which Descartes started".
+        sources:
+          - source: schopenhauer-wwr-text
+            locator: "Book I, §1"
+            verified: true
+            checked_in: Haldane & Kemp trans., Project Gutenberg #38427
       - work: fourfold-root
         strength: required
         why: >

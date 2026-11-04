@@ -16,6 +16,7 @@
 <text x="440" y="196" font-size="16" font-weight="bold" fill="#1f1a14">Introduction to Phenomenology</text>
 <text x="440" y="217" font-size="13" fill="#6b6256">Edmund Husserl, 1931</text>
 <text x="410" y="234" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">★ start here  ·  core #1  ·  difficulty ●●●●○</text>
+<text x="686" y="144" text-anchor="end" font-size="12" font-style="italic" fill="#6b6256">after: Meditations on First Philosophy (Descartes)</text>
 <rect x="396" y="280" width="300" height="96" rx="8" fill="#f4d58d" stroke="#8a6d1f" stroke-width="2.5"/>
 <circle cx="418" cy="302" r="14" fill="#8a6d1f"/>
 <text x="418" y="307" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">2</text>

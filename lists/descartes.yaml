@@ -1,0 +1,226 @@
+id: descartes
+title: René Descartes
+group: predecessors
+sequence: 2
+born: 1596
+scope: >
+  Descartes's philosophical works, from the unfinished Rules to the Passions of the Soul,
+  with the Objections and Replies and the correspondence with Elisabeth. The mathematics
+  and physics appear only as the essays published with the Discourse. Few dedicated
+  syllabi were reachable, so the survey is thin; his own prefaces carry the order.
+status: draft
+
+# Format: see the header of lists/nietzsche.yaml. Public-domain translations: Veitch's
+# Discourse (Project Gutenberg #59) and Principles selections (#4391), Molyneux's
+# Meditations (#70091). Years are first publication, from the SEP.
+
+survey:
+  - source: syl-duke-surin
+    starts_with: discourse
+    includes: [discourse, meditations]
+    ordered: true
+    locator: "class schedule (Sept 5 Discourse, Sept 12 Meditations, then Spinoza)"
+    verified: true
+    checked_in: Course syllabus, accessed 2026-11
+  - source: syl-york-hattiangadi
+    starts_with: discourse
+    includes: [discourse, essays-1637]
+    ordered: false
+    locator: required text (Discourse with Optics, Geometry and Meteorology)
+    verified: true
+    checked_in: Course outline (web page, Fall 2019), accessed 2026-11
+  - source: syl-sfu-shapiro
+    starts_with: meditations
+    includes: [meditations, objections-replies]
+    ordered: true
+    locator: "schedule of readings (Preface, Synopsis, Second Replies, then Meditations 1–6)"
+    verified: true
+    checked_in: Course syllabus (web page, Fall 2002), accessed 2026-11
+  - source: cambridge-gtc-2025
+    includes: [meditations]
+    ordered: false
+    locator: "Part IA, paper 4 (Set texts)"
+    verified: true
+    checked_in: Guide to Courses 2025–26 (PDF), accessed 2026-11
+
+works:
+
+  # ---------- Method ----------
+
+  - id: rules
+    title: Rules for the Direction of the Mind
+    author: René Descartes
+    year: 1701
+    kind: primary
+    tier: optional
+    difficulty: 3
+    note: >
+      An early, unfinished treatise on method, abandoned around 1628 and published only
+      after his death (SEP, "Life and Works" §2).
+
+  - id: discourse
+    title: Discourse on the Method
+    author: René Descartes
+    year: 1637
+    kind: primary
+    tier: core
+    difficulty: 2
+    translation: Veitch (free online)
+    note: >
+      Six parts: considerations on the sciences, the rules of his method, a provisional
+      morality, and in Part IV his arguments for God and the soul. It was published as
+      the first part of a volume of three scientific essays.
+    tips:
+      - text: >
+          Descartes's own note: "If this Discourse appear too long to be read at once, it may
+          be divided into six Parts", and he lists what each contains; Part IV holds "the
+          reasonings by which he establishes the existence of God and of the human soul,
+          which are the foundations of his Metaphysic".
+        sources:
+          - source: descartes-discourse-text
+            locator: "Prefatory Note by the Author"
+            verified: true
+            checked_in: Veitch trans., Project Gutenberg #59
+
+  - id: essays-1637
+    title: "Optics, Geometry and Meteorology (the essays of 1637)"
+    author: René Descartes
+    year: 1637
+    kind: primary
+    tier: optional
+    difficulty: 4
+    note: The three scientific treatises the Discourse was written to introduce.
+    after:
+      - work: discourse
+        strength: helpful
+        why: >
+          The Discourse was "the first part of these Essays"; "the other parts were three
+          treatises", on optics, meteorology and geometry.
+        sources:
+          - source: descartes-principles-text
+            locator: "Author's Letter (Preface)"
+            verified: true
+            checked_in: Veitch trans., Project Gutenberg #4391
+
+  # ---------- First philosophy ----------
+
+  - id: meditations
+    title: Meditations on First Philosophy
+    author: René Descartes
+    year: 1641
+    kind: primary
+    tier: core
+    difficulty: 3
+    translation: Molyneux (1680, free online) or a modern translation
+    note: >
+      It opens with sceptical questions about knowledge and, meditation by meditation,
+      establishes the groundwork for it. "By far Descartes's most popular work" today (SEP,
+      "Life and Works" §3).
+    after:
+      - work: discourse
+        strength: helpful
+        why: >
+          Descartes explains that he wrote the Meditations "anticipating the difficulty which
+          many would experience in apprehending the foundations of the Metaphysics" he had
+          sketched in the Discourse (Part IV).
+        sources:
+          - source: descartes-principles-text
+            locator: "Author's Letter (Preface)"
+            verified: true
+            checked_in: Veitch trans., Project Gutenberg #4391
+
+  - id: objections-replies
+    title: Objections and Replies
+    author: René Descartes, with Hobbes, Arnauld, Gassendi and others
+    year: 1641
+    kind: primary
+    tier: extended
+    difficulty: 4
+    note: >
+      Objections to the Meditations gathered by Mersenne from Caterus, Hobbes, Arnauld,
+      Gassendi and others, with Descartes's replies; printed with the Meditations, seven
+      sets in the second edition (SEP, "Life and Works" §3).
+    after:
+      - work: meditations
+        strength: required
+        why: The objections and replies discuss the Meditations passage by passage.
+        sources:
+          - source: sep-descartes-works
+            locator: "§3 The Meditations"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+
+  - id: principles
+    title: Principles of Philosophy
+    author: René Descartes
+    year: 1644
+    kind: primary
+    tier: extended
+    difficulty: 3
+    translation: Veitch selections (free online)
+    note: >
+      A textbook in four parts: Part One restates the metaphysics, Parts Two to Four the
+      physics built on it. Dedicated to Princess Elisabeth.
+    tips:
+      - text: >
+          Descartes's advice: go "over the whole of it, as he would a romance, without greatly
+          straining his attention", then read it a second time "to observe the connection of
+          my reasonings".
+        sources:
+          - source: descartes-principles-text
+            locator: "Author's Letter (Preface)"
+            verified: true
+            checked_in: Veitch trans., Project Gutenberg #4391
+    after:
+      - work: meditations
+        strength: required
+        why: >
+          Descartes: for Part One "to be properly understood, it will be necessary to read
+          beforehand the book of Meditations I wrote on the same subject".
+        sources:
+          - source: descartes-principles-text
+            locator: "Author's Letter (Preface)"
+            verified: true
+            checked_in: Veitch trans., Project Gutenberg #4391
+
+  # ---------- Mind, body and the passions ----------
+
+  - id: elisabeth
+    title: Correspondence with Princess Elisabeth of Bohemia
+    author: René Descartes and Elisabeth of Bohemia
+    year: 1643
+    kind: primary
+    tier: extended
+    difficulty: 2
+    note: >
+      Letters from 1643 on in which Elisabeth probes the implications of his mind–body
+      dualism (SEP, "Life and Works" §4).
+    after:
+      - work: meditations
+        strength: helpful
+        why: Elisabeth's questions probe "the implications of his commitment to mind-body dualism", the dualism of the Meditations.
+        sources:
+          - source: sep-descartes-works
+            locator: "§4 The Principles"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+
+  - id: passions
+    title: The Passions of the Soul
+    author: René Descartes
+    year: 1649
+    kind: primary
+    tier: extended
+    difficulty: 3
+    note: >
+      How the emotional, and so moral, life is connected to the soul's union with the body
+      (SEP, "Life and Works" §5).
+    after:
+      - work: elisabeth
+        strength: helpful
+        why: The work "emerged primarily from his correspondence with Princess Elisabeth".
+        sources:
+          - source: sep-descartes-works
+            locator: "§5 The Passions"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11

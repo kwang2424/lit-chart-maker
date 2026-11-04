@@ -87,6 +87,17 @@ works:
             verified: true
             checked_in: Course syllabus, accessed 2026-11
     after:
+      - work: descartes:meditations
+        strength: context
+        why: >
+          It contrasts Dasein's being-in-the-world with "the Cartesian distinction
+          between disembodied subjects and a spatially-extended material world"; a
+          planned Part 2 was to examine the ontology of Descartes.
+        sources:
+          - source: sep-heidegger
+            locator: "§2 Being and Time; §2.2.1 The World and Spatiality"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
       - work: husserl:logical-investigations
         strength: context
         why: >

@@ -95,6 +95,16 @@ works:
     difficulty: 4
     note: An essay written from a seminar taught by Foucault, on Foucault's History of Madness.
     after:
+      - work: descartes:meditations
+        strength: context
+        why: >
+          It criticises Foucault's early thought, "especially Foucault's interpretation
+          of Descartes".
+        sources:
+          - source: sep-derrida
+            locator: "§1 Life and Works"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
       - work: foucault:history-of-madness
         strength: context
         why: >
