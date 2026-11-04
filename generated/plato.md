@@ -240,6 +240,7 @@ graph TD
 **Who builds on Plato**
 
 - *Republic* → *The Human Condition* (Hannah Arendt) — context. It argues against the tradition in which "Platonism, Stoicism and Christianity elevated the sphere of contemplation above the sphere of action".
+- *Republic* → *Politics* (Aristotle) — context. It argues with Plato's Republic directly: "when Socrates, in Plato's Republic, says that a city is necessarily composed of four sorts of people, he speaks elegantly but not correctly".
 - *Timaeus* → *Creative Evolution* (Henri Bergson) — context. Chapter IV's history of the philosophy of Forms turns on Plato's account of time as "a moving image of eternity" (Timaeus 37 D).
 - *Republic* → *Difference and Repetition* (Gilles Deleuze) — context. It attacks Plato's three-tiered system of Idea, copy and simulacrum (DR 59–63).
 - *Republic* → *The Logic of Sense* (Gilles Deleuze) — context. It attacks Plato's three-tiered system of Idea, copy and simulacrum (the appendix, LS 253–65).

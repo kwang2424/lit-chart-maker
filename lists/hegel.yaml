@@ -1,7 +1,7 @@
 id: hegel
 title: G. W. F. Hegel
 group: predecessors
-sequence: 6
+sequence: 7
 born: 1770
 scope: >
   Hegel's books and the lecture courses published after his death, with the two
@@ -197,6 +197,18 @@ works:
     difficulty: 5
     note: A teaching handbook of the whole system; Part I is an abbreviated Science of Logic.
     after:
+      - work: aristotle:metaphysics
+        strength: context
+        why: >
+          The Encyclopaedia closes (§577) with a long Greek quotation from Aristotle's
+          Metaphysics, Book XII, on thought thinking itself; the Philosophy of Mind also
+          credits Aristotle's "entelechy of thought" with "surmounting the Platonic
+          Idea".
+        sources:
+          - source: hegel-mind-text
+            locator: "§577 (end of the Encyclopaedia)"
+            verified: true
+            checked_in: Wallace trans., Hegel's Philosophy of Mind, Project Gutenberg #39064
       - work: descartes:discourse
         strength: context
         why: >

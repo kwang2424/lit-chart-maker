@@ -1,7 +1,7 @@
 id: kant
 title: Immanuel Kant
 group: predecessors
-sequence: 5
+sequence: 6
 born: 1724
 scope: >
   The three Critiques, the shorter works Kant wrote to introduce or extend them,
@@ -143,6 +143,17 @@ works:
       The book Schopenhauer and Deleuze rework. Courses start with the two Prefaces
       and the Introduction; the second (B) Preface states the "Copernican" turn.
     after:
+      - work: aristotle:categories
+        strength: context
+        why: >
+          Kant names his table of pure concepts after Aristotle's: "These conceptions we
+          shall, with Aristotle, call categories, our purpose being originally identical
+          with his, notwithstanding the great difference in the execution."
+        sources:
+          - source: kant-cpr-text
+            locator: "Transcendental Analytic, §10 (Table of the Categories)"
+            verified: true
+            checked_in: Meiklejohn trans., Project Gutenberg #4280
       - work: descartes:meditations
         strength: context
         why: >

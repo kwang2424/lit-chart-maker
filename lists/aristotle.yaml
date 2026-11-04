@@ -1,0 +1,272 @@
+id: aristotle
+title: Aristotle
+group: predecessors
+sequence: 2
+born: -384
+scope: >
+  Aristotle's main surviving treatises, grouped as he divided the sciences: the logical
+  works (the Organon), the theoretical sciences (nature, soul, first philosophy), the
+  practical (ethics and politics) and the productive (rhetoric and poetics). The works
+  are lecture notes rather than finished books, and cannot be dated reliably, so no years
+  are given.
+status: draft
+
+# Format: see the header of lists/nietzsche.yaml. Public-domain translations: the
+# Nicomachean Ethics (Project Gutenberg #8438), Ellis's Politics (#6762), Butcher's
+# Poetics (#1974). Courses disagree about where to start: the Categories, the Physics,
+# the Metaphysics and the Ethics each open at least one.
+
+survey:
+  - source: syl-uvm-bailly
+    starts_with: categories
+    includes: [categories, physics, metaphysics, de-interpretatione, prior-analytics, posterior-analytics, de-anima, ne, politics, poetics, rhetoric]
+    ordered: true
+    locator: "weekly schedule, weeks 3–14 (week 1 sets short passages of the Categories and Posterior Analytics with the SEP entry)"
+    verified: true
+    checked_in: Course syllabus (web page, Fall 2024), accessed 2026-11
+  - source: syl-ucsd-johnson
+    starts_with: metaphysics
+    includes: [metaphysics, categories, de-interpretatione, prior-analytics, topics, rhetoric, posterior-analytics, physics, de-anima, parts-animals, generation-animals, ne, poetics, politics]
+    ordered: true
+    locator: weekly schedule (after an introductory week on the Exhortation to Philosophy)
+    verified: true
+    checked_in: Course syllabus (PDF, Winter 2019), accessed 2026-11
+  - source: syl-mcgill-355
+    starts_with: physics
+    includes: [physics, categories, generation-animals, ne, politics]
+    ordered: true
+    locator: schedule
+    verified: true
+    checked_in: Course syllabus (PDF, Winter 2012), accessed 2026-11
+  - source: syl-yale-ds-2018
+    starts_with: ne
+    includes: [ne, physics, categories, de-anima, metaphysics]
+    ordered: true
+    locator: weekly assignments, weeks 5–9
+    verified: true
+    checked_in: Course syllabus (PDF, Fall 2018), accessed 2026-11
+  - source: syl-columbia-vogt
+    starts_with: topics
+    includes: [topics, ne, metaphysics]
+    ordered: true
+    locator: course description and schedule (Aristotle unit)
+    verified: true
+    checked_in: Course syllabus (PDF, Fall 2017), accessed 2026-11
+  - source: oxford-finals
+    includes: [ne, physics, de-anima, parts-animals]
+    ordered: false
+    locator: "papers 116 (Nicomachean Ethics) and 138 (Aristotle on Nature, Life and Mind)"
+    verified: true
+    checked_in: Course descriptions (web page), accessed 2026-11
+  - source: cambridge-gtc-2025
+    includes: [metaphysics]
+    ordered: false
+    locator: "Classical Tripos paper B2, Aristotle on Wisdom and First Philosophy"
+    verified: true
+    checked_in: Guide to Courses 2025–26 (PDF), accessed 2026-11
+
+works:
+
+  - id: barnes-vsi
+    title: "Aristotle: A Very Short Introduction"
+    author: Jonathan Barnes
+    year: 2000
+    kind: secondary
+    tier: optional
+    position: start
+    difficulty: 1
+    note: A short overview; Oxford's Ethics paper lists one of its chapters as introductory reading.
+    tips:
+      - text: >
+          The SEP warns that "Aristotle's writings tend to present formidable difficulties to
+          his novice readers": they are lecture notes and drafts, with heavy technical
+          vocabulary, and "Aristotle's prose requires some acclimatization".
+        sources:
+          - source: sep-aristotle
+            locator: "§2 The Aristotelian Corpus"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+
+  # ---------- Logic (the Organon) ----------
+
+  - id: categories
+    title: Categories
+    author: Aristotle
+    kind: primary
+    tier: core
+    difficulty: 3
+    translation: Edghill (free online)
+    note: >
+      On substance and accidents, subjects and predicates (McGill's course description).
+      McGill and Yale assign chapters 1–5.
+
+  - id: de-interpretatione
+    title: De Interpretatione (On Interpretation)
+    author: Aristotle
+    kind: primary
+    tier: extended
+    difficulty: 3
+    note: On propositions and terms; part of the Organon (SEP §2).
+
+  - id: prior-analytics
+    title: Prior Analytics
+    author: Aristotle
+    kind: primary
+    tier: extended
+    difficulty: 4
+    note: The syllogism; with the Topics, the main treatment of logic and argument (SEP §2).
+
+  - id: posterior-analytics
+    title: Posterior Analytics
+    author: Aristotle
+    kind: primary
+    tier: extended
+    difficulty: 4
+    note: The structure of scientific knowledge and demonstration (SEP §2). UCSD's course reads I.1–3 and II.19.
+    after:
+      - work: prior-analytics
+        strength: helpful
+        why: >
+          Both ordered courses that teach the logic read the Prior Analytics, on the
+          syllogism, before the Posterior Analytics, on demonstration.
+        sources:
+          - source: syl-ucsd-johnson
+            locator: weeks 3–4
+            verified: true
+            checked_in: Course syllabus (PDF, Winter 2019), accessed 2026-11
+          - source: syl-uvm-bailly
+            locator: weeks 6–8
+            verified: true
+            checked_in: Course syllabus (web page, Fall 2024), accessed 2026-11
+
+  - id: topics
+    title: Topics
+    author: Aristotle
+    kind: primary
+    tier: optional
+    difficulty: 3
+    note: On dialectical argument; Columbia's course uses excerpts as "a book on method".
+
+  # ---------- Nature, soul, first philosophy ----------
+
+  - id: physics
+    title: Physics
+    author: Aristotle
+    kind: primary
+    tier: core
+    difficulty: 4
+    note: >
+      Nature, explanation (including teleology), chance, change, time, place and the
+      infinite (Oxford's paper description). Courses concentrate on Books I–II; Oxford
+      adds III and IV.
+
+  - id: de-anima
+    title: De Anima (On the Soul)
+    author: Aristotle
+    kind: primary
+    tier: core
+    difficulty: 4
+    note: The soul and its relation to the body; perception, emotion and thought (Oxford's paper description).
+
+  - id: parts-animals
+    title: Parts of Animals
+    author: Aristotle
+    kind: primary
+    tier: optional
+    difficulty: 3
+    note: Book I is the part Oxford's and UCSD's courses assign.
+
+  - id: generation-animals
+    title: Generation of Animals
+    author: Aristotle
+    kind: primary
+    tier: optional
+    difficulty: 4
+    note: Reproduction and inheritance; McGill's course reads it on sexual difference and resemblance.
+
+  - id: metaphysics
+    title: Metaphysics
+    author: Aristotle
+    kind: primary
+    tier: core
+    difficulty: 5
+    note: >
+      "First philosophy" (SEP §2). Book I opens with the claim that all human beings desire
+      to know, and reviews his predecessors (Columbia's course). Courses read selections,
+      among them Books I, IV, VII and XII.
+
+  # ---------- Ethics and politics ----------
+
+  - id: ne
+    title: Nicomachean Ethics
+    author: Aristotle
+    kind: primary
+    tier: core
+    difficulty: 3
+    translation: Irwin (Hackett), Oxford's set text; older free version (Project Gutenberg)
+    note: >
+      Happiness, the virtues, responsibility, practical wisdom, weakness of will, pleasure
+      and friendship. Oxford's paper calls it "one of the most important works in the
+      history of philosophy".
+
+  - id: politics
+    title: Politics
+    author: Aristotle
+    kind: primary
+    tier: extended
+    difficulty: 3
+    translation: Ellis (free online)
+    note: The household and the city, citizenship and constitutions (McGill's schedule).
+    after:
+      - work: ne
+        strength: helpful
+        why: >
+          The Ethics ends by turning to legislation and "the whole subject of Polity, that
+          thus what we may call Human Philosophy may be completed", announcing the study of
+          constitutions that the Politics carries out.
+        sources:
+          - source: aristotle-ne-text
+            locator: "Book X, last chapter"
+            verified: true
+            checked_in: Project Gutenberg #8438
+      - work: plato:republic
+        strength: context
+        why: >
+          It argues with Plato's Republic directly: "when Socrates, in Plato's Republic, says
+          that a city is necessarily composed of four sorts of people, he speaks elegantly but
+          not correctly".
+        sources:
+          - source: aristotle-politics-text
+            locator: "Book IV, ch. 4"
+            verified: true
+            checked_in: Ellis trans. (1912), Project Gutenberg #6762
+
+  # ---------- Rhetoric and poetics ----------
+
+  - id: rhetoric
+    title: Rhetoric
+    author: Aristotle
+    kind: primary
+    tier: optional
+    difficulty: 3
+    note: The principles of persuasive speech, including in political assemblies (SEP §2).
+
+  - id: poetics
+    title: Poetics
+    author: Aristotle
+    kind: primary
+    tier: extended
+    difficulty: 2
+    translation: Butcher (free online)
+    note: On tragedy; UVM's course reads it with the Rhetoric.
+    after:
+      - work: rhetoric
+        strength: helpful
+        why: >
+          On "Thought" in tragedy, Aristotle writes: "we may assume what is said in the
+          Rhetoric, to which inquiry the subject more strictly belongs."
+        sources:
+          - source: aristotle-poetics-text
+            locator: "ch. XIX"
+            verified: true
+            checked_in: Butcher trans., Project Gutenberg #1974
