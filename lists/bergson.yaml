@@ -106,6 +106,27 @@ works:
     translation: Mitchell (free online)
     note: Life as a creative "élan vital" rather than mechanism or design.
     after:
+      - work: plato:timaeus
+        strength: context
+        why: >
+          Chapter IV's history of the philosophy of Forms turns on Plato's account of
+          time as "a moving image of eternity" (Timaeus 37 D).
+        sources:
+          - source: bergson-ce-text
+            locator: "Chapter IV, note to Timaeus 37 D"
+            verified: true
+            checked_in: Mitchell trans. (1911), Project Gutenberg #26163
+      - work: kant:kant-cpr
+        strength: context
+        why: >
+          Chapter IV argues with Kant's Critique of Pure Reason directly: Kant "did not
+          consider, in his Critique of Pure Reason, that science became less and less
+          objective" as it moved toward the vital.
+        sources:
+          - source: bergson-ce-text
+            locator: "Chapter IV"
+            verified: true
+            checked_in: Mitchell trans. (1911), Project Gutenberg #26163
       - work: time-and-free-will
         strength: helpful
         why: Bergson says his views here are "those that we expressed long ago" in the Essai (Time and Free Will).

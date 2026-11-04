@@ -1137,3 +1137,27 @@
   author: Henri Bergson
   title: "Time and Free Will: An Essay on the Immediate Data of Consciousness (Pogson trans., 1910)"
   url: https://www.gutenberg.org/ebooks/56852
+
+- id: nietzsche-bge-text
+  tier: 1
+  author: Friedrich Nietzsche
+  title: Beyond Good and Evil (Zimmern trans.)
+  url: https://www.gutenberg.org/ebooks/4363
+
+- id: nietzsche-daybreak-text
+  tier: 1
+  author: Friedrich Nietzsche
+  title: The Dawn of Day (Daybreak), Kennedy trans. (1911)
+  url: https://www.gutenberg.org/ebooks/39955
+
+- id: hegel-logic-text
+  tier: 1
+  author: G. W. F. Hegel
+  title: The Logic of Hegel (Encyclopaedia, Part I), Wallace trans.
+  url: https://www.gutenberg.org/ebooks/55108
+
+- id: jung-psy-unconscious-text
+  tier: 1
+  author: C. G. Jung
+  title: Psychology of the Unconscious (Hinkle trans., 1916)
+  url: https://www.gutenberg.org/ebooks/65903
