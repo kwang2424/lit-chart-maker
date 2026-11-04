@@ -333,6 +333,7 @@ def main() -> int:
     SITE.mkdir()
     (SITE / "style.css").write_text(CSS.strip() + "\n" + graph.CSS.strip() + "\n", encoding="utf-8")
     (SITE / "graph.js").write_text(graph.JS.strip() + "\n", encoding="utf-8")
+    (SITE / "map.js").write_text(connections.MAP_JS.strip() + "\n", encoding="utf-8")
     (SITE / "graph.html").write_text(page("What to read first", graph.page_body(lists)), encoding="utf-8")
     (SITE / "app.js").write_text(JS.strip() + "\n", encoding="utf-8")
     (SITE / "index.html").write_text(index_page(lists), encoding="utf-8")
