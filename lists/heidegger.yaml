@@ -87,6 +87,17 @@ works:
             verified: true
             checked_in: Course syllabus, accessed 2026-11
     after:
+      - work: aristotle:physics
+        strength: context
+        why: >
+          Its planned Part 2 was to show that "the ontologies of Aristotle, Descartes,
+          and Kant all rest on a conception of time"; Aristotle's account of time is in
+          Physics IV.
+        sources:
+          - source: sep-heidegger
+            locator: "§2 Being and Time"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
       - work: descartes:meditations
         strength: context
         why: >
@@ -218,6 +229,18 @@ works:
 
   # ---------- The "turning" and the later thought ----------
 
+  - id: presocratics
+    title: "The Presocratics: fragments of Anaximander, Heraclitus and Parmenides"
+    author: Anaximander, Heraclitus, Parmenides
+    kind: background
+    tier: optional
+    difficulty: 3
+    note: >
+      Background for the later Heidegger, not for Being and Time. He calls them the "first
+      beginning" of Western thinking, "pre-metaphysical" thinkers who experienced being as
+      unconcealment (alētheia) (SEP §5, The History of Being). Any edition of the
+      fragments will do.
+
   - id: introduction-to-metaphysics
     title: Introduction to Metaphysics
     author: Martin Heidegger
@@ -227,6 +250,43 @@ works:
     difficulty: 4
     translation: Fried & Polt (Yale)
     note: The 1935 lecture course, published in 1953.
+    after:
+      - work: presocratics
+        strength: helpful
+        why: >
+          The IEP calls it "a bridge between earlier and later Heidegger": here "the
+          Presocratics were no longer a subject of mere passing remarks as in Heidegger's
+          earlier" work.
+        sources:
+          - source: iep-heidegger
+            locator: "on the turn to Presocratic thought (Introduction to Metaphysics)"
+            verified: true
+            checked_in: IEP entry, accessed 2026-11
+
+  - id: early-greek-thinking
+    title: "Early Greek Thinking (The Anaximander Fragment, Logos, Moira, Aletheia)"
+    author: Martin Heidegger
+    year: 1975
+    kind: primary
+    tier: optional
+    difficulty: 5
+    translation: Krell & Capuzzi (Harper & Row)
+    note: >
+      Four essays from the 1940s and 50s, each on a Presocratic fragment: Anaximander,
+      Heraclitus B 50 and B 16, and Parmenides VIII 34–41. The English collection appeared
+      in 1975.
+    after:
+      - work: presocratics
+        strength: required
+        why: >
+          Each essay is a reading of a Presocratic fragment: "The Anaximander Fragment",
+          "Logos (Heraclitus, Fragment B 50)", "Moira (Parmenides VIII, 34-41)", "Aletheia
+          (Heraclitus, Fragment B 16)".
+        sources:
+          - source: iep-heidegger
+            locator: "References (Early Greek Thinking)"
+            verified: true
+            checked_in: IEP entry, accessed 2026-11
 
   - id: origin-work-of-art
     title: '"The Origin of the Work of Art"'

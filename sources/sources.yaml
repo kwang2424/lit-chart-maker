@@ -1211,3 +1211,65 @@
   author: Arthur Schopenhauer
   title: The World as Will and Idea, vol. 1 (Haldane & Kemp trans.)
   url: https://www.gutenberg.org/ebooks/38427
+
+# ---------- Aristotle ----------
+
+- id: sep-aristotle
+  tier: 2
+  author: Stanford Encyclopedia of Philosophy (Christopher Shields)
+  title: '"Aristotle"'
+  url: https://plato.stanford.edu/entries/aristotle/
+
+- id: aristotle-ne-text
+  tier: 1
+  author: Aristotle
+  title: The Nicomachean Ethics (Project Gutenberg edition)
+  url: https://www.gutenberg.org/ebooks/8438
+
+- id: aristotle-politics-text
+  tier: 1
+  author: Aristotle
+  title: "Politics: A Treatise on Government (Ellis trans.)"
+  url: https://www.gutenberg.org/ebooks/6762
+
+- id: aristotle-poetics-text
+  tier: 1
+  author: Aristotle
+  title: The Poetics (Butcher trans.)
+  url: https://www.gutenberg.org/ebooks/1974
+
+- id: hegel-mind-text
+  tier: 1
+  author: G. W. F. Hegel
+  title: "Hegel's Philosophy of Mind (Encyclopaedia, Part III), Wallace trans."
+  url: https://www.gutenberg.org/ebooks/39064
+
+- id: syl-uvm-bailly
+  tier: 3
+  author: J. Bailly, University of Vermont
+  title: "Aristotle on Everything (Fall 2024)"
+  url: https://www.uvm.edu/~jbailly/courses/Aristotle/aristotleSyllabusFall2024.html
+
+- id: syl-ucsd-johnson
+  tier: 3
+  author: Monte Ransome Johnson, UC San Diego
+  title: "PHIL 101: Aristotle (Winter 2019)"
+  url: https://hh-philosophy.ucsd.edu/_files/courses/19winter/W19_Phil%20101_Johnson.pdf
+
+- id: syl-mcgill-355
+  tier: 3
+  author: M. Deslauriers, McGill University
+  title: "PHIL 355: Aristotle (Winter 2012)"
+  url: https://www.mcgill.ca/philosophy/files/philosophy/355b12sylnew_0.pdf
+
+- id: syl-yale-ds-2018
+  tier: 3
+  author: Directed Studies, Yale University
+  title: "Philosophy, Fall 2018"
+  url: https://directedstudies.yale.edu/sites/default/files/files/Syllabus%20philosophy%20Fall%202018-3.pdf
+
+- id: syl-columbia-vogt
+  tier: 3
+  author: Katja Maria Vogt, Columbia University
+  title: "Ancient Philosophy: Pre-Socratics through Augustine (Fall 2017)"
+  url: https://katjavogt.github.io/wp-content/uploads/syllabus-vogt-ancient-intro.pdf

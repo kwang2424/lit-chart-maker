@@ -215,6 +215,17 @@ works:
     note: >
       Essays on Aristotle's Politics, Plato's Republic and Thucydides.
     after:
+      - work: aristotle:politics
+        strength: helpful
+        why: >
+          Its first essay is on Aristotle's Politics, "especially important as one of
+          Strauss's few writings on the philosopher who largely shaped Strauss's
+          conception of antiquity".
+        sources:
+          - source: ucp-city-and-man
+            locator: "book description"
+            verified: true
+            checked_in: University of Chicago Press website, accessed 2026-11
       - work: plato:republic
         strength: helpful
         why: >
