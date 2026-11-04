@@ -213,6 +213,17 @@ works:
       Nietzsche wrote that with this book "I open my campaign against
       morality" (Ecce Homo).
     after:
+      - work: kant:kant-cpr
+        strength: context
+        why: >
+          The 1886 Preface argues that all philosophers, "including Kant himself", built
+          "under the seductive influence of morality", quoting the Critique of Pure
+          Reason's "majestic moral edifices".
+        sources:
+          - source: nietzsche-daybreak-text
+            locator: "Preface §3"
+            verified: true
+            checked_in: Kennedy trans. (1911), Project Gutenberg #39955
       - work: human-all-too-human
         strength: context
         why: >
@@ -299,6 +310,18 @@ works:
       Nietzsche told Jacob Burckhardt it says "the same things as my Zarathustra,
       but differently, very differently" (letter of 22 Sept 1886), and in Ecce Homo
       called it the start of the "negative portion" of his task.
+    after:
+      - work: plato:republic
+        strength: context
+        why: >
+          The Preface calls "the most dangerous of errors hitherto" a "dogmatist error--
+          namely, Plato's invention of Pure Spirit and the Good in Itself", and the book
+          the struggle against it.
+        sources:
+          - source: nietzsche-bge-text
+            locator: "Preface"
+            verified: true
+            checked_in: Zimmern trans., Project Gutenberg #4363
 
   - id: genealogy
     title: On the Genealogy of Morality
@@ -433,6 +456,17 @@ works:
     translation: Hollingdale (Penguin, with Twilight)
     note: Written in 1888, published 1895. His attack on Christianity.
     after:
+      - work: kant:groundwork
+        strength: context
+        why: >
+          §11 begins "A word now against Kant as a moralist": a virtue rooted in "mere
+          respect for the concept of 'virtue'", in "duty" and "good for its own sake",
+          is "pernicious".
+        sources:
+          - source: nietzsche-antichrist-text
+            locator: "§11"
+            verified: true
+            checked_in: Mencken trans. (1918), Project Gutenberg #19322
       - work: gospels
         strength: context
         why: Much of it is a reading of Jesus, the Gospels and Paul.

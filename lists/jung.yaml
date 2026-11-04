@@ -140,6 +140,17 @@ works:
       Collected Works vol. 5. Long and dense with mythology. Jung later revised
       it completely; read the Collected Works version unless you want the 1912 text.
     after:
+      - work: nietzsche:zarathustra
+        strength: context
+        why: >
+          Chapter III quotes Zarathustra and Nietzsche's poems at length; libido's
+          demands, Jung writes, are what "Nietzsche's 'Zarathustra' teaches us this
+          impressively".
+        sources:
+          - source: jung-psy-unconscious-text
+            locator: "Chapter III (The Hymn of Creation)"
+            verified: true
+            checked_in: Hinkle trans. (1916), Project Gutenberg #65903
       - work: freud:interpretation-of-dreams
         strength: helpful
         why: >
@@ -212,6 +223,16 @@ works:
             verified: true
             checked_in: Baynes trans. (1923), archive.org/details/psychological_types
     after:
+      - work: kant:kant-cpr
+        strength: context
+        why: >
+          Chapter I, on the ontological argument, says "Kant's reasoning should be
+          final" and quotes the Critique of Pure Reason at length.
+        sources:
+          - source: jung-types-text
+            locator: "Chapter I"
+            verified: true
+            checked_in: Baynes trans. (1923), archive.org/details/psychological_types
       - work: nietzsche:birth-of-tragedy
         strength: context
         why: >

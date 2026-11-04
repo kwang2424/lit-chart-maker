@@ -197,6 +197,27 @@ works:
     difficulty: 5
     note: A teaching handbook of the whole system; Part I is an abbreviated Science of Logic.
     after:
+      - work: spinoza:ethics
+        strength: context
+        why: >
+          It discusses the charges of pantheism and atheism against Spinoza: "The
+          absolute Substance of Spinoza certainly falls short of absolute spirit".
+        sources:
+          - source: hegel-logic-text
+            locator: "§50"
+            verified: true
+            checked_in: Wallace trans., The Logic of Hegel, Project Gutenberg #55108
+      - work: kant:kant-cpr
+        strength: helpful
+        why: >
+          The Logic's preliminary part has a chapter on "The Critical Philosophy"
+          (§§40–60), a sustained critique of Kant's first Critique, starting from Hume's
+          criticism.
+        sources:
+          - source: hegel-logic-text
+            locator: "§§40–60"
+            verified: true
+            checked_in: Wallace trans., The Logic of Hegel, Project Gutenberg #55108
       - work: science-of-logic
         strength: context
         why: Its first part is "an abbreviated version of the earlier Science of Logic".
