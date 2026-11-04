@@ -1161,3 +1161,53 @@
   author: C. G. Jung
   title: Psychology of the Unconscious (Hinkle trans., 1916)
   url: https://www.gutenberg.org/ebooks/65903
+
+# ---------- Descartes ----------
+
+- id: sep-descartes
+  tier: 2
+  author: Stanford Encyclopedia of Philosophy (Gary Hatfield)
+  title: '"René Descartes"'
+  url: https://plato.stanford.edu/entries/descartes/
+
+- id: sep-descartes-works
+  tier: 2
+  author: Stanford Encyclopedia of Philosophy
+  title: "\"Descartes' Life and Works\""
+  url: https://plato.stanford.edu/entries/descartes-works/
+
+- id: descartes-discourse-text
+  tier: 1
+  author: René Descartes
+  title: Discourse on the Method (Veitch trans.)
+  url: https://www.gutenberg.org/ebooks/59
+
+- id: descartes-principles-text
+  tier: 1
+  author: René Descartes
+  title: Selections from the Principles of Philosophy, with the Author's Letter (Veitch trans.)
+  url: https://www.gutenberg.org/ebooks/4391
+
+- id: syl-york-hattiangadi
+  tier: 3
+  author: Jagdish Hattiangadi, York University
+  title: "AP/PHIL 4011: Seminar in the History of Modern Philosophy (Descartes, Fall 2019)"
+  url: https://course-outlines.laps.yorku.ca/outlines/2019f-apphil4011a-03/
+
+- id: syl-sfu-shapiro
+  tier: 3
+  author: Lisa Shapiro, Simon Fraser University
+  title: "PHIL 354: Descartes and Rationalism (Fall 2002)"
+  url: https://www.sfu.ca/~lshapiro/PHIL354/PHIL354Syllabus.html
+
+- id: hume-enquiry-text
+  tier: 1
+  author: David Hume
+  title: An Enquiry Concerning Human Understanding (Selby-Bigge ed.)
+  url: https://www.gutenberg.org/ebooks/9662
+
+- id: schopenhauer-wwr-text
+  tier: 1
+  author: Arthur Schopenhauer
+  title: The World as Will and Idea, vol. 1 (Haldane & Kemp trans.)
+  url: https://www.gutenberg.org/ebooks/38427

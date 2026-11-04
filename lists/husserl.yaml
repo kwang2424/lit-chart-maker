@@ -1,7 +1,7 @@
 id: husserl
 title: Edmund Husserl
 group: predecessors
-sequence: 9
+sequence: 10
 born: 1859
 scope: >
   The founder of phenomenology: his main published books and the introductions he
@@ -156,6 +156,19 @@ works:
           locator: "§1 Life and work"
           verified: true
           checked_in: SEP online, accessed 2026-11
+    after:
+      - work: descartes:meditations
+        strength: helpful
+        why: >
+          For Husserl, Descartes "inaugurated a new epoch-making type of philosophy"
+          with a first-personal turn "from naïve Objectivism to transcendental
+          subjectivism", though he rejects "nearly all the well-known doctrinal content
+          of the Cartesian philosophy" (Hua 1, the Cartesian Meditations).
+        sources:
+          - source: sep-husserl
+            locator: "on Descartes (citing Hua 1/43, 1/46)"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
 
   - id: crisis
     title: 'The Crisis of European Sciences and Transcendental Phenomenology: An Introduction to Phenomenological Philosophy'

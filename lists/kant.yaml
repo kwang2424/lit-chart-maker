@@ -1,7 +1,7 @@
 id: kant
 title: Immanuel Kant
 group: predecessors
-sequence: 4
+sequence: 5
 born: 1724
 scope: >
   The three Critiques, the shorter works Kant wrote to introduce or extend them,
@@ -143,6 +143,17 @@ works:
       The book Schopenhauer and Deleuze rework. Courses start with the two Prefaces
       and the Introduction; the second (B) Preface states the "Copernican" turn.
     after:
+      - work: descartes:meditations
+        strength: context
+        why: >
+          The Refutation of Idealism answers "the problematical idealism of Descartes,
+          who admits the undoubted certainty of only one empirical assertion, to wit, 'I
+          am'".
+        sources:
+          - source: kant-cpr-text
+            locator: "Refutation of Idealism (B 274)"
+            verified: true
+            checked_in: Meiklejohn trans., Project Gutenberg #4280
       - work: plato:republic
         strength: context
         why: >

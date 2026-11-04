@@ -1,7 +1,7 @@
 id: hume
 title: David Hume
 group: predecessors
-sequence: 3
+sequence: 4
 born: 1711
 scope: >
   Hume's philosophical works. Courses mostly teach the Treatise; Hume himself asked
@@ -142,6 +142,18 @@ works:
             locator: "§1 Life and Works"
             verified: true
             checked_in: SEP online, accessed 2026-11
+    after:
+      - work: descartes:meditations
+        strength: context
+        why: >
+          Section XII discusses the "antecedent" scepticism "much inculcated by Des
+          Cartes", a universal doubt of all our opinions "and of our very faculties",
+          which Hume argues would be incurable.
+        sources:
+          - source: hume-enquiry-text
+            locator: "Section XII, Part I"
+            verified: true
+            checked_in: Selby-Bigge ed., Project Gutenberg #9662
 
   - id: second-enquiry
     title: An Enquiry concerning the Principles of Morals

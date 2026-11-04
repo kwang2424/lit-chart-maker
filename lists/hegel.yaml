@@ -1,7 +1,7 @@
 id: hegel
 title: G. W. F. Hegel
 group: predecessors
-sequence: 5
+sequence: 6
 born: 1770
 scope: >
   Hegel's books and the lecture courses published after his death, with the two
@@ -197,6 +197,17 @@ works:
     difficulty: 5
     note: A teaching handbook of the whole system; Part I is an abbreviated Science of Logic.
     after:
+      - work: descartes:discourse
+        strength: context
+        why: >
+          It discusses the "'Cogito, ergo sum,' of Descartes, the maxim on which may be
+          said to hinge the whole interest of Modern Philosophy", and denies that it is
+          a syllogism.
+        sources:
+          - source: hegel-logic-text
+            locator: "§64"
+            verified: true
+            checked_in: Wallace trans., The Logic of Hegel, Project Gutenberg #55108
       - work: spinoza:ethics
         strength: context
         why: >
