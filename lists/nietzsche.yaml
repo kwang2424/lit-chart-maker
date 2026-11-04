@@ -312,6 +312,17 @@ works:
       Three connected essays and his most systematic book. Especially good
       for readers interested in ethics.
     after:
+      - work: schopenhauer:wwr
+        strength: helpful
+        why: >
+          The Preface says that on "the value of morality" he was "almost alone with my
+          great teacher Schopenhauer", and that the issue was the "un-egoistic"
+          instincts of pity and self-denial which Schopenhauer had deified.
+        sources:
+          - source: nietzsche-genealogy-text
+            locator: "Preface §5"
+            verified: true
+            checked_in: Samuel trans. (1913), Project Gutenberg #52319
       - work: bge
         strength: helpful
         why: >

@@ -166,6 +166,29 @@ works:
     tier: core
     difficulty: 4
     note: Repetition and the death drive. Short but speculative.
+    after:
+      - work: plato:symposium
+        strength: context
+        why: >
+          To derive an instinct from the need to restore an earlier state, Freud turns
+          to "the theory that Plato in his Symposium puts into the mouth of
+          Aristophanes".
+        sources:
+          - source: freud-bpp-text
+            locator: "Chapter VI"
+            verified: true
+            checked_in: Hubback trans. (1922), Project Gutenberg #76031
+      - work: schopenhauer:wwr
+        strength: context
+        why: >
+          Freud: "we have steered unawares into the haven of Schopenhauer's philosophy,
+          for whom death is the 'real result' of life", while the sexual instinct is
+          "the incarnation of the will to live".
+        sources:
+          - source: freud-bpp-text
+            locator: "Chapter VI"
+            verified: true
+            checked_in: Hubback trans. (1922), Project Gutenberg #76031
 
   - id: ego-and-id
     title: The Ego and the Id

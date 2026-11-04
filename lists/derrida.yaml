@@ -126,6 +126,18 @@ works:
             locator: lectures 2 and 4
             verified: true
             checked_in: Course page, accessed 2026-11
+    after:
+      - work: heidegger:being-and-time
+        strength: context
+        why: >
+          "Deconstruction", the word all three 1967 books use for his project: "He seems
+          to have appropriated the term from Heidegger's use of 'destruction' in Being
+          and Time."
+        sources:
+          - source: sep-derrida
+            locator: "§5 Deconstruction"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
 
   # ---------- 1972 ----------
 

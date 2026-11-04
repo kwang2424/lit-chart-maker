@@ -15,6 +15,7 @@ from pathlib import Path
 import build as b
 import chart
 import connections
+import graph
 import consensus
 
 SITE = b.ROOT / "site"
@@ -24,19 +25,19 @@ CSS = """
 :root {
   --bg: #f6f1e7; --surface: #fffdf8; --ink: #1f1a14; --muted: #6b6256; --line: #ddd3c3;
   --core: #f4d58d; --core-edge: #8a6d1f; --ext: #d6e6f5; --ext-edge: #3b6a91;
-  --opt: #ebe7e0; --opt-edge: #8c8072; --ok: #2f6b3a; --warn: #9a5b00; --link: #6a3d0f;
+  --opt: #ebe7e0; --opt-edge: #8c8072; --ok: #2f6b3a; --warn: #9a5b00; --link: #6a3d0f; --gl: 42%;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --bg: #17140f; --surface: #211d17; --ink: #efe8dc; --muted: #a89e8f; --line: #3a342b;
     --core: #4a3c18; --core-edge: #d8b45a; --ext: #1c2c3b; --ext-edge: #7fa9cf;
-    --opt: #2a2620; --opt-edge: #a89e8f; --ok: #7fc28b; --warn: #e0a54a; --link: #e8c48a;
+    --opt: #2a2620; --opt-edge: #a89e8f; --ok: #7fc28b; --warn: #e0a54a; --link: #e8c48a; --gl: 66%;
   }
 }
 :root[data-theme="dark"] {
   --bg: #17140f; --surface: #211d17; --ink: #efe8dc; --muted: #a89e8f; --line: #3a342b;
   --core: #4a3c18; --core-edge: #d8b45a; --ext: #1c2c3b; --ext-edge: #7fa9cf;
-  --opt: #2a2620; --opt-edge: #a89e8f; --ok: #7fc28b; --warn: #e0a54a; --link: #e8c48a;
+  --opt: #2a2620; --opt-edge: #a89e8f; --ok: #7fc28b; --warn: #e0a54a; --link: #e8c48a; --gl: 66%;
 }
 * { box-sizing: border-box; }
 body { margin: 0; background: var(--bg); color: var(--ink);
@@ -148,7 +149,7 @@ def page(title: str, body: str, list_id: str = "") -> str:
 <body data-list="{list_id}">
 <div class="wrap">
 <header class="top"><a class="home" href="index.html">Reading Orders</a>
-<span class="sans meta"><a href="map.html">Map</a> · <a href="{REPO_URL}">Contribute</a></span></header>
+<span class="sans meta"><a href="map.html">Map</a> · <a href="graph.html">Read first</a> · <a href="{REPO_URL}">Contribute</a></span></header>
 {body}
 <footer class="muted">Every link between books is backed by a source.
 Spot a mistake? <a href="{REPO_URL}/blob/main/CONTRIBUTING.md">Help fix it</a>.</footer>
@@ -196,6 +197,7 @@ def list_page(data: dict, lists: dict, sources: dict) -> str:
     core_order, full_order = b.compute_order(data)
     num = {n: i + 1 for i, n in enumerate(full_order)}
     done, total = stats(data)
+    in_graph = graph.linked(lists)
 
     def ref_html(ref: str) -> str:
         tl, tw = b.resolve(ref, lid)
@@ -238,7 +240,9 @@ def list_page(data: dict, lists: dict, sources: dict) -> str:
             f'<article class="work {w["tier"]}" id="{n}">',
             f'<label class="done sans muted"><input type="checkbox" class="done"> read</label>',
             f'<h3><span class="num">{num[n]}</span>{escape(w["title"])}</h3>',
-            f'<div class="sub sans meta muted">{sub} · difficulty {dots}</div>',
+            f'<div class="sub sans meta muted">{sub} · difficulty {dots}'
+            + (f' · <a href="graph.html#{lid}:{n}">what to read first</a>' if f"{lid}:{n}" in in_graph else "")
+            + '</div>',
             '<div class="body">',
         ]
         if w.get("start_here"):
@@ -327,7 +331,9 @@ def main() -> int:
     if SITE.exists():
         shutil.rmtree(SITE)
     SITE.mkdir()
-    (SITE / "style.css").write_text(CSS.strip() + "\n", encoding="utf-8")
+    (SITE / "style.css").write_text(CSS.strip() + "\n" + graph.CSS.strip() + "\n", encoding="utf-8")
+    (SITE / "graph.js").write_text(graph.JS.strip() + "\n", encoding="utf-8")
+    (SITE / "graph.html").write_text(page("What to read first", graph.page_body(lists)), encoding="utf-8")
     (SITE / "app.js").write_text(JS.strip() + "\n", encoding="utf-8")
     (SITE / "index.html").write_text(index_page(lists), encoding="utf-8")
     (SITE / "map.html").write_text(page("How they connect", connections.map_page_body(lists)), encoding="utf-8")

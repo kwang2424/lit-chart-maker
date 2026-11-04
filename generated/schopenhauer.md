@@ -162,8 +162,10 @@ graph TD
 
 **Who builds on Arthur Schopenhauer**
 
+- *The World as Will and Representation, vol. 1* → *Beyond the Pleasure Principle* (Sigmund Freud) — context. Freud: "we have steered unawares into the haven of Schopenhauer's philosophy, for whom death is the 'real result' of life", while the sexual instinct is "the incarnation of the will to live".
 - *The World as Will and Representation, vol. 1* → *The Birth of Tragedy* (Friedrich Nietzsche) — helpful. It is written in Schopenhauer's terms, which Nietzsche later regretted using ("Kantian and Schopenhauerian formulae").
 - *The World as Will and Representation, vol. 1* → *Untimely Meditations* (Friedrich Nietzsche) — context. The third essay, "Schopenhauer as Educator", holds Schopenhauer up as a model philosopher.
+- *The World as Will and Representation, vol. 1* → *On the Genealogy of Morality* (Friedrich Nietzsche) — helpful. The Preface says that on "the value of morality" he was "almost alone with my great teacher Schopenhauer", and that the issue was the "un-egoistic" instincts of pity and self-denial which Schopenhauer had deified.
 
 ## Sources
 

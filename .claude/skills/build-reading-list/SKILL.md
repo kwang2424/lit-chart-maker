@@ -124,6 +124,11 @@ python tools/build.py --check      # what CI runs
 Then read the core path and full path in `generated/<id>.md` and ask: would a careful
 teacher recognise this order? Look at the chart PNG too.
 
+The validator also checks that the whole book graph, across every list and every link
+strength, has no cycles; the site's "Read first" page (`site/graph.html`) draws it one book at
+a time. An author naming an earlier book in their own text (a preface, a footnote, an
+argument with a predecessor) is the best evidence for a cross-list link.
+
 When moving a work into its own list, replace other lists' background copies with
 cross-list links (`<list>:<work>`) and remove the duplicates.
 

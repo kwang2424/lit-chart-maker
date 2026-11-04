@@ -1111,3 +1111,29 @@
   author: Terrell Carver, interviewed by Nigel Warburton for Five Books
   title: "The Best Books on Marx and Marxism (2016)"
   url: https://fivebooks.com/best-books/marx-marxism-terrell-carver/
+
+# ---------- Authors' texts cited for cross-list links ----------
+
+- id: freud-bpp-text
+  tier: 1
+  author: Sigmund Freud
+  title: Beyond the Pleasure Principle (Hubback trans., 1922)
+  url: https://www.gutenberg.org/ebooks/76031
+
+- id: hume-treatise-text
+  tier: 1
+  author: David Hume
+  title: A Treatise of Human Nature
+  url: https://www.gutenberg.org/ebooks/4705
+
+- id: kant-cpr-text
+  tier: 1
+  author: Immanuel Kant
+  title: The Critique of Pure Reason (Meiklejohn trans.)
+  url: https://www.gutenberg.org/ebooks/4280
+
+- id: bergson-tfw-text
+  tier: 1
+  author: Henri Bergson
+  title: "Time and Free Will: An Essay on the Immediate Data of Consciousness (Pogson trans., 1910)"
+  url: https://www.gutenberg.org/ebooks/56852

@@ -4,6 +4,7 @@ import xml.dom.minidom
 
 import chart
 import consensus
+import graph
 
 import build as b
 
@@ -37,6 +38,24 @@ class BuildTests(unittest.TestCase):
     def test_cycle(self):
         self.link("bge", work="genealogy", strength="helpful", why="x", sources=[{"source": "forum"}])
         self.assertTrue(any("circular" in e for e in errors(self.bad, self.sources)))
+
+    def test_cycle_across_lists(self):
+        # Birth of Tragedy builds on a book in another list; making that book come after
+        # Birth of Tragedy closes a loop that no single list's check can see.
+        nz_bt = next(l["work"] for l in self.works["birth-of-tragedy"].get("after") or [] if ":" in l["work"])
+        src_list, src_work = nz_bt.split(":")
+        target = {w["id"]: w for w in self.bad[src_list]["works"]}[src_work]
+        target.setdefault("after", []).append(
+            {"work": "nietzsche:birth-of-tragedy", "strength": "context", "why": "x", "sources": [{"source": "forum"}]})
+        self.assertTrue(any("circular ordering across lists" in e for e in errors(self.bad, self.sources)))
+
+    def test_graph_data_covers_every_link(self):
+        d = graph.data(self.lists)
+        self.assertEqual(len(d["edges"]), len(list(b.global_edges(self.lists))))
+        for e in d["edges"]:
+            self.assertIn(e["a"], d["nodes"])
+            self.assertIn(e["b"], d["nodes"])
+        self.assertIn(d["focus"], graph.linked(self.lists))
 
     def test_required_needs_strong_source(self):
         self.link("twilight", work="genealogy", strength="required", why="x", sources=[{"source": "forum"}])

@@ -143,6 +143,17 @@ works:
       The book Schopenhauer and Deleuze rework. Courses start with the two Prefaces
       and the Introduction; the second (B) Preface states the "Copernican" turn.
     after:
+      - work: plato:republic
+        strength: context
+        why: >
+          The Transcendental Dialectic opens its account of "ideas" with Plato's use of
+          the word, and defends "the Platonic Republic" against the charge of being idle
+          "imaginary perfection".
+        sources:
+          - source: kant-cpr-text
+            locator: "Transcendental Dialectic, Book I, Section I, \"Of Ideas in General\""
+            verified: true
+            checked_in: Meiklejohn trans., Project Gutenberg #4280
       - work: gardner-cpr
         strength: context
         why: >

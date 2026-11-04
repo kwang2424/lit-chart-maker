@@ -184,6 +184,12 @@ def validate(lists: dict, sources: dict, report: Report, strict: bool) -> None:
             report.error(f"{lid}: circular ordering: {' -> '.join(cycle)}")
         consensus.validate(data, sources, report, must_verify, check_citations)
 
+    # Across lists, every link (any strength) must still point back in time: the whole
+    # book graph is a DAG, so it can be drawn and read in one order.
+    cycle = find_global_cycle(lists)
+    if cycle:
+        report.error(f"circular ordering across lists: {' -> '.join(cycle)}")
+
 
 def check_citations(claim: dict, where: str, needs_strong: bool, sources: dict, report: Report, must_verify: bool) -> None:
     cites = claim.get("sources") or []
@@ -248,6 +254,38 @@ def find_cycle(works: list, list_id: str) -> list | None:
             found = visit(n)
             if found:
                 return found
+    return None
+
+
+def global_edges(lists: dict):
+    """Yield ("list:work", "list:work") for every link in every list, read-before first."""
+    for lid, data in lists.items():
+        for w in data.get("works") or []:
+            for link in w.get("after") or []:
+                tl, tw = resolve(link.get("work", ""), lid)
+                yield f"{tl}:{tw}", f"{lid}:{w.get('id')}"
+
+
+def find_global_cycle(lists: dict) -> list | None:
+    succ: dict[str, list] = {}
+    for a, b in global_edges(lists):
+        succ.setdefault(a, []).append(b)
+    state: dict[str, int] = {}
+    for root in list(succ):
+        if root in state:
+            continue
+        stack = [(root, iter(succ.get(root, [])))]
+        path = [root]
+        state[root] = 1
+        while stack:
+            node, it = stack[-1]
+            nxt = next(it, None)
+            if nxt is None:
+                stack.pop(); path.pop(); state[node] = 2
+            elif state.get(nxt) == 1:
+                return path[path.index(nxt):] + [nxt]
+            elif nxt not in state:
+                state[nxt] = 1; path.append(nxt); stack.append((nxt, iter(succ.get(nxt, []))))
     return None
 
 

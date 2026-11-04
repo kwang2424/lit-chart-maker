@@ -247,6 +247,44 @@ works:
     difficulty: 5
     note: A private manuscript of 1936–38, published in 1989. For specialists.
 
+  - id: platos-sophist
+    title: Plato's Sophist (lecture course, 1924–25)
+    author: Martin Heidegger
+    year: 1992
+    kind: primary
+    tier: optional
+    difficulty: 5
+    translation: Rojcewicz and Schuwer (Indiana 1997)
+    note: His 1924–25 lecture course on Plato's Sophist, published in 1992 as GA19.
+    after:
+      - work: plato:sophist
+        strength: required
+        why: It is a lecture course on Plato's Sophist.
+        sources:
+          - source: sep-heidegger
+            locator: "Bibliography (GA19)"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+
+  - id: hegels-phenomenology
+    title: Hegel's Phenomenology of Spirit (lecture course, 1930–31)
+    author: Martin Heidegger
+    year: 1980
+    kind: primary
+    tier: optional
+    difficulty: 5
+    translation: Emad and Maly (Indiana 1988)
+    note: His 1930–31 lecture course on Hegel's Phenomenology, published in 1980 as GA32.
+    after:
+      - work: hegel:phenomenology
+        strength: required
+        why: It is a lecture course on Hegel's Phenomenology of Spirit.
+        sources:
+          - source: sep-heidegger
+            locator: "Bibliography (GA32)"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+
   - id: nietzsche-lectures
     title: Nietzsche (lecture courses, 4 vols. in English)
     author: Martin Heidegger
@@ -256,6 +294,16 @@ works:
     difficulty: 4
     note: His lecture courses on Nietzsche. PhilPapers calls them the "canonical reading of Nietzsche in the 20th century".
     after:
+      - work: nietzsche:will-to-power
+        strength: helpful
+        why: >
+          The first and third courses are "The Will to Power as Art" (1936–37) and "The
+          Will to Power as Knowledge" (1939).
+        sources:
+          - source: sep-heidegger
+            locator: "Bibliography (N1, N3)"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
       - work: nietzsche:twilight
         strength: context
         why: >
