@@ -6,6 +6,7 @@ is a connection. This module collects them in both directions and draws the map.
 
 from __future__ import annotations
 
+import json
 from html import escape
 
 ROW_H = 46
@@ -22,8 +23,10 @@ def collect(lists: dict) -> list[dict]:
                 if ":" not in l["work"]:
                     continue
                 fl, fw = l["work"].split(":", 1)
+                src = next((x for x in lists.get(fl, {}).get("works", []) if x["id"] == fw), {})
                 out.append({"from_list": fl, "from_work": fw, "to_list": lid, "to_work": w["id"],
-                            "strength": l["strength"], "why": l["why"].strip()})
+                            "strength": l["strength"], "why": l["why"].strip(),
+                            "core": src.get("tier") == "core" and w.get("tier") == "core"})
     return out
 
 
@@ -61,8 +64,11 @@ def render_map_svg(lists: dict) -> str:
         rx = min(span / 2, ARC_MAX)
         sw = 1.2 + 1.1 * (len(ls) - 1)
         tip = f"{lists[a]['title']} → {lists[b]['title']}: {len(ls)} link{'s' if len(ls) > 1 else ''}"
+        # Each link's strength and whether both books are core, so the page can filter.
+        data = escape(json.dumps([[l["strength"][0], int(l["core"])] for l in ls]))
         out.append(
             f'<path d="M{LEFT},{y1} A{rx:.1f},{span / 2:.1f} 0 0 1 {LEFT},{y2}" class="arc" '
+            f'data-links="{data}" data-pair="{escape(lists[a]["title"])} → {escape(lists[b]["title"])}" '
             f'style="stroke-width:{sw:.1f}"><title>{escape(tip)}</title></path>'
         )
     for lid in order:
@@ -145,12 +151,12 @@ def map_page_body(lists: dict) -> str:
     items = []
     for (a, b), ls in sorted(pairs.items(), key=lambda kv: (rank[kv[0][1]], rank[kv[0][0]])):
         inner = "".join(
-            f'<li><a href="{a}.html#{l["from_work"]}"><em>{escape(title_of(lists, a, l["from_work"]))}</em></a> → '
+            f'<li data-s="{l["strength"]}" data-core="{int(l["core"])}"><a href="{a}.html#{l["from_work"]}"><em>{escape(title_of(lists, a, l["from_work"]))}</em></a> → '
             f'<a href="{b}.html#{l["to_work"]}"><em>{escape(title_of(lists, b, l["to_work"]))}</em></a> '
             f'<span class="strength">{escape(l["strength"])}</span><br><span class="meta">{escape(l["why"])}</span></li>'
             for l in ls)
-        items.append(f'<details class="src"><summary><strong>{escape(lists[a]["title"])}</strong> → '
-                     f'<strong>{escape(lists[b]["title"])}</strong> <span class="muted">({len(ls)})</span></summary>'
+        items.append(f'<details class="src pairbox"><summary><strong>{escape(lists[a]["title"])}</strong> → '
+                     f'<strong>{escape(lists[b]["title"])}</strong> <span class="muted pcount">({len(ls)})</span></summary>'
                      f'<ul class="links">{inner}</ul></details>')
     hub = sorted(order, key=lambda lid: -sum(1 for l in links if lid in (l["from_list"], l["to_list"])))[:3]
     return (
@@ -158,6 +164,53 @@ def map_page_body(lists: dict) -> str:
         f"<p>Each arc is a sourced link between two thinkers' books: read the older one before the newer. "
         f"Thicker arcs carry more links. {len(links)} links connect {len(pairs)} pairs; the most connected "
         f"are {', '.join(escape(lists[h]['title']) for h in hub)}. Tap a name to open its list.</p>"
+        + FILTERS +
+        '<p id="mapsummary" class="sans meta"></p>'
         f"{render_map_svg(lists)}"
-        "<h2>Every connection</h2>" + "".join(items)
+        "<h2>Every connection</h2>" + "".join(items) +
+        '<script src="map.js"></script>'
     )
+
+
+FILTERS = (
+    '<div class="controls sans" role="group" aria-label="Which links to show">'
+    '<button data-min="required" aria-pressed="false">Required only</button>'
+    '<button data-min="helpful" aria-pressed="false">Required + helpful</button>'
+    '<button data-min="context" aria-pressed="true">All links</button></div>'
+    '<p class="sans meta"><label><input type="checkbox" id="gcore"> Only links between core books</label></p>'
+)
+
+MAP_JS = r"""
+(function () {
+  var RANK = { r: 2, h: 1, c: 0 }, MIN = { required: 2, helpful: 1, context: 0 };
+  var F = { min: 'context', core: false };
+  try { var s = JSON.parse(localStorage.getItem('map-filters') || 'null'); if (s) F = s; } catch (e) {}
+  function keep(strength, core) { return RANK[strength] >= MIN[F.min] && (!F.core || core); }
+  function apply() {
+    var shownLinks = 0, pairs = 0;
+    document.querySelectorAll('svg.connmap path.arc').forEach(function (p) {
+      var n = JSON.parse(p.dataset.links).filter(function (l) { return keep(l[0], l[1]); }).length;
+      p.style.display = n ? '' : 'none';
+      p.style.strokeWidth = (1.2 + 1.1 * Math.max(0, n - 1)).toFixed(1);
+      if (n) { shownLinks += n; pairs += 1; }
+    });
+    document.querySelectorAll('details.pairbox').forEach(function (d) {
+      var n = 0;
+      d.querySelectorAll('li[data-s]').forEach(function (li) {
+        var k = keep(li.dataset.s[0], li.dataset.core === '1');
+        li.style.display = k ? '' : 'none'; if (k) n++;
+      });
+      d.style.display = n ? '' : 'none';
+      var c = d.querySelector('.pcount'); if (c) c.textContent = '(' + n + ')';
+    });
+    var m = document.getElementById('mapsummary');
+    if (m) m.textContent = 'Showing ' + shownLinks + ' link' + (shownLinks === 1 ? '' : 's') + ' between ' + pairs + ' pair' + (pairs === 1 ? '' : 's') + '.';
+    document.querySelectorAll('[data-min]').forEach(function (b) { b.setAttribute('aria-pressed', b.dataset.min === F.min ? 'true' : 'false'); });
+    var cb = document.getElementById('gcore'); if (cb) cb.checked = !!F.core;
+  }
+  function setF(k, v) { F[k] = v; try { localStorage.setItem('map-filters', JSON.stringify(F)); } catch (e) {} apply(); }
+  document.querySelectorAll('[data-min]').forEach(function (b) { b.addEventListener('click', function () { setF('min', b.dataset.min); }); });
+  var cb = document.getElementById('gcore'); if (cb) cb.addEventListener('change', function () { setF('core', cb.checked); });
+  apply();
+})();
+"""
