@@ -1273,3 +1273,77 @@
   author: Katja Maria Vogt, Columbia University
   title: "Ancient Philosophy: Pre-Socratics through Augustine (Fall 2017)"
   url: https://katjavogt.github.io/wp-content/uploads/syllabus-vogt-ancient-intro.pdf
+
+# ---------- Fichte and Schelling ----------
+
+- id: sep-fichte
+  tier: 2
+  author: Stanford Encyclopedia of Philosophy (Daniel Breazeale)
+  title: '"Johann Gottlieb Fichte"'
+  url: https://plato.stanford.edu/entries/johann-fichte/
+
+- id: fichte-sk-text
+  tier: 1
+  author: J. G. Fichte
+  title: The Science of Knowledge, with Concerning the Concept (Kroeger trans., 1889)
+  url: https://archive.org/details/scienceofknowle00fich
+
+- id: fichte-popular-text
+  tier: 1
+  author: J. G. Fichte
+  title: "Popular Works: The Nature of the Scholar, The Vocation of Man, The Doctrine of Religion (Smith trans., 1873)"
+  url: https://archive.org/details/johanngottlieb00fichuoft
+
+- id: sep-schelling
+  tier: 2
+  author: Stanford Encyclopedia of Philosophy (Andrew Bowie)
+  title: '"Friedrich Wilhelm Joseph von Schelling"'
+  url: https://plato.stanford.edu/entries/schelling/
+
+- id: iep-schelling
+  tier: 2
+  author: Internet Encyclopedia of Philosophy
+  title: '"Friedrich Wilhelm Joseph von Schelling (1775—1854)"'
+  url: https://iep.utm.edu/schellin/
+
+- id: syl-hagen-fichte
+  tier: 3
+  author: Thomas Sören Hoffmann, FernUniversität in Hagen
+  title: "Fichtes transzendentaler Idealismus: Grundlegung und Entfaltung (seminar, November 2024)"
+  url: https://www.fernuni-hagen.de/philosophie/praesenzen/119359.shtml
+
+- id: syl-uvic-314
+  tier: 3
+  author: Thomas Land, University of Victoria
+  title: "PHIL 314: 19th Century Philosophy (Spring 2019)"
+  url: https://www.uvic.ca/humanities/philosophy/assets/docs/courseoutlines/2019_spring/phil314tl19.pdf
+
+- id: syl-carleton-gurofsky
+  tier: 3
+  author: Simon R. Gurofsky, Carleton University
+  title: "PHIL 3005 (Winter 2020)"
+  url: https://carleton.ca/philosophy/wp-content/uploads/sites/200/Phil-3005-S.-Gurofsky-W.20-1.pdf
+
+- id: syl-mcgill-567
+  tier: 3
+  author: George di Giovanni, McGill University
+  title: "PHIL 567: Seminar on the post-Jena Fichte (January 2012)"
+  url: https://www.mcgill.ca/philosophy/files/philosophy/567b12.pdf
+
+- id: syl-hse-chernavin
+  tier: 3
+  author: Georgy Chernavin, Higher School of Economics (Moscow)
+  title: "Transcendental Philosophy: From German Idealism to Phenomenology (2015)"
+  url: https://www.hse.ru/data/2015/10/09/1097657033/Chernavin_Transcendental_Philosophy_3.07.15.pdf
+
+- id: syl-ciis-segall
+  tier: 3
+  author: Matthew T. Segall, California Institute of Integral Studies
+  title: "PARP 6393: Mind and Nature in German Idealism (Spring 2017)"
+  url: https://footnotes2plato.com/wp-content/uploads/2016/10/syllabus-mind-and-nature-in-german-idealism.pdf
+
+- id: syl-hub-wilck
+  tier: 3
+  author: Benjamin Wilck, Humboldt-Universität zu Berlin
+  title: "Philosophy in Berlin: Educational Theory in the German Tradition (Spring 2022)"
+  url: https://www2.hu-berlin.de/aia/hic/resources/hic/psa/documents/2022/Wilck_HPSA_syllabus_Spring2022.pdf

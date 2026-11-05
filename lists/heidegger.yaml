@@ -308,6 +308,25 @@ works:
             verified: true
             checked_in: SEP online, accessed 2026-11
 
+  - id: schelling-lectures
+    title: "The Metaphysics of German Idealism: Schelling's Freedom essay (lecture course, 1941)"
+    author: Martin Heidegger
+    year: 1991
+    kind: primary
+    tier: optional
+    difficulty: 5
+    translation: Moore and Therezo (Polity 2021)
+    note: His 1941 lecture course on Schelling's 1809 Freedom essay, published in 1991 as GA49.
+    after:
+      - work: schelling:freedom
+        strength: required
+        why: It is a lecture course interpreting Schelling's Philosophical Investigations into the Essence of Human Freedom (1809).
+        sources:
+          - source: sep-heidegger
+            locator: "Bibliography (GA49)"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+
   - id: contributions
     title: Contributions to Philosophy (Of the Event)
     author: Martin Heidegger

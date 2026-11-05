@@ -1,7 +1,7 @@
 id: schopenhauer
 title: Arthur Schopenhauer
 group: predecessors
-sequence: 8
+sequence: 10
 born: 1788
 scope: >
   Schopenhauer's books in the order he asked readers to take them, plus the
@@ -105,6 +105,17 @@ works:
             verified: true
             checked_in: Haldane & Kemp trans., Project Gutenberg #38427
     after:
+      - work: fichte:foundation
+        strength: context
+        why: >
+          §7 sets its starting point against "the idealism of Fichte", which "reduces
+          the object to the effect of the subject", and calls Fichte's "philosophy of
+          appearance" the one example of deriving the object from the subject.
+        sources:
+          - source: schopenhauer-wwr-text
+            locator: "Book I, §7"
+            verified: true
+            checked_in: Haldane & Kemp trans., Project Gutenberg #38427
       - work: descartes:meditations
         strength: context
         why: >

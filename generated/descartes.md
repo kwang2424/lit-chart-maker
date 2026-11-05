@@ -160,6 +160,7 @@ graph TD
 **Who builds on René Descartes**
 
 - *Meditations on First Philosophy* → *"Cogito and the History of Madness"* (Jacques Derrida) — context. It criticises Foucault's early thought, "especially Foucault's interpretation of Descartes".
+- *Discourse on the Method* → *Foundation of the Entire Wissenschaftslehre (Science of Knowledge)* (J. G. Fichte) — context. Its first principle is compared with Descartes: "Before Kant, Descartes has suggested a similar one, Cogito, ergo sum."
 - *Discourse on the Method* → *Encyclopaedia of the Philosophical Sciences (esp. Part I, the "Lesser Logic")* (G. W. F. Hegel) — context. It discusses the "'Cogito, ergo sum,' of Descartes, the maxim on which may be said to hinge the whole interest of Modern Philosophy", and denies that it is a syllogism.
 - *Meditations on First Philosophy* → *Being and Time* (Martin Heidegger) — context. It contrasts Dasein's being-in-the-world with "the Cartesian distinction between disembodied subjects and a spatially-extended material world"; a planned Part 2 was to examine the ontology of Descartes.
 - *Meditations on First Philosophy* → *An Enquiry concerning Human Understanding* (David Hume) — context. Section XII discusses the "antecedent" scepticism "much inculcated by Des Cartes", a universal doubt of all our opinions "and of our very faculties", which Hume argues would be incurable.

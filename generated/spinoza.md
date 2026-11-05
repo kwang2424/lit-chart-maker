@@ -163,8 +163,11 @@ graph TD
 **Who builds on Baruch Spinoza**
 
 - *Ethics* → *Expressionism in Philosophy: Spinoza* (Gilles Deleuze) — context. It is a reading of Spinoza, whom Deleuze called the "prince" of philosophers.
+- *Ethics* → *Foundation of the Entire Wissenschaftslehre (Science of Knowledge)* (J. G. Fichte) — context. The first section's remarks discuss "Kant, Reinhold, and Spinoza, on the Ego", and the theoretical part is set against "dogmatic Spinozism".
 - *Ethics* → *Encyclopaedia of the Philosophical Sciences (esp. Part I, the "Lesser Logic")* (G. W. F. Hegel) — context. It discusses the charges of pantheism and atheism against Spinoza: "The absolute Substance of Spinoza certainly falls short of absolute spirit".
 - *Ethics* → *A Treatise of Human Nature* (David Hume) — context. In "Of the Immateriality of the Soul" Hume argues against "the atheism of Spinoza", "the doctrine of the simplicity of the universe, and the unity of that substance".
+- *Ethics* → *System of Transcendental Idealism* (F. W. J. Schelling) — context. Spinoza is the other pole between which it "wavers"; Schelling's concern with Spinoza comes from the pantheism controversy, which "brought Spinoza's monism into the mainstream of German philosophy".
+- *Ethics* → *Philosophical Investigations into the Essence of Human Freedom* (F. W. J. Schelling) — context. "This attempt at the system of freedom arose in the wake of ... the 'pantheism controversy'", which "is centred on the supposedly atheistic figure of Spinoza".
 - *Theological-Political Treatise* → *Spinoza's Critique of Religion (read the 1965 preface)* (Leo Strauss) — helpful. Strauss: "This study of Spinoza's Theologico-Political Treatise was written during the years 1925–28 in Germany" (preface, quoted in the SEP).
 - *Theological-Political Treatise* → *Persecution and the Art of Writing* (Leo Strauss) — context. One of its essays is "How to Read Spinoza's Theologico-Political Treatise", which Yale's Strauss course reads as "esotericism in practice".
 
