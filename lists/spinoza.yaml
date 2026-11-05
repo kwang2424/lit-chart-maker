@@ -1,7 +1,7 @@
 id: spinoza
 title: Baruch Spinoza
 group: predecessors
-sequence: 4
+sequence: 6
 born: 1632
 scope: >
   Spinoza's works, the Descartes he started from, and one modern guide. The Ethics
@@ -122,6 +122,17 @@ works:
     note: >
       Scripture read as history, and a defence of the freedom to philosophize. Published
       anonymously, and the most scandalous book of its day.
+    after:
+      - work: hobbes:leviathan
+        strength: context
+        why: >
+          Its account of the state of nature (ch. 16) echoes Hobbes; the SEP: "Spinoza
+          was clearly influenced by his reading of that British thinker".
+        sources:
+          - source: sep-spinoza
+            locator: "§3.2 The State"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
 
   - id: ethics
     title: Ethics

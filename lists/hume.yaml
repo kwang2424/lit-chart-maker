@@ -1,7 +1,7 @@
 id: hume
 title: David Hume
 group: predecessors
-sequence: 5
+sequence: 7
 born: 1711
 scope: >
   Hume's philosophical works. Courses mostly teach the Treatise; Hume himself asked
@@ -70,6 +70,16 @@ works:
             verified: true
             checked_in: Project Gutenberg #4705
     after:
+      - work: hobbes:elements-law
+        strength: context
+        why: >
+          The SEP on Hobbes: "Russell (1985; 2008) argues convincingly that Hume
+          modelled the structure of the Treatise on that of Hobbes's Elements of Law".
+        sources:
+          - source: sep-hobbes
+            locator: "§6 Reception"
+            verified: true
+            checked_in: SEP entry (revision of Mar 2025), accessed 2026-11
       - work: spinoza:ethics
         strength: context
         why: >

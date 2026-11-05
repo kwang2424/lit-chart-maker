@@ -1,7 +1,7 @@
 id: kant
 title: Immanuel Kant
 group: predecessors
-sequence: 6
+sequence: 9
 born: 1724
 scope: >
   The three Critiques, the shorter works Kant wrote to introduce or extend them,
@@ -237,6 +237,18 @@ works:
     tier_note: >
       Kept core though only two surveyed courses assign it: most courses found are on
       Kant's theoretical philosophy, and his ethics is usually taught separately.
+    after:
+      - work: rousseau:social-contract
+        strength: context
+        why: >
+          The SEP on Rousseau: the third formulation of the categorical imperative in
+          the Groundwork, the formula of the kingdom of ends, "recalls Rousseau's
+          discussion of the general will in The Social Contract".
+        sources:
+          - source: sep-rousseau
+            locator: "§6 Place in the history of philosophy"
+            verified: true
+            checked_in: SEP entry (revision of Apr 2023), accessed 2026-11
 
   - id: cprr
     title: Critique of Practical Reason

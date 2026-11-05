@@ -1,0 +1,188 @@
+id: machiavelli
+title: Niccolò Machiavelli
+group: predecessors
+sequence: 3
+born: 1469
+scope: >
+  Machiavelli's political and historical works: The Prince and the Discourses on Livy,
+  with the letter that describes writing The Prince, The Art of War, the Florentine
+  Histories and the play Mandragola. Years are first publication; both main books
+  appeared only after his death in 1527.
+status: draft
+
+# Format: see the header of lists/nietzsche.yaml. Public-domain text: Marriott's
+# translation of The Prince with its introduction (Project Gutenberg #1232). Dates of
+# writing and publication are from the SEP.
+
+survey:
+  - source: syl-yale-ds-hp-2023
+    starts_with: letter-vettori
+    includes: [letter-vettori, prince, discourses]
+    ordered: true
+    locator: "weeks 1–2 (letter to Vettori, The Prince, then the Discourses)"
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: syl-ysu-pol3786
+    starts_with: prince
+    includes: [prince]
+    ordered: true
+    locator: "schedule, 8/31–9/21"
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: syl-bard-atanassow
+    starts_with: letter-vettori
+    includes: [letter-vettori, prince, castruccio, art-of-war, discourses, mandragola]
+    ordered: true
+    locator: weekly schedule, weeks 1–13
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: syl-jcu-machiavelli
+    starts_with: letter-vettori
+    includes: [letter-vettori, prince, discourses, florentine-histories, mandragola]
+    ordered: true
+    locator: weekly schedule, weeks 2–12
+    verified: true
+    checked_in: Course syllabus (web page), accessed 2026-11
+  - source: syl-uwo-haladyn
+    starts_with: prince
+    includes: [prince, mandragola, discourses]
+    ordered: true
+    locator: weekly schedule, weeks 2–5
+    verified: true
+    checked_in: Course outline (PDF), accessed 2026-11
+
+works:
+
+  - id: letter-vettori
+    title: Letter to Francesco Vettori (December 1513)
+    author: Niccolò Machiavelli
+    year: 1513
+    kind: primary
+    tier: extended
+    position: start
+    difficulty: 1
+    note: >
+      A letter from his retirement at San Casciano describing his days, his evenings with
+      "the ancient courts of the men of old", and the "small work on 'Principalities'" he
+      had just written (quoted in the Marriott edition's introduction). Three of the five
+      courses surveyed open with it.
+
+  - id: prince
+    title: The Prince
+    author: Niccolò Machiavelli
+    year: 1532
+    kind: primary
+    tier: core
+    difficulty: 2
+    translation: Mansfield (Chicago); Skinner and Price (Cambridge)
+    note: >
+      Written at the end of 1513, published posthumously in 1532 (SEP §1). Advice to a
+      new prince on gaining and keeping power, which breaks the link earlier writers
+      drew between moral goodness and legitimate authority (SEP §2). "Doubtless the
+      most widely read of his works" (SEP §6).
+    start_here:
+      why: >
+        The SEP calls it "doubtless the most widely read of his works"; every course
+        surveyed reads it first, or straight after the letter describing its writing.
+      sources:
+        - source: sep-machiavelli
+          locator: "§1 Biography; §6 (\"doubtless the most widely read of his works\")"
+          verified: true
+          checked_in: SEP entry (revision of Dec 2023), accessed 2026-11
+        - source: syl-yale-ds-hp-2023
+          locator: week 1
+          verified: true
+          checked_in: Course syllabus (PDF), accessed 2026-11
+    tips:
+      - text: >
+          Three of the five courses surveyed read his December 1513 letter to Francesco
+          Vettori first; it describes how and why he wrote the book.
+        sources:
+          - source: syl-jcu-machiavelli
+            locator: week 2
+            verified: true
+            checked_in: Course syllabus (web page), accessed 2026-11
+    after:
+      - work: plato:republic
+        strength: context
+        why: >
+          The SEP: "Machiavelli's critique of utopian philosophical schemes (such as those
+          of Plato) challenges an entire tradition of political philosophy".
+        sources:
+          - source: sep-machiavelli
+            locator: preamble
+            verified: true
+            checked_in: SEP entry (revision of Dec 2023), accessed 2026-11
+
+  - id: discourses
+    title: Discourses on Livy
+    author: Niccolò Machiavelli
+    year: 1531
+    kind: primary
+    tier: core
+    difficulty: 3
+    translation: Mansfield and Tarcov (Chicago)
+    note: >
+      An exposition of the principles of republican rule "masquerading as a commentary"
+      on Livy's history of Rome, written over several years from about 1514 and
+      published in 1531 (SEP §1). The SEP: it "perhaps most honestly expresses"
+      his own republican commitments (§6). Courses read selected chapters.
+    after:
+      - work: prince
+        strength: helpful
+        why: >
+          The Prince sets aside republics, "inasmuch as in another place I have written of
+          them at length"; the SEP reads the two works together and contrasts their
+          conclusions. Every course surveyed that assigns both reads The Prince first.
+        sources:
+          - source: machiavelli-prince-text
+            locator: "ch. II, opening sentence"
+            verified: true
+            checked_in: Marriott trans., Project Gutenberg #1232
+          - source: sep-machiavelli
+            locator: "§6 The Discourses on Livy"
+            verified: true
+            checked_in: SEP entry (revision of Dec 2023), accessed 2026-11
+
+  - id: castruccio
+    title: The Life of Castruccio Castracani of Lucca
+    author: Niccolò Machiavelli
+    kind: primary
+    tier: optional
+    difficulty: 1
+    note: >
+      A short biography of a fourteenth-century ruler of Lucca, dated 1520 in the
+      Marriott edition's list of works, which prints it after The Prince. Bard's
+      course reads it straight after The Prince.
+
+  - id: art-of-war
+    title: The Art of War
+    author: Niccolò Machiavelli
+    year: 1521
+    kind: primary
+    tier: optional
+    difficulty: 2
+    translation: Lynch (Chicago)
+    note: His study of warfare, published in 1521, in his lifetime (SEP §1).
+
+  - id: florentine-histories
+    title: Florentine Histories
+    author: Niccolò Machiavelli
+    kind: primary
+    tier: optional
+    difficulty: 3
+    translation: Banfield and Mansfield (Princeton)
+    note: >
+      A history of Florence commissioned in 1520 by Cardinal Giulio de' Medici and
+      presented to him, by then Pope Clement VII, in 1525 (SEP §1).
+
+  - id: mandragola
+    title: Mandragola (The Mandrake)
+    author: Niccolò Machiavelli
+    kind: primary
+    tier: extended
+    tier_note: >
+      Three of the five courses assign it, but the SEP mentions his plays only in
+      passing; the courses that read it are seminars on Machiavelli alone.
+    difficulty: 1
+    note: A prose comedy. Courses read it alongside the political works.

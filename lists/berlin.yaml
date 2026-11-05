@@ -165,6 +165,17 @@ works:
           verified: true
           checked_in: Course page (coursetexts.org), accessed 2026-11
     after:
+      - work: rousseau:social-contract
+        strength: context
+        why: >
+          Berlin found Rousseau's theory of liberty "particularly dangerous": "Rousseau
+          transformed the concept of the self's will" from what the individual desires
+          to what the citizen ought to desire, the general will.
+        sources:
+          - source: sep-berlin
+            locator: "§5.1 The Concept of Liberty"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
       - work: kant:groundwork
         strength: context
         why: >

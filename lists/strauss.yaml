@@ -97,6 +97,17 @@ works:
     note: >
       Written in Paris and England on a Rockefeller fellowship. Treats Hobbes as the
       founding theorist of the liberal state (SEP §1).
+    after:
+      - work: hobbes:leviathan
+        strength: context
+        why: >
+          A study of Hobbes, "whom he took to be the founding theorist of the liberal
+          state".
+        sources:
+          - source: sep-strauss
+            locator: "§1 Life and Work"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
 
   # ---------- New School and Chicago ----------
 
@@ -172,6 +183,16 @@ works:
             verified: true
             checked_in: Exam reading list (PDF), accessed 2026-11
     after:
+      - work: hobbes:leviathan
+        strength: context
+        why: >
+          It contrasts "modern conceptions of natural right, beginning with Hobbes, with
+          ancient conceptions, beginning with Plato".
+        sources:
+          - source: sep-strauss
+            locator: "§1 Life and Work"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
       - work: plato:republic
         strength: context
         why: >
@@ -193,6 +214,27 @@ works:
     note: >
       "Likely his most controversial study"; it makes Machiavelli's "anti-theological
       ire" the source of modernity (SEP §1).
+    after:
+      - work: machiavelli:discourses
+        strength: context
+        why: >
+          Yale's political theory exam list sets it among the readings on The Prince and
+          The Discourses.
+        sources:
+          - source: yale-pt-exam-2015
+            locator: "Machiavelli section (The Prince, The Discourses)"
+            verified: true
+            checked_in: Exam list (PDF), accessed 2026-11
+      - work: machiavelli:prince
+        strength: context
+        why: >
+          A study of Machiavelli, in which he "pronounced Machiavelli's 'anti-
+          theological ire' the source of modernity".
+        sources:
+          - source: sep-strauss
+            locator: "§1 Life and Work"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
 
   - id: what-is-pp
     title: What Is Political Philosophy? and Other Studies

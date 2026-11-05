@@ -1,0 +1,210 @@
+id: hobbes
+title: Thomas Hobbes
+group: predecessors
+sequence: 4
+born: 1588
+scope: >
+  Hobbes's political philosophy and the system it belongs to: the Elements of Law,
+  De Cive and Leviathan, the other two parts of the Elements of Philosophy (De Corpore
+  and De Homine), and Behemoth. His mathematics, physics and controversies are left out.
+  Most courses read Leviathan alone, so the survey says little about the rest.
+status: draft
+
+# Format: see the header of lists/nietzsche.yaml. Public-domain texts: Leviathan
+# (Project Gutenberg #3207); De Cive in Molesworth's English Works, vol. 2 (Project
+# Gutenberg #73906). Years are first publication, from the SEP and IEP.
+
+survey:
+  - source: syl-yale-ds-hp-2023
+    starts_with: leviathan
+    includes: [leviathan]
+    ordered: true
+    locator: "weeks 2–3 (Leviathan, letter dedicatory to ch. 30)"
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: syl-ysu-pol3786
+    starts_with: leviathan
+    includes: [leviathan]
+    ordered: true
+    locator: "schedule, 9/28–10/12"
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: syl-alberta-carmichael
+    starts_with: leviathan
+    includes: [leviathan, de-cive]
+    ordered: true
+    locator: "schedule (Sept 11 onwards; De Cive ch. 1 on Oct 2)"
+    verified: true
+    checked_in: Course outline (web page), accessed 2026-11
+  - source: syl-bucharest-hobbes
+    includes: [elements-law, de-cive, leviathan, de-corpore, de-homine]
+    ordered: false
+    locator: "weekly sessions (prefaces to all four works first, then by theme)"
+    verified: true
+    checked_in: Reading group page, accessed 2026-11
+
+works:
+
+  - id: thucydides
+    title: Thucydides, History of the Peloponnesian War (translation)
+    author: Thomas Hobbes (trans.)
+    year: 1629
+    kind: primary
+    tier: optional
+    position: start
+    difficulty: 3
+    note: His first publication, a translation from the Greek, published before any of his philosophy (SEP §1).
+
+  - id: elements-law
+    title: The Elements of Law, Natural and Politic
+    author: Thomas Hobbes
+    year: 1640
+    kind: primary
+    tier: extended
+    difficulty: 3
+    translation: Gaskin (Oxford World's Classics)
+    note: >
+      Circulated in 1640: "the first work in which Hobbes follows his typical systematic
+      pattern of starting with the workings of the mind and language, and developing the
+      discussion towards political matters" (SEP §1). Written to support the King
+      against his challengers (IEP §1).
+
+  - id: de-cive
+    title: De Cive (On the Citizen)
+    author: Thomas Hobbes
+    year: 1642
+    kind: primary
+    tier: core
+    difficulty: 3
+    note: >
+      His "first published book of political philosophy", in three parts: Liberty,
+      Empire and Religion (SEP §1). The IEP: it "offers a clear, concise statement of
+      Hobbes's moral and political philosophy".
+    tips:
+      - text: >
+          Planned as the third part of a system (body, man, citizen), it came out first
+          because of the political crisis: "what was last in order, is yet come forth
+          first in time", and "it would not stand in need of the former sections". It can
+          be read on its own.
+        sources:
+          - source: hobbes-de-cive-text
+            locator: Preface to the Reader
+            verified: true
+            checked_in: Molesworth, English Works vol. 2, Project Gutenberg #73906
+      - text: >
+          The IEP: "although Leviathan is more famous and more often read, De Cive
+          actually gives a much more straightforward account of Hobbes's ideas".
+        sources:
+          - source: iep-hobbes
+            locator: "§1 Introduction"
+            verified: true
+            checked_in: IEP entry, accessed 2026-11
+    after:
+      - work: elements-law
+        strength: context
+        why: "The IEP: De Cive \"has much in common with Elements\"."
+        sources:
+          - source: iep-hobbes
+            locator: "§1 Introduction"
+            verified: true
+            checked_in: IEP entry, accessed 2026-11
+
+  - id: leviathan
+    title: Leviathan
+    author: Thomas Hobbes
+    year: 1651
+    kind: primary
+    tier: core
+    difficulty: 3
+    translation: Curley (Hackett), with variants from the Latin edition of 1668
+    note: >
+      Written late in his exile in Paris. Its structure is like the Elements of Law's,
+      with long discussions of scriptural interpretation; "probably the most overtly
+      polemical of Hobbes's major works" (SEP §1). It "expands on the argument of De
+      Cive, mostly in terms of its huge second half that deals with questions of
+      religion" (IEP §1). Courses read Parts I and II.
+    start_here:
+      why: >
+        The IEP calls it "his most famous work"; "to understand the essentials of
+        Hobbes's ideas and system, one can rely on De Cive and Leviathan". Every course
+        surveyed reads it, and three of the four start with it.
+      sources:
+        - source: iep-hobbes
+          locator: "§1 Introduction"
+          verified: true
+          checked_in: IEP entry, accessed 2026-11
+        - source: syl-yale-ds-hp-2023
+          locator: week 2
+          verified: true
+          checked_in: Course syllabus (PDF), accessed 2026-11
+    tips:
+      - text: >
+          The IEP warns that "reading the opening chapters of Leviathan is a confusing
+          business": the mechanistic picture in the Introduction is "something of a red
+          herring", and his other starting point, "know thyself", is more useful.
+        sources:
+          - source: iep-hobbes
+            locator: "§4.a Materialism Versus Self-Knowledge"
+            verified: true
+            checked_in: IEP entry, accessed 2026-11
+    after:
+      - work: de-cive
+        strength: context
+        why: "The IEP: Leviathan \"expands on the argument of De Cive\"."
+        sources:
+          - source: iep-hobbes
+            locator: "§1 Introduction"
+            verified: true
+            checked_in: IEP entry, accessed 2026-11
+      - work: machiavelli:prince
+        strength: context
+        why: >
+          Yale's Directed Studies and Youngstown State's survey courses read Leviathan
+          straight after Machiavelli.
+        sources:
+          - source: syl-yale-ds-hp-2023
+            locator: weeks 1–3
+            verified: true
+            checked_in: Course syllabus (PDF), accessed 2026-11
+
+  - id: de-corpore
+    title: De Corpore (On Body)
+    author: Thomas Hobbes
+    year: 1655
+    kind: primary
+    tier: extended
+    difficulty: 4
+    note: >
+      The first part of the Elements of Philosophy: logic, language, method,
+      metaphysics, mathematics and physics, with his main statements on method and
+      language (SEP §1).
+
+  - id: de-homine
+    title: De Homine (On Man)
+    author: Thomas Hobbes
+    year: 1658
+    kind: primary
+    tier: optional
+    difficulty: 4
+    note: The second part of the Elements of Philosophy, on physiology and optics; it completed the plan (SEP §1).
+    after:
+      - work: de-corpore
+        strength: context
+        why: It is the second part of the Elements of Philosophy, after De Corpore and before De Cive.
+        sources:
+          - source: sep-hobbes
+            locator: "§1 Life and Works"
+            verified: true
+            checked_in: SEP entry (revision of Mar 2025), accessed 2026-11
+
+  - id: behemoth
+    title: "Behemoth; or, The Long Parliament"
+    author: Thomas Hobbes
+    year: 1682
+    kind: primary
+    tier: optional
+    position: end
+    difficulty: 2
+    note: >
+      His history of the English civil wars, written in the late 1660s and published
+      after his death (SEP §1; IEP §1 gives 1682).
