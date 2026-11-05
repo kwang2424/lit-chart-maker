@@ -1,0 +1,327 @@
+id: fichte
+title: J. G. Fichte
+group: predecessors
+sequence: 7
+born: 1762
+scope: >
+  Fichte's main works, from the Critique of All Revelation to the Addresses to the German
+  Nation: the Jena Wissenschaftslehre (Doctrine of Science) and its branches in right and
+  ethics, the popular Berlin writings, and two of the later lecture versions of the system.
+  Years are first publication, from the SEP.
+status: draft
+
+# Format: see the header of lists/nietzsche.yaml. Free older translations: Kroeger's
+# Science of Knowledge (1889) and Science of Ethics (1897), and Smith's Popular Works
+# (1873), on archive.org. Modern translations are by Breazeale and others.
+
+survey:
+  - source: syl-hagen-fichte
+    starts_with: concept-wl
+    includes: [concept-wl, foundation, natural-right, system-ethics, wl-1801]
+    ordered: true
+    locator: "session plan (1–11)"
+    verified: true
+    checked_in: Seminar page (FernUniversität in Hagen, November 2024), accessed 2026-11
+  - source: syl-uvic-314
+    starts_with: aenesidemus-review
+    includes: [aenesidemus-review, concept-wl, new-presentation]
+    ordered: true
+    locator: weeks 6–8 (after Kant, Jacobi and Schulze)
+    verified: true
+    checked_in: Course outline (PDF, Spring 2019), accessed 2026-11
+  - source: syl-carleton-gurofsky
+    starts_with: concept-wl
+    includes: [concept-wl, foundation]
+    ordered: true
+    locator: weeks 2–3
+    verified: true
+    checked_in: Course syllabus (PDF, Winter 2020), accessed 2026-11
+  - source: syl-mcgill-567
+    starts_with: vocation
+    includes: [vocation, wl-1801, wl-1804]
+    ordered: true
+    locator: sessions 2–8 (the post-Jena Fichte)
+    verified: true
+    checked_in: Seminar syllabus (PDF, January 2012), accessed 2026-11
+  - source: syl-hse-chernavin
+    includes: [wl-1804]
+    ordered: false
+    locator: lecture 2 (with Kant, Schelling, Husserl and Heidegger)
+    verified: true
+    checked_in: Course syllabus (PDF, 2015), accessed 2026-11
+
+works:
+
+  # ---------- Before Jena ----------
+
+  - id: critique-revelation
+    title: Attempt at a Critique of All Revelation
+    author: J. G. Fichte
+    year: 1792
+    kind: primary
+    tier: optional
+    difficulty: 3
+    translation: Green (Cambridge)
+    note: >
+      His first book, written to show Kant his mastery of the Critical philosophy. It first
+      appeared without his name and was widely taken for a work by Kant (SEP §1).
+    after:
+      - work: kant:cprr
+        strength: context
+        why: >
+          It concludes that "the only revelation consistent with the Critical philosophy is the
+          moral law itself".
+        sources:
+          - source: sep-fichte
+            locator: "§1 Life and Work"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+
+  # ---------- The Jena Wissenschaftslehre ----------
+
+  - id: aenesidemus-review
+    title: Review of Aenesidemus
+    author: J. G. Fichte
+    year: 1794
+    kind: primary
+    tier: optional
+    difficulty: 4
+    translation: Breazeale, in Early Philosophical Writings
+    note: >
+      A review of G. E. Schulze's sceptical attack on Kant and Reinhold, in which Fichte
+      first hints at his own position (SEP §1).
+
+  - id: concept-wl
+    title: Concerning the Concept of the Wissenschaftslehre
+    author: J. G. Fichte
+    year: 1794
+    kind: primary
+    tier: core
+    difficulty: 3
+    translation: Breazeale, in Early Philosophical Writings; Kroeger (1889, free online)
+    note: >
+      A short manifesto introducing his new philosophy to students at Jena: mainly about
+      the form of a system and how philosophy relates to its object (SEP §1).
+
+  - id: scholars-vocation
+    title: Some Lectures concerning the Scholar's Vocation
+    author: J. G. Fichte
+    year: 1794
+    kind: primary
+    tier: optional
+    difficulty: 2
+    note: The first five of his popular public lectures at Jena on "Morality for Scholars" (SEP §1).
+
+  - id: foundation
+    title: Foundation of the Entire Wissenschaftslehre (Science of Knowledge)
+    author: J. G. Fichte
+    year: 1794
+    kind: primary
+    tier: core
+    difficulty: 5
+    translation: Breazeale (Oxford); Heath and Lachs, as Science of Knowledge; Kroeger (1889, free online)
+    note: >
+      His "best-known philosophical treatise", written as a handout for students and meant
+      only as the first principles of the system (SEP §1). Hagen's seminar reads the first
+      three principles (§§1–3) and the practical part (§5).
+    after:
+      - work: concept-wl
+        strength: helpful
+        why: >
+          The manifesto announcing the system came first, and courses read it first: Hagen's
+          seminar opens with an overview of its argument before the Foundation's principles.
+        sources:
+          - source: syl-hagen-fichte
+            locator: "sessions 1–4"
+            verified: true
+            checked_in: Seminar page (FernUniversität in Hagen, November 2024), accessed 2026-11
+      - work: kant:kant-cpr
+        strength: helpful
+        why: >
+          Fichte presents it as completing Kant: "Kant's celebrated question, which he placed at
+          the head of his Critic of Pure Reason, How are synthetical judgments à priori possible?
+          has now been answered."
+        sources:
+          - source: fichte-sk-text
+            locator: "Part I, §3"
+            verified: true
+            checked_in: Kroeger trans. (1889), archive.org/details/scienceofknowle00fich
+      - work: descartes:discourse
+        strength: context
+        why: >
+          Its first principle is compared with Descartes: "Before Kant, Descartes has suggested a
+          similar one, Cogito, ergo sum."
+        sources:
+          - source: fichte-sk-text
+            locator: "Part I, §1, Remarks"
+            verified: true
+            checked_in: Kroeger trans. (1889), archive.org/details/scienceofknowle00fich
+      - work: spinoza:ethics
+        strength: context
+        why: >
+          The first section's remarks discuss "Kant, Reinhold, and Spinoza, on the Ego", and the
+          theoretical part is set against "dogmatic Spinozism".
+        sources:
+          - source: fichte-sk-text
+            locator: "Part I, §1 Remarks; §3"
+            verified: true
+            checked_in: Kroeger trans. (1889), archive.org/details/scienceofknowle00fich
+
+  - id: natural-right
+    title: Foundations of Natural Right
+    author: J. G. Fichte
+    year: 1796
+    kind: primary
+    tier: extended
+    difficulty: 4
+    note: >
+      The system extended to law and social philosophy; Hagen's seminar reads §§1–7, on right,
+      embodiment and recognition.
+    after:
+      - work: foundation
+        strength: helpful
+        why: >
+          It is the first extension of the system "in accordance with the Principles of the
+          Wissenschaftslehre", into philosophy of law (SEP §1).
+        sources:
+          - source: sep-fichte
+            locator: "§1 Life and Work"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+
+  - id: new-presentation
+    title: An Attempt at a New Presentation of the Wissenschaftslehre (with the two Introductions)
+    author: J. G. Fichte
+    year: 1797
+    kind: primary
+    tier: extended
+    difficulty: 3
+    translation: Breazeale, in Introductions to the Wissenschaftslehre
+    note: >
+      Only the two Introductions and the first chapter of this new version appeared
+      (1797/98) (SEP §1).
+    after:
+      - work: foundation
+        strength: helpful
+        why: >
+          He began it "shocked by the virtually universal misunderstanding of his published
+          Foundation", as an entirely new exposition of the same ground.
+        sources:
+          - source: sep-fichte
+            locator: "§1 Life and Work"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+
+  - id: system-ethics
+    title: The System of Ethics
+    author: J. G. Fichte
+    year: 1798
+    kind: primary
+    tier: extended
+    difficulty: 4
+    translation: Kroeger, as The Science of Ethics (1897, free online)
+    note: The system extended to moral philosophy (SEP §1).
+    after:
+      - work: foundation
+        strength: helpful
+        why: >
+          The second extension of the system "in accordance with the Principles of the
+          Wissenschaftslehre", into moral philosophy.
+        sources:
+          - source: sep-fichte
+            locator: "§1 Life and Work"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+
+  # ---------- Berlin ----------
+
+  - id: vocation
+    title: The Vocation of Man
+    author: J. G. Fichte
+    year: 1800
+    kind: primary
+    tier: core
+    difficulty: 2
+    translation: Smith (free online)
+    tier_note: >
+      Only McGill's seminar assigns it: the courses surveyed teach the technical Jena works.
+      It stays core because Fichte wrote it for readers outside philosophy and the SEP ranks
+      it among his greatest achievements.
+    note: >
+      A popular presentation of his system, with a strong moral and religious emphasis, and an
+      indirect reply to Jacobi's charge of "nihilism". The SEP calls it "perhaps Fichte's greatest
+      literary achievement".
+    tips:
+      - text: >
+          Fichte's preface: "This book is therefore not intended for philosophers by profession
+          ... It ought to be intelligible to all readers who are able to understand a book at all."
+          Courses mostly begin with the 1794 texts instead.
+        sources:
+          - source: fichte-popular-text
+            locator: "The Vocation of Man, Preface"
+            verified: true
+            checked_in: Smith trans. (1873), archive.org/details/johanngottlieb00fichuoft
+
+  - id: closed-state
+    title: The Closed Commercial State
+    author: J. G. Fichte
+    year: 1800
+    kind: primary
+    tier: optional
+    difficulty: 3
+    note: Political economy combining socialist political ideas with autarkic economics (SEP §1).
+
+  - id: sun-clear
+    title: Sun-Clear Report to the Public on the Actual Character of the Latest Philosophy
+    author: J. G. Fichte
+    year: 1801
+    kind: primary
+    tier: optional
+    difficulty: 3
+    note: >
+      Subtitled "An Attempt to Force the Reader to Understand": a more direct reply to Jacobi
+      and to misreadings of his philosophy (SEP §1).
+
+  - id: wl-1801
+    title: Presentation of the Wissenschaftslehre (1801/02)
+    author: J. G. Fichte
+    kind: primary
+    tier: optional
+    difficulty: 5
+    note: >
+      Lecture notes rethinking the foundations of the system, from the period when Fichte
+      was "defining his position deliberately in opposition to that of Schelling" (McGill's
+      seminar).
+
+  - id: wl-1804
+    title: The Science of Knowing (Wissenschaftslehre, second lectures of 1804)
+    author: J. G. Fichte
+    kind: primary
+    tier: optional
+    difficulty: 5
+    translation: Wright (SUNY)
+    note: >
+      The second of his three new versions of 1804 (SEP §1); "the only extensive posthumous
+      text of Fichte which we have in English translation" (McGill's seminar).
+    after:
+      - work: wl-1801
+        strength: helpful
+        why: >
+          The 1801/02 lectures began the rethinking of the system that "culminated" in the
+          three versions of 1804.
+        sources:
+          - source: sep-fichte
+            locator: "§1 Life and Work"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+
+  - id: addresses
+    title: Addresses to the German Nation
+    author: J. G. Fichte
+    year: 1808
+    kind: primary
+    tier: extended
+    difficulty: 2
+    note: >
+      Lectures given in occupied Berlin in the winter of 1807/8, later treated as founding
+      documents of German nationalism (SEP §1).

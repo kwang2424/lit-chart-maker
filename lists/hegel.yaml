@@ -1,7 +1,7 @@
 id: hegel
 title: G. W. F. Hegel
 group: predecessors
-sequence: 7
+sequence: 8
 born: 1770
 scope: >
   Hegel's books and the lecture courses published after his death, with the two
@@ -117,6 +117,17 @@ works:
           verified: true
           checked_in: SEP online, accessed 2026-11
     after:
+      - work: schelling:presentation
+        strength: context
+        why: >
+          Its Preface mocks an Absolute that is "the night in which all cows are black";
+          the IEP and SEP read this as aimed at Schelling's identity philosophy
+          (Schelling asked Hegel whether it was meant for him).
+        sources:
+          - source: iep-schelling
+            locator: "on Hegel's Phenomenology (§1)"
+            verified: true
+            checked_in: IEP entry, accessed 2026-11
       - work: stern-guide
         strength: context
         why: Two surveyed courses recommend Stern's guidebook as a commentary to read alongside.
@@ -197,6 +208,17 @@ works:
     difficulty: 5
     note: A teaching handbook of the whole system; Part I is an abbreviated Science of Logic.
     after:
+      - work: fichte:foundation
+        strength: context
+        why: >
+          The Logic credits Fichte: "To the philosophy of Fichte belongs the great merit
+          of having called attention to the need of exhibiting the necessity of these
+          categories and giving a genuine deduction of them."
+        sources:
+          - source: hegel-logic-text
+            locator: "§42 (The Critical Philosophy)"
+            verified: true
+            checked_in: Wallace trans., The Logic of Hegel, Project Gutenberg #55108
       - work: aristotle:metaphysics
         strength: context
         why: >

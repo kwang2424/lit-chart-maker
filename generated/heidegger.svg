@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1092" height="1910" viewBox="0 0 1092 1910" font-family="Georgia, 'Times New Roman', serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="1092" height="2040" viewBox="0 0 1092 2040" font-family="Georgia, 'Times New Roman', serif">
 <defs>
 <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c8072"/></marker>
 </defs>
@@ -132,24 +132,32 @@
 <rect x="752" y="1450" width="300" height="96" rx="8" fill="#ebe7e0" stroke="#8c8072" stroke-width="1.5"/>
 <circle cx="774" cy="1472" r="14" fill="#8c8072"/>
 <text x="774" y="1477" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">18</text>
-<text x="796" y="1477" font-size="16" font-weight="bold" fill="#1f1a14">Plato&#x27;s Sophist (lecture</text>
-<text x="796" y="1496" font-size="16" font-weight="bold" fill="#1f1a14">course, 1924–25)</text>
-<text x="796" y="1517" font-size="13" fill="#6b6256">Martin Heidegger, 1992</text>
+<text x="796" y="1477" font-size="16" font-weight="bold" fill="#1f1a14">The Metaphysics of German</text>
+<text x="796" y="1496" font-size="16" font-weight="bold" fill="#1f1a14">Idealism: Schelling&#x27;s Freedom…</text>
+<text x="796" y="1517" font-size="13" fill="#6b6256">Martin Heidegger, 1991</text>
 <text x="766" y="1534" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●●●●</text>
-<text x="1042" y="1444" text-anchor="end" font-size="12" font-style="italic" fill="#6b6256">after: Sophist (Plato)</text>
+<text x="1042" y="1444" text-anchor="end" font-size="12" font-style="italic" fill="#6b6256">after: Philosophical Investigations into the Essence…</text>
 <rect x="752" y="1580" width="300" height="96" rx="8" fill="#ebe7e0" stroke="#8c8072" stroke-width="1.5"/>
 <circle cx="774" cy="1602" r="14" fill="#8c8072"/>
 <text x="774" y="1607" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">19</text>
-<text x="796" y="1607" font-size="16" font-weight="bold" fill="#1f1a14">Contributions to Philosophy</text>
-<text x="796" y="1626" font-size="16" font-weight="bold" fill="#1f1a14">(Of the Event)</text>
-<text x="796" y="1647" font-size="13" fill="#6b6256">Martin Heidegger, 1936</text>
+<text x="796" y="1607" font-size="16" font-weight="bold" fill="#1f1a14">Plato&#x27;s Sophist (lecture</text>
+<text x="796" y="1626" font-size="16" font-weight="bold" fill="#1f1a14">course, 1924–25)</text>
+<text x="796" y="1647" font-size="13" fill="#6b6256">Martin Heidegger, 1992</text>
 <text x="766" y="1664" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●●●●</text>
+<text x="1042" y="1574" text-anchor="end" font-size="12" font-style="italic" fill="#6b6256">after: Sophist (Plato)</text>
 <rect x="752" y="1710" width="300" height="96" rx="8" fill="#ebe7e0" stroke="#8c8072" stroke-width="1.5"/>
 <circle cx="774" cy="1732" r="14" fill="#8c8072"/>
 <text x="774" y="1737" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">20</text>
-<text x="796" y="1737" font-size="16" font-weight="bold" fill="#1f1a14">What Is Called Thinking?</text>
-<text x="796" y="1758" font-size="13" fill="#6b6256">Martin Heidegger</text>
-<text x="766" y="1794" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●●○○</text>
-<text x="546.0" y="1870" text-anchor="middle" font-size="13" fill="#6b6256">Solid arrow: read first (required / helpful). Dashed: useful context. Every link is sourced — see generated/heidegger.md</text>
-<text x="546.0" y="1890" text-anchor="middle" font-size="12" fill="#6b6256">Status: draft · github.com/kwang2424/lit-chart-maker</text>
+<text x="796" y="1737" font-size="16" font-weight="bold" fill="#1f1a14">Contributions to Philosophy</text>
+<text x="796" y="1756" font-size="16" font-weight="bold" fill="#1f1a14">(Of the Event)</text>
+<text x="796" y="1777" font-size="13" fill="#6b6256">Martin Heidegger, 1936</text>
+<text x="766" y="1794" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●●●●</text>
+<rect x="752" y="1840" width="300" height="96" rx="8" fill="#ebe7e0" stroke="#8c8072" stroke-width="1.5"/>
+<circle cx="774" cy="1862" r="14" fill="#8c8072"/>
+<text x="774" y="1867" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">21</text>
+<text x="796" y="1867" font-size="16" font-weight="bold" fill="#1f1a14">What Is Called Thinking?</text>
+<text x="796" y="1888" font-size="13" fill="#6b6256">Martin Heidegger</text>
+<text x="766" y="1924" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●●○○</text>
+<text x="546.0" y="2000" text-anchor="middle" font-size="13" fill="#6b6256">Solid arrow: read first (required / helpful). Dashed: useful context. Every link is sourced — see generated/heidegger.md</text>
+<text x="546.0" y="2020" text-anchor="middle" font-size="12" fill="#6b6256">Status: draft · github.com/kwang2424/lit-chart-maker</text>
 </svg>

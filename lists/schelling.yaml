@@ -1,0 +1,240 @@
+id: schelling
+title: F. W. J. Schelling
+group: predecessors
+sequence: 9
+born: 1775
+scope: >
+  Schelling's main works across his changing positions: the early essays answering Fichte
+  and Jacobi, the philosophy of nature and transcendental idealism, the identity
+  philosophy, the 1809 Freedom essay, the Ages of the World drafts and the late Munich and
+  Berlin lectures. No course found is devoted to Schelling alone; each surveyed course
+  reads one text in a wider German Idealism course, so the tiers lean on the SEP and IEP.
+status: draft
+
+# Format: see the header of lists/nietzsche.yaml. His texts are not on Project Gutenberg in
+# English; the evidence is the SEP and IEP entries, later authors' own texts and courses.
+# Years are first publication or, for posthumous lectures, left blank.
+
+survey:
+  - source: syl-hse-chernavin
+    includes: [sti]
+    ordered: false
+    locator: lecture 3 (required reading)
+    verified: true
+    checked_in: Course syllabus (PDF, 2015), accessed 2026-11
+  - source: syl-ciis-segall
+    includes: [history-modern]
+    ordered: false
+    locator: required texts; weeks 5, 8 and 9 on Schelling
+    verified: true
+    checked_in: Course syllabus (PDF, Spring 2017), accessed 2026-11
+  - source: syl-carleton-gurofsky
+    includes: [presentation]
+    ordered: false
+    locator: week 4 (optional reading, with Hegel's Preface to the Phenomenology)
+    verified: true
+    checked_in: Course syllabus (PDF, Winter 2020), accessed 2026-11
+  - source: syl-hub-wilck
+    includes: [academic-study]
+    ordered: false
+    locator: week 3 (Schelling's idea of the university)
+    verified: true
+    checked_in: Course syllabus (PDF, Spring 2022), accessed 2026-11
+
+works:
+
+  # ---------- Early essays: Fichte, Spinoza and Kant ----------
+
+  - id: of-the-i
+    title: "Of the I as Principle of Philosophy"
+    author: F. W. J. Schelling
+    year: 1795
+    kind: primary
+    tier: optional
+    difficulty: 4
+    translation: Marti, in The Unconditional in Human Knowledge
+    note: >
+      One of two essays of 1795 in which he takes up "the issues raised by Jacobi and Fichte"
+      (SEP §2).
+    after:
+      - work: fichte:foundation
+        strength: helpful
+        why: >
+          Fichte's Wissenschaftslehre, "along with Kant's Critique of Judgment ... proved to be
+          of decisive importance for Schelling's early philosophical career".
+        sources:
+          - source: iep-schelling
+            locator: "§1 Life"
+            verified: true
+            checked_in: IEP entry, accessed 2026-11
+
+  - id: letters-dogmatism
+    title: Philosophical Letters on Dogmatism and Criticism
+    author: F. W. J. Schelling
+    year: 1795
+    kind: primary
+    tier: optional
+    difficulty: 3
+    translation: Marti, in The Unconditional in Human Knowledge
+    note: The second of the 1795 essays on the issues raised by Jacobi and Fichte (SEP §2).
+
+  # ---------- Nature and transcendental idealism ----------
+
+  - id: ideas-nature
+    title: Ideas for a Philosophy of Nature
+    author: F. W. J. Schelling
+    year: 1797
+    kind: primary
+    tier: extended
+    difficulty: 4
+    translation: Harris and Heath (Cambridge)
+    note: >
+      The start of his Naturphilosophie, which "emerges in 1797 and develops in the succeeding
+      years" (SEP §2).
+    after:
+      - work: kant:cj
+        strength: context
+        why: >
+          The IEP names Kant's Critique of Judgment, with Fichte's Wissenschaftslehre, as "of
+          decisive importance for Schelling's early philosophical career".
+        sources:
+          - source: iep-schelling
+            locator: "§1 Life"
+            verified: true
+            checked_in: IEP entry, accessed 2026-11
+
+  - id: sti
+    title: System of Transcendental Idealism
+    author: F. W. J. Schelling
+    year: 1800
+    kind: primary
+    tier: core
+    difficulty: 4
+    translation: Heath (Virginia)
+    tier_note: >
+      Only one surveyed course assigns it, because none of the courses found is about
+      Schelling alone; the SEP and IEP treat it as a main work of his early period.
+    note: >
+      In the System "nature begins unconsciously and ends in conscious philosophical and
+      scientific knowledge"; in the work of art "the I is conscious according to the
+      production, unconscious with regard to the product" (SEP §2).
+    after:
+      - work: fichte:foundation
+        strength: helpful
+        why: >
+          With the Naturphilosophie it "wavers between a Spinozist and a Fichtean approach to
+          the 'unconditioned'"; the SEP's Fichte here is the Wissenschaftslehre of 1794.
+        sources:
+          - source: sep-schelling
+            locator: "§2 Transcendental Philosophy and Naturphilosophie"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+      - work: spinoza:ethics
+        strength: context
+        why: >
+          Spinoza is the other pole between which it "wavers"; Schelling's concern with Spinoza
+          comes from the pantheism controversy, which "brought Spinoza's monism into the
+          mainstream of German philosophy".
+        sources:
+          - source: sep-schelling
+            locator: "§2"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+
+  # ---------- Identity philosophy ----------
+
+  - id: presentation
+    title: Presentation of My System of Philosophy
+    author: F. W. J. Schelling
+    year: 1801
+    kind: primary
+    tier: extended
+    difficulty: 4
+    note: >
+      The text from which his "identity philosophy" is usually dated, until sometime before
+      the 1809 Freedom essay (SEP §3).
+
+  - id: bruno
+    title: "Bruno, or On the Natural and the Divine Principle of Things"
+    author: F. W. J. Schelling
+    year: 1802
+    kind: primary
+    tier: optional
+    difficulty: 3
+    translation: Vater (SUNY)
+    note: From the identity period (1802).
+
+  - id: academic-study
+    title: On University Studies (Lectures on the Method of Academic Study)
+    author: F. W. J. Schelling
+    year: 1803
+    kind: primary
+    tier: optional
+    difficulty: 2
+    note: >
+      Lectures on the idea of the university, written shortly after, and in reaction to,
+      Kant's Conflict of the Faculties (HU Berlin's course).
+
+  # ---------- Freedom and the Ages of the World ----------
+
+  - id: freedom
+    title: Philosophical Investigations into the Essence of Human Freedom
+    author: F. W. J. Schelling
+    year: 1809
+    kind: primary
+    tier: core
+    difficulty: 4
+    translation: Gutmann (Open Court, 1936), as Of Human Freedom
+    tier_note: >
+      No surveyed course assigns it, for the same reason as the System; the IEP calls it
+      "perhaps the most important book that Schelling published in his life time".
+    note: >
+      Freedom understood not as the rational will's mastery but "as the capacity to do evil",
+      and whether there can be a "system of freedom" at all (IEP §2.c).
+    after:
+      - work: spinoza:ethics
+        strength: context
+        why: >
+          "This attempt at the system of freedom arose in the wake of ... the 'pantheism
+          controversy'", which "is centred on the supposedly atheistic figure of Spinoza".
+        sources:
+          - source: iep-schelling
+            locator: "§2.c The Middle period"
+            verified: true
+            checked_in: IEP entry, accessed 2026-11
+
+  - id: ages-world
+    title: The Ages of the World (drafts of 1811–15)
+    author: F. W. J. Schelling
+    kind: primary
+    tier: extended
+    position: end
+    difficulty: 4
+    translation: Wirth (SUNY)
+    note: Unfinished drafts (1811–15), the subject of SEP §4.
+
+  # ---------- Late lectures ----------
+
+  - id: history-modern
+    title: On the History of Modern Philosophy
+    author: F. W. J. Schelling
+    kind: primary
+    tier: extended
+    position: end
+    difficulty: 3
+    translation: Bowie (Cambridge)
+    note: >
+      Lectures, "probably 1833–4" (SEP bibliography); CIIS's course reads them for his
+      critique of Hegel.
+
+  - id: positive-philosophy
+    title: "The Grounding of Positive Philosophy: The Berlin Lectures"
+    author: F. W. J. Schelling
+    kind: primary
+    tier: optional
+    position: end
+    difficulty: 4
+    translation: Matthews (SUNY)
+    note: >
+      From the Berlin lectures of 1841–2, once attended by Kierkegaard, Engels and Bakunin
+      (SEP §1), on "positive" and "negative" philosophy and his critique of Hegel (SEP §5).
