@@ -1409,3 +1409,132 @@
   author: Anya Daly, Melbourne School of Continental Philosophy
   title: "Merleau-Ponty: Aesthetics and Primordial Percipience (Summer School 2014)"
   url: https://mscp.org.au/past-courses/merleau-ponty-aesthetics-and-primordial-percipience
+
+# ---------- Machiavelli, Hobbes, Rousseau ----------
+
+- id: machiavelli-prince-text
+  tier: 1
+  author: Niccolò Machiavelli
+  title: The Prince (with the Marriott edition's introduction)
+  year: 1532
+  note: Chapter II refers to his writing on republics "in another place".
+
+- id: hobbes-de-cive-text
+  tier: 1
+  author: Thomas Hobbes
+  title: De Cive (Philosophical Rudiments Concerning Government and Society), "Preface to the Reader"
+  year: 1642
+
+- id: rousseau-social-contract-text
+  tier: 1
+  author: Jean-Jacques Rousseau
+  title: The Social Contract
+  year: 1762
+
+- id: rousseau-inequality-text
+  tier: 1
+  author: Jean-Jacques Rousseau
+  title: Discourse on the Origin of Inequality
+  year: 1755
+
+- id: rousseau-emile-text
+  tier: 1
+  author: Jean-Jacques Rousseau
+  title: Emile, or On Education
+  year: 1762
+
+- id: cole-rousseau-intro
+  tier: 2
+  author: G. D. H. Cole
+  title: Introduction to The Social Contract and Discourses (Everyman, 1913)
+  year: 1913
+
+- id: sep-machiavelli
+  tier: 2
+  author: Stanford Encyclopedia of Philosophy
+  title: '"Niccolò Machiavelli"'
+  url: https://plato.stanford.edu/entries/machiavelli/
+
+- id: sep-hobbes
+  tier: 2
+  author: Stanford Encyclopedia of Philosophy
+  title: '"Thomas Hobbes"'
+  url: https://plato.stanford.edu/entries/hobbes/
+
+- id: iep-hobbes
+  tier: 2
+  author: Internet Encyclopedia of Philosophy
+  title: '"Thomas Hobbes: Moral and Political Philosophy"'
+  url: https://iep.utm.edu/hobmoral/
+
+- id: sep-rousseau
+  tier: 2
+  author: Stanford Encyclopedia of Philosophy
+  title: '"Jean Jacques Rousseau"'
+  url: https://plato.stanford.edu/entries/rousseau/
+
+- id: iep-rousseau
+  tier: 2
+  author: Internet Encyclopedia of Philosophy
+  title: '"Jean-Jacques Rousseau"'
+  url: https://iep.utm.edu/rousseau/
+
+- id: syl-yale-ds-hp-2023
+  tier: 3
+  author: Directed Studies, Yale University
+  title: "Historical and Political Thought (Spring 2023)"
+  url: https://directedstudies.yale.edu/sites/default/files/files/HP%20spring%202023%20syllabus.pdf
+
+- id: syl-ysu-pol3786
+  tier: 3
+  author: Youngstown State University
+  title: "POL 3786: Political Thought 2 (Fall 2026)"
+  url: https://catalog.ysu.edu/syllabi/2026-fall/pol-3786-01-44080/syllabi-202640-pol-3786-01-44080.pdf
+
+- id: syl-bard-atanassow
+  tier: 3
+  author: Ewa Atanassow, Bard College Berlin
+  title: "PL215: Machiavelli's Arts (Spring 2024)"
+  url: https://tools.bard.edu/wwwmedia/resources/files/1826/PL215_Spring%202024_Syllabus_Atanassow.pdf
+
+- id: syl-jcu-machiavelli
+  tier: 3
+  author: Andrea Moudarres, John Cabot University
+  title: "PL 312: Machiavelli (Spring 2026)"
+  url: https://myjcu.johncabot.edu/syllabus/syllabus_print.aspx?IDS=26058
+
+- id: syl-uwo-haladyn
+  tier: 3
+  author: Julian Jason Haladyn, Western University (Centre for the Study of Theory and Criticism)
+  title: "THEOCRIT 9211: Machiavelli and Us (Fall 2024)"
+  url: https://uwo.ca/theory/current_students/course_descriptions/Haladyn---Machiavelli-and-Us.pdf
+
+- id: syl-alberta-carmichael
+  tier: 3
+  author: Don Carmichael, University of Alberta
+  title: "Political Science 406/515: Hobbes' Leviathan (2012–13)"
+  url: https://sites.ualberta.ca/~dcarmich/Hobbes-2012-13.htm
+
+- id: syl-bucharest-hobbes
+  tier: 3
+  author: Research Institute of the University of Bucharest (ICUB)
+  title: "Reading Group in Early Modern Philosophy, Spring 2021: Hobbes"
+  url: https://icub.unibuc.ro/research/research-seminars/reading-group-in-early-modern-philosophy-spring-2021-hobbes/
+
+- id: syl-uvic-dietsch
+  tier: 3
+  author: Peter Dietsch, University of Victoria
+  title: "PHIL 433/535: The political philosophy of Jean-Jacques Rousseau (Spring 2024)"
+  url: https://www.uvic.ca/humanities/philosophy/assets/docs/courseoutlines/2024_spring/433deitsch.pdf
+
+- id: syl-bowdoin-franco
+  tier: 3
+  author: Paul Franco, Bowdoin College
+  title: "Government 3210: Jean-Jacques Rousseau (Spring 2019)"
+  url: https://www.bowdoin.edu/academic-affairs/resources-for-department-chairs-and-program-directors/department-program-reviews/pdf/gov3210-franco-s19.pdf
+
+- id: syl-wisc-schwarze
+  tier: 3
+  author: Michelle Schwarze, University of Wisconsin–Madison
+  title: "PS 931: Rousseau on Education (Spring 2020, draft)"
+  url: https://cems.wisc.edu/wp-content/uploads/sites/1040/2019/11/PS931-Syllabus-Version1.pdf

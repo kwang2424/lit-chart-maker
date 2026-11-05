@@ -1,7 +1,7 @@
 id: hegel
 title: G. W. F. Hegel
 group: predecessors
-sequence: 8
+sequence: 11
 born: 1770
 scope: >
   Hegel's books and the lecture courses published after his death, with the two
@@ -282,6 +282,17 @@ works:
     translation: Nisbet, ed. Wood (Cambridge)
     note: His political philosophy (family, civil society, the state). The Preface has the "owl of Minerva".
     after:
+      - work: rousseau:social-contract
+        strength: context
+        why: >
+          The SEP reads its account of the rational state as a way of answering
+          "Rousseau's question of the form of association needed for the formation and
+          expression of the general will".
+        sources:
+          - source: sep-hegel
+            locator: "§3.2.2 Philosophy of Subjective and Objective Spirit"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
       - work: kant:metaphysics-of-morals
         strength: context
         why: >

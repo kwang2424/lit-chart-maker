@@ -213,6 +213,7 @@ graph TD
 - *Metaphysics* → *Encyclopaedia of the Philosophical Sciences (esp. Part I, the "Lesser Logic")* (G. W. F. Hegel) — context. The Encyclopaedia closes (§577) with a long Greek quotation from Aristotle's Metaphysics, Book XII, on thought thinking itself; the Philosophy of Mind also credits Aristotle's "entelechy of thought" with "surmounting the Platonic Idea".
 - *Physics* → *Being and Time* (Martin Heidegger) — context. Its planned Part 2 was to show that "the ontologies of Aristotle, Descartes, and Kant all rest on a conception of time"; Aristotle's account of time is in Physics IV.
 - *Categories* → *Critique of Pure Reason* (Immanuel Kant) — context. Kant names his table of pure concepts after Aristotle's: "These conceptions we shall, with Aristotle, call categories, our purpose being originally identical with his, notwithstanding the great difference in the execution."
+- *Politics* → *The Social Contract* (Jean-Jacques Rousseau) — context. Book I ch. 2 answers Aristotle's claim that "some are born for slavery, and others for dominion": "Aristotle was right; but he took the effect for the cause."
 - *Politics* → *The City and Man* (Leo Strauss) — helpful. Its first essay is on Aristotle's Politics, "especially important as one of Strauss's few writings on the philosopher who largely shaped Strauss's conception of antiquity".
 
 ## Sources

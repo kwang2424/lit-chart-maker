@@ -1,0 +1,288 @@
+id: rousseau
+title: Jean-Jacques Rousseau
+group: predecessors
+sequence: 8
+born: 1712
+scope: >
+  Rousseau's philosophical and political works, from the two Discourses to the Social
+  Contract and Emile, with the novel, the letter on the theatre and the autobiographical
+  writings. His music and botany are left out. Years are first publication, from the
+  SEP's list of principal works; works it dates only by composition are left undated.
+status: draft
+
+# Format: see the header of lists/nietzsche.yaml. Public-domain texts: Cole's
+# translation of the Social Contract and Discourses with his introduction (Project
+# Gutenberg #46333), the Discourse on Inequality (#11136) and Foxley's Emile (#5427).
+
+survey:
+  - source: syl-yale-ds-hp-2023
+    starts_with: inequality
+    includes: [inequality, social-contract]
+    ordered: true
+    locator: "weeks 4–5"
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: syl-ysu-pol3786
+    starts_with: social-contract
+    includes: [social-contract]
+    ordered: true
+    locator: "schedule, 11/9–11/16"
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: syl-uvic-dietsch
+    starts_with: inequality
+    includes: [inequality, political-economy, social-contract]
+    ordered: true
+    locator: weekly schedule, weeks 2–8
+    verified: true
+    checked_in: Course outline (PDF, Spring 2024), accessed 2026-11
+  - source: syl-bowdoin-franco
+    starts_with: first-discourse
+    includes: [first-discourse, inequality, political-economy, social-contract, emile, reveries]
+    ordered: true
+    locator: schedule, Jan. 28 – Apr. 17
+    verified: true
+    checked_in: Course syllabus (PDF, Spring 2019), accessed 2026-11
+  - source: syl-wisc-schwarze
+    starts_with: inequality
+    includes: [inequality, emile]
+    ordered: true
+    locator: weekly schedule, weeks 2–12
+    verified: true
+    checked_in: Course syllabus (PDF draft, Spring 2020), accessed 2026-11
+
+works:
+
+  # ---------- The Discourses ----------
+
+  - id: first-discourse
+    title: Discourse on the Sciences and Arts (First Discourse)
+    author: Jean-Jacques Rousseau
+    year: 1751
+    kind: primary
+    tier: extended
+    position: start
+    difficulty: 2
+    translation: Gourevitch (Cambridge)
+    note: >
+      His prize-winning entry to the Academy of Dijon's competition, arguing that the
+      arts and sciences corrode civic virtue and moral character. It made him famous; the
+      SEP: it "is mainly important because Rousseau used it to introduce themes that he
+      developed further in later work" (§1).
+
+  - id: inequality
+    title: Discourse on the Origin of Inequality (Second Discourse)
+    author: Jean-Jacques Rousseau
+    year: 1755
+    kind: primary
+    tier: core
+    difficulty: 3
+    translation: Gourevitch (Cambridge); Cole (Everyman)
+    note: >
+      Written for a second Dijon competition, which it did not win. A conjectural history
+      of human development from the state of nature, in which Rousseau "begins to develop
+      his theories of human social development and moral psychology" (SEP §1).
+    start_here:
+      why: >
+        The IEP: it "remains one of Rousseau's most famous works, and lays the foundation
+        for much of his political thought as it is expressed in the Discourse on Political
+        Economy and Social Contract". Four of the five courses surveyed read it first or
+        after the First Discourse.
+      sources:
+        - source: iep-rousseau
+          locator: "§3.b Discourse on the Origin of Inequality"
+          verified: true
+          checked_in: IEP entry, accessed 2026-11
+        - source: syl-yale-ds-hp-2023
+          locator: week 4
+          verified: true
+          checked_in: Course syllabus (PDF), accessed 2026-11
+    after:
+      - work: first-discourse
+        strength: context
+        why: >
+          The IEP: Rousseau "thought this work to be superior to the First Discourse
+          because the Second Discourse was significantly longer and more philosophically
+          daring".
+        sources:
+          - source: iep-rousseau
+            locator: "§3.b"
+            verified: true
+            checked_in: IEP entry, accessed 2026-11
+      - work: hobbes:leviathan
+        strength: context
+        why: >
+          It argues against Hobbes's state of nature: "let us beware concluding with
+          Hobbes, that man, as having no idea of goodness, must be naturally bad".
+        sources:
+          - source: rousseau-inequality-text
+            locator: Part I
+            verified: true
+            checked_in: Project Gutenberg #11136
+
+  - id: political-economy
+    title: Discourse on Political Economy
+    author: Jean-Jacques Rousseau
+    year: 1755
+    kind: primary
+    tier: extended
+    difficulty: 2
+    note: >
+      First printed in the Encyclopédie in 1755. Cole: it is "important as giving the
+      first sketch of the theory of the 'General Will'".
+
+  # ---------- The works of 1758–62 ----------
+
+  - id: dalembert
+    title: Letter to d'Alembert on the Theatre
+    author: Jean-Jacques Rousseau
+    year: 1758
+    kind: primary
+    tier: optional
+    difficulty: 2
+    note: >
+      Against building a theatre in Geneva: theatre weakens attachment to the political
+      community. It cemented his break with the Encyclopédistes (SEP §1).
+
+  - id: julie
+    title: Julie, or the New Heloise
+    author: Jean-Jacques Rousseau
+    year: 1761
+    kind: primary
+    tier: optional
+    difficulty: 2
+    note: >
+      An epistolary novel, an immediate success; the SEP calls it "an important
+      supplementary source for the interpretation of Rousseau's social philosophy" (§1).
+
+  - id: social-contract
+    title: The Social Contract
+    author: Jean-Jacques Rousseau
+    year: 1762
+    kind: primary
+    tier: core
+    difficulty: 3
+    translation: Gourevitch (Cambridge); Cole (Everyman)
+    note: >
+      The general will, sovereignty and the claim to reconcile freedom with authority
+      (SEP §3). Its Foreword calls it "part of a longer work" he had abandoned. Condemned
+      in Geneva with Emile the year it appeared (SEP §1).
+    after:
+      - work: inequality
+        strength: helpful
+        why: >
+          The Discourse on Inequality "lays the foundation for much of his political
+          thought as it is expressed in the Discourse on Political Economy and Social
+          Contract"; the SEP presents the Social Contract as setting out "an alternative to
+          this dystopia". Every course surveyed that assigns both reads the Discourse first.
+        sources:
+          - source: iep-rousseau
+            locator: "§3.b"
+            verified: true
+            checked_in: IEP entry, accessed 2026-11
+          - source: sep-rousseau
+            locator: "§3 Political Philosophy"
+            verified: true
+            checked_in: SEP entry (revision of Apr 2023), accessed 2026-11
+      - work: political-economy
+        strength: context
+        why: >
+          Cole: the Discourse on Political Economy, "probably written before the Discourse
+          on Inequality", contains "the germs of the theory given in full in the Social
+          Contract".
+        sources:
+          - source: cole-rousseau-intro
+            locator: Introduction
+            verified: true
+            checked_in: Project Gutenberg #46333
+      - work: hobbes:leviathan
+        strength: context
+        why: >
+          Book I ch. 2: "The reasoning of Caligula agrees with that of Hobbes and
+          Grotius." The SEP: its natural freedom is "reminiscent of Hobbes's 'right of
+          nature' in Leviathan".
+        sources:
+          - source: rousseau-social-contract-text
+            locator: "Book I, ch. 2"
+            verified: true
+            checked_in: Cole trans., Project Gutenberg #46333
+          - source: sep-rousseau
+            locator: "§3.3"
+            verified: true
+            checked_in: SEP entry (revision of Apr 2023), accessed 2026-11
+      - work: machiavelli:prince
+        strength: context
+        why: >
+          Book III ch. 6, on monarchy: Machiavelli "professed to teach kings; but it was the
+          people he really taught. His Prince is the book of Republicans."
+        sources:
+          - source: rousseau-social-contract-text
+            locator: "Book III, ch. 6"
+            verified: true
+            checked_in: Cole trans., Project Gutenberg #46333
+      - work: aristotle:politics
+        strength: context
+        why: >
+          Book I ch. 2 answers Aristotle's claim that "some are born for slavery, and others
+          for dominion": "Aristotle was right; but he took the effect for the cause."
+        sources:
+          - source: rousseau-social-contract-text
+            locator: "Book I, ch. 2"
+            verified: true
+            checked_in: Cole trans., Project Gutenberg #46333
+
+  - id: emile
+    title: Emile, or On Education
+    author: Jean-Jacques Rousseau
+    year: 1762
+    kind: primary
+    tier: core
+    difficulty: 3
+    translation: Bloom (Basic Books)
+    note: >
+      His project for child development and education that "nurtures autonomy and avoids
+      the genesis of the most destructive forms of self-interest" (SEP preamble). It
+      contains the Profession of Faith of the Savoyard Vicar, among the fullest accounts
+      of his morality (SEP §2.1). Condemned in Paris and Geneva (SEP §1).
+    after:
+      - work: social-contract
+        strength: helpful
+        why: >
+          Book V summarises the Social Contract for Emile; Rousseau's footnote: "These
+          problems and theorems are mostly taken from the Treatise on the Social Contract".
+        sources:
+          - source: rousseau-emile-text
+            locator: "Book V, footnote to the summary of political principles"
+            verified: true
+            checked_in: Foxley trans., Project Gutenberg #5427
+
+  # ---------- Later and autobiographical writings ----------
+
+  - id: poland
+    title: Considerations on the Government of Poland
+    author: Jean-Jacques Rousseau
+    kind: primary
+    tier: optional
+    difficulty: 2
+    note: Written in 1770–1, late in his life (SEP §1, principal works).
+
+  - id: confessions
+    title: The Confessions
+    author: Jean-Jacques Rousseau
+    kind: primary
+    tier: optional
+    difficulty: 2
+    note: >
+      Autobiography, worked on during his stay in England from 1766 (SEP §1). The SEP calls him "the pioneer of
+      modern autobiography".
+
+  - id: reveries
+    title: Reveries of the Solitary Walker
+    author: Jean-Jacques Rousseau
+    kind: primary
+    tier: optional
+    position: end
+    difficulty: 2
+    note: >
+      Written 1776–8, in the last years of his life (SEP §1 and principal works).
+      Bowdoin's course ends with Walks 1–3 and 5.

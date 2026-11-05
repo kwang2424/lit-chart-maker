@@ -137,6 +137,16 @@ works:
             verified: true
             checked_in: Course page, accessed 2026-11
     after:
+      - work: rousseau:confessions
+        strength: context
+        why: >
+          Its logic of the supplement reads Rousseau, including his laments in The
+          Confessions (OG 153–4).
+        sources:
+          - source: iep-derrida
+            locator: "§3.e Supplement"
+            verified: true
+            checked_in: IEP entry, accessed 2026-11
       - work: heidegger:being-and-time
         strength: context
         why: >
