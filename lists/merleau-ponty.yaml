@@ -1,0 +1,246 @@
+id: merleau-ponty
+title: Maurice Merleau-Ponty
+group: thinkers
+sequence: 7
+born: 1908
+scope: >
+  Merleau-Ponty's two theses on behaviour and perception, the essays on art, language and
+  politics, and the late, unfinished ontology. Most courses found teach only the
+  Phenomenology of Perception, so the later works' tiers rest on the SEP and one course on
+  his aesthetics.
+status: draft
+
+# Format: see the header of lists/nietzsche.yaml. Years are first French publication,
+# from the SEP.
+
+survey:
+  - source: syl-berkeley-mp
+    starts_with: phenomenology-perception
+    includes: [phenomenology-perception]
+    ordered: false
+    locator: course description (begins with the Preface)
+    verified: true
+    checked_in: Course page (Spring 2015), accessed 2026-11
+  - source: syl-guelph-russon
+    starts_with: phenomenology-perception
+    includes: [phenomenology-perception]
+    ordered: false
+    locator: schedule (Sept 21 – Oct 26)
+    verified: true
+    checked_in: Course syllabus (PDF, Fall 2010), accessed 2026-11
+  - source: syl-warwick-ph9ha
+    includes: [phenomenology-perception]
+    ordered: false
+    locator: module description (The Merleau-Ponty Reader with excerpts from the Phenomenology)
+    verified: true
+    checked_in: Module page (PDF, 2024), accessed 2026-11
+  - source: syl-mcgill-375
+    includes: [phenomenology-perception]
+    ordered: false
+    locator: "schedule, Oct. 21–23 (Part III ch. 3, \"Freedom\")"
+    verified: true
+    checked_in: Course syllabus (PDF, Fall 2013), accessed 2026-11
+  - source: mscp-daly-mp
+    starts_with: cezanne
+    includes: [cezanne, signs, eye-mind]
+    ordered: true
+    locator: course description ("from the more phenomenological essay Cézanne's Doubt ... to the final essay")
+    verified: true
+    checked_in: Course page (Summer School 2014), accessed 2026-11
+
+works:
+
+  - id: structure-behavior
+    title: The Structure of Behavior
+    author: Maurice Merleau-Ponty
+    year: 1942
+    kind: primary
+    tier: extended
+    difficulty: 4
+    note: >
+      His complementary thesis (completed 1938), on behaviour, drawing on Gestalt psychology
+      (SEP §1, §2).
+
+  - id: phenomenology-perception
+    title: Phenomenology of Perception
+    author: Maurice Merleau-Ponty
+    year: 1945
+    kind: primary
+    tier: core
+    difficulty: 4
+    translation: Landes (Routledge 2012); Smith (1962)
+    note: >
+      His main thesis: perception, the lived body, space, others and freedom. It draws
+      extensively on Gestalt theory, psychology and neurology, including the case of the
+      brain-damaged patient Schneider (SEP §3).
+    tips:
+      - text: >
+          Berkeley's seminar begins with the "famous" Preface, on what phenomenology is, and
+          rereads it at the end.
+        sources:
+          - source: syl-berkeley-mp
+            locator: course description
+            verified: true
+            checked_in: Course page (Spring 2015), accessed 2026-11
+    after:
+      - work: husserl:crisis
+        strength: context
+        why: >
+          It was "informed by his new familiarity with Husserl's unpublished manuscripts": in
+          1939 he was the first outside visitor to the Husserl Archives, reading "Ideen II and
+          later sections of Die Krisis".
+        sources:
+          - source: sep-merleau-ponty
+            locator: "§1 Life and Works; §3 Phenomenology of Perception"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+      - work: husserl:ideas-2
+        strength: context
+        why: He read Husserl's unpublished Ideen II at the Archives in 1939, before writing it.
+        sources:
+          - source: sep-merleau-ponty
+            locator: "§1 Life and Works"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+      - work: heidegger:being-and-time
+        strength: context
+        why: It reflects "his deepened engagement with other thinkers in this tradition, such as Eugen Fink and Martin Heidegger".
+        sources:
+          - source: sep-merleau-ponty
+            locator: "§3 Phenomenology of Perception"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+      - work: sartre:being-nothingness
+        strength: context
+        why: >
+          McGill's existentialism course reads its chapter on freedom (Part III, ch. 3) straight
+          after Sartre's pages on freedom in Being and Nothingness.
+        sources:
+          - source: syl-mcgill-375
+            locator: "schedule, Oct. 16–23"
+            verified: true
+            checked_in: Course syllabus (PDF, Fall 2013), accessed 2026-11
+
+  - id: cezanne
+    title: "\"Cézanne's Doubt\""
+    author: Maurice Merleau-Ponty
+    year: 1945
+    kind: primary
+    tier: extended
+    difficulty: 2
+    note: >
+      A short essay that finds in Cézanne "a proto-phenomenological effort to capture the
+      birth of perception through painting" (SEP §4).
+
+  - id: humanism-terror
+    title: "Humanism and Terror: An Essay on the Communist Problem"
+    author: Maurice Merleau-Ponty
+    year: 1947
+    kind: primary
+    tier: optional
+    difficulty: 3
+    note: His first book of political philosophy, counselling a "wait-and-see" attitude toward Marxism (SEP §1).
+
+  - id: sense-nonsense
+    title: Sense and Non-Sense
+    author: Maurice Merleau-Ponty
+    year: 1948
+    kind: primary
+    tier: optional
+    difficulty: 2
+    note: Essays on the arts, philosophy and politics (SEP §1).
+
+  - id: world-perception
+    title: The World of Perception
+    author: Maurice Merleau-Ponty
+    year: 2002
+    kind: primary
+    tier: optional
+    position: start
+    difficulty: 1
+    note: Seven short radio lectures given on French national radio in 1948, published later (SEP §1).
+
+  - id: adventures
+    title: Adventures of the Dialectic
+    author: Maurice Merleau-Ponty
+    year: 1955
+    kind: primary
+    tier: optional
+    difficulty: 3
+    note: >
+      His break with revolutionary Marxism, in which he "sharply criticized Sartre for
+      'ultrabolshevism'" (SEP §1).
+
+  - id: signs
+    title: Signs
+    author: Maurice Merleau-Ponty
+    year: 1960
+    kind: primary
+    tier: extended
+    difficulty: 3
+    note: >
+      Essays on art, language, the history of philosophy and politics spanning more than a
+      decade, including "Indirect Language and the Voices of Silence" (SEP §1, §4).
+    after:
+      - work: sartre:what-is-literature
+        strength: context
+        why: >
+          "Indirect Language and the Voices of Silence" brings his view of language "into
+          conversation with Sartre's What is Literature?" and Malraux's Voices of Silence.
+        sources:
+          - source: sep-merleau-ponty
+            locator: "§4 Expression, Language, and Art"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+
+  - id: eye-mind
+    title: "\"Eye and Mind\""
+    author: Maurice Merleau-Ponty
+    year: 1961
+    kind: primary
+    tier: core
+    difficulty: 3
+    tier_note: >
+      Only the aesthetics course assigns it; courses on Merleau-Ponty mostly read the
+      Phenomenology alone. It is his last published essay and, with The Visible and the
+      Invisible, the way into the late philosophy.
+    note: >
+      His last published essay, on the ontological implications of painting. Sartre said
+      "Eye and Mind says all if one knows how to decipher it" (quoted in MSCP's course).
+    after:
+      - work: cezanne
+        strength: helpful
+        why: >
+          MSCP's course "tracks the progression" of his thought on art from "the more
+          phenomenological essay Cézanne's Doubt" to this final essay.
+        sources:
+          - source: mscp-daly-mp
+            locator: course description
+            verified: true
+            checked_in: Course page (Summer School 2014), accessed 2026-11
+
+  - id: visible-invisible
+    title: The Visible and the Invisible
+    author: Maurice Merleau-Ponty
+    year: 1964
+    kind: primary
+    tier: core
+    difficulty: 5
+    tier_note: >
+      No surveyed course assigns it. It stays core because the SEP counts its concepts of
+      "flesh" and "chiasm" among what "many consider to be his most fruitful philosophical
+      contributions".
+    note: >
+      The unfinished manuscript he was working on when he died in 1961, published
+      posthumously; it introduces "flesh" and "chiasm" (SEP §6).
+    after:
+      - work: phenomenology-perception
+        strength: helpful
+        why: >
+          It aims "to clarify the ontological implications of a phenomenology that would
+          self-critically account for its own limitations", reworking the earlier book.
+        sources:
+          - source: sep-merleau-ponty
+            locator: preamble; §6
+            verified: true
+            checked_in: SEP entry, accessed 2026-11

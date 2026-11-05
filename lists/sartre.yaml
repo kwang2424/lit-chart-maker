@@ -1,0 +1,273 @@
+id: sartre
+title: Jean-Paul Sartre
+group: thinkers
+sequence: 5
+born: 1905
+scope: >
+  Sartre's philosophical works from the 1930s phenomenological essays to the Critique of
+  Dialectical Reason, with the lecture that made existentialism famous and a few of the
+  novels, plays and biographies that carry his philosophy. His texts are in copyright,
+  so the evidence is the SEP and IEP and course syllabi.
+status: draft
+
+# Format: see the header of lists/nietzsche.yaml. Years are first French publication,
+# from the SEP bibliography.
+
+survey:
+  - source: syl-mcgill-375
+    starts_with: humanism
+    includes: [humanism, being-nothingness]
+    ordered: true
+    locator: schedule (Sept. 9 onwards; with Camus, Merleau-Ponty, Beauvoir and Fanon)
+    verified: true
+    checked_in: Course syllabus (PDF, Fall 2013), accessed 2026-11
+  - source: syl-bard-colony
+    starts_with: being-nothingness
+    includes: [being-nothingness, humanism, no-exit, nausea]
+    ordered: true
+    locator: "schedule, Apr. 2–18 (after Kierkegaard, Nietzsche and Heidegger)"
+    verified: true
+    checked_in: Course syllabus (PDF, Spring 2024), accessed 2026-11
+  - source: syl-uvic-311
+    starts_with: transcendence-ego
+    includes: [transcendence-ego, imaginary]
+    ordered: true
+    locator: schedule
+    verified: true
+    checked_in: Course outline (PDF, Spring 2017), accessed 2026-11
+  - source: syl-edinburgh-sartre
+    includes: [transcendence-ego, being-nothingness]
+    ordered: false
+    locator: reading list
+    verified: true
+    checked_in: Course catalogue entry (2026/27), accessed 2026-11
+
+works:
+
+  # ---------- Phenomenological beginnings ----------
+
+  - id: transcendence-ego
+    title: The Transcendence of the Ego
+    author: Jean-Paul Sartre
+    year: 1936
+    kind: primary
+    tier: core
+    difficulty: 3
+    translation: Brown (Routledge 2004); Williams and Kirkpatrick (Noonday 1957)
+    note: >
+      An essay against the "transcendental ego" of Husserl's Ideas, defending a realistic
+      reading of intentionality (SEP §2).
+    after:
+      - work: husserl:ideas-1
+        strength: helpful
+        why: >
+          It "engages in a much more critical way with the conception of the 'transcendental
+          ego' presented in Husserl's Ideas" and defends a realistic reading of intentionality.
+        sources:
+          - source: sep-sartre
+            locator: "§2 Transcendence of the Ego"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+
+  - id: imagination
+    title: The Imagination
+    author: Jean-Paul Sartre
+    year: 1936
+    kind: primary
+    tier: optional
+    difficulty: 3
+    translation: Williford and Rudrauf (Routledge)
+    note: One of his "earlier, psychologically motivated philosophical works" (SEP preamble).
+
+  - id: nausea
+    title: Nausea
+    author: Jean-Paul Sartre
+    year: 1938
+    kind: primary
+    tier: extended
+    difficulty: 2
+    translation: Baldick (Penguin)
+    note: His "great philosophical novel", written while he was working out his early philosophy (SEP §1).
+
+  - id: emotions
+    title: "The Emotions: Outline of a Theory"
+    author: Jean-Paul Sartre
+    year: 1939
+    kind: primary
+    tier: optional
+    difficulty: 2
+    note: Discussed by the SEP with The Imaginary as part of his phenomenological psychology (§3).
+
+  - id: imaginary
+    title: The Imaginary
+    author: Jean-Paul Sartre
+    year: 1940
+    kind: primary
+    tier: extended
+    difficulty: 4
+    translation: Webber (Routledge)
+    note: >
+      For many readers "one of the most rigorous and fruitful developments of his
+      Husserl-inspired phenomenological investigations" (SEP §3).
+    after:
+      - work: imagination
+        strength: helpful
+        why: The SEP calls The Imaginary the "sequel" to Imagination (1936).
+        sources:
+          - source: sep-sartre
+            locator: preamble
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+
+  # ---------- Existentialism ----------
+
+  - id: being-nothingness
+    title: "Being and Nothingness: An Essay on Phenomenological Ontology"
+    author: Jean-Paul Sartre
+    year: 1943
+    kind: primary
+    tier: core
+    difficulty: 5
+    translation: Barnes (1956); Richmond (Routledge 2018)
+    note: >
+      Being-for-itself and being-in-itself, negation and freedom, bad faith, the look of the
+      other, and existential psychoanalysis. Long and difficult; courses read selected
+      sections (McGill: negation, anguish, bad faith, freedom, the look).
+    after:
+      - work: transcendence-ego
+        strength: helpful
+        why: >
+          UVic's course reads The Transcendence of the Ego and The Imaginary as the early
+          account of consciousness that "appeared a few years later in Being and Nothingness".
+        sources:
+          - source: syl-uvic-311
+            locator: course description
+            verified: true
+            checked_in: Course outline (PDF, Spring 2017), accessed 2026-11
+      - work: heidegger:being-and-time
+        strength: context
+        why: >
+          Its "human reality" is "his gloss on Heidegger's conception of Dasein", and its account
+          of nothingness answers Heidegger's.
+        sources:
+          - source: sep-sartre
+            locator: "§4.1 Negation and Freedom"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+      - work: hegel:phenomenology
+        strength: context
+        why: >
+          Its chapter on concrete relations with others is "essentially a restatement of the
+          'master-slave' stage of Hegel's struggle for recognition without the possibility of
+          its overcoming".
+        sources:
+          - source: sep-sartre
+            locator: "§4.3 The Look, Shame and Intersubjectivity"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+
+  - id: humanism
+    title: Existentialism Is a Humanism
+    author: Jean-Paul Sartre
+    year: 1946
+    kind: primary
+    tier: core
+    difficulty: 1
+    translation: Macomber (Yale)
+    note: >
+      The packed public lecture of late 1945, published 1946, which also answered Marxist and
+      Christian critics of "existentialism".
+    start_here:
+      why: >
+        The SEP: the lecture "offered an accessible version of his difficult treatise, Being
+        and Nothingness". McGill's existentialism course opens with it.
+      sources:
+        - source: sep-sartre
+          locator: preamble
+          verified: true
+          checked_in: SEP entry, accessed 2026-11
+        - source: syl-mcgill-375
+          locator: "schedule, Sept. 9–11"
+          verified: true
+          checked_in: Course syllabus (PDF, Fall 2013), accessed 2026-11
+
+  - id: anti-semite
+    title: Anti-Semite and Jew
+    author: Jean-Paul Sartre
+    year: 1946
+    kind: primary
+    tier: optional
+    difficulty: 2
+    translation: Becker (Schocken)
+    note: An essay from the same post-war years (SEP §1).
+
+  - id: no-exit
+    title: No Exit
+    author: Jean-Paul Sartre
+    year: 1947
+    kind: primary
+    tier: optional
+    difficulty: 1
+    note: A play, first produced in 1944; Bard's course reads it after the Humanism lecture.
+
+  - id: what-is-literature
+    title: What Is Literature?
+    author: Jean-Paul Sartre
+    year: 1948
+    kind: primary
+    tier: optional
+    difficulty: 3
+    translation: Frechtman (Harvard)
+    note: Published in Les Temps modernes and collected in Situations II.
+
+  # ---------- Politics and Marxism ----------
+
+  - id: communists-peace
+    title: The Communists and Peace
+    author: Jean-Paul Sartre
+    year: 1952
+    kind: primary
+    tier: optional
+    difficulty: 3
+    note: Essays collected in Situations VI.
+
+  - id: critique-dialectical
+    title: "Critique of Dialectical Reason (with Search for a Method)"
+    author: Jean-Paul Sartre
+    year: 1960
+    kind: primary
+    tier: extended
+    difficulty: 5
+    note: >
+      His "existentialist Marxism": a massive two-volume work, with Search for a Method
+      setting out the progressive-regressive method (SEP §6, §5).
+    after:
+      - work: being-nothingness
+        strength: helpful
+        why: >
+          Its progressive-regressive method was "first sketched and experimented" in his
+          existential psychoanalysis, which Being and Nothingness introduces.
+        sources:
+          - source: sep-sartre
+            locator: "§5 Existential Psychoanalysis and the Fundamental Project"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+
+  - id: words
+    title: The Words
+    author: Jean-Paul Sartre
+    year: 1964
+    kind: primary
+    tier: optional
+    difficulty: 2
+    note: His account of his childhood, in which he applies his method of existential psychoanalysis to himself (SEP §1).
+
+  - id: family-idiot
+    title: The Family Idiot
+    author: Jean-Paul Sartre
+    year: 1971
+    kind: primary
+    tier: optional
+    position: end
+    difficulty: 5
+    note: His "multi-volume masterpiece on Flaubert", a work of existential psychoanalysis (SEP preamble, §5).

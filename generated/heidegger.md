@@ -39,7 +39,7 @@ We surveyed 6 independent sources (6 course syllabi and teaching lists) and reco
 - **William Blattner, Georgetown University, PHIL 521: Heidegger's Being and Time** [teaching]: Being and Time → The Basic Problems of Phenomenology. ✓ checked in Course syllabus, accessed 2026-11
 - **University of Windsor, Phil 470/570: Recent German Philosophy: Heidegger's Being and Time (Fall 2015)** [teaching]: "What Is Metaphysics?" → Being and Time → "On the Essence of Truth". ✓ checked in Course syllabus, accessed 2026-11
 - **Villanova University, Philosophy 8220: Heidegger's Being and Time (Fall 2014)** [teaching]: Being and Time. ✓ checked in Course web page, accessed 2026-11
-- **Tracy Colony, Bard College, PL318: The Thought of Martin Heidegger** [teaching]: Being and Time → "What Is Metaphysics?" → "On the Essence of Truth" → "The Origin of the Work of Art" → "The Age of the World Picture" → "Letter on Humanism" → "The Question Concerning Technology". ✓ checked in Course syllabus, accessed 2026-11
+- **Tracy Colony, Bard College Berlin, PL318: The Thought of Martin Heidegger** [teaching]: Being and Time → "What Is Metaphysics?" → "On the Essence of Truth" → "The Origin of the Work of Art" → "The Age of the World Picture" → "Letter on Humanism" → "The Question Concerning Technology". ✓ checked in Course syllabus, accessed 2026-11
 - **Melbourne School of Continental Philosophy, Fortunes of Philosophy: Heidegger on Art, Science, Technology, and Humanism** [teaching]: "The Origin of the Work of Art" → "The Age of the World Picture" → "The Question Concerning Technology" → "Letter on Humanism" → What Is Called Thinking? → "The End of Philosophy and the Task of Thinking". ✓ checked in Seminar web page, accessed 2026-11
 - **UC Berkeley, Department of Philosophy, Philosophy 190: seminar on Heidegger's later philosophy** [teaching]: "The Origin of the Work of Art", "The Question Concerning Technology". ✓ checked in Course web page, accessed 2026-11
 
@@ -77,7 +77,7 @@ The analysis of human existence (Dasein): being-in-the-world, care, death, authe
 - *Logical Investigations* (from the [Edmund Husserl list](husserl.md)) — *context*. Heidegger studied the Logical Investigations as a student and kept valuing it while he radically reinterpreted Husserl's phenomenology.
   - Internet Encyclopedia of Philosophy, *"Martin Heidegger (1889–1976)"*, §1 Life and Works [scholarly] ✓ checked in IEP online, accessed 2026-11
   - University of Oxford, Faculty of Philosophy, *Course Descriptions: Finals*, paper 113: Husserl's work 'serves to introduce one to phenomenology, the philosophical method later developed and refined by Heidegger' [teaching] ✓ checked in Course web page, accessed 2026-11
-  - Tracy Colony, Bard College, *PL318: The Thought of Martin Heidegger*, course description ("radicalization of Husserlian phenomenology") [teaching] ✓ checked in Course syllabus, accessed 2026-11
+  - Tracy Colony, Bard College Berlin, *PL318: The Thought of Martin Heidegger*, course description ("radicalization of Husserlian phenomenology") [teaching] ✓ checked in Course syllabus, accessed 2026-11
 - *Heidegger's Being and Time: A Reader's Guide* — *context*. Two of the surveyed courses recommend a reader's guide to read alongside it.
   - William Blattner, Georgetown University, *PHIL 521: Heidegger's Being and Time*, recommended texts [teaching] ✓ checked in Course syllabus, accessed 2026-11
   - University of Windsor, *Phil 470/570: Recent German Philosophy: Heidegger's Being and Time (Fall 2015)*, secondary texts [teaching] ✓ checked in Course syllabus, accessed 2026-11
@@ -327,6 +327,8 @@ graph TD
 - *Being and Time* → *The Human Condition* (Hannah Arendt) — context. Heidegger's phenomenology had "the greater... lasting influence upon Arendt's work", and one Arendt course opens with Being and Time.
 - *Being and Time* → *Difference and Repetition* (Gilles Deleuze) — context. Its history of how difference was subordinated to identity runs "from Plato (DR 59-63) to Heidegger (DR 64-6)".
 - *Being and Time* → *Of Grammatology* (Jacques Derrida) — context. "Deconstruction", the word all three 1967 books use for his project: "He seems to have appropriated the term from Heidegger's use of 'destruction' in Being and Time."
+- *Being and Time* → *Phenomenology of Perception* (Maurice Merleau-Ponty) — context. It reflects "his deepened engagement with other thinkers in this tradition, such as Eugen Fink and Martin Heidegger".
+- *Being and Time* → *Being and Nothingness: An Essay on Phenomenological Ontology* (Jean-Paul Sartre) — context. Its "human reality" is "his gloss on Heidegger's conception of Dasein", and its account of nothingness answers Heidegger's.
 
 ## Sources
 
@@ -336,7 +338,7 @@ graph TD
 - **[scholarly]** Stanford Encyclopedia of Philosophy, *"Martin Heidegger", Stanford Encyclopedia of Philosophy* — <https://plato.stanford.edu/entries/heidegger/>
 - **[teaching]** Melbourne School of Continental Philosophy, *Fortunes of Philosophy: Heidegger on Art, Science, Technology, and Humanism* — <https://mscp.org.au/past-courses/fortunes-of-philosophy-heidegger-on-art-science-technology-and-humanism>
 - **[teaching]** University of Oxford, Faculty of Philosophy, *Course Descriptions: Finals* — <https://www.philosophy.ox.ac.uk/course-descriptions-finals>
-- **[teaching]** Tracy Colony, Bard College, *PL318: The Thought of Martin Heidegger* — <https://tools.bard.edu/wwwmedia/files/7498724/44/PL318%20The%20Thought%20of%20Martin%20Heidegger%20T%20Colony.pdf>
+- **[teaching]** Tracy Colony, Bard College Berlin, *PL318: The Thought of Martin Heidegger* — <https://tools.bard.edu/wwwmedia/files/7498724/44/PL318%20The%20Thought%20of%20Martin%20Heidegger%20T%20Colony.pdf>
 - **[teaching]** UC Berkeley, Department of Philosophy, *Philosophy 190: seminar on Heidegger's later philosophy* — <https://philosophy.berkeley.edu/courses/detail/919>
 - **[teaching]** William Blattner, Georgetown University, *PHIL 521: Heidegger's Being and Time* — <https://faculty.georgetown.edu/blattnew/heid/phil-521-syllabus.pdf>
 - **[teaching]** Villanova University, *Philosophy 8220: Heidegger's Being and Time (Fall 2014)* — <https://heideggerbeingandtime.wordpress.com/2014/09/09/syllabus/>

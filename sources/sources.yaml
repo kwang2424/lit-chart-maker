@@ -204,7 +204,7 @@
 
 - id: syl-bard-pl320
   tier: 3
-  author: Tracy Colony, Bard College
+  author: Tracy Colony, Bard College Berlin
   title: "PL 320 Nietzsche: Philosophy at the Limit (Fall 2025)"
   url: https://tools.bard.edu/wwwmedia/resources/files/3076/PL%20320_F25_Syllabus_Colony.pdf
 
@@ -760,7 +760,7 @@
 
 - id: syl-bard-pl318
   tier: 3
-  author: Tracy Colony, Bard College
+  author: Tracy Colony, Bard College Berlin
   title: "PL318: The Thought of Martin Heidegger"
   url: https://tools.bard.edu/wwwmedia/files/7498724/44/PL318%20The%20Thought%20of%20Martin%20Heidegger%20T%20Colony.pdf
 
@@ -1347,3 +1347,65 @@
   author: Benjamin Wilck, Humboldt-Universität zu Berlin
   title: "Philosophy in Berlin: Educational Theory in the German Tradition (Spring 2022)"
   url: https://www2.hu-berlin.de/aia/hic/resources/hic/psa/documents/2022/Wilck_HPSA_syllabus_Spring2022.pdf
+
+# ---------- Sartre and Merleau-Ponty ----------
+
+- id: sep-sartre
+  tier: 2
+  author: Stanford Encyclopedia of Philosophy
+  title: '"Jean-Paul Sartre"'
+  url: https://plato.stanford.edu/entries/sartre/
+
+- id: sep-merleau-ponty
+  tier: 2
+  author: Stanford Encyclopedia of Philosophy
+  title: '"Maurice Merleau-Ponty"'
+  url: https://plato.stanford.edu/entries/merleau-ponty/
+
+- id: syl-mcgill-375
+  tier: 3
+  author: Noah Moss Brender, McGill University
+  title: "PHIL 375: Existentialism (Fall 2013)"
+  url: https://www.mcgill.ca/philosophy/files/philosophy/phil375_syllabus.pdf
+
+- id: syl-bard-colony
+  tier: 3
+  author: Tracy Colony, Bard College Berlin
+  title: "PL175: Introduction to Existentialism (Spring 2024)"
+  url: https://tools.bard.edu/wwwmedia/resources/files/1832/PL175_Spring%202024_Syllabus_Colony.pdf
+
+- id: syl-uvic-311
+  tier: 3
+  author: Allison Barnes, University of Victoria
+  title: "PHIL 311: Sartre's early philosophy (Spring 2017)"
+  url: https://uvic.ca/humanities/philosophy/assets/docs/courseoutlines/2017_spring/311%20Barnes1.pdf
+
+- id: syl-edinburgh-sartre
+  tier: 3
+  author: Berislav Marušić, University of Edinburgh
+  title: "PHIL10200: The Philosophy of Jean-Paul Sartre (2026/27)"
+  url: https://www.drps.ed.ac.uk/26-27/dpt/cxphil10200.htm
+
+- id: syl-berkeley-mp
+  tier: 3
+  author: Department of Philosophy, UC Berkeley
+  title: "Philosophy 290-3: Merleau-Ponty's Phenomenology of Perception (graduate seminar, Spring 2015)"
+  url: https://philosophy.berkeley.edu/courses/detail/826
+
+- id: syl-guelph-russon
+  tier: 3
+  author: John Russon, University of Guelph
+  title: "PHIL 6140: Continental Theory I (Fall 2010)"
+  url: https://www.uoguelph.ca/arts/sites/default/files/syllabus/F10_PHIL6140_russon_syllabus.pdf
+
+- id: syl-warwick-ph9ha
+  tier: 3
+  author: University of Warwick, Department of Philosophy
+  title: "PH9HA: Merleau-Ponty's Phenomenology (2024)"
+  url: https://courses.warwick.ac.uk/modules/2024/PH9HA-30.pdf
+
+- id: mscp-daly-mp
+  tier: 3
+  author: Anya Daly, Melbourne School of Continental Philosophy
+  title: "Merleau-Ponty: Aesthetics and Primordial Percipience (Summer School 2014)"
+  url: https://mscp.org.au/past-courses/merleau-ponty-aesthetics-and-primordial-percipience

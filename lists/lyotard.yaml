@@ -1,7 +1,7 @@
 id: lyotard
 title: Jean-François Lyotard
 group: thinkers
-sequence: 7
+sequence: 9
 born: 1924
 scope: >
   Lyotard's books from the 1954 Phenomenology to the unfinished Confession of
@@ -54,6 +54,16 @@ works:
       went through some ten editions. It then asks what phenomenology can say to the
       human sciences and to Marxism.
     after:
+      - work: merleau-ponty:phenomenology-perception
+        strength: context
+        why: >
+          In its second part, on phenomenology and the human sciences, "the focus shifts
+          from Husserl to the work of Maurice Merleau-Ponty".
+        sources:
+          - source: iep-lyotard
+            locator: "§2.a Phenomenology"
+            verified: true
+            checked_in: IEP entry, accessed 2026-11
       - work: husserl:ideas-1
         strength: context
         why: >
@@ -90,6 +100,16 @@ works:
       phenomenology, then through Freud (SEP §3.1, IEP §2.c). Translated into English
       only in 2011.
     after:
+      - work: merleau-ponty:phenomenology-perception
+        strength: context
+        why: >
+          It sets discourse against "the figural, that is, the visual, which he
+          discusses through the phenomenology of Merleau-Ponty".
+        sources:
+          - source: sep-lyotard
+            locator: "§3.1 The Limits of Representation"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
       - work: freud:interpretation-of-dreams
         strength: context
         why: >

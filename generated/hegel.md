@@ -199,6 +199,7 @@ graph TD
 - *Phenomenology of Spirit* → *Hegel's Phenomenology of Spirit (lecture course, 1930–31)* (Martin Heidegger) — required. It is a lecture course on Hegel's Phenomenology of Spirit.
 - *Elements of the Philosophy of Right* → *Contribution to the Critique of Hegel's Philosophy of Right: Introduction* (Karl Marx) — context. It is a critique of Hegel's Philosophy of Right, as its title says.
 - *Science of Logic* → *Capital, Volume 1* (Karl Marx) — context. He "openly avowed myself the pupil of that mighty thinker" Hegel, whose dialectic "is standing on its head. It must be turned right side up again."
+- *Phenomenology of Spirit* → *Being and Nothingness: An Essay on Phenomenological Ontology* (Jean-Paul Sartre) — context. Its chapter on concrete relations with others is "essentially a restatement of the 'master-slave' stage of Hegel's struggle for recognition without the possibility of its overcoming".
 
 ## Sources
 

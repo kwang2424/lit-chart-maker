@@ -170,6 +170,9 @@ graph TD
 - *Logical Investigations* → *Voice and Phenomenon (also translated as Speech and Phenomena)* (Jacques Derrida) — helpful. It reads Husserl's phenomenology; Oregon's course assigns Logical Investigations §§1–8 alongside its first chapters.
 - *Logical Investigations* → *Being and Time* (Martin Heidegger) — context. Heidegger studied the Logical Investigations as a student and kept valuing it while he radically reinterpreted Husserl's phenomenology.
 - *Ideas I (Ideas Pertaining to a Pure Phenomenology: General Introduction to Pure Phenomenology)* → *Phenomenology* (Jean-François Lyotard) — context. Its first part "introduces phenomenology through the work of Edmund Husserl"; the second turns to Merleau-Ponty.
+- *The Crisis of European Sciences and Transcendental Phenomenology: An Introduction to Phenomenological Philosophy* → *Phenomenology of Perception* (Maurice Merleau-Ponty) — context. It was "informed by his new familiarity with Husserl's unpublished manuscripts": in 1939 he was the first outside visitor to the Husserl Archives, reading "Ideen II and later sections of Die Krisis".
+- *Ideas II* → *Phenomenology of Perception* (Maurice Merleau-Ponty) — context. He read Husserl's unpublished Ideen II at the Archives in 1939, before writing it.
+- *Ideas I (Ideas Pertaining to a Pure Phenomenology: General Introduction to Pure Phenomenology)* → *The Transcendence of the Ego* (Jean-Paul Sartre) — helpful. It "engages in a much more critical way with the conception of the 'transcendental ego' presented in Husserl's Ideas" and defends a realistic reading of intentionality.
 
 ## Sources
 
