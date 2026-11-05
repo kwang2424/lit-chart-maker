@@ -40,7 +40,7 @@ We surveyed 8 independent sources (1 scholarly guide and 7 course syllabi and te
 
 **Sources surveyed**
 
-- **Tracy Colony, Bard College, PL 320 Nietzsche: Philosophy at the Limit (Fall 2025)** [teaching]: The Birth of Tragedy → On Truth and Lies in a Nonmoral Sense → Untimely Meditations → Human, All Too Human → Daybreak → The Gay Science → Thus Spoke Zarathustra → Beyond Good and Evil → On the Genealogy of Morality → Twilight of the Idols → The Antichrist → Ecce Homo. ✓ checked in Course syllabus (PDF), accessed 2026-11
+- **Tracy Colony, Bard College Berlin, PL 320 Nietzsche: Philosophy at the Limit (Fall 2025)** [teaching]: The Birth of Tragedy → On Truth and Lies in a Nonmoral Sense → Untimely Meditations → Human, All Too Human → Daybreak → The Gay Science → Thus Spoke Zarathustra → Beyond Good and Evil → On the Genealogy of Morality → Twilight of the Idols → The Antichrist → Ecce Homo. ✓ checked in Course syllabus (PDF), accessed 2026-11
 - **University of Maryland, Baltimore County, Philosophy 452: Nietzsche (Spring 2016)** [teaching]: Daybreak → The Gay Science → Beyond Good and Evil → On the Genealogy of Morality → Thus Spoke Zarathustra. ✓ checked in Course syllabus (PDF), accessed 2026-11
 - **Western University, Department of Philosophy, Philosophy 3030G: Nietzsche (2023–24)** [teaching]: The Birth of Tragedy, On the Genealogy of Morality, Ecce Homo, The Gay Science, Beyond Good and Evil. ✓ checked in Course syllabus (PDF), accessed 2026-11
 - **Harvey Mudd College (Beckman), Phil 170: Nietzsche, schedule** [teaching]: The Birth of Tragedy → Untimely Meditations → The Case of Wagner (with Nietzsche contra Wagner) → The Gay Science → Thus Spoke Zarathustra → Beyond Good and Evil → On the Genealogy of Morality → Twilight of the Idols → The Antichrist → Ecce Homo. ✓ checked in Course web page, accessed 2026-11
@@ -397,7 +397,7 @@ graph TD
 - **[scholarly]** Brian Leiter, *Nietzsche on Morality (2nd ed.)*, Routledge, 2015
 - **[scholarly]** R. Lanier Anderson, *"Friedrich Nietzsche", Stanford Encyclopedia of Philosophy* — <https://plato.stanford.edu/entries/nietzsche/>
 - **[teaching]** University of Edinburgh, *PHIL10047: The Early Continentals: Hegel and Nietzsche, course guide (2017–18)* — <https://edwebcontent.ed.ac.uk/sites/default/files/atoms/files/the_early_continentals_course_guide_2017_18.pdf>
-- **[teaching]** Tracy Colony, Bard College, *PL 320 Nietzsche: Philosophy at the Limit (Fall 2025)* — <https://tools.bard.edu/wwwmedia/resources/files/3076/PL%20320_F25_Syllabus_Colony.pdf>
+- **[teaching]** Tracy Colony, Bard College Berlin, *PL 320 Nietzsche: Philosophy at the Limit (Fall 2025)* — <https://tools.bard.edu/wwwmedia/resources/files/3076/PL%20320_F25_Syllabus_Colony.pdf>
 - **[teaching]** David Wellbery, University of Chicago, *Nietzsche: Culture, Critique, Self-Transcendence (Winter 2018)* — <https://humanities-web.s3.us-east-2.amazonaws.com/college-prod/s3fs-public/documents/signature-courses/Wellbery%20Nietzsche%20Syllabus.pdf>
 - **[teaching]** Harvey Mudd College (Beckman), *Phil 170: Nietzsche, schedule* — <https://pages.hmc.edu/beckman/philosophy/Nietzsche/sch170.htm>
 - **[teaching]** University of Maryland, Baltimore County, *Philosophy 452: Nietzsche (Spring 2016)* — <https://ugc.umbc.edu/wp-content/uploads/sites/232/2017/02/PHIL485Nietzsche-syllabus-1.pdf>
