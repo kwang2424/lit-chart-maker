@@ -51,7 +51,7 @@ push to `main`, `.github/workflows/pages.yml` publishes it to GitHub Pages.
 Every book has a **Find it** panel. When opened, the reader's browser checks Open Library
 (read free or borrow online) and the e-book and audiobook copies at their chosen library
 through Libby (NYPL and other large systems, or any Libby library code), and links to
-WorldCat for libraries nearby; for NYPL it also links the branch and research catalogues.
+WorldCat for libraries nearby; for NYPL, Brooklyn and Boston it also links their print catalogues.
 Each book's Open Library record is matched by `python tools/openlibrary.py` and kept,
 for review, in `sources/openlibrary.yaml`; print availability at a local branch isn't
 shown, because library catalogues don't offer it to other sites.
