@@ -113,7 +113,7 @@ works:
           - source: plato-euthyphro-text
             locator: scene heading; Jowett's introduction
             verified: true
-            checked_in: Jowett trans., Project Gutenberg #1642
+            checked_in: "Jowett trans., Project Gutenberg #1642"
 
   - id: crito
     title: Crito
@@ -128,13 +128,13 @@ works:
       - work: apology
         strength: helpful
         why: >
-          It is set in prison after the trial, while Socrates waits for "the ship
-          from Delos" whose return means his execution.
+          It is set in prison after the trial, while Socrates waits for the ship from
+          Delos whose return means his execution.
         sources:
           - source: plato-crito-text
             locator: opening exchange; Jowett's introduction (on the trial)
             verified: true
-            checked_in: Jowett trans., Project Gutenberg #1657
+            checked_in: "Jowett trans., Project Gutenberg #1657"
 
   - id: phaedo
     title: Phaedo
@@ -153,7 +153,7 @@ works:
           - source: plato-phaedo-text
             locator: opening (the ship to Delos) and ending
             verified: true
-            checked_in: Jowett trans., Project Gutenberg #1658
+            checked_in: "Jowett trans., Project Gutenberg #1658"
 
   # ---------- Socratic questioning ----------
 
@@ -227,7 +227,7 @@ works:
           - source: plato-republic-text
             locator: Book VII opening; Book X
             verified: true
-            checked_in: Jowett trans., Project Gutenberg #1497
+            checked_in: "Jowett trans., Project Gutenberg #1497"
 
   - id: phaedrus
     title: Phaedrus
@@ -254,7 +254,7 @@ works:
           - source: plato-theaetetus-text
             locator: closing lines
             verified: true
-            checked_in: Jowett trans., Project Gutenberg #1726
+            checked_in: "Jowett trans., Project Gutenberg #1726"
 
   - id: parmenides
     title: Parmenides
@@ -279,7 +279,7 @@ works:
           - source: plato-sophist-text
             locator: opening line
             verified: true
-            checked_in: Jowett trans., Project Gutenberg #1735
+            checked_in: "Jowett trans., Project Gutenberg #1735"
       - work: parmenides
         strength: context
         why: The SEP suggests Plato signals that the lessons of the Parmenides should be brought to bear on the Sophist.

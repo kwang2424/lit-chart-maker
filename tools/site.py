@@ -14,6 +14,7 @@ from pathlib import Path
 
 import build as b
 import chart
+import citations
 import connections
 import graph
 import consensus
@@ -89,7 +90,7 @@ ul.links li { margin: 6px 0; }
 .strength { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); }
 details.src summary { cursor: pointer; font-size: 0.85rem; color: var(--muted); }
 ul.cites { font-size: 0.85rem; padding-left: 1.1em; }
-.ok { color: var(--ok); } .warn { color: var(--warn); }
+.ok { color: var(--ok); } .warn { color: var(--warn); } .ai { color: var(--ext-edge); }
 .hidden { display: none; }
 footer { margin-top: 48px; font-size: 0.85rem; }
 ul.consensus { list-style: none; padding: 0; margin: 12px 0; }
@@ -160,15 +161,6 @@ Spot a mistake? <a href="{REPO_URL}/blob/main/CONTRIBUTING.md">Help fix it</a>.<
 """
 
 
-def stats(data: dict) -> tuple[int, int]:
-    claims = [l for w in data["works"] for l in (w.get("after") or [])]
-    claims += [w["start_here"] for w in data["works"] if w.get("start_here")]
-    claims += [t for w in data["works"] for t in (w.get("tips") or [])]
-    cites = [c for cl in claims for c in (cl.get("sources") or [])]
-    cites += list(data.get("survey") or [])
-    return sum(1 for c in cites if c.get("verified")), len(cites)
-
-
 def cite_html(c: dict, sources: dict) -> str:
     s = sources[c["source"]]
     title = escape(s["title"])
@@ -177,11 +169,7 @@ def cite_html(c: dict, sources: dict) -> str:
     text = f"{escape(s.get('author', ''))}, <em>{title}</em>".lstrip(", ")
     if c.get("locator"):
         text += f", {escape(str(c['locator']))}"
-    text += f' <span class="muted">[{b.SOURCE_TIER_NAMES[s["tier"]]}]</span>'
-    if c.get("verified"):
-        text += f' <span class="ok">✓ checked in {escape(c["checked_in"])}</span>'
-    else:
-        text += ' <span class="warn">⚠ not yet verified</span>'
+    text += f' <span class="muted">[{b.SOURCE_TIER_NAMES[s["tier"]]}]</span> {citations.mark_html(c)}'
     return f"<li>{text}</li>"
 
 
@@ -196,7 +184,6 @@ def list_page(data: dict, lists: dict, sources: dict) -> str:
     by_id = {w["id"]: w for w in data["works"]}
     core_order, full_order = b.compute_order(data)
     num = {n: i + 1 for i, n in enumerate(full_order)}
-    done, total = stats(data)
     in_graph = graph.linked(lists)
 
     def ref_html(ref: str) -> str:
@@ -209,7 +196,7 @@ def list_page(data: dict, lists: dict, sources: dict) -> str:
     h = [
         f"<h1>{escape(data['title'])}</h1>",
         f'<p class="sans meta muted"><span class="badge">{escape(data["status"])}</span>'
-        f"{len(full_order)} works · {done}/{total} citations checked</p>",
+        f"{len(full_order)} works · {escape(citations.summary(data))}</p>",
         f"<p>{escape(data['scope'].strip())}</p>",
         '<details class="chart-box" open><summary class="sans meta">Chart</summary>',
         f'<p><a href="{lid}.svg"><img class="chart" src="{lid}.svg" alt="Reading chart for {escape(data["title"])}"></a></p>',
@@ -285,12 +272,12 @@ def index_page(lists: dict) -> str:
 
     def card(lid, data):
         core, full = b.compute_order(data)
-        done, total = stats(data)
+        n = citations.counts(data)
         first = next((w for w in data["works"] if w["id"] == core[0]), None) if core else None
         return (
             f'<a class="card" href="{lid}.html"><h3>{escape(data["title"])}</h3>'
             f'<div class="sans meta muted"><span class="badge">{escape(data["status"])}</span>'
-            f"{len(full)} works · {done}/{total} citations checked</div>"
+            f"{len(full)} works · {n['total']} citations, {n['reviewed']} reviewed by a person</div>"
             + (f'<p class="meta">Start with <em>{escape(first["title"])}</em></p>' if first else "")
             + "</a>"
         )
@@ -313,8 +300,11 @@ def index_page(lists: dict) -> str:
         "<p>Each list records links between books: <strong>required</strong> (the later book doesn't make "
         "sense without the earlier one), <strong>helpful</strong>, or <strong>context</strong>. The order is "
         "computed from those links, so it can't contradict itself. Sources are ranked: the author's own words, "
-        "scholarly guides, university syllabi and teaching lists, then community lists. A citation counts as checked only "
-        "once someone has looked it up in a named edition.</p>"
+        "scholarly guides, university syllabi and teaching lists, then community lists.</p>"
+        "<p>Every citation names the edition its passage was checked in. That checking was done by Claude, "
+        "an AI, which read each passage and recorded where; each citation also says whether a person has "
+        "reviewed it yet. A list is marked <em>reviewed</em> only once people have checked all of it, and "
+        f'anyone can help: see <a href="{REPO_URL}/blob/main/CONTRIBUTING.md">how to review a citation</a>.</p>'
     )
     return page("Reading Orders", "\n".join(h))
 

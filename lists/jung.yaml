@@ -127,7 +127,7 @@ works:
           - source: jung-theory-psa-text
             locator: Introduction
             verified: true
-            checked_in: English trans. (1915), Project Gutenberg #66041
+            checked_in: "English trans. (1915), Project Gutenberg #66041"
 
   - id: symbols-transformation
     title: Symbols of Transformation (first published as Psychology of the Unconscious)
@@ -150,7 +150,7 @@ works:
           - source: jung-psy-unconscious-text
             locator: "Chapter III (The Hymn of Creation)"
             verified: true
-            checked_in: Hinkle trans. (1916), Project Gutenberg #65903
+            checked_in: "Hinkle trans. (1916), Project Gutenberg #65903"
       - work: freud:interpretation-of-dreams
         strength: helpful
         why: >
@@ -164,7 +164,7 @@ works:
           - source: hinkle-intro
             locator: Introduction (on libido)
             verified: true
-            checked_in: Hinkle trans. (1916), Project Gutenberg #65903
+            checked_in: "Hinkle trans. (1916), Project Gutenberg #65903"
 
   # ---------- Core ideas ----------
 

@@ -80,7 +80,7 @@ works:
           - source: descartes-discourse-text
             locator: "Prefatory Note by the Author"
             verified: true
-            checked_in: Veitch trans., Project Gutenberg #59
+            checked_in: "Veitch trans., Project Gutenberg #59"
 
   - id: essays-1637
     title: "Optics, Geometry and Meteorology (the essays of 1637)"
@@ -100,7 +100,7 @@ works:
           - source: descartes-principles-text
             locator: "Author's Letter (Preface)"
             verified: true
-            checked_in: Veitch trans., Project Gutenberg #4391
+            checked_in: "Veitch trans., Project Gutenberg #4391"
 
   # ---------- First philosophy ----------
 
@@ -127,7 +127,7 @@ works:
           - source: descartes-principles-text
             locator: "Author's Letter (Preface)"
             verified: true
-            checked_in: Veitch trans., Project Gutenberg #4391
+            checked_in: "Veitch trans., Project Gutenberg #4391"
 
   - id: objections-replies
     title: Objections and Replies
@@ -170,18 +170,19 @@ works:
           - source: descartes-principles-text
             locator: "Author's Letter (Preface)"
             verified: true
-            checked_in: Veitch trans., Project Gutenberg #4391
+            checked_in: "Veitch trans., Project Gutenberg #4391"
     after:
       - work: meditations
         strength: required
         why: >
-          Descartes: for Part One "to be properly understood, it will be necessary to read
-          beforehand the book of Meditations I wrote on the same subject".
+          Descartes on Part One: "that this part accordingly may be properly understood, it
+          will be necessary to read beforehand the book of Meditations I wrote on the same
+          subject".
         sources:
           - source: descartes-principles-text
             locator: "Author's Letter (Preface)"
             verified: true
-            checked_in: Veitch trans., Project Gutenberg #4391
+            checked_in: "Veitch trans., Project Gutenberg #4391"
 
   # ---------- Mind, body and the passions ----------
 

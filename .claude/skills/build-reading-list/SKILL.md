@@ -77,8 +77,15 @@ some publishers). Don't try to get around that; use another source or say it's m
 ## Rules that keep the data honest
 
 - `verified: true` only after you've read the passage yourself, with `checked_in`
-  naming the edition (e.g. `Jowett trans., Project Gutenberg #1658`). If you can only
-  reach a secondary quotation, cite the secondary source, not the primary as verified.
+  naming the edition (e.g. `"Jowett trans., Project Gutenberg #1658"`, quoted: in YAML
+  an unquoted ` #` starts a comment and the number is lost). If you can only reach a
+  secondary quotation, cite the secondary source, not the primary as verified.
+- Never add `reviewed_by`: it records a person's review. Pages show your checks as
+  "checked by Claude (AI)", and a list can't be marked `reviewed` until people have
+  checked every citation.
+- Quote exactly, in the wording of the edition named in `checked_in`; mark cuts with
+  "…". If you translate, put the original in quotes and the translation outside them.
+  `python tools/recheck.py --list <id>` fetches the sources and confirms every quote.
 - `required` links and `start_here` need a tier 1 or 2 source; the validator enforces this.
 - Notes are descriptive. Cut any claim in a note you haven't checked ("his best work",
   "the source of Deleuze's X"). This is the most common slip.
@@ -114,6 +121,7 @@ weaker source only when nothing better covers the same ground.
 
 ```sh
 python -I .claude/skills/build-reading-list/scripts/quote_colons.py lists/<id>.yaml  # YAML-safe values
+python tools/recheck.py --list <id>  # every quote is really in its cited source
 python tools/build.py              # validate + regenerate generated/; aim for 0 warnings
 python -m unittest discover tools
 node tools/png.js                  # chart PNGs (Playwright)

@@ -118,7 +118,7 @@ works:
           - source: rousseau-inequality-text
             locator: Part I
             verified: true
-            checked_in: Project Gutenberg #11136
+            checked_in: "Project Gutenberg #11136"
 
   - id: political-economy
     title: Discourse on Political Economy
@@ -194,7 +194,7 @@ works:
           - source: cole-rousseau-intro
             locator: Introduction
             verified: true
-            checked_in: Project Gutenberg #46333
+            checked_in: "Project Gutenberg #46333"
       - work: hobbes:leviathan
         strength: context
         why: >
@@ -205,7 +205,7 @@ works:
           - source: rousseau-social-contract-text
             locator: "Book I, ch. 2"
             verified: true
-            checked_in: Cole trans., Project Gutenberg #46333
+            checked_in: "Cole trans., Project Gutenberg #46333"
           - source: sep-rousseau
             locator: "§3.3"
             verified: true
@@ -219,7 +219,7 @@ works:
           - source: rousseau-social-contract-text
             locator: "Book III, ch. 6"
             verified: true
-            checked_in: Cole trans., Project Gutenberg #46333
+            checked_in: "Cole trans., Project Gutenberg #46333"
       - work: aristotle:politics
         strength: context
         why: >
@@ -229,7 +229,7 @@ works:
           - source: rousseau-social-contract-text
             locator: "Book I, ch. 2"
             verified: true
-            checked_in: Cole trans., Project Gutenberg #46333
+            checked_in: "Cole trans., Project Gutenberg #46333"
 
   - id: emile
     title: Emile, or On Education
@@ -254,7 +254,7 @@ works:
           - source: rousseau-emile-text
             locator: "Book V, footnote to the summary of political principles"
             verified: true
-            checked_in: Foxley trans., Project Gutenberg #5427
+            checked_in: "Foxley trans., Project Gutenberg #5427"
 
   # ---------- Later and autobiographical writings ----------
 

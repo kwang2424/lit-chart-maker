@@ -1,0 +1,14 @@
+# Quotes the re-checker can't match for a known reason, though they are correct.
+# Each entry needs the claim (as recheck.py prints it), the quote, and why it can't match.
+
+- where: "fichte:foundation -> kant:kant-cpr"
+  quote: "Kant's celebrated question, which he placed at the head of his Critic of Pure Reason, How are synthetical judgments à priori possible? has now been answered."
+  reason: The archive.org scan's OCR text drops the "à"; the printed page has it.
+
+- where: "heidegger:early-greek-thinking -> presocratics"
+  quote: "Aletheia (Heraclitus, Fragment B 16)"
+  reason: The IEP's bibliography misspells it "Heraclius"; the quote gives the English title correctly.
+
+- where: "schopenhauer:wwr -> fourfold-root"
+  quote: "introduction and propaedeutic"
+  reason: Project Gutenberg's transcription spells the printed "propædeutic" as "propadeutic".

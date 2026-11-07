@@ -107,7 +107,7 @@ works:
           - source: kant-prolegomena-text
             locator: Preface
             verified: true
-            checked_in: Carus trans. (Open Court, 1912), Project Gutenberg #52821
+            checked_in: "Carus trans. (Open Court, 1912), Project Gutenberg #52821"
           - source: oxford-finals
             locator: "paper 112 (recommended: paper 101, Early Modern Philosophy)"
             verified: true
@@ -120,7 +120,7 @@ works:
         - source: kant-prolegomena-text
           locator: Preface
           verified: true
-          checked_in: Carus trans. (Open Court, 1912), Project Gutenberg #52821
+          checked_in: "Carus trans. (Open Court, 1912), Project Gutenberg #52821"
     tips:
       - text: >
           One course calls it Kant's "textbook version" of the Critique, and pairs each
@@ -153,18 +153,18 @@ works:
           - source: kant-cpr-text
             locator: "Transcendental Analytic, §10 (Table of the Categories)"
             verified: true
-            checked_in: Meiklejohn trans., Project Gutenberg #4280
+            checked_in: "Meiklejohn trans., Project Gutenberg #4280"
       - work: descartes:meditations
         strength: context
         why: >
           The Refutation of Idealism answers "the problematical idealism of Descartes,
-          who admits the undoubted certainty of only one empirical assertion, to wit, 'I
-          am'".
+          who admits the undoubted certainty of only one empirical assertion (assertio), to
+          wit, 'I am'".
         sources:
           - source: kant-cpr-text
             locator: "Refutation of Idealism (B 274)"
             verified: true
-            checked_in: Meiklejohn trans., Project Gutenberg #4280
+            checked_in: "Meiklejohn trans., Project Gutenberg #4280"
       - work: plato:republic
         strength: context
         why: >
@@ -175,7 +175,7 @@ works:
           - source: kant-cpr-text
             locator: "Transcendental Dialectic, Book I, Section I, \"Of Ideas in General\""
             verified: true
-            checked_in: Meiklejohn trans., Project Gutenberg #4280
+            checked_in: "Meiklejohn trans., Project Gutenberg #4280"
       - work: gardner-cpr
         strength: context
         why: >
@@ -203,7 +203,7 @@ works:
           - source: kant-prolegomena-text
             locator: Preface
             verified: true
-            checked_in: Carus trans. (Open Court, 1912), Project Gutenberg #52821
+            checked_in: "Carus trans. (Open Court, 1912), Project Gutenberg #52821"
 
   - id: gardner-cpr
     title: Routledge Philosophy Guidebook to Kant and the Critique of Pure Reason
@@ -268,7 +268,7 @@ works:
           - source: kant-cprr-text
             locator: Preface
             verified: true
-            checked_in: Abbott trans., Project Gutenberg #5683
+            checked_in: "Abbott trans., Project Gutenberg #5683"
 
   - id: metaphysics-of-morals
     title: The Metaphysics of Morals
@@ -288,7 +288,7 @@ works:
           - source: kant-groundwork-text
             locator: Preface
             verified: true
-            checked_in: Abbott trans., Project Gutenberg #5682
+            checked_in: "Abbott trans., Project Gutenberg #5682"
 
   # ---------- Judgement and later essays ----------
 
@@ -310,7 +310,7 @@ works:
           - source: kant-cj-text
             locator: Preface
             verified: true
-            checked_in: Bernard trans., Project Gutenberg #48433
+            checked_in: "Bernard trans., Project Gutenberg #48433"
       - work: cprr
         strength: context
         why: It is meant to bridge the "gulf" between the theoretical and practical parts of his system.
