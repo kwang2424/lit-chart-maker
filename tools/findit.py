@@ -8,7 +8,7 @@ When a reader opens "Find it", the page script checks, from their browser:
   - Open Library: whether the book can be read free or borrowed online
   - Libby (OverDrive): e-book and audiobook availability at the reader's chosen library
     (NYPL and other large systems listed below, or any Libby library code)
-and, for NYPL, links to the branch and research catalogues. Nothing is sent anywhere
+and, for NYPL, Brooklyn and Boston, links to their print catalogues. Nothing is sent anywhere
 except those public catalogue searches; the chosen library is kept in the browser.
 """
 
@@ -126,11 +126,20 @@ JS = r"""
       }).catch(function () { return '<li class="muted">Couldn\'t reach Libby · <a href="' + link + '">search Libby</a></li>'; });
   }
 
+  // Print catalogues (links only: these catalogues don't let other sites read their copy counts).
+  var PRINT = {
+    nypl: ['NYPL print', [['branch catalogue', 'https://borrow.nypl.org/search?query={q}&searchType=everything'],
+                          ['research libraries', 'https://www.nypl.org/research/research-catalog/search?q={q}']]],
+    brooklyn: ['Brooklyn print', [['catalogue', 'https://borrow.bklynlibrary.org/search?query={q}&searchType=everything']]],
+    bpl: ['Boston print', [['catalogue', 'https://bpl.bibliocommons.com/v2/search?query={q}&searchType=smart']]]
+  };
   function nypl(b, code) {
-    if (code !== 'nypl') return '';
+    var pc = PRINT[code];
+    if (!pc) return '';
     var q = encodeURIComponent(b.t + (b.a ? ' ' + b.a : ''));
-    return '<li>NYPL print: <a href="https://borrow.nypl.org/search?query=' + q + '&searchType=everything">branch catalogue</a>' +
-      ' · <a href="https://www.nypl.org/research/research-catalog/search?q=' + q + '">research libraries</a></li>';
+    return '<li>' + pc[0] + ': ' + pc[1].map(function (l) {
+      return '<a href="' + l[1].replace('{q}', q) + '">' + l[0] + '</a>';
+    }).join(' · ') + '</li>';
   }
 
   function picker(code) {
