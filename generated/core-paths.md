@@ -18,6 +18,8 @@
 - **Edmund Husserl:** Cartesian Meditations: An Introduction to Phenomenology → Logical Investigations → Ideas I (Ideas Pertaining to a Pure Phenomenology: General Introduction to Pure Phenomenology) → The Crisis of European Sciences and Transcendental Phenomenology: An Introduction to Phenomenological Philosophy
 - **C. G. Jung:** Memories, Dreams, Reflections → Psychological Types → Two Essays on Analytical Psychology → The Archetypes and the Collective Unconscious
 - **Immanuel Kant:** Prolegomena to Any Future Metaphysics → Critique of Pure Reason → Groundwork of the Metaphysics of Morals
+- **Søren Kierkegaard:** Either/Or: A Fragment of Life → Fear and Trembling: A Dialectical Lyric → Concluding Unscientific Postscript to Philosophical Fragments → The Sickness Unto Death
+- **John Locke:** An Essay Concerning Human Understanding → Second Treatise of Government
 - **Jean-François Lyotard:** The Postmodern Condition: A Report on Knowledge → The Differend: Phrases in Dispute → The Inhuman: Reflections on Time
 - **Niccolò Machiavelli:** The Prince → Discourses on Livy
 - **Karl Marx:** Manifesto of the Communist Party → "Theses on Feuerbach" → Contribution to the Critique of Hegel's Philosophy of Right: Introduction → Preface to A Contribution to the Critique of Political Economy → The German Ideology (Part I, "Feuerbach") → Economic and Philosophic Manuscripts of 1844 → Capital, Volume 1

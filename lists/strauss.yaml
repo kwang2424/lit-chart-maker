@@ -183,6 +183,17 @@ works:
             verified: true
             checked_in: Exam reading list (PDF), accessed 2026-11
     after:
+      - work: locke:second-treatise
+        strength: context
+        why: >
+          The SEP: "Leo Strauss (1953), and many of his followers, take rights to be
+          paramount, going so far as to portray Locke's position as essentially similar
+          to that of Hobbes."
+        sources:
+          - source: sep-locke-political
+            locator: "§1 Natural Law and Natural Rights"
+            verified: true
+            checked_in: "SEP entry, accessed 2026-11"
       - work: hobbes:leviathan
         strength: context
         why: >

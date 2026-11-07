@@ -1491,3 +1491,91 @@
   author: Michelle Schwarze, University of Wisconsin–Madison
   title: "PS 931: Rousseau on Education (Spring 2020, draft)"
   url: https://cems.wisc.edu/wp-content/uploads/sites/1040/2019/11/PS931-Syllabus-Version1.pdf
+
+# ---------- Locke ----------
+
+- id: locke-essay-text
+  tier: 1
+  author: John Locke
+  title: An Essay Concerning Human Understanding ("The Epistle to the Reader"; Book IV)
+  year: 1689
+
+- id: locke-second-treatise-text
+  tier: 1
+  author: John Locke
+  title: Second Treatise of Government (Preface and ch. I)
+  year: 1689
+
+- id: sep-locke
+  tier: 2
+  author: Stanford Encyclopedia of Philosophy
+  title: '"John Locke"'
+  url: https://plato.stanford.edu/entries/locke/
+
+- id: sep-locke-political
+  tier: 2
+  author: Stanford Encyclopedia of Philosophy
+  title: '"Locke''s Political Philosophy"'
+  url: https://plato.stanford.edu/entries/locke-political/
+
+- id: iep-locke
+  tier: 2
+  author: Internet Encyclopedia of Philosophy
+  title: '"John Locke"'
+  url: https://iep.utm.edu/locke/
+
+- id: syl-ucsd-rickless-em
+  tier: 3
+  author: Samuel C. Rickless, UC San Diego
+  title: "PHIL 111: History of Philosophy—Early Modern (Winter 2024)"
+  url: https://hh-philosophy.ucsd.edu/_files/courses/24winter/Syllabus111-2024W.pdf
+
+- id: syl-uvic-young
+  tier: 3
+  author: James Young, University of Victoria
+  title: "PHIL 308: The British Empiricists (Fall 2025)"
+  url: https://www.uvic.ca/humanities/philosophy/assets/docs/james-young-phil-308-2025-syllabus.pdf
+
+- id: syl-uf-goldhaber
+  tier: 3
+  author: Chuck Goldhaber, University of Florida
+  title: "PHH 5406: Modern Philosophy II – The Empiricists: Reason, Passion, and Politics in Hobbes, Locke, and Hume (Spring 2025)"
+  url: https://phil.ufl.edu/wp-content/uploads/sites/145/2025/01/PHH5406-Modern-Philosophy-II-Syllabus-v1.0.pdf
+
+# ---------- Kierkegaard ----------
+
+- id: sep-kierkegaard
+  tier: 2
+  author: Stanford Encyclopedia of Philosophy
+  title: '"Søren Kierkegaard"'
+  url: https://plato.stanford.edu/entries/kierkegaard/
+
+- id: iep-kierkegaard
+  tier: 2
+  author: Internet Encyclopedia of Philosophy
+  title: '"Søren Kierkegaard (1813–1855)"'
+  url: https://iep.utm.edu/kierkega/
+
+- id: syl-ubc-kraal
+  tier: 3
+  author: Anders Kraal, University of British Columbia
+  title: "PHIL 385: Existentialism (Winter 2020, Term 2)"
+  url: https://phil.cms.arts.ubc.ca/wp-content/uploads/sites/19/2021/06/PHIL-385-002_Anders-Kraal_2021W2revised.pdf
+
+- id: syl-mcgill-digiovanni
+  tier: 3
+  author: George di Giovanni, McGill University
+  title: "RELG 495: Philosophy of Religion: Kierkegaard, the Pseudonymous Writings (2020)"
+  url: https://www.mcgill.ca/religiousstudies/files/religiousstudies/relg_495_syllabusphilosophy_of_religion.pdf
+
+- id: syl-ku-kierkegaard-2023
+  tier: 3
+  author: Faculty of Theology, University of Copenhagen
+  title: "Kierkegaard: The Individual in Modern Society (summer course 2023)"
+  url: https://teol.ku.dk/english/programmes/summer_courses/kierkegaard--the-individual-in-global-society/Kierkegaard_course_syllabus_summer_2023_FINAL.pdf
+
+- id: syl-msu-lotz
+  tier: 3
+  author: Christian Lotz, Michigan State University
+  title: "PHL 421: Kierkegaard and Continental Philosophy (Spring 2022)"
+  url: https://christianlotz.info/2021/12/02/spring-2022-phl-420-kierkegaard-and-continental-philosophy/

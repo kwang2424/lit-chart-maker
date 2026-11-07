@@ -251,6 +251,7 @@ graph TD
 - *Parmenides* → *Science of Logic* (G. W. F. Hegel) — context. In his lectures on the history of philosophy, the dialectic "familiar from the Phenomenology and the Logic, comes to fruition in Plato's dialogue Parmenides".
 - *Sophist* → *Plato's Sophist (lecture course, 1924–25)* (Martin Heidegger) — required. It is a lecture course on Plato's Sophist.
 - *Republic* → *Critique of Pure Reason* (Immanuel Kant) — context. The Transcendental Dialectic opens its account of "ideas" with Plato's use of the word, and defends "the Platonic Republic" against the charge of being idle "imaginary perfection".
+- *Meno* → *Philosophical Fragments* (Søren Kierkegaard) — context. It begins from "the Socratic view (understood very much in terms of Plato's Socrates)" that the truth can be found through "recollection", and seeks an alternative to it.
 - *Republic* → *The Prince* (Niccolò Machiavelli) — context. The SEP: "Machiavelli's critique of utopian philosophical schemes (such as those of Plato) challenges an entire tradition of political philosophy".
 - *Symposium* → *The Birth of Tragedy* (Friedrich Nietzsche) — context. Its picture of Socrates draws on Plato: it recalls him leaving "the symposium at break of day" and makes "the dying Socrates" the new Greek ideal.
 - *Republic* → *Beyond Good and Evil* (Friedrich Nietzsche) — context. The Preface calls "the most dangerous of errors hitherto" a "dogmatist error-- namely, Plato's invention of Pure Spirit and the Good in Itself", and the book the struggle against it.

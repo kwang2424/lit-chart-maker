@@ -1,7 +1,7 @@
 id: hume
 title: David Hume
 group: predecessors
-sequence: 7
+sequence: 8
 born: 1711
 scope: >
   Hume's philosophical works. Courses mostly teach the Treatise; Hume himself asked
@@ -70,6 +70,17 @@ works:
             verified: true
             checked_in: "Project Gutenberg #4705"
     after:
+      - work: locke:essay
+        strength: context
+        why: >
+          It recasts Locke's terms: "Perhaps I rather restore the word, idea, to its
+          original sense, from which Mr Locke had perverted it, in making it stand for
+          all our perceptions."
+        sources:
+          - source: hume-treatise-text
+            locator: "Book I, Part I, §1, note"
+            verified: true
+            checked_in: "Project Gutenberg #4705"
       - work: hobbes:elements-law
         strength: context
         why: >
@@ -153,6 +164,17 @@ works:
             verified: true
             checked_in: SEP online, accessed 2026-11
     after:
+      - work: locke:essay
+        strength: context
+        why: >
+          Its account of the idea of power answers Locke: "Mr. Locke, in his chapter of
+          power, says that, finding from experience, that there are several new
+          productions in nature…"
+        sources:
+          - source: hume-enquiry-text
+            locator: "Section VII, Part I, note"
+            verified: true
+            checked_in: "Selby-Bigge ed., Project Gutenberg #9662"
       - work: descartes:meditations
         strength: context
         why: >

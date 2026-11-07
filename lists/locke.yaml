@@ -1,0 +1,210 @@
+id: locke
+title: John Locke
+group: predecessors
+sequence: 6
+born: 1632
+scope: >
+  Locke's philosophical, political and religious works: the Essay Concerning Human
+  Understanding, the Two Treatises of Government and the Letter Concerning Toleration
+  (all 1689), and the later writings on education and religion. His economic papers are
+  left out. Courses split between the Essay (philosophy) and the Second Treatise
+  (politics), so the survey has two starting points.
+status: draft
+
+# Format: see the header of lists/nietzsche.yaml. Public-domain texts: the Essay
+# (Project Gutenberg #10615, #10616) and the Second Treatise with the Preface to the
+# Two Treatises (#7370). Years are first publication, from the SEP and IEP.
+
+survey:
+  - source: syl-ucsd-rickless-em
+    starts_with: essay
+    includes: [essay]
+    ordered: true
+    locator: "schedule, Feb. 5–14 (after Descartes, Spinoza and Leibniz)"
+    verified: true
+    checked_in: Course syllabus (PDF, Winter 2024), accessed 2026-11
+  - source: syl-uvic-young
+    starts_with: essay
+    includes: [essay]
+    ordered: true
+    locator: "schedule (Epistle to the Reader, then Book II, then Book IV)"
+    verified: true
+    checked_in: Course syllabus (PDF, Fall 2025), accessed 2026-11
+  - source: syl-uf-goldhaber
+    starts_with: essay
+    includes: [essay, second-treatise]
+    ordered: true
+    locator: "weeks 5–7 (after Hobbes)"
+    verified: true
+    checked_in: Course syllabus (PDF, Spring 2025), accessed 2026-11
+  - source: syl-yale-ds-hp-2023
+    starts_with: second-treatise
+    includes: [second-treatise]
+    ordered: true
+    locator: "weeks 3–4 (after Hobbes, before Rousseau)"
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: syl-ysu-pol3786
+    starts_with: second-treatise
+    includes: [second-treatise]
+    ordered: true
+    locator: "schedule, 10/19–11/2"
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+
+works:
+
+  # ---------- 1689 ----------
+
+  - id: essay
+    title: An Essay Concerning Human Understanding
+    author: John Locke
+    year: 1689
+    kind: primary
+    tier: core
+    difficulty: 4
+    translation: "English original; Nidditch's Clarendon edition is standard"
+    note: >
+      "One of the first great defenses of modern empiricism", concerned with "the limits
+      of human understanding" (SEP preamble). Book I argues that we have no innate
+      knowledge; Book II traces ideas to experience; Book III treats language; Book IV,
+      knowledge and probability (SEP §2; IEP §2). It grew out of a discussion among
+      friends at Exeter House and was finished in exile in Holland (SEP §1.2).
+    tips:
+      - text: >
+          Locke admits it is longer than it needs to be: "possibly it might be reduced to
+          a narrower compass than it is … But to confess the truth, I am now too lazy, or
+          too busy, to make it shorter." Courses read selections from Books I, II and IV;
+          Florida's uses an abridged edition.
+        sources:
+          - source: locke-essay-text
+            locator: The Epistle to the Reader
+            verified: true
+            checked_in: "Project Gutenberg #10615"
+      - text: >
+          Two of the courses surveyed open with The Epistle to the Reader, Locke's account
+          of how the book began in a discussion among "five or six friends".
+        sources:
+          - source: locke-essay-text
+            locator: The Epistle to the Reader
+            verified: true
+            checked_in: "Project Gutenberg #10615"
+          - source: syl-uvic-young
+            locator: first readings
+            verified: true
+            checked_in: Course syllabus (PDF, Fall 2025), accessed 2026-11
+          - source: syl-uf-goldhaber
+            locator: "week 5"
+            verified: true
+            checked_in: Course syllabus (PDF, Spring 2025), accessed 2026-11
+    after:
+      - work: descartes:meditations
+        strength: context
+        why: >
+          The SEP: "In writing An Essay Concerning Human Understanding Locke adopted
+          Descartes' 'way of ideas'", though it is "transformed so as to become an organic
+          part of Locke's philosophy".
+        sources:
+          - source: sep-locke
+            locator: "§1.1 Locke's Life up to His Meeting with Lord Ashley in 1666"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+
+  - id: first-treatise
+    title: First Treatise of Government
+    author: John Locke
+    year: 1689
+    kind: primary
+    tier: optional
+    difficulty: 3
+    note: >
+      A detailed critique of Robert Filmer's Patriarcha, a defence of divine-right
+      monarchy. The IEP: "now of primarily historical interest" (§4.a).
+
+  - id: second-treatise
+    title: Second Treatise of Government
+    author: John Locke
+    year: 1689
+    kind: primary
+    tier: core
+    difficulty: 2
+    translation: "English original; ed. Laslett (Cambridge) or Macpherson (Hackett)"
+    note: >
+      The state of nature, property, consent and the right to rebel: "sovereignty resides
+      in the people" (SEP preamble). Published anonymously with the First Treatise as
+      the Two Treatises of Government (SEP §1.3).
+    tips:
+      - text: >
+          It can be read on its own: chapter I opens by summing up what "the foregoing
+          discourse" (the First Treatise) had shown, and the Preface says what is lost
+          from the middle need not be missed.
+        sources:
+          - source: locke-second-treatise-text
+            locator: "Preface; ch. I, §1"
+            verified: true
+            checked_in: "Project Gutenberg #7370"
+    after:
+      - work: hobbes:leviathan
+        strength: context
+        why: >
+          The language of natural rights "gained prominence through the writings of
+          thinkers in the generation before Locke, such as Grotius and Hobbes". Yale's
+          Directed Studies and Florida's course read Locke straight after Hobbes.
+        sources:
+          - source: sep-locke-political
+            locator: "§1 Natural Law and Natural Rights"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+          - source: syl-yale-ds-hp-2023
+            locator: weeks 2–4
+            verified: true
+            checked_in: Course syllabus (PDF), accessed 2026-11
+
+  - id: letter-toleration
+    title: A Letter Concerning Toleration
+    author: John Locke
+    year: 1689
+    kind: primary
+    tier: extended
+    difficulty: 2
+    note: >
+      Written in Latin in exile in Holland and published anonymously in 1689 (IEP §1):
+      governments should be "much more tolerant of religious diversity than was common at
+      the time".
+
+  # ---------- Later works ----------
+
+  - id: thoughts-education
+    title: Some Thoughts Concerning Education
+    author: John Locke
+    year: 1693
+    kind: primary
+    tier: optional
+    difficulty: 1
+    note: >
+      Advice first given in letters to his friend Edward Clarke on the education of
+      Clarke's children (IEP §6). The SEP: with the Conduct of the Understanding it forms
+      "a nice bridge between An Essay Concerning Human Understanding and his political
+      works" (§3).
+
+  - id: reasonableness
+    title: The Reasonableness of Christianity
+    author: John Locke
+    year: 1695
+    kind: primary
+    tier: optional
+    difficulty: 2
+    note: >
+      His major work on theology, published anonymously; controversial for arguing that
+      many beliefs held necessary for Christians were not (IEP §1).
+
+  - id: conduct-understanding
+    title: Of the Conduct of the Understanding
+    author: John Locke
+    kind: primary
+    tier: optional
+    position: end
+    difficulty: 2
+    note: >
+      Begun as a chapter for the fourth edition of the Essay, it grew too long, was never
+      finished, and was published by his literary executors (SEP §3).

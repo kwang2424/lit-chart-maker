@@ -1,7 +1,7 @@
 id: rousseau
 title: Jean-Jacques Rousseau
 group: predecessors
-sequence: 8
+sequence: 9
 born: 1712
 scope: >
   Rousseau's philosophical and political works, from the two Discourses to the Social
@@ -98,6 +98,16 @@ works:
           verified: true
           checked_in: Course syllabus (PDF), accessed 2026-11
     after:
+      - work: locke:essay
+        strength: context
+        why: >
+          Part II invokes "the axiom of the wise Locke, Where there is no property,
+          there can be no injury", from the Essay (IV.iii.18).
+        sources:
+          - source: rousseau-inequality-text
+            locator: "Part II"
+            verified: true
+            checked_in: "Project Gutenberg #11136"
       - work: first-discourse
         strength: context
         why: >

@@ -1,7 +1,7 @@
 id: kant
 title: Immanuel Kant
 group: predecessors
-sequence: 9
+sequence: 10
 born: 1724
 scope: >
   The three Critiques, the shorter works Kant wrote to introduce or extend them,
@@ -143,6 +143,17 @@ works:
       The book Schopenhauer and Deleuze rework. Courses start with the two Prefaces
       and the Introduction; the second (B) Preface states the "Copernican" turn.
     after:
+      - work: locke:essay
+        strength: context
+        why: >
+          The Preface recalls the hope of settling metaphysics "by a kind of physiology
+          of the human understanding—that of the celebrated Locke"; the Deduction thanks
+          "the celebrated Locke for having first opened the way for this inquiry".
+        sources:
+          - source: kant-cpr-text
+            locator: "Preface to the first edition; Transcendental Deduction §13"
+            verified: true
+            checked_in: "Meiklejohn trans., Project Gutenberg #4280"
       - work: aristotle:categories
         strength: context
         why: >
