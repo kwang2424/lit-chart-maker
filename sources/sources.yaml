@@ -1579,3 +1579,23 @@
   author: Christian Lotz, Michigan State University
   title: "PHL 421: Kierkegaard and Continental Philosophy (Spring 2022)"
   url: https://christianlotz.info/2021/12/02/spring-2022-phl-420-kierkegaard-and-continental-philosophy/
+
+# ---------- Presocratics ----------
+
+- id: iep-presocratics
+  tier: 2
+  author: Internet Encyclopedia of Philosophy
+  title: '"Presocratics"'
+  url: https://iep.utm.edu/presocra/
+
+- id: syl-uvic-roberts
+  tier: 3
+  author: Clifford Roberts, University of Victoria
+  title: "PHIL/GRS 379: Early Greek Thought (Fall 2020)"
+  url: https://uvic.ca/humanities/philosophy/assets/docs/courseoutlines/2020_fall/phil-379---early-greek-thought-uvic-f2020.pdf
+
+- id: syl-guelph-dorter
+  tier: 3
+  author: Ken Dorter, University of Guelph
+  title: "PHIL*2140: Ancient Greek Philosophy (Fall 2019)"
+  url: https://www.uoguelph.ca/philosophy/course-outlines/ancient-greek-philosophy-phil2140-0

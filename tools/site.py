@@ -16,6 +16,7 @@ import build as b
 import chart
 import citations
 import connections
+import findit
 import graph
 import plan
 import consensus
@@ -156,7 +157,7 @@ def page(title: str, body: str, list_id: str = "") -> str:
 <footer class="muted">Every link between books is backed by a source.
 Spot a mistake? <a href="{REPO_URL}/blob/main/CONTRIBUTING.md">Help fix it</a>.</footer>
 </div>
-{'<script src="app.js"></script>' if list_id else ''}
+{'<script src="find.js"></script><script src="app.js"></script>' if list_id else ''}
 </body>
 </html>
 """
@@ -186,6 +187,7 @@ def list_page(data: dict, lists: dict, sources: dict) -> str:
     core_order, full_order = b.compute_order(data)
     num = {n: i + 1 for i, n in enumerate(full_order)}
     in_graph = graph.linked(lists)
+    ol = findit.load_ol()
 
     def ref_html(ref: str) -> str:
         tl, tw = b.resolve(ref, lid)
@@ -258,6 +260,7 @@ def list_page(data: dict, lists: dict, sources: dict) -> str:
                     f'{escape(l["why"].strip())}{cites_block(l, sources)}</li>'
                 )
             parts.append("</ul>")
+        parts.append(findit.static_html(f"{lid}:{n}", findit.entry(lid, w, ol)))
         parts.append("</div></article>")
         h.append("".join(parts))
     h.append(connections.section_html(lid, lists))
@@ -323,9 +326,11 @@ def main() -> int:
     if SITE.exists():
         shutil.rmtree(SITE)
     SITE.mkdir()
-    (SITE / "style.css").write_text(CSS.strip() + "\n" + graph.CSS.strip() + "\n" + plan.CSS.strip() + "\n",
+    (SITE / "style.css").write_text(CSS.strip() + "\n" + graph.CSS.strip() + "\n" + plan.CSS.strip() + "\n"
+                                    + findit.CSS.strip() + "\n",
                                     encoding="utf-8")
     (SITE / "plan.js").write_text(plan.JS.strip() + "\n", encoding="utf-8")
+    (SITE / "find.js").write_text(findit.script_data(lists) + findit.JS.strip() + "\n", encoding="utf-8")
     (SITE / "plan.html").write_text(page("Make a reading plan", plan.page_body(lists)), encoding="utf-8")
     (SITE / "graph.js").write_text(graph.JS.strip() + "\n", encoding="utf-8")
     (SITE / "map.js").write_text(connections.MAP_JS.strip() + "\n", encoding="utf-8")

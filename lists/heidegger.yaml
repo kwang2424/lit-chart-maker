@@ -248,8 +248,29 @@ works:
     note: >
       Background for the later Heidegger, not for Being and Time. He calls them the "first
       beginning" of Western thinking, "pre-metaphysical" thinkers who experienced being as
-      unconcealment (alētheia) (SEP §5, The History of Being). Any edition of the
-      fragments will do.
+      unconcealment (alētheia) (SEP §5, The History of Being).
+    translation: McKirahan, Philosophy Before Socrates (Hackett, 2nd ed. 2010)
+    tips:
+      - text: >
+          For the fragments in English with commentary, the IEP recommends McKirahan's
+          Philosophy Before Socrates as "a very good book for non-specialists and
+          specialists alike": it "contains most fragments for most thinkers" with
+          "reasonable explanations and interpretations of each". UVic's Early Greek
+          Thought course uses it; Guelph's uses the shorter A Presocratics Reader (Curd and
+          McKirahan, Hackett).
+        sources:
+          - source: iep-presocratics
+            locator: "§12.b Secondary Sources"
+            verified: true
+            checked_in: IEP entry, accessed 2026-11
+          - source: syl-uvic-roberts
+            locator: required text
+            verified: true
+            checked_in: Course outline (PDF, Fall 2020), accessed 2026-11
+          - source: syl-guelph-dorter
+            locator: required texts
+            verified: true
+            checked_in: Course outline (web page, Fall 2019), accessed 2026-11
 
   - id: introduction-to-metaphysics
     title: Introduction to Metaphysics
