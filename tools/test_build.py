@@ -7,6 +7,7 @@ import chart
 import citations
 import consensus
 import recheck
+import findit
 import graph
 import plan
 
@@ -209,6 +210,18 @@ class BuildTests(unittest.TestCase):
             for g in goals:
                 self.assertIn(g, nodes, f"plan preset {label!r} points at a missing book")
         self.assertIn('id="plan"', plan.page_body(self.lists))
+
+    def test_openlibrary_matches_point_at_real_works(self):
+        entries = b.load_yaml(findit.OL_FILE) or []
+        keys = [e["work"] for e in entries]
+        self.assertEqual(len(keys), len(set(keys)), "a book is matched twice")
+        books = {f"{lid}:{w['id']}" for lid, d in self.lists.items() for w in d["works"]}
+        for e in entries:
+            self.assertIn(e["work"], books, f"openlibrary.yaml names a missing book: {e['work']}")
+            if e.get("ol"):
+                self.assertRegex(e["ol"], r"^OL\d+W$")
+        html = findit.static_html("hobbes:leviathan", findit.entry("hobbes", {"id": "leviathan", "title": "Leviathan", "author": "Thomas Hobbes"}, {}))
+        self.assertIn("worldcat.org", html)
 
 
 if __name__ == "__main__":

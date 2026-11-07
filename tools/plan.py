@@ -61,7 +61,7 @@ def page_body(lists: dict) -> str:
         "<noscript><p>This page needs JavaScript. Each list page shows the same links under "
         "“Read first”.</p></noscript>"
         f'<script id="gdata" type="application/json">{payload}</script>'
-        '<script src="plan.js"></script>'
+        '<script src="find.js"></script><script src="plan.js"></script>'
     )
 
 
@@ -170,10 +170,12 @@ JS = r"""
         '<div class="sans meta muted">' + esc(D.thinkers[n.l].name) + (n.y ? ' · ' + n.y : '') +
         (n.tier === 'core' ? ' · core' : '') + (goal ? ' · <strong>your goal</strong>' : '') +
         (bg ? ' · <span class="bgtag">background</span>' : '') + '</div>' +
-        (why ? '<details class="src"><summary>Why it comes first (' + (P.need[id] || []).length + ')</summary><ul class="links">' + why + '</ul></details>' : '');
+        (why ? '<details class="src"><summary>Why it comes first (' + (P.need[id] || []).length + ')</summary><ul class="links">' + why + '</ul></details>' : '') +
+        (window.FindIt ? window.FindIt.html(id) : '');
       li.querySelector('input').addEventListener('change', function (ev) { setRead(id, ev.target.checked); render(); });
       listEl.appendChild(li);
     });
+    if (window.FindIt) window.FindIt.attach(listEl);
     var sum = document.getElementById('psummary');
     if (!S.goals.length) {
       sum.textContent = 'Add a book to start a plan.';
