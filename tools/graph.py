@@ -87,6 +87,7 @@ def page_body(lists: dict) -> str:
         '<span class="k via"></span> through hidden books</p>'
         '<p id="gsummary" class="sans meta"></p>'
         '<div id="graph" class="graph"><svg class="gedges" aria-hidden="true"></svg><div class="glayers"></div></div>'
+        '<p class="sans meta"><a id="gplan" href="plan.html">Make this a reading plan →</a></p>'
         '<h2 id="gwhy-h">Why these come first</h2><ul id="gwhy" class="links"></ul>'
         "<noscript><p>This page needs JavaScript to draw the graph. Each list page shows the same "
         "links under “Read first”.</p></noscript>"
@@ -151,6 +152,8 @@ JS = r"""
   function render(focus) {
     if (!D.nodes[focus]) focus = D.focus;
     sel.value = focus;
+    var pl = document.getElementById('gplan');
+    if (pl) pl.href = 'plan.html#goals=' + encodeURIComponent(focus) + '&min=' + F.min;
     syncControls();
     var anc = ancestors(focus);
     var V = {}; V[focus] = 1;

@@ -43,7 +43,9 @@ and confirms each quoted phrase is still there. It runs monthly on GitHub Action
 
 `python tools/site.py` builds a static site into `site/`: a home page, one page per list
 (chart, core path, survey, full order with "read" checkboxes saved in the browser), a map
-of connections between thinkers, and a "what to read first" graph for any book. On every
+of connections between thinkers, a "what to read first" graph for any book, and a
+reading-plan page: pick the books you want to reach and get one ordered checklist across
+every thinker, with the essential chain marked apart from background reading. On every
 push to `main`, `.github/workflows/pages.yml` publishes it to GitHub Pages.
 
 ## Usage
