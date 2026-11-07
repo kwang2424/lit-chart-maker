@@ -149,6 +149,7 @@ graph TD
 **Who builds on Thomas Hobbes**
 
 - *The Elements of Law, Natural and Politic* → *A Treatise of Human Nature* (David Hume) — context. The SEP on Hobbes: "Russell (1985; 2008) argues convincingly that Hume modelled the structure of the Treatise on that of Hobbes's Elements of Law".
+- *Leviathan* → *Second Treatise of Government* (John Locke) — context. The language of natural rights "gained prominence through the writings of thinkers in the generation before Locke, such as Grotius and Hobbes". Yale's Directed Studies and Florida's course read Locke straight after Hobbes.
 - *Leviathan* → *Discourse on the Origin of Inequality (Second Discourse)* (Jean-Jacques Rousseau) — context. It argues against Hobbes's state of nature: "let us beware concluding with Hobbes, that man, as having no idea of goodness, must be naturally bad".
 - *Leviathan* → *The Social Contract* (Jean-Jacques Rousseau) — context. Book I ch. 2: "The reasoning of Caligula agrees with that of Hobbes and Grotius." The SEP: its natural freedom is "reminiscent of Hobbes's 'right of nature' in Leviathan".
 - *Leviathan* → *Theological-Political Treatise* (Baruch Spinoza) — context. Its account of the state of nature (ch. 16) echoes Hobbes; the SEP: "Spinoza was clearly influenced by his reading of that British thinker".

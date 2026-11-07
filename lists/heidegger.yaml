@@ -87,6 +87,16 @@ works:
             verified: true
             checked_in: Course syllabus, accessed 2026-11
     after:
+      - work: kierkegaard:repetition
+        strength: context
+        why: >
+          Taking over a received possibility of existence in an individual way:
+          "Following Kierkegaard, Heidegger calls this process … 'repetition'".
+        sources:
+          - source: sep-heidegger
+            locator: "§2.4.2 Guilt and Resoluteness"
+            verified: true
+            checked_in: "SEP entry, accessed 2026-11"
       - work: aristotle:physics
         strength: context
         why: >

@@ -1,0 +1,311 @@
+id: kierkegaard
+title: Søren Kierkegaard
+group: predecessors
+sequence: 15
+born: 1813
+scope: >
+  Kierkegaard's main pseudonymous works of 1843–46, the later "second authorship"
+  (Works of Love, The Sickness Unto Death, Practice in Christianity), his dissertation on
+  irony, his own account of his authorship, and one biography. Most of the upbuilding
+  discourses and the late attack on the Church are left out. Years are first Danish
+  publication, from the SEP's chronology.
+status: draft
+
+# Format: see the header of lists/nietzsche.yaml. His texts are in copyright in their
+# standard English translations (Hong, Princeton; Hannay, Penguin); the evidence is the
+# SEP and IEP entries and five course syllabi.
+
+survey:
+  - source: syl-ubc-kraal
+    starts_with: either-or
+    includes: [either-or, fear-trembling, sickness]
+    ordered: true
+    locator: "schedule (Jan. 17 onwards)"
+    verified: true
+    checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: syl-mcgill-digiovanni
+    starts_with: either-or
+    includes: [either-or, fear-trembling, repetition, anxiety, fragments, postscript]
+    ordered: true
+    locator: "syllabus, works 1–8 (the two bracketed \"only if we have time\" left out)"
+    verified: true
+    checked_in: Course syllabus (PDF, 2020), accessed 2026-11
+  - source: syl-ku-kierkegaard-2023
+    starts_with: either-or
+    includes: [either-or, fear-trembling, postscript, sickness]
+    ordered: true
+    locator: daily schedule
+    verified: true
+    checked_in: Course syllabus (PDF, summer 2023), accessed 2026-11
+  - source: syl-msu-lotz
+    starts_with: postscript
+    includes: [postscript, fear-trembling, sickness]
+    ordered: true
+    locator: "schedule, Jan. 20 – Mar. 28"
+    verified: true
+    checked_in: Course page (Spring 2022), accessed 2026-11
+  - source: syl-bard-colony
+    starts_with: fear-trembling
+    includes: [fear-trembling, sickness]
+    ordered: true
+    locator: "schedule, Feb. 1–8 (before Dostoevsky, Nietzsche, Heidegger and Sartre)"
+    verified: true
+    checked_in: Course syllabus (PDF, Spring 2024), accessed 2026-11
+
+works:
+
+  - id: carlisle-heart
+    title: "Philosopher of the Heart: The Restless Life of Søren Kierkegaard"
+    author: Clare Carlisle
+    year: 2019
+    kind: secondary
+    tier: optional
+    position: start
+    difficulty: 1
+    note: >
+      A biography. McGill's course requires it "as preparation": "relatively brief in
+      length, yet fully informative and engagingly written".
+
+  - id: concept-irony
+    title: On the Concept of Irony with Continual Reference to Socrates
+    author: Søren Kierkegaard
+    year: 1841
+    kind: primary
+    tier: optional
+    difficulty: 4
+    note: >
+      His Magister dissertation, on irony as practised by Socrates (SEP §1). Kierkegaard
+      left it out of his "authorship", but it "functions as an important preface to that
+      body of work" (IEP §2.a).
+
+  # ---------- The pseudonymous authorship, 1843–46 ----------
+
+  - id: either-or
+    title: "Either/Or: A Fragment of Life"
+    author: Søren Kierkegaard (as "Victor Eremita")
+    year: 1843
+    kind: primary
+    tier: core
+    difficulty: 3
+    translation: Hannay (Penguin, abridged); Hong (Princeton, complete)
+    note: >
+      The text "he considered properly to begin his authorship" (SEP §1). Volume 1 is
+      the papers of the aesthete "A"; volume 2, the letters of Judge William for the
+      ethical life (SEP §3.1–3.2).
+    tips:
+      - text: >
+          McGill's course: "There is an abridged Penguin edition which suffices."
+          Copenhagen's opens with Victor Eremita's Preface and the "Diapsalmata".
+        sources:
+          - source: syl-mcgill-digiovanni
+            locator: syllabus, work 1
+            verified: true
+            checked_in: Course syllabus (PDF, 2020), accessed 2026-11
+          - source: syl-ku-kierkegaard-2023
+            locator: first session
+            verified: true
+            checked_in: Course syllabus (PDF, summer 2023), accessed 2026-11
+    after:
+      - work: hegel:phenomenology
+        strength: context
+        why: >
+          The IEP: "The Unhappiest One", in volume 1, is "an echo of Hegel's 'unhappy
+          consciousness'".
+        sources:
+          - source: iep-kierkegaard
+            locator: "§2.a On the Concept of Irony and Either/Or"
+            verified: true
+            checked_in: IEP entry, accessed 2026-11
+
+  - id: fear-trembling
+    title: "Fear and Trembling: A Dialectical Lyric"
+    author: Søren Kierkegaard (as "Johannes de silentio")
+    year: 1843
+    kind: primary
+    tier: core
+    difficulty: 3
+    translation: Hannay (Penguin); Hong (Princeton)
+    note: >
+      Abraham and Isaac, and the "teleological suspension of the ethical": it "explicitly
+      problematizes the ethical" (IEP §2.b). Its pseudonymous author explores the life of
+      faith from outside Christianity (SEP §1). Every course surveyed reads it.
+
+  - id: repetition
+    title: "Repetition: A Venture in Experimenting Psychology"
+    author: Søren Kierkegaard (as "Constantin Constantius")
+    year: 1843
+    kind: primary
+    tier: extended
+    difficulty: 3
+    note: Published the same day as Fear and Trembling (SEP chronology); the IEP treats the two together (§2.b).
+
+  - id: fragments
+    title: Philosophical Fragments
+    author: Søren Kierkegaard (as "Johannes Climacus")
+    year: 1844
+    kind: primary
+    tier: extended
+    difficulty: 3
+    note: >
+      "How there can be an historical point of departure for an eternal truth" (IEP
+      §2.c): an ironic attempt to "invent" something like Christianity as an alternative
+      to the Socratic view (SEP §3.3.1).
+    after:
+      - work: plato:meno
+        strength: context
+        why: >
+          It begins from "the Socratic view (understood very much in terms of Plato's
+          Socrates)" that the truth can be found through "recollection", and seeks an
+          alternative to it.
+        sources:
+          - source: sep-kierkegaard
+            locator: "§3.3.1 Faith"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+
+  - id: anxiety
+    title: The Concept of Anxiety
+    author: Søren Kierkegaard (as "Vigilius Haufniensis")
+    year: 1844
+    kind: primary
+    tier: extended
+    difficulty: 4
+    note: >
+      On the surface an inquiry into original sin, "but in reality it probes the nature
+      of human choice in general, particularly the origins of evil" (SEP §2).
+
+  - id: stages
+    title: Stages on Life's Way
+    author: Søren Kierkegaard (as "Hilarius Bookbinder")
+    year: 1845
+    kind: primary
+    tier: optional
+    difficulty: 3
+    note: Nested narrators, with characters from Either/Or and Repetition (IEP §2.d).
+    after:
+      - work: either-or
+        strength: context
+        why: It "repeats characters from Either/Or and Repetition".
+        sources:
+          - source: iep-kierkegaard
+            locator: "§2.d Stages on Life's Way and Concluding Unscientific Postscript"
+            verified: true
+            checked_in: IEP entry, accessed 2026-11
+
+  - id: postscript
+    title: Concluding Unscientific Postscript to Philosophical Fragments
+    author: Søren Kierkegaard (as "Johannes Climacus")
+    year: 1846
+    kind: primary
+    tier: core
+    difficulty: 5
+    translation: Hong (Princeton); Hannay (Cambridge)
+    note: >
+      Subjectivity and existence: reflection, though necessary, "by itself cannot lead to
+      choices" (SEP §2). Danish Hegelianism is attacked "particularly in Prefaces (1844)
+      and in Concluding Unscientific Postscript" (IEP §1.d). He had intended it to end
+      his authorship (SEP §1). Long; courses read chapters.
+    after:
+      - work: fragments
+        strength: helpful
+        why: >
+          It is, as its title says, the "Concluding Unscientific Postscript to
+          Philosophical Fragments", by the same pseudonym, Johannes Climacus.
+        sources:
+          - source: sep-kierkegaard
+            locator: "Chronology of Kierkegaard's Works (1846)"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+
+  - id: two-ages
+    title: "Two Ages: The Age of Revolution and the Present Age: A Literary Review"
+    author: Søren Kierkegaard
+    year: 1846
+    kind: primary
+    tier: optional
+    difficulty: 2
+    note: >
+      A review of a novel by Thomasine Gyllembourg (IEP §1.c). The SEP finds his
+      "influential critique of modern societies", shaped by "the press", in such essays as
+      this (§2).
+
+  # ---------- The second authorship ----------
+
+  - id: works-love
+    title: Works of Love
+    author: Søren Kierkegaard
+    year: 1847
+    kind: primary
+    tier: extended
+    tier_note: >
+      None of the five courses surveyed assigns it, but the SEP calls it "arguably the
+      most important work of Kierkegaard's mature Christian ethics".
+    difficulty: 3
+    note: >
+      Fifteen "deliberations" on the New Testament command to love one's neighbour as
+      oneself, published under his own name (SEP §3.3.2).
+
+  - id: sickness
+    title: The Sickness Unto Death
+    author: Søren Kierkegaard (as "Anti-Climacus")
+    year: 1849
+    kind: primary
+    tier: core
+    difficulty: 4
+    translation: Hannay (Penguin); Hong (Princeton)
+    note: >
+      Despair and the self. "Kierkegaard's picture of selfhood is perhaps most clearly
+      on display" here (SEP §2). Four of the five courses surveyed read it.
+    after:
+      - work: anxiety
+        strength: context
+        why: >
+          The IEP: it is "a Christian repetition of the central themes of The Concept of
+          Anxiety, with 'despair' supplanting 'anxiety'".
+        sources:
+          - source: iep-kierkegaard
+            locator: "§4.b Anti-Climacus"
+            verified: true
+            checked_in: IEP entry, accessed 2026-11
+      - work: hegel:phenomenology
+        strength: context
+        why: >
+          The SEP: "Like Hegel, Anti-Climacus holds both that human beings are to be
+          understood as 'spirit', and that spirit must become itself through a process";
+          unlike Hegel, he focuses on the individual self.
+        sources:
+          - source: sep-kierkegaard
+            locator: "§2 Kierkegaard's Analysis of Human Existence"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+
+  - id: practice
+    title: Practice in Christianity
+    author: Søren Kierkegaard (as "Anti-Climacus")
+    year: 1850
+    kind: primary
+    tier: optional
+    difficulty: 3
+    note: The appropriate Christian response to divine grace (IEP §4.b).
+    after:
+      - work: sickness
+        strength: context
+        why: "The IEP: it \"complements The Sickness Unto Death thematically\", by the same pseudonym."
+        sources:
+          - source: iep-kierkegaard
+            locator: "§4.b Anti-Climacus"
+            verified: true
+            checked_in: IEP entry, accessed 2026-11
+
+  - id: point-of-view
+    title: The Point of View for My Work as an Author
+    author: Søren Kierkegaard
+    year: 1859
+    kind: primary
+    tier: optional
+    position: end
+    difficulty: 2
+    note: >
+      Written 1848, published after his death (SEP §1). In his own voice he claims he
+      was "from first to last a religious author"; this claim "has been hotly contested"
+      (SEP §1).
