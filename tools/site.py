@@ -17,6 +17,7 @@ import chart
 import citations
 import connections
 import graph
+import plan
 import consensus
 
 SITE = b.ROOT / "site"
@@ -150,7 +151,7 @@ def page(title: str, body: str, list_id: str = "") -> str:
 <body data-list="{list_id}">
 <div class="wrap">
 <header class="top"><a class="home" href="index.html">Reading Orders</a>
-<span class="sans meta"><a href="map.html">Map</a> · <a href="graph.html">Read first</a> · <a href="{REPO_URL}">Contribute</a></span></header>
+<span class="sans meta"><a href="map.html">Map</a> · <a href="graph.html">Read first</a> · <a href="plan.html">Plan</a> · <a href="{REPO_URL}">Contribute</a></span></header>
 {body}
 <footer class="muted">Every link between books is backed by a source.
 Spot a mistake? <a href="{REPO_URL}/blob/main/CONTRIBUTING.md">Help fix it</a>.</footer>
@@ -228,7 +229,8 @@ def list_page(data: dict, lists: dict, sources: dict) -> str:
             f'<label class="done sans muted"><input type="checkbox" class="done"> read</label>',
             f'<h3><span class="num">{num[n]}</span>{escape(w["title"])}</h3>',
             f'<div class="sub sans meta muted">{sub} · difficulty {dots}'
-            + (f' · <a href="graph.html#{lid}:{n}">what to read first</a>' if f"{lid}:{n}" in in_graph else "")
+            + (f' · <a href="graph.html#{lid}:{n}">what to read first</a>'
+               f' · <a href="plan.html#goals={lid}:{n}">plan</a>' if f"{lid}:{n}" in in_graph else "")
             + '</div>',
             '<div class="body">',
         ]
@@ -321,7 +323,10 @@ def main() -> int:
     if SITE.exists():
         shutil.rmtree(SITE)
     SITE.mkdir()
-    (SITE / "style.css").write_text(CSS.strip() + "\n" + graph.CSS.strip() + "\n", encoding="utf-8")
+    (SITE / "style.css").write_text(CSS.strip() + "\n" + graph.CSS.strip() + "\n" + plan.CSS.strip() + "\n",
+                                    encoding="utf-8")
+    (SITE / "plan.js").write_text(plan.JS.strip() + "\n", encoding="utf-8")
+    (SITE / "plan.html").write_text(page("Make a reading plan", plan.page_body(lists)), encoding="utf-8")
     (SITE / "graph.js").write_text(graph.JS.strip() + "\n", encoding="utf-8")
     (SITE / "map.js").write_text(connections.MAP_JS.strip() + "\n", encoding="utf-8")
     (SITE / "graph.html").write_text(page("What to read first", graph.page_body(lists)), encoding="utf-8")

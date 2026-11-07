@@ -8,6 +8,7 @@ import citations
 import consensus
 import recheck
 import graph
+import plan
 
 import build as b
 
@@ -201,6 +202,13 @@ class BuildTests(unittest.TestCase):
         self.assertEqual(recheck.fragments("the first … the second part [sic] of it"), ["the first", "the second part", "of it"])
         self.assertEqual(recheck.text_url("https://www.gutenberg.org/ebooks/1232"),
                          "https://www.gutenberg.org/cache/epub/1232/pg1232.txt")
+
+    def test_plan_presets_exist(self):
+        nodes = graph.data(self.lists)["nodes"]
+        for label, goals in plan.PRESETS:
+            for g in goals:
+                self.assertIn(g, nodes, f"plan preset {label!r} points at a missing book")
+        self.assertIn('id="plan"', plan.page_body(self.lists))
 
 
 if __name__ == "__main__":
