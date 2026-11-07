@@ -68,7 +68,7 @@ works:
           - source: hume-treatise-advertisement
             locator: Advertisement
             verified: true
-            checked_in: Project Gutenberg #4705
+            checked_in: "Project Gutenberg #4705"
     after:
       - work: hobbes:elements-law
         strength: context
@@ -90,7 +90,7 @@ works:
           - source: hume-treatise-text
             locator: "Book 1, Part 4, Section 5"
             verified: true
-            checked_in: Project Gutenberg #4705
+            checked_in: "Project Gutenberg #4705"
       - work: first-enquiry
         strength: context
         why: >
@@ -101,7 +101,7 @@ works:
           - source: hume-advertisement-1775
             locator: Advertisement
             verified: true
-            checked_in: Open Court ed., Project Gutenberg #4320
+            checked_in: "Open Court ed., Project Gutenberg #4320"
 
   - id: abstract
     title: An Abstract of a Book lately Published, entitled A Treatise of Human Nature
@@ -131,7 +131,7 @@ works:
         - source: hume-advertisement-1775
           locator: Advertisement
           verified: true
-          checked_in: Open Court ed., Project Gutenberg #4320
+          checked_in: "Open Court ed., Project Gutenberg #4320"
         - source: sep-hume
           locator: "§1 Life and Works"
           verified: true
@@ -157,13 +157,13 @@ works:
         strength: context
         why: >
           Section XII discusses the "antecedent" scepticism "much inculcated by Des
-          Cartes", a universal doubt of all our opinions "and of our very faculties",
+          Cartes", a universal doubt of all our opinions "but also of our very faculties",
           which Hume argues would be incurable.
         sources:
           - source: hume-enquiry-text
             locator: "Section XII, Part I"
             verified: true
-            checked_in: Selby-Bigge ed., Project Gutenberg #9662
+            checked_in: "Selby-Bigge ed., Project Gutenberg #9662"
 
   - id: second-enquiry
     title: An Enquiry concerning the Principles of Morals

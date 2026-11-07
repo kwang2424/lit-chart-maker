@@ -61,7 +61,7 @@ works:
         - source: jones-preface-1921
           locator: Preface
           verified: true
-          checked_in: Riviere trans. (1922), Project Gutenberg #75810
+          checked_in: "Riviere trans. (1922), Project Gutenberg #75810"
     tips:
       - text: >
           Parts I (slips) and II (dreams) "presuppose absolutely no knowledge of the
@@ -70,7 +70,7 @@ works:
           - source: jones-preface-1921
             locator: Preface
             verified: true
-            checked_in: Riviere trans. (1922), Project Gutenberg #75810
+            checked_in: "Riviere trans. (1922), Project Gutenberg #75810"
 
   # ---------- Founding works ----------
 
@@ -127,7 +127,7 @@ works:
           - source: freud-dreams-text
             locator: Preface to the third edition
             verified: true
-            checked_in: Brill trans., Project Gutenberg #66048
+            checked_in: "Brill trans., Project Gutenberg #66048"
 
   - id: dora
     title: '"Fragment of an Analysis of a Case of Hysteria" ("Dora")'
@@ -177,7 +177,7 @@ works:
           - source: freud-bpp-text
             locator: "Chapter VI"
             verified: true
-            checked_in: Hubback trans. (1922), Project Gutenberg #76031
+            checked_in: "Hubback trans. (1922), Project Gutenberg #76031"
       - work: schopenhauer:wwr
         strength: context
         why: >
@@ -188,7 +188,7 @@ works:
           - source: freud-bpp-text
             locator: "Chapter VI"
             verified: true
-            checked_in: Hubback trans. (1922), Project Gutenberg #76031
+            checked_in: "Hubback trans. (1922), Project Gutenberg #76031"
 
   - id: ego-and-id
     title: The Ego and the Id
@@ -206,7 +206,7 @@ works:
           - source: freud-ego-id-text
             locator: Introduction
             verified: true
-            checked_in: Riviere trans. (1927), Project Gutenberg #79682
+            checked_in: "Riviere trans. (1927), Project Gutenberg #79682"
 
   # ---------- Culture and religion ----------
 
@@ -244,7 +244,7 @@ works:
           - source: freud-civilization-text
             locator: Chapter I
             verified: true
-            checked_in: Riviere trans. (1930), Project Gutenberg #78221
+            checked_in: "Riviere trans. (1930), Project Gutenberg #78221"
       - work: beyond-pleasure
         strength: helpful
         why: >
@@ -254,7 +254,7 @@ works:
           - source: freud-civilization-text
             locator: Chapter VI
             verified: true
-            checked_in: Riviere trans. (1930), Project Gutenberg #78221
+            checked_in: "Riviere trans. (1930), Project Gutenberg #78221"
 
   - id: moses
     title: Moses and Monotheism

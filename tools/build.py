@@ -29,6 +29,7 @@ from pathlib import Path
 import yaml
 
 import chart
+import citations
 import connections
 import consensus
 
@@ -45,6 +46,29 @@ STATUSES = ["draft", "reviewed", "stable"]
 POSITIONS = ["start", "end"]
 SOURCE_TIER_NAMES = {1: "author", 2: "scholarly", 3: "teaching", 4: "community"}
 STRONG_SOURCE_TIERS = {1, 2}
+
+# Allowed fields, so a misspelled one (e.g. `tiers:`) is an error instead of being ignored.
+FIELDS = {
+    "list": {"id", "title", "group", "sequence", "born", "scope", "status", "survey", "works"},
+    "work": {"id", "title", "author", "year", "kind", "tier", "difficulty", "note", "tips", "after",
+             "position", "translation", "start_here", "tier_note"},
+    "link": {"work", "strength", "why", "sources"},
+    "start_here": {"why", "sources"},
+    "tip": {"text", "sources"},
+    "citation": {"source", "locator", "verified", "checked_in", "reviewed_by"},
+    "survey": {"source", "starts_with", "includes", "ordered", "covers", "locator", "verified",
+               "checked_in", "reviewed_by"},
+    "source": {"id", "tier", "author", "title", "year", "note", "url", "publisher", "text_url"},
+}
+
+
+def check_fields(obj, kind: str, where: str, report: "Report") -> None:
+    if not isinstance(obj, dict):
+        report.error(f"{where}: expected a mapping of fields")
+        return
+    unknown = sorted(set(obj) - FIELDS[kind])
+    if unknown:
+        report.error(f"{where}: unknown field(s) {', '.join(unknown)} (allowed: {', '.join(sorted(FIELDS[kind]))})")
 
 
 @dataclass
@@ -78,6 +102,7 @@ def load_sources(report: Report) -> dict:
             report.error(f"{where}: tier must be one of {sorted(SOURCE_TIER_NAMES)}")
         if not s.get("title"):
             report.error(f"{where}: missing title")
+        check_fields(s, "source", where, report)
         sources[sid] = s
     return sources
 
@@ -110,6 +135,9 @@ def validate(lists: dict, sources: dict, report: Report, strict: bool) -> None:
     all_ids = {lid: {w.get("id") for w in (d.get("works") or [])} for lid, d in lists.items()}
 
     for lid, data in lists.items():
+        check_fields(data, "list", lid, report)
+        for i, s in enumerate(data.get("survey") or []):
+            check_fields(s, "survey", f"{lid}: survey entry {i + 1}", report)
         for key in ("title", "scope", "status", "works"):
             if not data.get(key):
                 report.error(f"{lid}: missing '{key}'")
@@ -135,6 +163,7 @@ def validate(lists: dict, sources: dict, report: Report, strict: bool) -> None:
             if wid in seen:
                 report.error(f"{where}: duplicate id")
             seen.add(wid)
+            check_fields(w, "work", where, report)
             if not w.get("title"):
                 report.error(f"{where}: missing title")
             if w.get("tier") not in TIERS:
@@ -148,11 +177,13 @@ def validate(lists: dict, sources: dict, report: Report, strict: bool) -> None:
                 report.error(f"{where}: position must be one of {POSITIONS}")
             if w.get("start_here") is not None:
                 sh = w["start_here"]
+                check_fields(sh, "start_here", f"{where} (start_here)", report)
                 if not isinstance(sh, dict) or not (sh.get("why") or "").strip():
                     report.error(f"{where}: start_here needs a 'why'")
                 else:
                     check_citations(sh, f"{where} (start_here)", True, sources, report, must_verify)
             for j, tip in enumerate(w.get("tips") or []):
+                check_fields(tip, "tip", f"{where} (tip {j + 1})", report)
                 if not (tip.get("text") or "").strip():
                     report.error(f"{where}: tip {j + 1} needs 'text'")
                 check_citations(tip, f"{where} (tip {j + 1})", False, sources, report, must_verify)
@@ -160,6 +191,7 @@ def validate(lists: dict, sources: dict, report: Report, strict: bool) -> None:
             for link in w.get("after") or []:
                 ref = link.get("work", "")
                 lwhere = f"{where} -> {ref}"
+                check_fields(link, "link", lwhere, report)
                 tl, tw = resolve(ref, lid)
                 if tl not in all_ids or tw not in all_ids[tl]:
                     report.error(f"{lwhere}: unknown work")
@@ -183,6 +215,7 @@ def validate(lists: dict, sources: dict, report: Report, strict: bool) -> None:
         if cycle:
             report.error(f"{lid}: circular ordering: {' -> '.join(cycle)}")
         consensus.validate(data, sources, report, must_verify, check_citations)
+        citations.validate(data, report)
 
     # Across lists, every link (any strength) must still point back in time: the whole
     # book graph is a DAG, so it can be drawn and read in one order.
@@ -198,6 +231,7 @@ def check_citations(claim: dict, where: str, needs_strong: bool, sources: dict, 
     tiers = []
     for c in cites:
         sid = c.get("source")
+        check_fields(c, "citation", f"{where} ({sid})", report)
         if sid not in sources:
             report.error(f"{where}: unknown source '{sid}' (add it to sources/sources.yaml)")
             continue
@@ -436,12 +470,7 @@ def cite(c: dict, sources: dict) -> str:
     text = f"{s.get('author', '')}, *{s['title']}*".lstrip(", ")
     if c.get("locator"):
         text += f", {c['locator']}"
-    text += f" [{SOURCE_TIER_NAMES[s['tier']]}]"
-    if c.get("verified"):
-        text += f" ✓ checked in {c['checked_in']}"
-    else:
-        text += " ⚠️ unverified"
-    return text
+    return text + f" [{SOURCE_TIER_NAMES[s['tier']]}] {citations.mark_text(c)}"
 
 
 def render(data: dict, lists: dict, sources: dict) -> str:
@@ -454,26 +483,23 @@ def render(data: dict, lists: dict, sources: dict) -> str:
         w = next(x for x in lists[tl]["works"] if x["id"] == tw)
         return f"*{w['title']}*" + ("" if tl == lid else f" (from the [{lists[tl]['title']} list]({tl}.md))")
 
-    claims = [l for w in data["works"] for l in (w.get("after") or [])]
-    claims += [w["start_here"] for w in data["works"] if w.get("start_here")]
-    claims += [t for w in data["works"] for t in (w.get("tips") or [])]
-    cites = [c for l in claims for c in (l.get("sources") or [])]
-    cites += list(data.get("survey") or [])
-    verified = sum(1 for c in cites if c.get("verified"))
+    cites = citations.all_cites(data)
+    n = citations.counts(data)
 
     out = [
         f"<!-- Generated by tools/build.py from lists/{lid}.yaml. Do not edit by hand. -->",
         f"# {data['title']}: reading order",
         "",
-        f"**Status:** {data['status']} · **Citations checked:** {verified}/{len(cites)}",
+        f"**Status:** {data['status']} · **Citations:** {citations.summary(data)}",
         "",
         f"**Scope:** {data['scope'].strip()}",
         "",
     ]
-    if verified < len(cites):
+    if n["reviewed"] < n["total"]:
         out += [
-            "> ⚠️ Some citations haven't been checked against the actual text yet. "
-            "See [CONTRIBUTING.md](../CONTRIBUTING.md) to help verify them.",
+            f"> Citations marked \"checked by {citations.AI_CHECKER}\" were read against the named "
+            "edition by an AI and have not yet been reviewed by a person. "
+            "See [CONTRIBUTING.md](../CONTRIBUTING.md) to help review them.",
             "",
         ]
 
@@ -567,6 +593,18 @@ def render(data: dict, lists: dict, sources: dict) -> str:
     return "\n".join(out)
 
 
+def core_paths_md(lists: dict) -> str:
+    """Every list's core path in one file, so a change to any of them shows up in review."""
+    out = ["<!-- Generated by tools/build.py. A change here means a core path moved: check it was meant to. -->",
+           "# Core paths", ""]
+    for lid in sorted(lists):
+        data = lists[lid]
+        by_id = {w["id"]: w for w in data["works"]}
+        core_order, _ = compute_order(data)
+        out.append(f"- **{data['title']}:** " + " → ".join(by_id[n]["title"] for n in core_order))
+    return "\n".join(out) + "\n"
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--check", action="store_true", help="fail if generated/ is out of date")
@@ -588,19 +626,21 @@ def main() -> int:
 
     stale = []
     OUT_DIR.mkdir(exist_ok=True)
+    outputs = {OUT_DIR / "core-paths.md": core_paths_md(lists)}
     for lid, data in lists.items():
         core_order, full_order = compute_order(data)
         svg = chart.render_svg(
             data, full_order, core_order, list(hard_edges(data["works"], lid)), list(all_edges(data["works"], lid)), lists
         )
-        outputs = {OUT_DIR / f"{lid}.md": render(data, lists, sources), OUT_DIR / f"{lid}.svg": svg}
-        for path, text in outputs.items():
-            if args.check:
-                if not path.exists() or path.read_text(encoding="utf-8") != text:
-                    stale.append(path.name)
-            else:
-                path.write_text(text, encoding="utf-8")
-                print(f"wrote {path.relative_to(ROOT)}")
+        outputs[OUT_DIR / f"{lid}.md"] = render(data, lists, sources)
+        outputs[OUT_DIR / f"{lid}.svg"] = svg
+    for path, text in outputs.items():
+        if args.check:
+            if not path.exists() or path.read_text(encoding="utf-8") != text:
+                stale.append(path.name)
+        else:
+            path.write_text(text, encoding="utf-8")
+            print(f"wrote {path.relative_to(ROOT)}")
 
     if stale:
         print(f"ERROR: out of date: {', '.join(stale)}. Run `python tools/build.py` and commit the result.")

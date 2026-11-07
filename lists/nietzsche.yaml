@@ -19,10 +19,11 @@ status: draft   # draft -> reviewed -> stable
 #   after:       links to works best read first
 #     strength:  required | helpful | context
 #     why:       one sentence, in plain words
-#     sources:   [{source, locator, verified, checked_in}]
+#     sources:   [{source, locator, verified, checked_in, reviewed_by}]
 #
 # Rule: `required` links and `start_here` need at least one tier 1 or 2 source.
-# `verified: true` means a person checked the locator against the text named in `checked_in`.
+# `verified: true` means the passage was read in the text named in `checked_in` (so far by
+# Claude, an AI). A person who re-checks it adds `reviewed_by: <name>`. See tools/citations.py.
 
 # What independent sources assign. See tools/consensus.py.
 survey:
@@ -145,7 +146,7 @@ works:
           - source: nietzsche-birth-of-tragedy-text
             locator: "§13"
             verified: true
-            checked_in: Haussmann trans. (1909), Project Gutenberg #51356
+            checked_in: "Haussmann trans. (1909), Project Gutenberg #51356"
       - work: schopenhauer:wwr
         strength: helpful
         why: >
@@ -155,7 +156,7 @@ works:
           - source: nietzsche-self-criticism
             locator: "§6"
             verified: true
-            checked_in: Haussmann trans. (1909), Project Gutenberg #51356
+            checked_in: "Haussmann trans. (1909), Project Gutenberg #51356"
 
   - id: truth-and-lies
     title: On Truth and Lies in a Nonmoral Sense
@@ -187,7 +188,7 @@ works:
           - source: nietzsche-untimely-schopenhauer
             locator: whole essay
             verified: true
-            checked_in: Collins trans. (Thoughts out of Season II), Project Gutenberg #38226
+            checked_in: "Collins trans. (Thoughts out of Season II), Project Gutenberg #38226"
 
   # ---------- Middle period ----------
 
@@ -223,7 +224,7 @@ works:
           - source: nietzsche-daybreak-text
             locator: "Preface §3"
             verified: true
-            checked_in: Kennedy trans. (1911), Project Gutenberg #39955
+            checked_in: "Kennedy trans. (1911), Project Gutenberg #39955"
       - work: human-all-too-human
         strength: context
         why: >
@@ -280,11 +281,11 @@ works:
           - source: nietzsche-gay-science-text
             locator: "§341–342"
             verified: true
-            checked_in: Cohn trans. (The Joyful Wisdom), Project Gutenberg #52124
+            checked_in: "Cohn trans. (The Joyful Wisdom), Project Gutenberg #52124"
           - source: nietzsche-ecce-homo
             locator: '"Thus Spoke Zarathustra" §1'
             verified: true
-            checked_in: Ludovici trans. (1911), Project Gutenberg #52190
+            checked_in: "Ludovici trans. (1911), Project Gutenberg #52190"
 
   - id: bge
     tips:
@@ -321,7 +322,7 @@ works:
           - source: nietzsche-bge-text
             locator: "Preface"
             verified: true
-            checked_in: Zimmern trans., Project Gutenberg #4363
+            checked_in: "Zimmern trans., Project Gutenberg #4363"
 
   - id: genealogy
     title: On the Genealogy of Morality
@@ -345,12 +346,12 @@ works:
           - source: nietzsche-genealogy-text
             locator: "Preface §5"
             verified: true
-            checked_in: Samuel trans. (1913), Project Gutenberg #52319
+            checked_in: "Samuel trans. (1913), Project Gutenberg #52319"
       - work: bge
         strength: helpful
         why: >
-          Its title page says it was added to Beyond Good and Evil "as a supplement
-          and clarification" ("zur Ergänzung und Verdeutlichung").
+          Its title page says it was added to Beyond Good and Evil "zur Ergänzung und
+          Verdeutlichung" (as a supplement and clarification).
         sources:
           - source: nietzsche-genealogy-text
             locator: title page
@@ -363,7 +364,7 @@ works:
           - source: nietzsche-genealogy-text
             locator: "Preface §2"
             verified: true
-            checked_in: Samuel trans. (1913), Project Gutenberg #52319
+            checked_in: "Samuel trans. (1913), Project Gutenberg #52319"
       - work: zarathustra
         strength: context
         why: >
@@ -373,7 +374,7 @@ works:
           - source: nietzsche-genealogy-text
             locator: "Preface §8"
             verified: true
-            checked_in: Samuel trans. (1913), Project Gutenberg #52319
+            checked_in: "Samuel trans. (1913), Project Gutenberg #52319"
 
   - id: case-of-wagner
     title: The Case of Wagner (with Nietzsche contra Wagner)
@@ -394,7 +395,7 @@ works:
           - source: nietzsche-birth-of-tragedy-text
             locator: '"Foreword to Richard Wagner"'
             verified: true
-            checked_in: Haussmann trans. (1909), Project Gutenberg #51356
+            checked_in: "Haussmann trans. (1909), Project Gutenberg #51356"
           - source: sep-nietzsche
             locator: "§1 Life and Works (the friendship and the break)"
             verified: true
@@ -410,32 +411,32 @@ works:
     translation: Hollingdale (Penguin) or Large (Oxford)
     note: >
       Short and fast; a summary of his late views. "The Problem of Socrates"
-      and "How the 'True World' Finally Became a Fable" are key.
+      and "How the 'True World' Ultimately Became a Fable" (Ludovici's title) are key.
     after:
       - work: plato:phaedo
         strength: context
         why: >
           "The Problem of Socrates" opens with Socrates' dying words ("I owe a cock to
-          the god Asclepius"), from the end of the Phaedo.
+          the god Æsculapius"), from the end of the Phaedo.
         sources:
           - source: nietzsche-twilight-text
             locator: '"The Problem of Socrates" §1'
             verified: true
-            checked_in: Ludovici trans. (1911), Project Gutenberg #52263
+            checked_in: "Ludovici trans. (1911), Project Gutenberg #52263"
           - source: plato-phaedo-text
             locator: ending
             verified: true
-            checked_in: Jowett trans., Project Gutenberg #1658
+            checked_in: "Jowett trans., Project Gutenberg #1658"
       - work: plato:republic
         strength: context
         why: >
-          "How the 'True World' Finally Became a Fable" begins from Plato: its first stage
+          "How the 'True World' Ultimately Became a Fable" begins from Plato: its first stage
           is "a paraphrase of the proposition 'I, Plato, am the truth.'"
         sources:
           - source: nietzsche-twilight-text
             locator: '"How the True World Ultimately Became a Fable" §1'
             verified: true
-            checked_in: Ludovici trans. (1911), Project Gutenberg #52263
+            checked_in: "Ludovici trans. (1911), Project Gutenberg #52263"
     start_here:
       why: >
         Nietzsche's own advice: anyone wanting "a rapid sketch" of his thought
@@ -444,7 +445,7 @@ works:
         - source: nietzsche-ecce-homo
           locator: '"The Twilight of the Idols" §1'
           verified: true
-          checked_in: Ludovici trans. (1911), Project Gutenberg #52190
+          checked_in: "Ludovici trans. (1911), Project Gutenberg #52190"
 
   - id: antichrist
     title: The Antichrist
@@ -466,7 +467,7 @@ works:
           - source: nietzsche-antichrist-text
             locator: "§11"
             verified: true
-            checked_in: Mencken trans. (1918), Project Gutenberg #19322
+            checked_in: "Mencken trans. (1918), Project Gutenberg #19322"
       - work: gospels
         strength: context
         why: Much of it is a reading of Jesus, the Gospels and Paul.
@@ -474,7 +475,7 @@ works:
           - source: nietzsche-antichrist-text
             locator: "§41 (and the surrounding sections)"
             verified: true
-            checked_in: Mencken trans. (1918), Project Gutenberg #19322
+            checked_in: "Mencken trans. (1918), Project Gutenberg #19322"
       - work: genealogy
         strength: helpful
         why: >
@@ -484,7 +485,7 @@ works:
           - source: nietzsche-antichrist-text
             locator: "§24"
             verified: true
-            checked_in: Mencken trans. (1918), Project Gutenberg #19322
+            checked_in: "Mencken trans. (1918), Project Gutenberg #19322"
 
   - id: ecce-homo
     title: Ecce Homo
@@ -505,7 +506,7 @@ works:
           - source: nietzsche-ecce-homo
             locator: '"Why I Write Such Good Books"'
             verified: true
-            checked_in: Ludovici trans. (1911), Project Gutenberg #52190
+            checked_in: "Ludovici trans. (1911), Project Gutenberg #52190"
       - work: zarathustra
         strength: helpful
         why: It treats Zarathustra as his central work and comments on it at length.
@@ -513,7 +514,7 @@ works:
           - source: nietzsche-ecce-homo
             locator: '"Thus Spoke Zarathustra" §§1–8'
             verified: true
-            checked_in: Ludovici trans. (1911), Project Gutenberg #52190
+            checked_in: "Ludovici trans. (1911), Project Gutenberg #52190"
 
   # ---------- Further secondary reading ----------
 

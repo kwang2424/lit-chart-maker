@@ -138,7 +138,7 @@ works:
           - source: machiavelli-prince-text
             locator: "ch. II, opening sentence"
             verified: true
-            checked_in: Marriott trans., Project Gutenberg #1232
+            checked_in: "Marriott trans., Project Gutenberg #1232"
           - source: sep-machiavelli
             locator: "§6 The Discourses on Livy"
             verified: true

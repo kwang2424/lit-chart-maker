@@ -43,13 +43,6 @@
   title: '"Attempt at a Self-Criticism" (1886 preface to The Birth of Tragedy)'
   year: 1886
 
-- id: nietzsche-letter-burckhardt-1886
-  tier: 1
-  author: Friedrich Nietzsche
-  title: Letter to Jacob Burckhardt, 22 September 1886
-  year: 1886
-  url: http://www.nietzschesource.org/#eKGWB/BVN-1886,754
-
 - id: nietzsche-untimely-schopenhauer
   tier: 1
   author: Friedrich Nietzsche
@@ -61,20 +54,6 @@
   author: R. Lanier Anderson
   title: '"Friedrich Nietzsche", Stanford Encyclopedia of Philosophy'
   url: https://plato.stanford.edu/entries/nietzsche/
-
-- id: tanner-vsi
-  tier: 2
-  author: Michael Tanner
-  title: 'Nietzsche: A Very Short Introduction'
-  publisher: Oxford University Press
-  year: 2000
-
-- id: kaufmann-nietzsche
-  tier: 2
-  author: Walter Kaufmann
-  title: 'Nietzsche: Philosopher, Psychologist, Antichrist'
-  publisher: Princeton University Press
-  year: 1950
 
 - id: leiter-guidebook
   tier: 2
@@ -91,14 +70,8 @@
   publisher: Yale University Press
   year: 1986
 
-- id: young-biography
-  tier: 2
-  author: Julian Young
-  title: 'Friedrich Nietzsche: A Philosophical Biography'
-  publisher: Cambridge University Press
-  year: 2010
-
 # ---------- Deleuze ----------
+
 
 - id: sep-deleuze
   tier: 2
@@ -112,19 +85,13 @@
   title: A Thousand Plateaus ("Author's Note")
   year: 1980
 
-- id: deleuze-harsh-critic
-  tier: 1
-  author: Gilles Deleuze
-  title: '"Letter to a Harsh Critic" (1973), in Negotiations'
-  publisher: Columbia University Press
-  year: 1995
-
 - id: grace-2014
   tier: 2
   author: Wendy Grace
   title: '"Foucault and Deleuze: Making a Difference with Nietzsche", Foucault Studies 17'
   year: 2014
   url: https://rauli.cbs.dk/index.php/foucault-studies/article/view/4255
+  text_url: https://rauli.cbs.dk/index.php/foucault-studies/article/download/4255/4680/16396
 
 - id: williams-dr-guide
   tier: 2
@@ -367,12 +334,6 @@
   author: Richard Taylor, Marquette University
   title: "Ancient Philosophy (Spring 2016), detailed syllabus"
   url: https://academic.mu.edu/taylorr/Ancient_Philosophy_Spring_2016/Detailed_Course_Syllabus_part_2.html
-
-- id: syl-midcoast-hauptli
-  tier: 3
-  author: Bruce Hauptli, Midcoast Senior College
-  title: "What Is This Thing Called Philosophy? (Fall 2016)"
-  url: https://faculty.fiu.edu/~hauptli/Syllabus_For_What_Is_This_Thing_Called_Philosophy.htm
 
 - id: hackett-five-dialogues
   tier: 3
@@ -682,6 +643,10 @@
   author: Karl Marx
   title: Capital, vol. 1, prefaces and afterword (1867, 1872, 1873)
   url: https://www.marxists.org/archive/marx/works/1867-c1/
+  text_url:
+    - https://www.marxists.org/archive/marx/works/1867-c1/p1.htm
+    - https://www.marxists.org/archive/marx/works/1867-c1/p2.htm
+    - https://www.marxists.org/archive/marx/works/1867-c1/p3.htm
 
 - id: marx-1859-preface
   tier: 1
@@ -789,12 +754,6 @@
   author: Stanford Encyclopedia of Philosophy
   title: '"Edmund Husserl", Stanford Encyclopedia of Philosophy'
   url: https://plato.stanford.edu/entries/husserl/
-
-- id: iep-husserl
-  tier: 2
-  author: Internet Encyclopedia of Philosophy
-  title: '"Edmund Husserl (1859–1938)"'
-  url: https://iep.utm.edu/husserl/
 
 - id: syl-guelph-3350
   tier: 3
@@ -1163,12 +1122,6 @@
   url: https://www.gutenberg.org/ebooks/65903
 
 # ---------- Descartes ----------
-
-- id: sep-descartes
-  tier: 2
-  author: Stanford Encyclopedia of Philosophy (Gary Hatfield)
-  title: '"René Descartes"'
-  url: https://plato.stanford.edu/entries/descartes/
 
 - id: sep-descartes-works
   tier: 2

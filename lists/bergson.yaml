@@ -75,7 +75,7 @@ works:
           - source: bergson-tfw-text
             locator: "Conclusion"
             verified: true
-            checked_in: Pogson trans. (1910), Project Gutenberg #56852
+            checked_in: "Pogson trans. (1910), Project Gutenberg #56852"
 
   - id: matter-and-memory
     title: Matter and Memory
@@ -115,7 +115,7 @@ works:
           - source: bergson-ce-text
             locator: "Chapter IV, note to Timaeus 37 D"
             verified: true
-            checked_in: Mitchell trans. (1911), Project Gutenberg #26163
+            checked_in: "Mitchell trans. (1911), Project Gutenberg #26163"
       - work: kant:kant-cpr
         strength: context
         why: >
@@ -126,7 +126,7 @@ works:
           - source: bergson-ce-text
             locator: "Chapter IV"
             verified: true
-            checked_in: Mitchell trans. (1911), Project Gutenberg #26163
+            checked_in: "Mitchell trans. (1911), Project Gutenberg #26163"
       - work: time-and-free-will
         strength: helpful
         why: Bergson says his views here are "those that we expressed long ago" in the Essai (Time and Free Will).
@@ -134,7 +134,7 @@ works:
           - source: bergson-ce-text
             locator: Chapter I
             verified: true
-            checked_in: Mitchell trans. (1911), Project Gutenberg #26163
+            checked_in: "Mitchell trans. (1911), Project Gutenberg #26163"
       - work: matter-and-memory
         strength: helpful
         why: It repeatedly refers back to Matter and Memory ("We have developed this point in Matière et mémoire").
@@ -142,7 +142,7 @@ works:
           - source: bergson-ce-text
             locator: footnotes to Chapters I–III
             verified: true
-            checked_in: Mitchell trans. (1911), Project Gutenberg #26163
+            checked_in: "Mitchell trans. (1911), Project Gutenberg #26163"
 
   - id: two-sources
     title: The Two Sources of Morality and Religion

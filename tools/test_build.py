@@ -1,9 +1,12 @@
 import copy
+import re
 import unittest
 import xml.dom.minidom
 
 import chart
+import citations
 import consensus
+import recheck
 import graph
 
 import build as b
@@ -161,6 +164,43 @@ class BuildTests(unittest.TestCase):
                 l["sources"][0]["verified"] = False
         self.bad["nietzsche"]["status"] = "stable"
         self.assertTrue(any("not yet verified" in e for e in errors(self.bad, self.sources)))
+
+    def test_unknown_fields_are_errors(self):
+        self.works["genealogy"]["tiers"] = "core"
+        self.works["genealogy"]["after"][0]["sources"][0]["verifed"] = True
+        errs = errors(self.bad, self.sources)
+        self.assertTrue(any("unknown field(s) tiers" in e for e in errs))
+        self.assertTrue(any("unknown field(s) verifed" in e for e in errs))
+
+    def test_reviewed_status_needs_people(self):
+        self.bad["nietzsche"]["status"] = "reviewed"
+        self.assertTrue(any("needs every citation reviewed by a person" in e for e in errors(self.bad, self.sources)))
+        for c in citations.all_cites(self.bad["nietzsche"]):
+            c["reviewed_by"] = "A. Reader"
+        self.assertFalse(any("reviewed by a person" in e for e in errors(self.bad, self.sources)))
+
+    def test_citation_labels(self):
+        c = {"source": "x", "verified": True, "checked_in": "SEP entry"}
+        self.assertIn("checked by Claude (AI)", citations.mark_text(c))
+        c["reviewed_by"] = "A. Reader"
+        self.assertIn("reviewed by A. Reader", citations.mark_text(c))
+        self.assertIn("not yet checked", citations.mark_text({"source": "x"}))
+
+    def test_no_value_is_cut_off_by_a_hash(self):
+        # In YAML, " #" starts a comment, so `checked_in: Project Gutenberg #1232` silently
+        # loses the number. Such values must be quoted.
+        pat = re.compile(r"^\s*(?:- )?(checked_in|locator|why|text|note|title|translation|author|url): [^\"'>|\n].* #")
+        for path in sorted(b.LISTS_DIR.glob("*.yaml")) + [b.SOURCES_FILE]:
+            for i, line in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
+                self.assertIsNone(pat.match(line), f"{path.name}:{i}: quote this value: {line.strip()}")
+
+    def test_recheck_matching(self):
+        page = recheck.normalize("He wrote: “It ought to be intelli-\ngible to all readers”, Nietzsche’s view…")
+        for q in ["It ought to be intelligible to all readers", "Nietzsche's view"]:
+            self.assertIn(recheck.normalize(q), page)
+        self.assertEqual(recheck.fragments("the first … the second part [sic] of it"), ["the first", "the second part", "of it"])
+        self.assertEqual(recheck.text_url("https://www.gutenberg.org/ebooks/1232"),
+                         "https://www.gutenberg.org/cache/epub/1232/pg1232.txt")
 
 
 if __name__ == "__main__":

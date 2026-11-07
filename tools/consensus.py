@@ -23,6 +23,8 @@ from __future__ import annotations
 
 from html import escape
 
+import citations
+
 CORE_SHARE = 0.75   # included by at least this share of sources -> should probably be core
 WEAK_SHARE = 0.34   # core works included by fewer than this share get a warning
 MIN_SOURCES = 4     # don't second-guess tiers with fewer sources than this
@@ -56,7 +58,7 @@ def validate(data: dict, sources: dict, report, must_verify: bool, check_citatio
         if st is not None and st not in inc:
             report.error(f"{where}: starts_with '{st}' must also be in 'includes'")
         # Reuse the citation rules: the survey entry is itself a citation.
-        claim = {"sources": [{k: s.get(k) for k in ("source", "locator", "verified", "checked_in")}]}
+        claim = {"sources": [{k: s[k] for k in ("source", "locator", "verified", "checked_in", "reviewed_by") if k in s}]}
         check_citations(claim, where, False, sources, report, must_verify)
 
     stats = compute(data)
@@ -174,7 +176,7 @@ def render_md(data: dict, sources: dict, tier_names: dict) -> list[str]:
         src = sources[s["source"]]
         seq = " → ".join(by_id[w]["title"] for w in s["includes"]) if s.get("ordered") else \
             ", ".join(by_id[w]["title"] for w in s["includes"])
-        mark = f"✓ checked in {s['checked_in']}" if s.get("verified") else "⚠️ unverified"
+        mark = citations.mark_text(s)
         kind = COVERS[s.get("covers", "full")]
         out.append(f"- **{source_label(s['source'], sources)}** [{tier_names[src['tier']]}]{kind}: {seq}. {mark}")
     out.append("")
@@ -207,8 +209,7 @@ def render_html(data: dict, sources: dict, tier_names: dict) -> str:
         joiner = " → " if s.get("ordered") else ", "
         kind = COVERS[s.get("covers", "full")]
         seq = joiner.join(escape(by_id[w]["title"]) for w in s["includes"])
-        mark = (f'<span class="ok">✓ checked in {escape(s["checked_in"])}</span>' if s.get("verified")
-                else '<span class="warn">⚠ not yet verified</span>')
+        mark = citations.mark_html(s)
         srcs.append(f'<li><strong>{title}</strong> <span class="muted">[{tier_names[src["tier"]]}]{kind}</span><br>'
                     f'<span class="meta">{seq}</span><br><span class="meta">{mark}</span></li>')
     return (

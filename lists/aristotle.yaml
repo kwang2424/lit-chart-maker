@@ -228,7 +228,7 @@ works:
           - source: aristotle-ne-text
             locator: "Book X, last chapter"
             verified: true
-            checked_in: Project Gutenberg #8438
+            checked_in: "Project Gutenberg #8438"
       - work: plato:republic
         strength: context
         why: >
@@ -239,7 +239,7 @@ works:
           - source: aristotle-politics-text
             locator: "Book IV, ch. 4"
             verified: true
-            checked_in: Ellis trans. (1912), Project Gutenberg #6762
+            checked_in: "Ellis trans. (1912), Project Gutenberg #6762"
 
   # ---------- Rhetoric and poetics ----------
 
@@ -269,4 +269,4 @@ works:
           - source: aristotle-poetics-text
             locator: "ch. XIX"
             verified: true
-            checked_in: Butcher trans., Project Gutenberg #1974
+            checked_in: "Butcher trans., Project Gutenberg #1974"

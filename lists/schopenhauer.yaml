@@ -103,7 +103,7 @@ works:
           - source: schopenhauer-wwr-preface
             locator: Preface to the first edition
             verified: true
-            checked_in: Haldane & Kemp trans., Project Gutenberg #38427
+            checked_in: "Haldane & Kemp trans., Project Gutenberg #38427"
     after:
       - work: fichte:foundation
         strength: context
@@ -115,7 +115,7 @@ works:
           - source: schopenhauer-wwr-text
             locator: "Book I, §7"
             verified: true
-            checked_in: Haldane & Kemp trans., Project Gutenberg #38427
+            checked_in: "Haldane & Kemp trans., Project Gutenberg #38427"
       - work: descartes:meditations
         strength: context
         why: >
@@ -125,7 +125,7 @@ works:
           - source: schopenhauer-wwr-text
             locator: "Book I, §1"
             verified: true
-            checked_in: Haldane & Kemp trans., Project Gutenberg #38427
+            checked_in: "Haldane & Kemp trans., Project Gutenberg #38427"
       - work: fourfold-root
         strength: required
         why: >
@@ -135,7 +135,7 @@ works:
           - source: schopenhauer-wwr-preface
             locator: Preface to the first edition
             verified: true
-            checked_in: Haldane & Kemp trans., Project Gutenberg #38427
+            checked_in: "Haldane & Kemp trans., Project Gutenberg #38427"
       - work: kant:prolegomena
         strength: required
         why: >
@@ -145,7 +145,7 @@ works:
           - source: schopenhauer-wwr-preface
             locator: Preface to the first edition
             verified: true
-            checked_in: Haldane & Kemp trans., Project Gutenberg #38427
+            checked_in: "Haldane & Kemp trans., Project Gutenberg #38427"
       - work: kant:kant-cpr
         strength: helpful
         why: The Kant he presupposes and criticizes in his appendix is above all the Critique.
@@ -153,7 +153,7 @@ works:
           - source: schopenhauer-wwr-preface
             locator: Preface to the first edition
             verified: true
-            checked_in: Haldane & Kemp trans., Project Gutenberg #38427
+            checked_in: "Haldane & Kemp trans., Project Gutenberg #38427"
       - work: plato:republic
         strength: helpful
         why: >
@@ -163,7 +163,7 @@ works:
           - source: schopenhauer-wwr-preface
             locator: Preface to the first edition
             verified: true
-            checked_in: Haldane & Kemp trans., Project Gutenberg #38427
+            checked_in: "Haldane & Kemp trans., Project Gutenberg #38427"
       - work: upanishads
         strength: helpful
         why: >
@@ -173,7 +173,7 @@ works:
           - source: schopenhauer-wwr-preface
             locator: Preface to the first edition
             verified: true
-            checked_in: Haldane & Kemp trans., Project Gutenberg #38427
+            checked_in: "Haldane & Kemp trans., Project Gutenberg #38427"
 
   - id: wwr-2
     title: The World as Will and Representation, vol. 2 (Supplements)
@@ -193,7 +193,7 @@ works:
           - source: schopenhauer-wwr-preface2
             locator: Preface to the second edition
             verified: true
-            checked_in: Haldane & Kemp trans., Project Gutenberg #38427
+            checked_in: "Haldane & Kemp trans., Project Gutenberg #38427"
 
   - id: will-in-nature
     title: On the Will in Nature

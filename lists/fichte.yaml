@@ -160,7 +160,8 @@ works:
         strength: context
         why: >
           The first section's remarks discuss "Kant, Reinhold, and Spinoza, on the Ego", and the
-          theoretical part is set against "dogmatic Spinozism".
+          theoretical part argues against dogmatism: "In so far as dogmatism can be logical,
+          Spinozism is its most logical product."
         sources:
           - source: fichte-sk-text
             locator: "Part I, §1 Remarks; §3"

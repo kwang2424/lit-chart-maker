@@ -90,7 +90,7 @@ works:
           - source: hobbes-de-cive-text
             locator: Preface to the Reader
             verified: true
-            checked_in: Molesworth, English Works vol. 2, Project Gutenberg #73906
+            checked_in: "Molesworth, English Works vol. 2, Project Gutenberg #73906"
       - text: >
           The IEP: "although Leviathan is more famous and more often read, De Cive
           actually gives a much more straightforward account of Hobbes's ideas".

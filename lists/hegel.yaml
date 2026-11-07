@@ -120,8 +120,8 @@ works:
       - work: schelling:presentation
         strength: context
         why: >
-          Its Preface mocks an Absolute that is "the night in which all cows are black";
-          the IEP and SEP read this as aimed at Schelling's identity philosophy
+          Its Preface mocks an Absolute that is, in the IEP's words, "the night where all
+          cows are black"; the IEP and SEP read this as aimed at Schelling's identity philosophy
           (Schelling asked Hegel whether it was meant for him).
         sources:
           - source: iep-schelling
@@ -218,7 +218,7 @@ works:
           - source: hegel-logic-text
             locator: "§42 (The Critical Philosophy)"
             verified: true
-            checked_in: Wallace trans., The Logic of Hegel, Project Gutenberg #55108
+            checked_in: "Wallace trans., The Logic of Hegel, Project Gutenberg #55108"
       - work: aristotle:metaphysics
         strength: context
         why: >
@@ -230,7 +230,7 @@ works:
           - source: hegel-mind-text
             locator: "§577 (end of the Encyclopaedia)"
             verified: true
-            checked_in: Wallace trans., Hegel's Philosophy of Mind, Project Gutenberg #39064
+            checked_in: "Wallace trans., Hegel's Philosophy of Mind, Project Gutenberg #39064"
       - work: descartes:discourse
         strength: context
         why: >
@@ -241,7 +241,7 @@ works:
           - source: hegel-logic-text
             locator: "§64"
             verified: true
-            checked_in: Wallace trans., The Logic of Hegel, Project Gutenberg #55108
+            checked_in: "Wallace trans., The Logic of Hegel, Project Gutenberg #55108"
       - work: spinoza:ethics
         strength: context
         why: >
@@ -251,7 +251,7 @@ works:
           - source: hegel-logic-text
             locator: "§50"
             verified: true
-            checked_in: Wallace trans., The Logic of Hegel, Project Gutenberg #55108
+            checked_in: "Wallace trans., The Logic of Hegel, Project Gutenberg #55108"
       - work: kant:kant-cpr
         strength: helpful
         why: >
@@ -262,7 +262,7 @@ works:
           - source: hegel-logic-text
             locator: "§§40–60"
             verified: true
-            checked_in: Wallace trans., The Logic of Hegel, Project Gutenberg #55108
+            checked_in: "Wallace trans., The Logic of Hegel, Project Gutenberg #55108"
       - work: science-of-logic
         strength: context
         why: Its first part is "an abbreviated version of the earlier Science of Logic".

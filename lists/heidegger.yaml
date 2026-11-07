@@ -407,7 +407,7 @@ works:
           - source: nietzsche-twilight-text
             locator: '"How the True World Ultimately Became a Fable"'
             verified: true
-            checked_in: Ludovici trans. (1911), Project Gutenberg #52263
+            checked_in: "Ludovici trans. (1911), Project Gutenberg #52263"
 
   - id: age-world-picture
     title: '"The Age of the World Picture"'
