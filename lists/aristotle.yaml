@@ -64,6 +64,20 @@ survey:
     locator: "Classical Tripos paper B2, Aristotle on Wisdom and First Philosophy"
     verified: true
     checked_in: Guide to Courses 2025–26 (PDF), accessed 2026-11
+  - source: warburton-classics
+    covers: shortlist
+    includes: [ne]
+    ordered: false
+    locator: "table of contents, ch. 2"
+    verified: true
+    checked_in: Routledge book page (table of contents), accessed 2026-11
+  - source: sjc-reading-list
+    covers: shortlist
+    includes: [poetics, physics, metaphysics, ne, politics, parts-animals, generation-animals, de-anima, de-interpretatione, prior-analytics, categories]
+    ordered: false
+    locator: "Freshman (Poetics, Physics, Metaphysics, Ethics, Politics, biology) and Sophomore (De Anima, logic) reading list"
+    verified: true
+    checked_in: Reading list web page, accessed 2026-11
 
 works:
 
@@ -208,6 +222,21 @@ works:
       Happiness, the virtues, responsibility, practical wisdom, weakness of will, pleasure
       and friendship. Oxford's paper calls it "one of the most important works in the
       history of philosophy".
+    tips:
+      - text: >
+          If you read only one book of Aristotle's, general guides choose this one: it is
+          the only Aristotle chapter in Warburton's Philosophy: The Classics, and St John's
+          College reads it in the first year, before the logical works (the Categories
+          comes in the second year).
+        sources:
+          - source: warburton-classics
+            locator: table of contents, ch. 2
+            verified: true
+            checked_in: Routledge book page (table of contents), accessed 2026-11
+          - source: sjc-reading-list
+            locator: Freshman and Sophomore reading lists
+            verified: true
+            checked_in: Reading list web page, accessed 2026-11
 
   - id: politics
     title: Politics

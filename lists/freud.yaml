@@ -37,6 +37,13 @@ survey:
     locator: '"central texts will likely include"'
     verified: true
     checked_in: Course web page, accessed 2026-11
+  - source: sjc-reading-list
+    covers: shortlist
+    includes: [introductory-lectures, mourning-melancholia, beyond-pleasure]
+    ordered: false
+    locator: "Senior reading list"
+    verified: true
+    checked_in: Reading list web page, accessed 2026-11
 
 works:
 
@@ -148,6 +155,17 @@ works:
     tier: extended
     difficulty: 3
     note: A short paper that reshapes his theory of the drives.
+
+  - id: mourning-melancholia
+    title: '"Mourning and Melancholia"'
+    author: Sigmund Freud
+    kind: primary
+    tier: optional
+    difficulty: 3
+    note: >
+      A short paper distinguishing mourning from melancholia. St John's reads it in the
+      senior year between the Introductory Lectures and Beyond the Pleasure Principle;
+      Edinburgh's psychoanalysis and literature course reads it with Studies on Hysteria.
 
   - id: uncanny
     title: '"The Uncanny"'

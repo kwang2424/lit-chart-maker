@@ -46,6 +46,27 @@ survey:
     locator: "picks 2–3"
     verified: true
     checked_in: Five Books interview (web page), accessed 2026-11
+  - source: warburton-classics
+    covers: shortlist
+    includes: [first-enquiry, dialogues]
+    ordered: false
+    locator: "table of contents, ch. 11–12"
+    verified: true
+    checked_in: Routledge book page (table of contents), accessed 2026-11
+  - source: cambridge-prospective-2015
+    covers: beginning
+    includes: [first-enquiry, dialogues]
+    ordered: false
+    locator: "Great Dead Philosophers"
+    verified: true
+    checked_in: Reading list (PDF, July 2015), accessed 2026-11
+  - source: sjc-reading-list
+    covers: shortlist
+    includes: [treatise]
+    ordered: false
+    locator: "Junior reading list"
+    verified: true
+    checked_in: Reading list web page, accessed 2026-11
 
 works:
 
@@ -251,6 +272,20 @@ works:
     note: >
       Three characters debate the argument from design. Published after his death; one of
       the few works not in his own voice, so be careful about who speaks for Hume.
+    tips:
+      - text: >
+          General guides recommend it beside the first Enquiry: Warburton gives it its own
+          chapter in Philosophy: The Classics, and Cambridge's reading list for prospective
+          students pairs the two.
+        sources:
+          - source: warburton-classics
+            locator: table of contents, ch. 12
+            verified: true
+            checked_in: Routledge book page (table of contents), accessed 2026-11
+          - source: cambridge-prospective-2015
+            locator: Great Dead Philosophers
+            verified: true
+            checked_in: Reading list (PDF, July 2015), accessed 2026-11
     after:
       - work: first-enquiry
         strength: context

@@ -42,6 +42,20 @@ survey:
     locator: "weekly sessions (prefaces to all four works first, then by theme)"
     verified: true
     checked_in: Reading group page, accessed 2026-11
+  - source: warburton-classics
+    covers: shortlist
+    includes: [leviathan]
+    ordered: false
+    locator: "table of contents, ch. 7"
+    verified: true
+    checked_in: Routledge book page (table of contents), accessed 2026-11
+  - source: sjc-reading-list
+    covers: shortlist
+    includes: [leviathan]
+    ordered: false
+    locator: "Junior reading list"
+    verified: true
+    checked_in: Reading list web page, accessed 2026-11
 
 works:
 

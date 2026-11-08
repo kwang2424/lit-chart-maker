@@ -1599,3 +1599,39 @@
   author: Ken Dorter, University of Guelph
   title: "PHIL*2140: Ancient Greek Philosophy (Fall 2019)"
   url: https://www.uoguelph.ca/philosophy/course-outlines/ancient-greek-philosophy-phil2140-0
+
+# ---------- General introductions and great-books lists ----------
+
+- id: warburton-classics
+  tier: 2
+  author: Nigel Warburton
+  title: "Philosophy: The Classics (4th ed.)"
+  publisher: Routledge
+  year: 2014
+  url: https://www.routledge.com/Philosophy-The-Classics/Warburton/p/book/9780415534666
+  note: Introduces 33 classics, one or two per philosopher; the table of contents is the evidence used.
+
+- id: cambridge-prospective-2015
+  tier: 3
+  author: Faculty of Philosophy, University of Cambridge
+  title: Suggested reading for prospective undergraduates (July 2015)
+  url: https://www.phil.cam.ac.uk/system/files/documents/prosp-ugrad-readlinglist.pdf
+
+- id: somerville-prelim-2026
+  tier: 3
+  author: Somerville College, Oxford
+  title: Pre-arrival reading letter, Philosophy (PPE), 2026
+  url: https://www.some.ox.ac.uk/wp-content/uploads/2026/08/Prelim-Philosophy-PPE-letter-2026.pdf
+
+- id: sjc-reading-list
+  tier: 3
+  author: St. John's College (Annapolis and Santa Fe)
+  title: Undergraduate program reading list, by class year
+  url: https://www.sjc.edu/reading-list
+  note: The college notes the page may not reflect current changes or works read on one campus only.
+
+- id: syl-edinburgh-enli10431
+  tier: 3
+  author: University of Edinburgh
+  title: "ENLI10431: Desire and Writing: Psychoanalysis, Literature, Criticism (2025/26)"
+  url: https://www.drps.ed.ac.uk/25-26/dpt/cxenli10431.htm

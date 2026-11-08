@@ -33,6 +33,13 @@ survey:
     locator: schedule (a seminar centred on the Crisis)
     verified: true
     checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: sjc-reading-list
+    covers: shortlist
+    includes: [crisis]
+    ordered: false
+    locator: "Senior reading list"
+    verified: true
+    checked_in: Reading list web page, accessed 2026-11
 
 works:
 

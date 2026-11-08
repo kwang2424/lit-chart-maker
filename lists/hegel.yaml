@@ -61,6 +61,20 @@ survey:
     locator: "picks 1, 2 and 5"
     verified: true
     checked_in: Five Books interview (web page), accessed 2026-11
+  - source: warburton-classics
+    covers: shortlist
+    includes: [phenomenology]
+    ordered: false
+    locator: "table of contents, ch. 18"
+    verified: true
+    checked_in: Routledge book page (table of contents), accessed 2026-11
+  - source: sjc-reading-list
+    covers: shortlist
+    includes: [philosophy-of-right, phenomenology]
+    ordered: false
+    locator: "Junior (Philosophy of Right) and Senior (Phenomenology) reading list"
+    verified: true
+    checked_in: Reading list web page, accessed 2026-11
 
 works:
 

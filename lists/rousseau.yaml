@@ -50,6 +50,20 @@ survey:
     locator: weekly schedule, weeks 2–12
     verified: true
     checked_in: Course syllabus (PDF draft, Spring 2020), accessed 2026-11
+  - source: warburton-classics
+    covers: shortlist
+    includes: [social-contract]
+    ordered: false
+    locator: "table of contents, ch. 13"
+    verified: true
+    checked_in: Routledge book page (table of contents), accessed 2026-11
+  - source: sjc-reading-list
+    covers: shortlist
+    includes: [social-contract, inequality, emile]
+    ordered: false
+    locator: "Junior reading list"
+    verified: true
+    checked_in: Reading list web page, accessed 2026-11
 
 works:
 
