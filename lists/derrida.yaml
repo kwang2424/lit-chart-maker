@@ -34,6 +34,20 @@ survey:
     locator: lectures 1–4 and readings
     verified: true
     checked_in: Course page, accessed 2026-11
+  - source: syl-utd-gonzalez
+    starts_with: voice-phenomenon
+    includes: [voice-phenomenon, grammatology, margins, dissemination, postcard]
+    ordered: true
+    locator: "weeks 1–12 (Speech and Phenomena; Of Grammatology; Différance, Signature Event Context, Tympan; Plato's Pharmacy, The Double Session; To Speculate—on Freud)"
+    verified: true
+    checked_in: Course syllabus (PDF, Spring 2025), accessed 2026-11
+  - source: syl-skidmore-307
+    starts_with: grammatology
+    includes: [grammatology, margins]
+    ordered: true
+    locator: "schedule, Nov. 2 – Dec. 2"
+    verified: true
+    checked_in: Course syllabus (PDF, Fall 2011), accessed 2026-11
 
 works:
 
@@ -80,6 +94,10 @@ works:
     year: 1967
     kind: primary
     tier: core
+    tier_note: >
+      Only one of the five courses surveyed assigns it. It stays core because it is one of
+      the three 1967 books that introduced deconstruction, and the SEP calls its "Violence
+      and Metaphysics" a leading candidate for his most important early essay.
     difficulty: 4
     translation: Bass (Chicago 1978)
     note: >

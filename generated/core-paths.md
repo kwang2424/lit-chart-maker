@@ -6,7 +6,7 @@
 - **Henri Bergson:** "Introduction to Metaphysics" → Time and Free Will: An Essay on the Immediate Data of Consciousness → Matter and Memory → Creative Evolution
 - **Isaiah Berlin:** "Two Concepts of Liberty" → "Historical Inevitability" → "The Pursuit of the Ideal"
 - **Gilles Deleuze:** Nietzsche and Philosophy → Bergsonism → Difference and Repetition → Anti-Oedipus (Capitalism and Schizophrenia, vol. 1) → A Thousand Plateaus (Capitalism and Schizophrenia, vol. 2)
-- **Jacques Derrida:** Positions → Voice and Phenomenon (also translated as Speech and Phenomena) → Writing and Difference → Of Grammatology
+- **Jacques Derrida:** Positions → Voice and Phenomenon (also translated as Speech and Phenomena) → Of Grammatology → Writing and Difference
 - **René Descartes:** Discourse on the Method → Meditations on First Philosophy
 - **J. G. Fichte:** Concerning the Concept of the Wissenschaftslehre → The Vocation of Man → Foundation of the Entire Wissenschaftslehre (Science of Knowledge)
 - **Michel Foucault:** "Nietzsche, Genealogy, History" → Discipline and Punish: The Birth of the Prison → The History of Sexuality, Vol. 1: The Will to Knowledge
@@ -31,4 +31,4 @@
 - **F. W. J. Schelling:** System of Transcendental Idealism → Philosophical Investigations into the Essence of Human Freedom
 - **Arthur Schopenhauer:** On the Fourfold Root of the Principle of Sufficient Reason → The World as Will and Representation, vol. 1
 - **Baruch Spinoza:** Treatise on the Emendation of the Intellect → Ethics
-- **Leo Strauss:** Spinoza's Critique of Religion (read the 1965 preface) → Persecution and the Art of Writing → What Is Political Philosophy? and Other Studies → Natural Right and History
+- **Leo Strauss:** Spinoza's Critique of Religion (read the 1965 preface) → Persecution and the Art of Writing → Natural Right and History → What Is Political Philosophy? and Other Studies

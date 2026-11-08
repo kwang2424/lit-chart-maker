@@ -33,6 +33,20 @@ survey:
     locator: course schedule (Laughter recommended)
     verified: true
     checked_in: Course syllabus, accessed 2026-11
+  - source: syl-oregon-vallega-neu
+    starts_with: time-and-free-will
+    includes: [time-and-free-will, matter-and-memory]
+    ordered: true
+    locator: "schedule, Mar. 30 – May 25"
+    verified: true
+    checked_in: Course syllabus (PDF, Spring 2016), accessed 2026-11
+  - source: syl-mcgill-alsaji
+    starts_with: matter-and-memory
+    includes: [matter-and-memory, creative-evolution]
+    ordered: true
+    locator: "schedule (Matter and Memory, then Creative Evolution pp. 298–308)"
+    verified: true
+    checked_in: Course syllabus (PDF, Winter 2014), accessed 2026-11
 
 works:
 
@@ -42,6 +56,10 @@ works:
     year: 1903
     kind: primary
     tier: core
+    tier_note: >
+      Only one of the five courses surveyed assigns it; the others begin with Time and Free
+      Will. It stays core, and first, because the SEP calls it "a crucial reading guide for
+      Bergson's philosophy as a whole", and it is short.
     difficulty: 2
     translation: in The Creative Mind (trans. Andison), or Hulme's 1912 translation
     note: A short essay on intuition versus analysis. Now the centrepiece of The Creative Mind.
