@@ -1,0 +1,53 @@
+name: Review a citation
+description: You checked a citation against its source. Tell us whether it holds up.
+title: "Citation review: "
+labels: ["citation-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for checking. Look up the passage in the edition named below and compare it with the claim.
+        If it holds up, we'll record your name as its reviewer (`reviewed_by`). If not, say what's wrong.
+  - type: input
+    id: citation
+    attributes:
+      label: Citation
+      description: Which claim and source (filled in from the page).
+    validations:
+      required: true
+  - type: textarea
+    id: claim
+    attributes:
+      label: What the page says
+  - type: input
+    id: locator
+    attributes:
+      label: Where in the source
+  - type: dropdown
+    id: result
+    attributes:
+      label: Does the source support the claim?
+      options:
+        - "Yes, as written"
+        - "Mostly: the wording or locator needs a fix (explain below)"
+        - "No: the source doesn't say this (explain below)"
+        - "I couldn't find the passage"
+    validations:
+      required: true
+  - type: input
+    id: edition
+    attributes:
+      label: Edition you checked
+      description: e.g. "Hackett, 1994, p. 12" or "SEP entry, accessed 2026-11".
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Name to credit as reviewer
+      description: Shown on the site next to the citation. Leave blank to stay anonymous (we'll use your GitHub username).
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Corrections, a better quote or locator, or anything else.

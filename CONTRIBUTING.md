@@ -5,11 +5,14 @@ Disagreements are settled by sources, not by who argues loudest.
 ## Ways to help
 
 1. **Review a citation.** This is the most useful thing a person can do. Every citation
-   so far was checked by Claude (an AI); pages mark these "checked by Claude (AI)". Pick
-   one, look up the cited passage in the edition named in `checked_in`, and confirm the
-   `why` says what the source says. If it holds, add `reviewed_by: <your name>` under
-   that citation. If not, fix the `locator` or the wording, or propose removing the link,
-   and explain in your PR.
+   so far was checked by Claude (an AI); pages mark these "checked by Claude (AI)".
+   - **On the website (no GitHub editing needed):** click **check this** next to any
+     citation. It opens a short form, already filled in with the claim and source. Look
+     up the passage, say whether it holds up and which edition you used, and submit.
+     A maintainer then adds your name as `reviewed_by`, or fixes the citation.
+   - **In the data:** look up the passage in the edition named in `checked_in`. If it
+     holds, add `reviewed_by: <your name>` under that citation. If not, fix the
+     `locator` or wording, or propose removing the link, and explain in your PR.
 2. **Challenge an ordering.** Change the link and cite a source of equal or
    higher tier. If scholars genuinely disagree, keep the weaker strength and
    mention both views in the work's `note`.

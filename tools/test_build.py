@@ -223,6 +223,16 @@ class BuildTests(unittest.TestCase):
         html = findit.static_html("hobbes:leviathan", findit.entry("hobbes", {"id": "leviathan", "title": "Leviathan", "author": "Thomas Hobbes"}, {}))
         self.assertIn("worldcat.org", html)
 
+    def test_review_links_use_the_issue_form(self):
+        form = b.ROOT / ".github" / "ISSUE_TEMPLATE" / "citation-review.yml"
+        fields = {f.get("id") for f in b.load_yaml(form)["body"] if f.get("id")}
+        url = citations.review_url("hobbes:leviathan -> machiavelli:prince", "a claim",
+                                   {"source": "sep-hobbes", "locator": "§1"}, {"title": "x"})
+        self.assertIn("template=citation-review.yml", url)
+        for field in ("citation", "claim", "locator"):
+            self.assertIn(field, fields)
+            self.assertIn(f"{field}=", url)
+
 
 if __name__ == "__main__":
     unittest.main()
