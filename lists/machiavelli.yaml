@@ -50,6 +50,20 @@ survey:
     locator: weekly schedule, weeks 2–5
     verified: true
     checked_in: Course outline (PDF), accessed 2026-11
+  - source: warburton-classics
+    covers: shortlist
+    includes: [prince]
+    ordered: false
+    locator: "table of contents, ch. 4"
+    verified: true
+    checked_in: Routledge book page (table of contents), accessed 2026-11
+  - source: sjc-reading-list
+    covers: shortlist
+    includes: [prince, discourses]
+    ordered: false
+    locator: "Sophomore reading list"
+    verified: true
+    checked_in: Reading list web page, accessed 2026-11
 
 works:
 

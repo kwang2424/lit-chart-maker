@@ -41,6 +41,13 @@ survey:
     locator: weekly schedule (after Nietzsche's Genealogy)
     verified: true
     checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: warburton-classics
+    covers: shortlist
+    includes: [discipline-punish]
+    ordered: false
+    locator: "table of contents, ch. 33"
+    verified: true
+    checked_in: Routledge book page (table of contents), accessed 2026-11
 
 works:
 

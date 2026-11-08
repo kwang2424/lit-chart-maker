@@ -51,6 +51,20 @@ survey:
     locator: "schedule, Feb. 1–8 (before Dostoevsky, Nietzsche, Heidegger and Sartre)"
     verified: true
     checked_in: Course syllabus (PDF, Spring 2024), accessed 2026-11
+  - source: warburton-classics
+    covers: shortlist
+    includes: [either-or]
+    ordered: false
+    locator: "table of contents, ch. 21"
+    verified: true
+    checked_in: Routledge book page (table of contents), accessed 2026-11
+  - source: sjc-reading-list
+    covers: shortlist
+    includes: [either-or, fragments, fear-trembling]
+    ordered: false
+    locator: "Junior and Senior reading list"
+    verified: true
+    checked_in: Reading list web page, accessed 2026-11
 
 works:
 

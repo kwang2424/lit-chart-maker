@@ -46,6 +46,13 @@ survey:
     locator: "picks 1–3 (Essays and Aphorisms is Hollingdale's selection from Parerga)"
     verified: true
     checked_in: Five Books interview (web page), accessed 2026-11
+  - source: warburton-classics
+    covers: shortlist
+    includes: [wwr]
+    ordered: false
+    locator: "table of contents, ch. 17"
+    verified: true
+    checked_in: Routledge book page (table of contents), accessed 2026-11
 
 works:
 

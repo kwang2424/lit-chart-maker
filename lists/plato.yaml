@@ -68,6 +68,35 @@ survey:
     locator: "pick 2 (her other primary pick, the Statesman, isn't on this list)"
     verified: true
     checked_in: Five Books interview (web page), accessed 2026-11
+  - source: warburton-classics
+    covers: shortlist
+    includes: [republic]
+    ordered: false
+    locator: "table of contents, ch. 1"
+    verified: true
+    checked_in: Routledge book page (table of contents), accessed 2026-11
+  - source: cambridge-prospective-2015
+    covers: beginning
+    includes: [meno, euthyphro]
+    ordered: false
+    locator: "Great Dead Philosophers"
+    verified: true
+    checked_in: Reading list (PDF, July 2015), accessed 2026-11
+  - source: somerville-prelim-2026
+    covers: beginning
+    starts_with: republic
+    includes: [republic]
+    ordered: false
+    locator: "item 3, Republic Book 1"
+    verified: true
+    checked_in: Pre-arrival letter (PDF, 2026), accessed 2026-11
+  - source: sjc-reading-list
+    covers: shortlist
+    includes: [meno, gorgias, republic, apology, crito, phaedo, symposium, parmenides, theaetetus, sophist, timaeus, phaedrus]
+    ordered: false
+    locator: "Freshman reading list"
+    verified: true
+    checked_in: Reading list web page, accessed 2026-11
 
 works:
 

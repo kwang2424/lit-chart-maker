@@ -48,6 +48,20 @@ survey:
     locator: prescribed texts, numbered 1–8
     verified: true
     checked_in: Course syllabus (PDF), accessed 2026-11
+  - source: warburton-classics
+    covers: shortlist
+    includes: [german-ideology]
+    ordered: false
+    locator: "table of contents, ch. 22"
+    verified: true
+    checked_in: Routledge book page (table of contents), accessed 2026-11
+  - source: sjc-reading-list
+    covers: shortlist
+    includes: [capital-1, manuscripts-1844, german-ideology]
+    ordered: false
+    locator: "Senior reading list"
+    verified: true
+    checked_in: Reading list web page, accessed 2026-11
 
 works:
 

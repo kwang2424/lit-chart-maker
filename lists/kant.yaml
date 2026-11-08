@@ -72,6 +72,20 @@ survey:
     locator: "picks 1–4"
     verified: true
     checked_in: Five Books interview (web page), accessed 2026-11
+  - source: warburton-classics
+    covers: shortlist
+    includes: [kant-cpr, groundwork]
+    ordered: false
+    locator: "table of contents, ch. 14–15"
+    verified: true
+    checked_in: Routledge book page (table of contents), accessed 2026-11
+  - source: sjc-reading-list
+    covers: shortlist
+    includes: [kant-cpr, groundwork]
+    ordered: false
+    locator: "Junior reading list"
+    verified: true
+    checked_in: Reading list web page, accessed 2026-11
 
 works:
 
