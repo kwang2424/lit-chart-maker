@@ -92,7 +92,7 @@ ul.links li { margin: 6px 0; }
 .strength { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); }
 details.src summary { cursor: pointer; font-size: 0.85rem; color: var(--muted); }
 ul.cites { font-size: 0.85rem; padding-left: 1.1em; }
-.ok { color: var(--ok); } .warn { color: var(--warn); } .ai { color: var(--ext-edge); }
+.ok { color: var(--ok); } a.review { font-size: 0.8rem; white-space: nowrap; } .warn { color: var(--warn); } .ai { color: var(--ext-edge); }
 .hidden { display: none; }
 footer { margin-top: 48px; font-size: 0.85rem; }
 ul.consensus { list-style: none; padding: 0; margin: 12px 0; }
@@ -163,7 +163,7 @@ Spot a mistake? <a href="{REPO_URL}/blob/main/CONTRIBUTING.md">Help fix it</a>.<
 """
 
 
-def cite_html(c: dict, sources: dict) -> str:
+def cite_html(c: dict, sources: dict, where: str = "", claim_text: str = "") -> str:
     s = sources[c["source"]]
     title = escape(s["title"])
     if s.get("url"):
@@ -172,11 +172,15 @@ def cite_html(c: dict, sources: dict) -> str:
     if c.get("locator"):
         text += f", {escape(str(c['locator']))}"
     text += f' <span class="muted">[{b.SOURCE_TIER_NAMES[s["tier"]]}]</span> {citations.mark_html(c)}'
+    if where:
+        text += (f' <a class="review" href="{escape(citations.review_url(where, claim_text, c, s))}">'
+                 f'{"re-check" if c.get("reviewed_by") else "check this"}</a>')
     return f"<li>{text}</li>"
 
 
-def cites_block(claim: dict, sources: dict) -> str:
-    items = "".join(cite_html(c, sources) for c in claim.get("sources") or [])
+def cites_block(claim: dict, sources: dict, where: str = "") -> str:
+    text = claim.get("why") or claim.get("text") or ""
+    items = "".join(cite_html(c, sources, where, text) for c in claim.get("sources") or [])
     n = len(claim.get("sources") or [])
     return f'<details class="src"><summary>{n} source{"s" if n != 1 else ""}</summary><ul class="cites">{items}</ul></details>'
 
@@ -239,7 +243,7 @@ def list_page(data: dict, lists: dict, sources: dict) -> str:
         if w.get("start_here"):
             parts.append(
                 f'<div class="start"><strong>★ Good place to start.</strong> {escape(w["start_here"]["why"].strip())}'
-                f'{cites_block(w["start_here"], sources)}</div>'
+                f'{cites_block(w["start_here"], sources, f"{lid}:{n} (start here)")}</div>'
             )
         if w.get("note"):
             parts.append(f"<p>{escape(w['note'].strip())}</p>")
@@ -250,14 +254,14 @@ def list_page(data: dict, lists: dict, sources: dict) -> str:
         if w.get("tips"):
             parts.append('<p class="meta"><strong>Reading tips</strong></p><ul class="links">')
             for t in w["tips"]:
-                parts.append(f"<li>{escape(t['text'].strip())}{cites_block(t, sources)}</li>")
+                parts.append(f"<li>{escape(t['text'].strip())}{cites_block(t, sources, f'{lid}:{n} (tip)')}</li>")
             parts.append("</ul>")
         if w.get("after"):
             parts.append('<p class="meta"><strong>Read first</strong></p><ul class="links">')
             for l in w["after"]:
                 parts.append(
                     f'<li>{ref_html(l["work"])} <span class="strength">{escape(l["strength"])}</span><br>'
-                    f'{escape(l["why"].strip())}{cites_block(l, sources)}</li>'
+                    f'{escape(l["why"].strip())}{cites_block(l, sources, lid + ":" + n + " -> " + l["work"])}</li>'
                 )
             parts.append("</ul>")
         parts.append(findit.static_html(f"{lid}:{n}", findit.entry(lid, w, ol)))

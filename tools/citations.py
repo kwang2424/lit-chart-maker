@@ -18,6 +18,7 @@ A list can be marked `reviewed` or `stable` only once every citation has a
 from __future__ import annotations
 
 from html import escape
+from urllib.parse import urlencode
 
 AI_CHECKER = "Claude (AI)"
 
@@ -89,3 +90,19 @@ def validate(data: dict, report) -> None:
         if n["reviewed"] < n["total"]:
             report.error(f"{lid}: status '{data['status']}' needs every citation reviewed by a person "
                          f"({n['reviewed']}/{n['total']} have reviewed_by)")
+
+
+REPO_URL = "https://github.com/kwang2424/lit-chart-maker"
+
+
+def review_url(where: str, claim_text: str, c: dict, source: dict) -> str:
+    """A pre-filled 'Review a citation' issue (form in .github/ISSUE_TEMPLATE/citation-review.yml)."""
+    label = f"{where} — {source.get('author', '')}, {source.get('title', '')}".strip(", ")
+    params = {
+        "template": "citation-review.yml",
+        "title": f"Citation review: {where} ({c.get('source')})",
+        "citation": f"{where} | source: {c.get('source')}",
+        "claim": " ".join((claim_text or "").split())[:1500],
+        "locator": f"{c.get('locator', '')} — {label}"[:300],
+    }
+    return f"{REPO_URL}/issues/new?{urlencode(params)}"
