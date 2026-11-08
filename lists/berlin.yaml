@@ -29,6 +29,30 @@ survey:
     locator: the four Berlin books among Hardy's five picks
     verified: true
     checked_in: Five Books interview (web page), accessed 2026-11
+  - source: syl-berkeley-ps191
+    covers: shortlist
+    starts_with: two-concepts
+    includes: [two-concepts]
+    ordered: true
+    locator: "week 2, Thinking about Power"
+    verified: true
+    checked_in: Course syllabus (PDF, Fall 2022), accessed 2026-11
+  - source: syl-bard-stauffacher
+    covers: shortlist
+    starts_with: two-concepts
+    includes: [two-concepts]
+    ordered: true
+    locator: "schedule, Sept. 7"
+    verified: true
+    checked_in: Course syllabus (PDF, Fall 2023), accessed 2026-11
+  - source: syl-syracuse-382
+    covers: shortlist
+    starts_with: two-concepts
+    includes: [two-concepts]
+    ordered: true
+    locator: "reading for Sept. 2 (Freedom unit)"
+    verified: true
+    checked_in: Course syllabus (PDF, Fall 2021), accessed 2026-11
 
 works:
 

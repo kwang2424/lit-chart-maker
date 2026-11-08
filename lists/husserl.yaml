@@ -40,6 +40,14 @@ survey:
     locator: "Senior reading list"
     verified: true
     checked_in: Reading list web page, accessed 2026-11
+  - source: syl-ucsd-tolley
+    covers: shortlist
+    starts_with: ideas-1
+    includes: [ideas-1]
+    ordered: true
+    locator: "required texts; Husserl weeks 3–5"
+    verified: true
+    checked_in: Course page (Fall 2012), accessed 2026-11
 
 works:
 

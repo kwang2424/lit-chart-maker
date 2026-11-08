@@ -36,6 +36,14 @@ survey:
     locator: course description and seminars 1–5 (part 1 of a chronological survey)
     verified: true
     checked_in: Course page, accessed 2026-11
+  - source: syl-skidmore-307
+    covers: shortlist
+    starts_with: postmodern-condition
+    includes: [postmodern-condition]
+    ordered: true
+    locator: "schedule, Sept. 30 – Oct. 7"
+    verified: true
+    checked_in: Course syllabus (PDF, Fall 2011), accessed 2026-11
 
 works:
 

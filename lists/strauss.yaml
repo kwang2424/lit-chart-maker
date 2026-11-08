@@ -31,6 +31,13 @@ survey:
     checked_in: Course syllabus (PDF), accessed 2026-11
 # Yale's 2015 political theory exam list (cited in tips below) and Steven Smith's 2025
 # Yale course also assign Strauss, but one institution counts once in the survey.
+  - source: syl-lsu-poli7995
+    starts_with: natural-right
+    includes: [natural-right, thoughts-machiavelli]
+    ordered: true
+    locator: "schedule, units III and VI (9/20–9/27, 11/1)"
+    verified: true
+    checked_in: Course syllabus (PDF, Fall 2016), accessed 2026-11
 
 works:
 
