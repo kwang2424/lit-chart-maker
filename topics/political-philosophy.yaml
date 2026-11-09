@@ -1,0 +1,27 @@
+id: political-philosophy
+title: Political Philosophy, Plato to Marx
+scope: >
+  The canon of Western political thought as introductory courses teach it: Plato and
+  Aristotle, then Machiavelli, Hobbes, Locke and Rousseau, with Kant and Marx. Built from
+  three courses, including Steven Smith's recorded Yale lectures. Tocqueville, Mill,
+  Burke and others they read are not yet on this site and are listed below.
+
+courses:
+  - source: syl-oyc-plsc114
+    includes: [plato:apology, plato:crito, plato:republic, aristotle:politics, machiavelli:prince, hobbes:leviathan, locke:second-treatise, rousseau:inequality, rousseau:social-contract]
+    others: ["Tocqueville, Democracy in America"]
+    locator: sessions 2–23
+    verified: true
+    checked_in: Course page (Open Yale Courses), accessed 2026-11
+  - source: syl-ysu-pol3786
+    includes: [machiavelli:prince, hobbes:leviathan, locke:second-treatise, rousseau:social-contract]
+    others: ["Burke, Reflections on the Revolution in France", "Adam Smith", "The Federalist (Publius)", "Tocqueville, Democracy in America", "J. S. Mill"]
+    locator: course description and schedule
+    verified: true
+    checked_in: Course syllabus (PDF, Fall 2026), accessed 2026-11
+  - source: syl-leiden-politics
+    includes: [machiavelli:prince, hobbes:leviathan, locke:second-treatise, rousseau:social-contract, kant:perpetual-peace, marx:german-ideology]
+    others: ["J. S. Mill, On Liberty and Utilitarianism", "Harriet Taylor Mill, The Enfranchisement of Women"]
+    locator: reading list
+    verified: true
+    checked_in: Course prospectus (2025–2026), accessed 2026-11

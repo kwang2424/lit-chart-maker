@@ -10,6 +10,7 @@ import recheck
 import findit
 import graph
 import plan
+import topics
 import verify_claims
 
 import build as b
@@ -243,6 +244,23 @@ class BuildTests(unittest.TestCase):
             self.assertRegex(e["hash"], r"^[0-9a-f]{8}$")
             if e["verdict"] != "supported":
                 self.assertTrue(e.get("note"), f"{e['claim']}: a non-supported verdict needs a note")
+
+    def test_topics_are_valid_and_ordered(self):
+        r = b.Report()
+        tops = topics.load()
+        topics.validate(tops, self.lists, self.sources, r)
+        self.assertEqual(r.errors, [])
+        for tid, t in tops.items():
+            c = topics.chart(t, self.lists)
+            pos = {x: i for i, x in enumerate(c["order"])}
+            self.assertEqual(set(pos), set(c["count"]), tid)
+            for a_, c_, _, _ in c["links"]:
+                self.assertLess(pos[a_], pos[c_], f"{tid}: {a_} must come before {c_}")
+        bad = {"x": {"id": "x", "title": "X", "scope": "s", "courses": [
+            {"source": "sep-hobbes", "includes": ["hobbes:nope"], "locator": "l", "verified": True, "checked_in": "c"}]}}
+        r = b.Report()
+        topics.validate(bad, self.lists, self.sources, r)
+        self.assertTrue(any("unknown book" in e for e in r.errors))
 
 
 if __name__ == "__main__":
