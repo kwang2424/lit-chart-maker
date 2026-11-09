@@ -54,6 +54,18 @@ survey:
     verified: true
     checked_in: Course syllabus (PDF, Fall 2021), accessed 2026-11
 
+beginner:
+  work: proper-study
+  why: >
+    Asked whether this is "the book that you should start with as somebody new to Isaiah
+    Berlin", Henry Hardy, who edited it, answers "That was the idea, yes", though he is "a bit
+    torn about agreeing with that for all readers".
+  sources:
+    - source: fivebooks-hardy-berlin
+      locator: "pick 2"
+      verified: true
+      checked_in: Five Books interview (web page), accessed 2026-11
+
 works:
 
   # ---------- Anthologies ----------

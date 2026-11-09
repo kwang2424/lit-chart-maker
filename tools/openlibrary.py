@@ -11,7 +11,9 @@ Usage:
   python tools/openlibrary.py --all      # re-match everything (keeps manual entries)
 
 Each entry: `work` (list:work), `ol` (Open Library work id, or null if none fits),
-`ol_title` and `ol_author` (what was matched, for review), and `checked: true` once a
+`ol_title` and `ol_author` (what was matched, for review), `pages` (the median page count
+of its editions, from --pages; null when the record is a larger volume, such as the Two
+Treatises for the Second Treatise, so no fair count exists), and `checked: true` once a
 person or a manual edit has confirmed it; the script never overwrites checked entries.
 """
 
@@ -142,10 +144,31 @@ def best(work: dict) -> dict:
     }
 
 
+def add_pages(entries: list[dict], refresh: bool) -> None:
+    """Typical length: the median page count across a work's editions on Open Library."""
+    for e in entries:
+        if not e.get("ol") or ("pages" in e and not refresh):
+            continue
+        d = get(API + "?" + urllib.parse.urlencode({"q": f"key:/works/{e['ol']}", "fields": "number_of_pages_median"}))
+        n = ((d.get("docs") or [{}])[0] or {}).get("number_of_pages_median")
+        if n:
+            e["pages"] = int(n)
+        time.sleep(0.3)
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--all", action="store_true")
+    ap.add_argument("--pages", action="store_true", help="only add typical page counts to matched books")
     args = ap.parse_args()
+    if args.pages:
+        raw = OUT.read_text(encoding="utf-8")
+        entries = b.load_yaml(OUT) or []
+        add_pages(entries, refresh=False)
+        header = raw.split("\n- work")[0].rstrip() + "\n\n"
+        OUT.write_text(header + yaml.safe_dump(entries, sort_keys=False, allow_unicode=True, width=100), encoding="utf-8")
+        print(f"pages for {sum(1 for e in entries if e.get('pages'))} of {len(entries)} books")
+        return 0
     lists = b.load_lists(b.Report())
     old = {e["work"]: e for e in (b.load_yaml(OUT) or [])} if OUT.exists() else {}
     out = []

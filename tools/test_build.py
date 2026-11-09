@@ -245,6 +245,26 @@ class BuildTests(unittest.TestCase):
             if e["verdict"] != "supported":
                 self.assertTrue(e.get("note"), f"{e['claim']}: a non-supported verdict needs a note")
 
+    def test_beginner_picks_are_checked(self):
+        self.assertEqual([e for e in errors(self.bad, self.sources) if "beginner" in e], [])
+        bg = self.bad["nietzsche"]["beginner"]
+        bg["work"] = "nope"
+        bg["sources"][0]["verified"] = False
+        self.bad["nietzsche"]["status"] = "stable"
+        errs = errors(self.bad, self.sources)
+        self.assertTrue(any("(beginner): unknown work 'nope'" in e for e in errs))
+        self.assertTrue(any("beginner" in e and "not yet verified" in e for e in errs))
+
+    def test_page_counts_are_plausible(self):
+        pages = findit.load_pages()
+        self.assertGreater(len(pages), 300)
+        known = {f"{lid}:{w['id']}" for lid, d in self.lists.items() for w in d["works"]}
+        for k, n in pages.items():
+            self.assertIn(k, known)
+            self.assertTrue(10 <= n <= 2000, f"{k}: {n} pages")
+        self.assertNotIn("locke:second-treatise", pages)     # matched to the whole Two Treatises
+        self.assertIn("p", graph.data(self.lists)["nodes"]["plato:republic"])
+
     def test_topics_are_valid_and_ordered(self):
         r = b.Report()
         tops = topics.load()

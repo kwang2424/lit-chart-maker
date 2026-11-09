@@ -54,6 +54,18 @@ survey:
     verified: true
     checked_in: Routledge book page (table of contents), accessed 2026-11
 
+beginner:
+  work: two-problems-ethics
+  why: >
+    David Bather Woods: the two essays "really hold up as standalone pieces", so "if somebody
+    was reading Schopenhauer for the first time and wanted to get a handle on his thought, it
+    would be a good place to start. It is often the first thing I recommend."
+  sources:
+    - source: fivebooks-woods-schopenhauer
+      locator: "pick 1"
+      verified: true
+      checked_in: Five Books interview (web page), accessed 2026-11
+
 works:
 
   - id: upanishads

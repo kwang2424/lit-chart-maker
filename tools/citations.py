@@ -31,6 +31,8 @@ def claims(data: dict) -> list[dict]:
         if w.get("start_here"):
             out.append(w["start_here"])
         out += list(w.get("tips") or [])
+    if data.get("beginner"):
+        out.append(data["beginner"])
     return out
 
 

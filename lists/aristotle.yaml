@@ -79,6 +79,17 @@ survey:
     verified: true
     checked_in: Reading list web page, accessed 2026-11
 
+beginner:
+  work: barnes-vsi
+  why: >
+    Oxford's finals guide lists chapter 18 of this book (with Shields's Aristotle) as
+    introductory reading for its Nicomachean Ethics paper.
+  sources:
+    - source: oxford-finals
+      locator: "116. Aristotle, Nicomachean Ethics — Introductory reading"
+      verified: true
+      checked_in: Course descriptions (web page), accessed 2026-11
+
 works:
 
   - id: barnes-vsi

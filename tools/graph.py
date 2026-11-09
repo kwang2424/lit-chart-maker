@@ -12,6 +12,7 @@ from html import escape
 
 import build as b
 import connections
+import findit
 
 # Book shown when the page opens without a #list:work in the URL.
 DEFAULT_FOCUS = "freud:beyond-pleasure"
@@ -22,12 +23,15 @@ def data(lists: dict) -> dict:
     order = connections.ordered_lists(lists)
     rank = {lid: i for i, lid in enumerate(order)}
     nodes = {}
+    pages = findit.load_pages()
     for lid in order:
         d = lists[lid]
         for w in d["works"]:
             nodes[f"{lid}:{w['id']}"] = {
                 "t": w["title"], "l": lid, "y": w.get("year"), "tier": w["tier"],
             }
+            if pages.get(f"{lid}:{w['id']}"):
+                nodes[f"{lid}:{w['id']}"]["p"] = pages[f"{lid}:{w['id']}"]
     edges = []
     for lid, d in lists.items():
         for w in d["works"]:

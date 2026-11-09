@@ -25,6 +25,9 @@ contradict itself.
   start; the build warns where our tiers or links disagree with them.
 - **Links across lists** (e.g. `nietzsche:genealogy`) connect thinkers. The whole book
   graph must have no loops, so there is always somewhere to start.
+- **New to a thinker?** A list can name one `beginner` book, only where a source says to
+  start there (e.g. a Five Books interviewee's "the first thing I recommend"). It is shown at
+  the top of the page. Lists without such a source have none.
 - The format is documented at the top of `lists/nietzsche.yaml`; unknown field names are errors.
 
 ## Who checked what
@@ -53,7 +56,10 @@ claims found overstated or unsupported are fixed or opened as issues.
 (chart, core path, survey, full order with "read" checkboxes saved in the browser), a map
 of connections between thinkers, a "what to read first" graph for any book, and a
 reading-plan page: pick the books you want to reach and get one ordered checklist across
-every thinker, with the essential chain marked apart from background reading. On every
+every thinker, with the essential chain marked apart from background reading, and an estimate of how long
+the books left will take at a pace you choose. Topic pages (e.g. Existentialism) give the same
+estimate. Page counts are the median across each book's editions on Open Library, so they
+are a rough guide. On every
 push to `main`, `.github/workflows/pages.yml` publishes it to GitHub Pages.
 
 Every book has a **Find it** panel. When opened, the reader's browser checks Open Library

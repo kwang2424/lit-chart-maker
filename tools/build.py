@@ -49,7 +49,8 @@ STRONG_SOURCE_TIERS = {1, 2}
 
 # Allowed fields, so a misspelled one (e.g. `tiers:`) is an error instead of being ignored.
 FIELDS = {
-    "list": {"id", "title", "group", "sequence", "born", "scope", "status", "survey", "works"},
+    "list": {"id", "title", "group", "sequence", "born", "scope", "status", "survey", "works", "beginner"},
+    "beginner": {"work", "why", "sources"},
     "work": {"id", "title", "author", "year", "kind", "tier", "difficulty", "note", "tips", "after",
              "position", "translation", "start_here", "tier_note"},
     "link": {"work", "strength", "why", "sources"},
@@ -210,6 +211,16 @@ def validate(lists: dict, sources: dict, report: Report, strict: bool) -> None:
                     and by_id.get(tw, {}).get("tier") not in (None, "core")
                 ):
                     report.error(f"{lwhere}: a core work can't depend ('{strength}') on a non-core work")
+
+        if data.get("beginner") is not None:
+            bg = data["beginner"]
+            check_fields(bg, "beginner", f"{lid} (beginner)", report)
+            tl, tw = resolve(bg.get("work", ""), lid)
+            if tl not in all_ids or tw not in all_ids[tl]:
+                report.error(f"{lid} (beginner): unknown work '{bg.get('work')}'")
+            if not (bg.get("why") or "").strip():
+                report.error(f"{lid} (beginner): needs a 'why'")
+            check_citations(bg, f"{lid} (beginner)", False, sources, report, must_verify)
 
         cycle = find_cycle(works, lid)
         if cycle:
@@ -503,6 +514,10 @@ def render(data: dict, lists: dict, sources: dict) -> str:
             "",
         ]
 
+    if data.get("beginner"):
+        bg = data["beginner"]
+        out += [f"**New to {data['title'].split()[-1]}?** Start with {label(bg['work'])}. {' '.join(bg['why'].split())}", ""]
+        out += [f"- {cite(c, sources)}" for c in bg.get("sources") or []] + [""]
     out += [f"![{data['title']} reading chart]({lid}.svg)", ""]
     out += ["## Core path", "", "The shortest route through the essentials.", ""]
     for i, n in enumerate(core_order, 1):

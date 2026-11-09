@@ -5,175 +5,217 @@
   ol: OL1386587W
   ol_title: Love and Saint Augustine
   ol_author: Hannah Arendt
+  pages: 233
 - work: arendt:jewish-writings
   ol: OL1386629W
   ol_title: The Jewish Writings
   ol_author: Hannah Arendt
+  pages: 600
 - work: arendt:origins
   ol: OL10460640W
   ol_title: The Origins of Totalitarianism
   ol_author: Hannah Arendt
+  pages: 527
 - work: arendt:human-condition
   ol: OL10460638W
   ol_title: The Human Condition
   ol_author: Hannah Arendt
+  pages: 368
 - work: arendt:between-past-future
   ol: OL1386646W
   ol_title: Between past and future
   ol_author: Hannah Arendt
+  pages: 302
 - work: arendt:eichmann
   ol: OL1386647W
   ol_title: Eichmann in Jerusalem
   ol_author: Hannah Arendt
+  pages: 320
 - work: arendt:on-revolution
   ol: OL10460639W
   ol_title: On revolution
   ol_author: Hannah Arendt
+  pages: 350
 - work: arendt:men-dark-times
   ol: OL1386632W
   ol_title: Men in dark times
   ol_author: Hannah Arendt
+  pages: 272
 - work: arendt:on-violence
   ol: OL10460632W
   ol_title: On violence
   ol_author: Hannah Arendt
+  pages: 111
 - work: arendt:crises-republic
   ol: OL10460622W
   ol_title: Crises of the Republic
   ol_author: Hannah Arendt
+  pages: 240
 - work: arendt:life-of-mind
   ol: OL1386584W
   ol_title: The Life of the Mind (Combined 2 Volumes in 1)
   ol_author: Hannah Arendt
+  pages: 283
 - work: arendt:lectures-kant
   ol: OL10460625W
   ol_title: Lectures on Kant's political philosophy
   ol_author: Hannah Arendt
+  pages: 174
 - work: arendt:responsibility-judgment
   ol: OL1386636W
   ol_title: Responsibility and Judgment
   ol_author: Hannah Arendt
+  pages: 336
 - work: aristotle:barnes-vsi
   ol: OL2647715W
   ol_title: Aristotle
   ol_author: Jonathan Barnes
+  pages: 106
 - work: aristotle:categories
   ol: OL151490W
   ol_title: Categoriae
   ol_author: Aristotle
+  note: the record combines Categories and De Interpretatione
+  pages: null
 - work: aristotle:de-interpretatione
   ol: OL151490W
   ol_title: Categoriae
   ol_author: Aristotle
-  note: matched via an English edition
+  note: the record combines Categories and De Interpretatione
+  pages: null
 - work: aristotle:prior-analytics
   ol: OL16247885W
   ol_title: Prior Analytics
   ol_author: Aristotle
+  pages: 278
 - work: aristotle:posterior-analytics
   ol: OL151618W
   ol_title: Posterior analytics
   ol_author: Aristotle
+  pages: 288
 - work: aristotle:topics
   ol: OL151619W
   ol_title: Topics
   ol_author: Aristotle
+  pages: 260
 - work: aristotle:physics
   ol: OL151632W
   ol_title: Physics
   ol_author: Aristotle
+  pages: 386
 - work: aristotle:de-anima
   ol: OL15222713W
   ol_title: De anima
   ol_author: Aristotle
   checked: true
+  pages: 224
 - work: aristotle:parts-animals
   ol: OL151628W
   ol_title: Parts of animals
   ol_author: Aristotle
+  pages: 555
 - work: aristotle:generation-animals
   ol: OL16247887W
   ol_title: On the generation of animals
   ol_author: Aristotle
+  pages: 607
 - work: aristotle:metaphysics
   ol: OL20966539W
   ol_title: The Metaphysics
   ol_author: Aristotle
   checked: true
+  pages: 352
 - work: aristotle:ne
   ol: OL8273964W
   ol_title: Nicomachean Ethics
   ol_author: Aristotle
+  pages: 329
 - work: aristotle:politics
   ol: OL16247898W
   ol_title: Πολιτικά (Politiká)
   ol_author: Aristotle
   note: matched via an English edition
+  pages: 355
 - work: aristotle:rhetoric
   ol: OL15710664W
   ol_title: Rhetoric
   ol_author: Aristotle
   checked: true
+  pages: 369
 - work: aristotle:poetics
   ol: OL13703833W
   ol_title: Poetics
   ol_author: Aristotle
+  pages: 129
 - work: bergson:introduction-to-metaphysics
   ol: OL76671W
   ol_title: An introduction to metaphysics
   ol_author: Henri Bergson
+  pages: 92
 - work: bergson:time-and-free-will
   ol: OL76679W
   ol_title: Time and free will
   ol_author: Henri Bergson
+  pages: 252
 - work: bergson:matter-and-memory
   ol: OL76658W
   ol_title: Mati ere et me moire
   ol_author: Henri Bergson
   note: matched via an English edition
+  pages: 312
 - work: bergson:laughter
   ol: OL76650W
   ol_title: Le rire; essai sur la signification du comique
   ol_author: Henri Bergson
   note: matched via an English edition
+  pages: 172
 - work: bergson:creative-evolution
   ol: OL76664W
   ol_title: L'Évolution créatrice
   ol_author: Henri Bergson
   note: matched via an English edition
+  pages: 403
 - work: bergson:two-sources
   ol: OL76670W
   ol_title: Deux sources de la morale et de la religion
   ol_author: Henri Bergson
   note: matched via an English edition
+  pages: 320
 - work: bergson:creative-mind
   ol: OL76672W
   ol_title: The creative mind
   ol_author: Henri Bergson
+  pages: 307
 - work: berlin:proper-study
   ol: OL930388W
   ol_title: The proper study of mankind
   ol_author: Isaiah Berlin
+  pages: 667
 - work: berlin:liberty
   ol: OL930402W
   ol_title: Four Essays on Liberty
   ol_author: Isaiah Berlin
+  pages: 263
 - work: berlin:karl-marx
   ol: OL930407W
   ol_title: Karl Marx
   ol_author: Isaiah Berlin
+  pages: 280
 - work: berlin:hedgehog-fox
   ol: OL930405W
   ol_title: The hedgehog and the fox
   ol_author: Isaiah Berlin
+  pages: 96
 - work: berlin:historical-inevitability
   ol: OL930395W
   ol_title: Historical inevitability
   ol_author: Isaiah Berlin
+  pages: 79
 - work: berlin:two-concepts
   ol: OL930390W
   ol_title: Two concepts of liberty
   ol_author: Isaiah Berlin
+  pages: 57
 - work: berlin:counter-enlightenment
   ol: null
   note: no match
@@ -181,10 +223,12 @@
   ol: OL930389W
   ol_title: Three critics of the Enlightenment
   ol_author: Isaiah Berlin
+  pages: 396
 - work: berlin:roots-romanticism
   ol: OL930380W
   ol_title: The roots of romanticism
   ol_author: Isaiah Berlin
+  pages: 230
 - work: berlin:pursuit-ideal
   ol: null
   note: no match
@@ -192,18 +236,22 @@
   ol: OL930398W
   ol_title: The sense of reality
   ol_author: Isaiah Berlin
+  pages: 326
 - work: berlin:personal-impressions
   ol: OL930403W
   ol_title: Personal impressions
   ol_author: Isaiah Berlin
+  pages: 277
 - work: berlin:russian-thinkers
   ol: OL930400W
   ol_title: Russian Thinkers
   ol_author: Isaiah Berlin
+  pages: 312
 - work: berlin:freedom-betrayal
   ol: OL7971691W
   ol_title: Freedom and Its Betrayal
   ol_author: Isaiah Berlin
+  pages: 256
 - work: deleuze:leibniz
   ol: null
   note: no match
@@ -211,99 +259,122 @@
   ol: OL3341408W
   ol_title: Gilles Deleuze
   ol_author: Todd May
+  pages: 191
 - work: deleuze:rajchman-connections
   ol: OL2716052W
   ol_title: The Deleuze connections
   ol_author: John Rajchman
+  pages: 167
 - work: deleuze:empiricism-subjectivity
   ol: OL93904W
   ol_title: Empiricism and subjectivity
   ol_author: Gilles Deleuze
+  pages: 175
 - work: deleuze:nietzsche-and-philosophy
   ol: OL93933W
   ol_title: Nietzsche et la philosophie
   ol_author: Gilles Deleuze
   note: matched via an English edition
+  pages: 232
 - work: deleuze:kants-critical-philosophy
   ol: OL93930W
   ol_title: Philosophie critique de Kant
   ol_author: Gilles Deleuze
   note: matched via an English edition
+  pages: 86
 - work: deleuze:proust-signs
   ol: OL93934W
   ol_title: Proust et les signes
   ol_author: Gilles Deleuze
   note: matched via an English edition
+  pages: 195
 - work: deleuze:bergsonism
   ol: OL93900W
   ol_title: Bergsonism
   ol_author: Gilles Deleuze
+  pages: 137
 - work: deleuze:expressionism-spinoza
   ol: OL93906W
   ol_title: Expressionism in philosophy
   ol_author: Gilles Deleuze
+  pages: 445
 - work: deleuze:spinoza-practical
   ol: OL19191972W
   ol_title: Spinoza, practical philosophy
   ol_author: Gilles Deleuze
+  pages: 130
 - work: deleuze:coldness-cruelty
   ol: OL17832818W
   ol_title: Masochism
   ol_author: Gilles Deleuze
+  pages: 275
 - work: deleuze:difference-and-repetition
   ol: OL93931W
   ol_title: Différence et répétition
   ol_author: Gilles Deleuze
+  pages: 400
 - work: deleuze:logic-of-sense
   ol: OL93913W
   ol_title: Logic of Sense
   ol_author: Gilles Deleuze
+  pages: 393
 - work: deleuze:anti-oedipus
   ol: OL93923W
   ol_title: Anti-Œdipe
   ol_author: Gilles Deleuze
   note: matched via an English edition
+  pages: 428
 - work: deleuze:kafka
   ol: OL93929W
   ol_title: Kafka
   ol_author: Gilles Deleuze
+  pages: 133
 - work: deleuze:dialogues
   ol: OL93921W
   ol_title: Dialogues
   ol_author: Gilles Deleuze
+  pages: 157
 - work: deleuze:thousand-plateaus
   ol: OL93925W
   ol_title: Mille plateaux
   ol_author: Gilles Deleuze
   note: matched via an English edition
+  pages: 628
 - work: deleuze:francis-bacon
   ol: OL93928W
   ol_title: Francis Bacon
   ol_author: Gilles Deleuze
+  pages: 183
 - work: deleuze:cinema-1
   ol: OL93924W
   ol_title: Cinema 1 The Movement Image
   ol_author: Gilles Deleuze
+  pages: 264
 - work: deleuze:cinema-2
   ol: OL10447116W
   ol_title: Cinema
   ol_author: Gilles Deleuze
+  pages: 348
 - work: deleuze:foucault
   ol: OL93927W
   ol_title: Foucault
   ol_author: Gilles Deleuze
+  pages: 157
 - work: deleuze:the-fold
   ol: OL93932W
   ol_title: The Fold
   ol_author: Gilles Deleuze
+  pages: 192
 - work: deleuze:negotiations
   ol: OL16995802W
   ol_title: Negotiations, 1972-1990
   ol_author: Gilles Deleuze
+  pages: 221
 - work: deleuze:what-is-philosophy
   ol: OL20712590W
   ol_title: What Is Philosophy?
   ol_author: Gilles Deleuze
+  pages: 256
 - work: deleuze:williams-dr-guide
   ol: OL27361021W
   ol_title: Gilles Deleuze's Difference and Repetition
@@ -312,23 +383,28 @@
   ol: OL25215324W
   ol_title: Deleuze and Guattari's Anti-Oedipus
   ol_author: Eugene W. Holland
+  pages: 174
 - work: deleuze:massumi-guide
   ol: OL4106148W
   ol_title: A user's guide to capitalism and schizophrenia
   ol_author: Brian Massumi
+  pages: 229
 - work: derrida:origin-geometry
   ol: OL15221W
   ol_title: Introduction à "L'Origine de la géométrie" de Husserl
   ol_author: Jacques Derrida
   note: matched via an English edition
+  pages: 206
 - work: derrida:voice-phenomenon
   ol: OL16461477W
   ol_title: Voice and phenomenon
   ol_author: Jacques Derrida
+  pages: 125
 - work: derrida:writing-difference
   ol: OL15247W
   ol_title: Writing and Difference
   ol_author: Jacques Derrida
+  pages: 446
 - work: derrida:cogito-madness
   ol: null
   note: no match
@@ -337,34 +413,42 @@
   ol_title: De la grammatologie
   ol_author: Jacques Derrida
   note: matched via an English edition
+  pages: 445
 - work: derrida:positions
   ol: OL15267W
   ol_title: Positions
   ol_author: Jacques Derrida
+  pages: 121
 - work: derrida:margins
   ol: OL15211167W
   ol_title: Margins of philosophy
   ol_author: Jacques Derrida
+  pages: 330
 - work: derrida:dissemination
   ol: OL15214W
   ol_title: Dissemination
   ol_author: Jacques Derrida
+  pages: 366
 - work: derrida:glas
   ol: OL15261W
   ol_title: Glas
   ol_author: Jacques Derrida
+  pages: 262
 - work: derrida:limited-inc
   ol: OL15255W
   ol_title: Limited Inc
   ol_author: Jacques Derrida
+  pages: 160
 - work: derrida:truth-painting
   ol: OL15039871W
   ol_title: The truth in painting
   ol_author: Jacques Derrida
+  pages: 386
 - work: derrida:postcard
   ol: OL15211166W
   ol_title: The post card
   ol_author: Jacques Derrida
+  pages: 521
 - work: derrida:force-of-law
   ol: null
   note: no match
@@ -372,47 +456,57 @@
   ol: OL25110574W
   ol_title: Specters of Marx
   ol_author: Jacques Derrida
+  pages: 288
 - work: derrida:monolingualism
   ol: OL15039825W
   ol_title: Monolingualism of the other, or, The prosthesis of origin
   ol_author: Jacques Derrida
+  pages: 93
 - work: derrida:rogues
   ol: OL15240W
   ol_title: 'Rogues: Two Essays on Reason (Meridian: Crossing Aesthetics)'
   ol_author: Jacques Derrida
+  pages: 200
 - work: derrida:animal
   ol: OL15039724W
   ol_title: The Animal That Therefore I Am (Perspectives in Continental Philosophy)
   ol_author: Jacques Derrida
+  pages: 192
 - work: descartes:rules
   ol: OL1151515W
   ol_title: Regulae ad directionem ingenii
   ol_author: René Descartes
   note: matched via an English edition
+  pages: 207
 - work: descartes:discourse
   ol: OL1151518W
   ol_title: Discours de la méthode
   ol_author: René Descartes
   note: matched via an English edition
+  pages: 182
 - work: descartes:essays-1637
   ol: OL1151483W
   ol_title: Essays
   ol_author: René Descartes
-  note: matched via an English edition
+  note: the record may be a different collection of essays
+  pages: null
 - work: descartes:meditations
   ol: OL1151517W
   ol_title: Meditationes de prima philosophia
   ol_author: René Descartes
   checked: true
+  pages: 191
 - work: descartes:objections-replies
   ol: OL12746498W
   ol_title: Meditations, objections, and replies
   ol_author: René Descartes
+  pages: 184
 - work: descartes:principles
   ol: OL1151514W
   ol_title: Principia philosophiae
   ol_author: René Descartes
   note: matched via an English edition
+  pages: 222
 - work: descartes:elisabeth
   ol: null
   note: no match
@@ -420,11 +514,13 @@
   ol: OL7982265W
   ol_title: The Passions of the Soul
   ol_author: René Descartes
+  pages: 165
 - work: fichte:critique-revelation
   ol: OL508138W
   ol_title: Versuch einer Kritik aller Offenbarung
   ol_author: Johann Gottlieb Fichte
   note: matched via an English edition
+  pages: 186
 - work: fichte:aenesidemus-review
   ol: null
   note: no match
@@ -441,6 +537,7 @@
   ol: OL508041W
   ol_title: Foundations of natural right
   ol_author: Johann Gottlieb Fichte
+  pages: 338
 - work: fichte:new-presentation
   ol: null
   note: no match
@@ -448,15 +545,18 @@
   ol: OL29414559W
   ol_title: System of Ethics
   ol_author: Johann Gottlieb Fichte
+  pages: 448
 - work: fichte:vocation
   ol: OL508143W
   ol_title: Bestimmung des Menschen
   ol_author: Johann Gottlieb Fichte
   note: matched via an English edition
+  pages: 178
 - work: fichte:closed-state
   ol: OL15933441W
   ol_title: The closed commercial state
   ol_author: Johann Gottlieb Fichte
+  pages: 239
 - work: fichte:sun-clear
   ol: null
   note: no match
@@ -467,20 +567,24 @@
   ol: OL508119W
   ol_title: The Science Of Knowing
   ol_author: Johann Gottlieb Fichte
+  pages: 260
 - work: fichte:addresses
   ol: OL508144W
   ol_title: Reden an die deutsche Nation
   ol_author: Johann Gottlieb Fichte
   note: matched via an English edition
+  pages: 254
 - work: foucault:may-philosophy
   ol: OL25161182W
   ol_title: Philosophy of Foucault
   ol_author: Todd May
+  pages: 192
 - work: foucault:mental-illness
   ol: OL26867W
   ol_title: Maladie mentale et psychologie
   ol_author: Michel Foucault
   note: matched via an English edition
+  pages: 90
 - work: foucault:history-of-madness
   ol: OL28321427W
   ol_title: History of Madness
@@ -490,16 +594,19 @@
   ol_title: Naissance de la clinique
   ol_author: Michel Foucault
   note: matched via an English edition
+  pages: 215
 - work: foucault:order-of-things
   ol: OL10477605W
   ol_title: Les mots et les choses
   ol_author: Michel Foucault
   note: matched via an English edition
+  pages: 387
 - work: foucault:archaeology
   ol: OL10477602W
   ol_title: L'archéologie du savoir
   ol_author: Michel Foucault
   note: matched via an English edition
+  pages: 218
 - work: foucault:order-of-discourse
   ol: null
   note: no match
@@ -510,34 +617,41 @@
   ol: OL26841W
   ol_title: Discipline and Punish
   ol_author: Michel Foucault
+  pages: 333
 - work: foucault:hs1
   ol: OL8971623W
   ol_title: L'histoire de la sexualité, t.1
   ol_author: Michel Foucault
   note: matched via an English edition
+  pages: 192
 - work: foucault:society-defended
   ol: OL26864W
   ol_title: Il faut défendre la société
   ol_author: Michel Foucault
   note: matched via an English edition
+  pages: 310
 - work: foucault:security-territory
   ol: OL10477573W
   ol_title: Security, territory, population
   ol_author: Michel Foucault
+  pages: 417
 - work: foucault:birth-biopolitics
   ol: OL25654465W
   ol_title: Birth of Biopolitics
   ol_author: M Foucault
+  pages: 368
 - work: foucault:use-pleasure
   ol: OL10477604W
   ol_title: Histoire de la sexualité
   ol_author: Michel Foucault
   note: matched via an English edition
+  pages: 284
 - work: foucault:care-self
-  ol: OL8971623W
-  ol_title: L'histoire de la sexualité, t.1
+  ol: OL26863W
+  ol_title: L'histoire de la sexualité, t.3
   ol_author: Michel Foucault
-  note: matched via an English edition
+  pages: 288
+  checked: true
 - work: foucault:what-is-enlightenment
   ol: null
   note: no match
@@ -545,26 +659,31 @@
   ol: OL43234903W
   ol_title: Introductory Lectures on Psycho-Analysis
   ol_author: Freud sigmund
+  pages: 408
 - work: freud:studies-hysteria
   ol: OL6962262W
   ol_title: Studien über Hysteria
   ol_author: Josef Breuer
   note: matched via an English edition
+  pages: 343
 - work: freud:interpretation-of-dreams
   ol: OL1069300W
   ol_title: Die Traumdeutung
   ol_author: Sigmund Freud
   note: matched via an English edition
+  pages: 512
 - work: freud:psychopathology
   ol: OL1069431W
   ol_title: Zur psychopathologie des alltagslebens (The psychopathology of everyday life)
   ol_author: Sigmund Freud
   note: matched via an English edition
+  pages: 310
 - work: freud:three-essays
   ol: OL1069665W
   ol_title: Drei Abhandlungen zur Sexualtheorie
   ol_author: Sigmund Freud
   note: matched via an English edition
+  pages: 130
 - work: freud:dora
   ol: null
   note: no match
@@ -572,66 +691,84 @@
   ol: OL18341863W
   ol_title: Freud's "On narcissism--an introduction"
   ol_author: Sigmund Freud
+  pages: 236
+- work: freud:mourning-melancholia
+  ol: OL1069361W
+  ol_title: Mourning and melancholia (1917 [1915])
+  ol_author: Sigmund Freud
 - work: freud:uncanny
   ol: OL1069503W
   ol_title: The uncanny
   ol_author: Sigmund Freud
+  pages: 201
 - work: freud:beyond-pleasure
   ol: OL1069185W
   ol_title: Jenseits des Lustprinzips
   ol_author: Sigmund Freud
   note: matched via an English edition
+  pages: 90
 - work: freud:ego-and-id
   ol: OL1069660W
   ol_title: Ich und das Es
   ol_author: Sigmund Freud
   note: matched via an English edition
+  pages: 77
 - work: freud:totem-and-taboo
   ol: OL1069489W
   ol_title: Totem et Taboo
   ol_author: Sigmund Freud
   note: matched via an English edition
+  pages: 226
 - work: freud:future-of-an-illusion
   ol: OL1069670W
   ol_title: Zukunft einer Illusion
   ol_author: Sigmund Freud
   note: matched via an English edition
+  pages: 95
 - work: freud:civilization
   ol: OL1069203W
   ol_title: Unbehagen in der Kultur
   ol_author: Sigmund Freud
   note: matched via an English edition
+  pages: 121
 - work: freud:moses
   ol: OL1069663W
   ol_title: Mann Moses und die monotheistische Religion
   ol_author: Sigmund Freud
   note: matched via an English edition
+  pages: 205
 - work: hegel:houlgate-intro
   ol: OL4457023W
   ol_title: An introduction to Hegel
   ol_author: Stephen Houlgate
+  pages: 314
 - work: hegel:phenomenology
   ol: OL678515W
   ol_title: Phänomenologie des Geistes
   ol_author: Georg Wilhelm Friedrich Hegel
   note: matched via an English edition
+  pages: 595
 - work: hegel:stern-guide
   ol: OL5921800W
   ol_title: Routledge Philosophy Guidebook to Hegel and The Phenomenology of Spirit
   ol_author: Robert Stern
+  pages: 224
 - work: hegel:science-of-logic
   ol: OL678564W
   ol_title: Wissenschaft der Logik
   ol_author: Georg Wilhelm Friedrich Hegel
   note: matched via an English edition
+  pages: 439
 - work: hegel:encyclopaedia
   ol: OL17396121W
   ol_title: Encyclopaedia Of The Philosophical Sciences In Basic Outline
   ol_author: Georg Wilhelm Friedrich Hegel
+  pages: 358
 - work: hegel:philosophy-of-right
   ol: OL678481W
   ol_title: Elements of the philosophy of right
   ol_author: Georg Wilhelm Friedrich Hegel
+  pages: 407
 - work: hegel:philosophy-of-history
   ol: OL25675813W
   ol_title: Lectures on the Philosophy of World History
@@ -640,29 +777,35 @@
   ol: OL678366W
   ol_title: Introductory lectures on aesthetics
   ol_author: Georg Wilhelm Friedrich Hegel
+  pages: 197
 - work: heidegger:being-and-time
   ol: OL77609W
   ol_title: Sein und Zeit
   ol_author: Martin Heidegger
   note: matched via an English edition
+  pages: 437
 - work: heidegger:blattner-guide
   ol: OL35718944W
   ol_title: Heidegger's 'Being and Time'
   ol_author: William Blattner
+  pages: 204
 - work: heidegger:dreyfus-being-in-world
   ol: OL4299941W
   ol_title: Being-in-the-world
   ol_author: Hubert L. Dreyfus
+  pages: 377
 - work: heidegger:basic-problems
   ol: OL77632W
   ol_title: Grundprobleme der Phänomenologie
   ol_author: Martin Heidegger
   note: matched via an English edition
+  pages: 396
 - work: heidegger:kant-problem
   ol: OL77597W
   ol_title: Kant und das Problem der Metaphysik
   ol_author: Martin Heidegger
   note: matched via an English edition
+  pages: 283
 - work: heidegger:what-is-metaphysics
   ol: null
   note: no match
@@ -676,10 +819,12 @@
   ol: OL77595W
   ol_title: Introduction to metaphysics
   ol_author: Martin Heidegger
+  pages: 225
 - work: heidegger:early-greek-thinking
   ol: OL77615W
   ol_title: Early Greek thinking
   ol_author: Martin Heidegger
+  pages: 129
 - work: heidegger:origin-work-of-art
   ol: null
   note: no match
@@ -687,22 +832,27 @@
   ol: OL25277208W
   ol_title: Metaphysics of German Idealism
   ol_author: Ian Alexander Moore
+  pages: 180
 - work: heidegger:contributions
   ol: OL14920850W
   ol_title: Contributions to Philosophy
   ol_author: Martin Heidegger
+  pages: 420
 - work: heidegger:platos-sophist
   ol: OL14920780W
   ol_title: Plato's Sophist
   ol_author: Martin Heidegger
+  pages: 476
 - work: heidegger:hegels-phenomenology
   ol: OL25129844W
   ol_title: Hegel's Phenomenology of Spirit
   ol_author: Martin Heidegger
+  pages: 176
 - work: heidegger:nietzsche-lectures
   ol: OL77664W
   ol_title: Nietzsche
   ol_author: Martin Heidegger
+  pages: 308
 - work: heidegger:age-world-picture
   ol: OL12938645W
   ol_title: AGE OF THE WORLD PICTURE
@@ -715,10 +865,12 @@
   ol_title: Was heisst Denken?
   ol_author: Martin Heidegger
   note: matched via an English edition
+  pages: 257
 - work: heidegger:question-technology
   ol: OL77646W
   ol_title: The question concerning technology, and other essays
   ol_author: Martin Heidegger
+  pages: 182
 - work: heidegger:end-of-philosophy
   ol: null
   note: no match
@@ -730,31 +882,38 @@
   ol_title: Elements of Law Natural and Politic
   ol_author: Thomas Hobbes
   checked: true
+  pages: 113
 - work: hobbes:de-cive
   ol: OL654090W
   ol_title: De cive
   ol_author: Thomas Hobbes
+  pages: 264
 - work: hobbes:leviathan
   ol: OL653987W
   ol_title: Leviathan
   ol_author: Thomas Hobbes
+  pages: 508
 - work: hobbes:de-corpore
   ol: OL654084W
   ol_title: De corpore
   ol_author: Thomas Hobbes
   checked: true
+  pages: 247
 - work: hobbes:de-homine
   ol: OL654087W
   ol_title: De homine
   ol_author: Thomas Hobbes
+  pages: 386
 - work: hobbes:behemoth
   ol: OL654077W
   ol_title: Behemoth, or, The Long Parliament
   ol_author: Thomas Hobbes
+  pages: 315
 - work: hume:treatise
   ol: OL93569W
   ol_title: A treatise of human nature
   ol_author: David Hume
+  pages: 678
 - work: hume:abstract
   ol: null
   note: no match
@@ -763,42 +922,51 @@
   ol_title: Philosophical essays concerning human understanding
   ol_author: David Hume
   note: matched via an English edition
+  pages: 205
 - work: hume:second-enquiry
   ol: OL15873903W
   ol_title: An enquiry concerning the principles of morals
   ol_author: David Hume
+  pages: 169
 - work: hume:dissertation-passions
   ol: OL14982146W
   ol_title: A dissertation on the passions
   ol_author: David Hume
+  pages: 17
 - work: hume:natural-history-religion
   ol: OL93558W
   ol_title: The natural history of religion
   ol_author: David Hume
+  pages: 76
 - work: hume:essays
   ol: OL93563W
   ol_title: Essays moral, political, and literary
   ol_author: David Hume
+  pages: 616
 - work: hume:dialogues
   ol: OL93568W
   ol_title: Dialogues Concerning Natural Religion
   ol_author: David Hume
+  pages: 114
 - work: husserl:logical-investigations
   ol: OL1304069W
   ol_title: Logische Untersuchungen
   ol_author: Edmund Husserl
   note: matched via an English edition
+  pages: 813
 - work: husserl:time-consciousness
   ol: OL1303982W
   ol_title: On the Phenomenology of the Consciousness of Internal Time (1893-1917) (Edmund Husserl Collected
     Works)
   ol_author: Edmund Husserl
+  pages: 468
 - work: husserl:rigorous-science
   ol: OL1304041W
   ol_title: Phenomenology and the crisis of philosophy ; Philosophy as rigorous science ; and, Philosophy
     and the crisis of European man
   ol_author: Edmund Husserl
   note: no English edition listed
+  pages: 116
 - work: husserl:ideas-1
   ol: null
   note: no match
@@ -816,94 +984,115 @@
   ol_title: Cartesianische Meditationen
   ol_author: Edmund Husserl
   note: matched via an English edition
+  pages: 157
 - work: husserl:crisis
   ol: OL1304031W
   ol_title: Krisis der europäischen Wissenschaften und die transzendentale Phänomenologie
   ol_author: Edmund Husserl
   note: matched via an English edition
+  pages: 405
 - work: jung:stevens-vsi
   ol: OL455869W
   ol_title: Jung
   ol_author: Anthony Stevens
+  pages: 184
 - work: jung:stein-map
   ol: OL15837481W
   ol_title: Jung's map of the soul
   ol_author: Murray Stein
+  pages: 244
 - work: jung:portable-jung
   ol: OL12100188W
   ol_title: The Portable Jung
   ol_author: Carl Gustav Jung
   checked: true
+  pages: 659
 - work: jung:man-and-his-symbols
   ol: OL95157W
   ol_title: Man and His Symbols
   ol_author: Carl Gustav Jung
+  pages: 320
 - work: jung:theory-psychoanalysis
   ol: OL95142W
   ol_title: The theory of psychoanalysis
   ol_author: Carl Gustav Jung
+  pages: 138
 - work: jung:symbols-transformation
   ol: OL15076984W
   ol_title: Symbols of Transformation (Collected Works of C.G. Jung Vol.5)
   ol_author: Carl Gustav Jung
+  pages: 590
 - work: jung:two-essays
   ol: OL95173W
   ol_title: Über die Psychologie des Unbewussten
   ol_author: Carl Gustav Jung
   note: matched via an English edition
+  pages: 347
 - work: jung:memories-dreams
   ol: OL95094W
   ol_title: Erinnerungen, Träume, Gedanken
   ol_author: Carl Gustav Jung
   note: matched via an English edition
+  pages: 422
 - work: jung:psychological-types
   ol: OL95107W
   ol_title: Psychologische Typen
   ol_author: Carl Gustav Jung
   note: matched via an English edition
+  pages: 654
 - work: jung:archetypes-cu
   ol: OL261714W
   ol_title: The Archetypes and the Collective Unconscious
   ol_author: Carl Gustav Jung
+  pages: 462
 - work: jung:jung-speaking
   ol: OL19530846W
   ol_title: C.G. Jung speaking
   ol_author: Carl Gustav Jung
+  pages: 431
 - work: jung:modern-man
   ol: OL95175W
   ol_title: Modern man in search of a soul
   ol_author: Carl Gustav Jung
+  pages: 282
 - work: jung:zarathustra-seminar
   ol: OL21486524W
   ol_title: Nietzsche's Zarathustra
   ol_author: Jarrett, James L.
+  pages: 1616
 - work: jung:psychology-alchemy
   ol: OL95168W
   ol_title: Psychologie und Alchemie
   ol_author: Carl Gustav Jung
   note: matched via an English edition
+  pages: 571
 - work: jung:aion
   ol: OL95163W
   ol_title: Aion
   ol_author: Carl Gustav Jung
+  pages: 337
 - work: jung:answer-to-job
   ol: OL95172W
   ol_title: Answer to Job
   ol_author: Carl Gustav Jung
+  pages: 194
 - work: jung:synchronicity
   ol: OL17454271W
   ol_title: Synchronicity
   ol_author: Carl Gustav Jung
   checked: true
+  pages: 135
 - work: jung:undiscovered-self
   ol: OL95170W
   ol_title: Gegenwart und Zukunft
   ol_author: Carl Gustav Jung
   note: matched via an English edition
+  pages: 113
 - work: jung:red-book
   ol: OL404040W
   ol_title: The red book =
   ol_author: Carl Gustav Jung
+  pages: 484
 - work: kant:enlightenment
   ol: null
   note: no match
@@ -912,25 +1101,30 @@
   ol_title: Prolegomena
   ol_author: Immanuel Kant
   note: matched via an English edition
+  pages: 260
 - work: kant:kant-cpr
   ol: OL99844W
   ol_title: Kritik der reinen Vernunft
   ol_author: Immanuel Kant
   note: matched via an English edition
+  pages: 613
 - work: kant:gardner-cpr
   ol: OL4285521W
   ol_title: Routledge Philosophy GuideBook to Kant and The Critique of Pure Reason
   ol_author: Sebastian Gardner
+  pages: 392
 - work: kant:groundwork
   ol: OL99843W
   ol_title: Grundlegung zur Metaphysik der Sitten
   ol_author: Immanuel Kant
   note: matched via an English edition
+  pages: 142
 - work: kant:cprr
   ol: OL99842W
   ol_title: Kritik der praktischen Vernunft
   ol_author: Immanuel Kant
   note: matched via an English edition
+  pages: 252
 - work: kant:metaphysics-of-morals
   ol: null
   checked: true
@@ -939,6 +1133,7 @@
   ol_title: Kritik der Urteilskraft
   ol_author: Immanuel Kant
   note: matched via an English edition
+  pages: 339
 - work: kant:religion
   ol: OL408085W
   ol_title: Religion within the bounds of bare reason
@@ -948,75 +1143,91 @@
   ol_title: Toward Perpetual Peace and Other Writings on Politics, Peace, and History (Rethinking the
     Western Tradition)
   ol_author: Immanuel Kant
+  pages: 304
 - work: kierkegaard:carlisle-heart
   ol: OL20923910W
   ol_title: Philosopher of the Heart
   ol_author: Clare Carlisle
+  pages: 368
 - work: kierkegaard:concept-irony
   ol: OL112731W
   ol_title: Om begrebet ironi
   ol_author: Søren Kierkegaard
   note: matched via an English edition
+  pages: 442
 - work: kierkegaard:either-or
   ol: OL112738W
   ol_title: Enten-eller
   ol_author: Søren Kierkegaard
   note: matched via an English edition
+  pages: 274
 - work: kierkegaard:fear-trembling
   ol: OL112736W
   ol_title: Frygt og Bæven
   ol_author: Søren Kierkegaard
   note: matched via an English edition
+  pages: 160
 - work: kierkegaard:repetition
   ol: OL112735W
   ol_title: Gjentagelsen
   ol_author: Søren Kierkegaard
   note: matched via an English edition
+  pages: 183
 - work: kierkegaard:fragments
   ol: OL16304857W
   ol_title: Philosophical fragments, or, A fragment of philosophy
   ol_author: Søren Kierkegaard
   checked: true
+  pages: 260
 - work: kierkegaard:anxiety
   ol: OL19708587W
   ol_title: The concept of anxiety
   ol_author: Søren Kierkegaard
+  pages: 184
 - work: kierkegaard:stages
   ol: OL16304863W
   ol_title: Stadier paa livets vej
   ol_author: Søren Kierkegaard
   note: matched via an English edition
+  pages: 472
 - work: kierkegaard:postscript
   ol: OL112727W
   ol_title: Afsluttende uvidenskabelig efterskrift
   ol_author: Søren Kierkegaard
   note: matched via an English edition
+  pages: 577
 - work: kierkegaard:two-ages
   ol: OL112682W
   ol_title: Two ages
   ol_author: Søren Kierkegaard
+  pages: 189
 - work: kierkegaard:works-love
   ol: OL112733W
   ol_title: Kærlighedens gerninger
   ol_author: Søren Kierkegaard
   note: matched via an English edition
+  pages: 383
 - work: kierkegaard:sickness
   ol: OL112724W
   ol_title: Sygdommen til døden
   ol_author: Søren Kierkegaard
   note: matched via an English edition
+  pages: 156
 - work: kierkegaard:practice
   ol: OL15280174W
   ol_title: Practice in Christianity
   ol_author: Søren Kierkegaard
+  pages: 452
 - work: kierkegaard:point-of-view
   ol: OL112699W
   ol_title: The Point of view for my work as an author
   ol_author: Søren Kierkegaard
+  pages: 170
 - work: locke:essay
   ol: OL880201W
   ol_title: Essay concerning human understanding
   ol_author: John Locke
+  pages: 448
 - work: locke:first-treatise
   ol: null
   ol_title: המסכת הראשונה על הממשל המדיני
@@ -1026,81 +1237,100 @@
   ol: OL880131W
   ol_title: Two Treatises on Government
   ol_author: John Locke
-  note: matched via an English edition
+  note: the record is the Two Treatises; no page count for the Second alone
+  pages: null
 - work: locke:letter-toleration
   ol: OL880062W
   ol_title: A Letter Concerning Toleration
   ol_author: John Locke
+  pages: 123
 - work: locke:thoughts-education
   ol: OL880199W
   ol_title: Some thoughts concerning education
   ol_author: John Locke
+  pages: 325
 - work: locke:reasonableness
   ol: OL880194W
   ol_title: The reasonableness of Christianity
   ol_author: John Locke
+  pages: 228
 - work: locke:conduct-understanding
   ol: OL15288949W
   ol_title: The conduct of the understanding
   ol_author: John Locke
+  pages: 152
 - work: lyotard:phenomenology
   ol: OL566247W
   ol_title: Phenomenology
   ol_author: Jean-François Lyotard
+  pages: 127
 - work: lyotard:why-philosophize
   ol: OL21508127W
   ol_title: Why Philosophize?
   ol_author: Jean-François Lyotard
+  pages: 100
 - work: lyotard:discourse-figure
   ol: OL9190120W
   ol_title: Discours, figure ed.2002
   ol_author: Jean-François Lyotard
   note: matched via an English edition
+  pages: 428
 - work: lyotard:libidinal-economy
   ol: OL566243W
   ol_title: Libidinal economy
   ol_author: Jean-François Lyotard
+  pages: 304
 - work: lyotard:postmodern-condition
   ol: OL566230W
   ol_title: La condition postmoderne
   ol_author: Jean-François Lyotard
   note: matched via an English edition
+  pages: 123
 - work: lyotard:just-gaming
   ol: OL566229W
   ol_title: Just gaming
   ol_author: Jean-François Lyotard
+  pages: 128
 - work: lyotard:differend
   ol: OL8443652W
   ol_title: The differend
   ol_author: Jean-François Lyotard
+  pages: 208
 - work: lyotard:postmodern-explained
   ol: OL37479921W
   ol_title: The postmodern explained to children
   ol_author: Lyotard, Jean François , 1924-1998
+  pages: 123
 - work: lyotard:enthusiasm
   ol: OL13646726W
   ol_title: Enthusiasm
   ol_author: Jean-François Lyotard
+  pages: 74
 - work: lyotard:inhuman
   ol: OL8443681W
   ol_title: The Inhuman
   ol_author: Jean-François Lyotard
+  pages: 216
 - work: lyotard:heidegger-jews
   ol: OL566225W
   ol_title: Heidegger and "the jews"
   ol_author: Jean-François Lyotard
+  pages: 106
 - work: lyotard:peregrinations
   ol: OL8443675W
   ol_title: Peregrinations
   ol_author: Jean-François Lyotard
+  pages: 112
 - work: lyotard:lessons-sublime
   ol: OL566241W
   ol_title: Lessons on the analytic of the sublime
   ol_author: Jean-François Lyotard
+  pages: 246
 - work: lyotard:confession-augustine
   ol: OL974467W
   ol_title: The confession of Augustine
   ol_author: Jean-François Lyotard
+  pages: 96
 - work: machiavelli:letter-vettori
   ol: null
   ol_title: The Prince
@@ -1110,28 +1340,34 @@
   ol: OL1089297W
   ol_title: The Prince
   ol_author: Niccolò Machiavelli
+  pages: 156
 - work: machiavelli:discourses
   ol: OL1089260W
   ol_title: Discourses on Livy
   ol_author: Niccolò Machiavelli
+  pages: 448
 - work: machiavelli:castruccio
   ol: OL1089288W
   ol_title: The Life of Castruccio Castracani of Lucca
   ol_author: Niccolò Machiavelli
+  pages: 112
 - work: machiavelli:art-of-war
   ol: OL15968W
   ol_title: Dell'Arte della Guerra
   ol_author: Niccolò Machiavelli
   note: matched via an English edition
+  pages: 218
 - work: machiavelli:florentine-histories
   ol: OL15942W
   ol_title: Istorie Fiorentine
   ol_author: Niccolò Machiavelli
   note: matched via an English edition
+  pages: 417
 - work: machiavelli:mandragola
   ol: OL15991W
   ol_title: Mandragola
   ol_author: Niccolò Machiavelli
+  pages: 103
 - work: marx:critique-hegel-right
   ol: null
   note: no match
@@ -1139,11 +1375,13 @@
   ol: OL628755W
   ol_title: On the Jewish question
   ol_author: Karl Marx
+  pages: 42
 - work: marx:manuscripts-1844
   ol: OL628474W
   ol_title: Ökonomisch-philosophische Manuskripte aus dem Jahre 1844
   ol_author: Karl Marx
   note: matched via an English edition
+  pages: 208
 - work: marx:theses-feuerbach
   ol: OL9240213W
   ol_title: THESES ON FEUERBACH
@@ -1153,48 +1391,58 @@
   ol_title: Deutsche Ideologie
   ol_author: Karl Marx
   note: matched via an English edition
+  pages: 214
 - work: marx:manifesto
   ol: OL629052W
   ol_title: Manifest der Kommunistischen Partei
   ol_author: Karl Marx
   note: matched via an English edition
+  pages: 89
 - work: marx:wage-labour-capital
   ol: OL15200688W
   ol_title: Lohnarbeit und Kapital
   ol_author: Karl Marx
   note: matched via an English edition
+  pages: 48
 - work: marx:eighteenth-brumaire
   ol: OL628458W
   ol_title: Der 18. Brumaire des Louis Bonaparte
   ol_author: Karl Marx
   note: matched via an English edition
+  pages: 149
 - work: marx:civil-war-france
   ol: OL628609W
   ol_title: La guerra civil en Francia
   ol_author: Karl Marx
   note: matched via an English edition
+  pages: 92
 - work: marx:gotha
   ol: OL628871W
   ol_title: Critique of the Gotha program
   ol_author: Karl Marx
+  pages: 113
 - work: marx:socialism-utopian
   ol: OL303509W
   ol_title: Die Entwicklung des Sozialismus von der Utopie zur Wissenschaft
   ol_author: Friedrich Engels
   note: matched via an English edition
+  pages: 93
 - work: marx:grundrisse
   ol: OL16231766W
   ol_title: Grundrisse der Kritik der politischen Ökonomie
   ol_author: Karl Marx
+  pages: 904
 - work: marx:contribution-1859
   ol: OL628773W
   ol_title: Vorwort und Einleitung von „Zur Kritik der Politischen Ökonomie“
   ol_author: Karl Marx
   note: matched via an English edition
+  pages: 63
 - work: marx:value-price-profit
   ol: OL628837W
   ol_title: Value, price and profit, addressed to workingmen
   ol_author: Karl Marx
+  pages: 75
 - work: marx:capital-1
   ol: OL27780195W
   ol_title: Capital Volume 1
@@ -1206,10 +1454,12 @@
   ol: OL2142398W
   ol_title: The structure of behavior
   ol_author: Maurice Merleau-Ponty
+  pages: 256
 - work: merleau-ponty:phenomenology-perception
   ol: OL21252896W
   ol_title: Phenomenology of Perception
   ol_author: Maurice Merleau-Ponty
+  pages: 491
 - work: merleau-ponty:cezanne
   ol: null
   note: no match
@@ -1217,14 +1467,17 @@
   ol: OL27810428W
   ol_title: Humanism and Terror
   ol_author: Maurice Merleau-Ponty
+  pages: 189
 - work: merleau-ponty:sense-nonsense
   ol: OL2142400W
   ol_title: Sense and non-sense
   ol_author: Maurice Merleau-Ponty
+  pages: 193
 - work: merleau-ponty:world-perception
   ol: OL2142384W
   ol_title: The world of perception
   ol_author: Maurice Merleau-Ponty
+  pages: 125
 - work: merleau-ponty:adventures
   ol: null
   ol_title: Les aventures de la dialectique
@@ -1234,6 +1487,7 @@
   ol: OL2142388W
   ol_title: Signs
   ol_author: Maurice Merleau-Ponty
+  pages: 355
 - work: merleau-ponty:eye-mind
   ol: null
   note: no match
@@ -1241,10 +1495,12 @@
   ol: OL16966154W
   ol_title: The visible and the invisible
   ol_author: Maurice Merleau-Ponty
+  pages: 282
 - work: nietzsche:greek-tragedy
   ol: OL18922646W
   ol_title: Greek tragedy
   ol_author: Simon Goldhill
+  pages: 329
 - work: nietzsche:gospels
   ol: null
   note: no match
@@ -1252,176 +1508,218 @@
   ol: OL17739734W
   ol_title: Nietzsche
   ol_author: Michael Tanner
+  pages: 99
 - work: nietzsche:birth-of-tragedy
   ol: OL98152W
   ol_title: Die Geburt der Tragödie
   ol_author: Friedrich Nietzsche
   note: matched via an English edition
+  pages: 206
 - work: nietzsche:truth-and-lies
   ol: OL39704940W
   ol_title: On Truth and Lies in a Nonmoral Sense
   ol_author: Friedrich Nietzsche
+  pages: 27
 - work: nietzsche:untimely
   ol: OL98168W
   ol_title: Untimely Meditations
   ol_author: Friedrich Nietzsche
+  pages: 218
 - work: nietzsche:human-all-too-human
   ol: OL98166W
   ol_title: Menschliches, Allzumenschliches
   ol_author: Friedrich Nietzsche
   note: matched via an English edition
+  pages: 320
 - work: nietzsche:daybreak
   ol: OL98124W
   ol_title: Morgenröthe
   ol_author: Friedrich Nietzsche
   note: matched via an English edition
+  pages: 247
 - work: nietzsche:gay-science
   ol: OL15692700W
   ol_title: Fröhliche Wissenschaft
   ol_author: Friedrich Nietzsche
   note: matched via an English edition
+  pages: 370
 - work: nietzsche:zarathustra
   ol: OL98130W
   ol_title: Also sprach Zarathustra
   ol_author: Friedrich Nietzsche
   note: matched via an English edition
+  pages: 354
 - work: nietzsche:bge
   ol: OL98174W
   ol_title: Jenseits von Gut und Böse
   ol_author: Friedrich Nietzsche
   note: matched via an English edition
+  pages: 178
 - work: nietzsche:genealogy
   ol: OL98169W
   ol_title: Zur Genealogie der Moral
   ol_author: Friedrich Nietzsche
   note: matched via an English edition
+  pages: 193
 - work: nietzsche:case-of-wagner
   ol: OL98146W
   ol_title: The case of Wagner
   ol_author: Friedrich Nietzsche
+  pages: 351
 - work: nietzsche:twilight
   ol: OL15692695W
   ol_title: Götzendämmerung
   ol_author: Friedrich Nietzsche
   note: matched via an English edition
+  pages: 208
 - work: nietzsche:antichrist
   ol: OL15692719W
   ol_title: Der Antichrist
   ol_author: Friedrich Nietzsche
+  pages: 92
 - work: nietzsche:ecce-homo
   ol: OL29539102W
   ol_title: Ecce Homo
   ol_author: Anthony Ludovici
+  pages: 122
 - work: nietzsche:kaufmann-nietzsche
   ol: OL3503512W
   ol_title: 'Nietzsche: philosopher, psychologist, antichrist'
   ol_author: Walter Arnold Kaufmann
+  pages: 524
 - work: nietzsche:leiter-guidebook
   ol: OL19327986W
   ol_title: Nietzsche on Morality
   ol_author: Brian Leiter
+  pages: 280
 - work: nietzsche:lampert-teaching
   ol: OL3752015W
   ol_title: Nietzsche's teaching
   ol_author: Laurence Lampert
+  pages: 378
 - work: nietzsche:will-to-power
   ol: OL15692701W
   ol_title: Wille zur Macht
   ol_author: Friedrich Nietzsche
   note: matched via an English edition
+  pages: 576
+- work: nietzsche:safranski
+  ol: OL8297916W
+  ol_title: Nietzsche
+  ol_author: Rüdiger Safranski
+  pages: 412
 - work: plato:euthyphro
   ol: OL51784W
   ol_title: Εὐθύφρων / Κρίτων / Φαίδων / Ἀπολογία Σωκράτους
   ol_author: Plato
   note: matched via an English edition
+  pages: 200
 - work: plato:apology
   ol: OL51948W
   ol_title: Ἀπολογία Σωκράτους
   ol_author: Plato
   note: matched via an English edition
+  pages: 110
 - work: plato:crito
   ol: OL51934W
   ol_title: Κρίτων
   ol_author: Plato
   checked: true
+  pages: 75
 - work: plato:phaedo
   ol: OL51805W
   ol_title: Φαίδων
   ol_author: Plato
   note: matched via an English edition
+  pages: 195
 - work: plato:meno
   ol: OL51940W
   ol_title: Μένων
   ol_author: Plato
   note: matched via an English edition
+  pages: 112
 - work: plato:protagoras
   ol: OL51938W
   ol_title: Πρωταγόρας
   ol_author: Plato
   note: matched via an English edition
+  pages: 149
 - work: plato:gorgias
   ol: OL51785W
   ol_title: Γοργίας
   ol_author: Plato
   note: matched via an English edition
+  pages: 201
 - work: plato:laches
   ol: OL51790W
   ol_title: Λάχης
   ol_author: Plato
   note: matched via an English edition
+  pages: 88
 - work: plato:symposium
   ol: OL51815W
   ol_title: Συμπόσιον
   ol_author: Plato
   note: matched via an English edition
+  pages: 128
 - work: plato:republic
   ol: OL51831W
   ol_title: πολιτεία
   ol_author: Plato
   note: matched via an English edition
+  pages: 397
 - work: plato:phaedrus
   ol: OL51816W
   ol_title: Φαῖδρος
   ol_author: Plato
   note: matched via an English edition
+  pages: 154
 - work: plato:theaetetus
   ol: OL51854W
   ol_title: Θεαίτητος
   ol_author: Plato
   note: matched via an English edition
+  pages: 180
 - work: plato:parmenides
   ol: OL51802W
   ol_title: Παρμενίδης
   ol_author: Plato
   note: matched via an English edition
+  pages: 162
 - work: plato:sophist
   ol: OL51847W
   ol_title: Σοφιστής
   ol_author: Plato
   note: matched via an English edition
+  pages: 144
 - work: plato:timaeus
   ol: OL51823W
   ol_title: Τίμαιος
   ol_author: Plato
   note: matched via an English edition
+  pages: 280
 - work: plato:laws
   ol: OL51792W
   ol_title: Νόμοι
   ol_author: Plato
   note: matched via an English edition
+  pages: 551
 - work: rousseau:first-discourse
   ol: OL15249872W
   ol_title: Discourse on the sciences and arts (first discourse) ; and, Polemics
   ol_author: Jean-Jacques Rousseau
+  pages: 233
 - work: rousseau:inequality
   ol: OL80737W
   ol_title: Discours sur l'origine et les fondements de l'inégalité parmi les hommes
   ol_author: Jean-Jacques Rousseau
   note: matched via an English edition
+  pages: 187
 - work: rousseau:political-economy
   ol: OL80688W
   ol_title: A Discourse on Political Economy
   ol_author: Jean-Jacques Rousseau
+  pages: 76
 - work: rousseau:dalembert
   ol: null
   note: no match
@@ -1429,91 +1727,111 @@
   ol: OL15249951W
   ol_title: Julie, or, The new Heloise
   ol_author: Jean-Jacques Rousseau
+  pages: 728
 - work: rousseau:social-contract
   ol: OL80609W
   ol_title: Du contrat social
   ol_author: Jean-Jacques Rousseau
   note: matched via an English edition
+  pages: 249
 - work: rousseau:emile
   ol: OL80613W
   ol_title: Emile or Education
   ol_author: Jean-Jacques Rousseau
+  pages: 456
 - work: rousseau:poland
   ol: OL15249852W
   ol_title: Considerations on the government of Poland
   ol_author: Jean-Jacques Rousseau
+  pages: 69
 - work: rousseau:confessions
   ol: OL80592W
   ol_title: Les confessions
   ol_author: Jean-Jacques Rousseau
+  pages: 606
 - work: rousseau:reveries
   ol: OL15717217W
   ol_title: Rêveries du promeneur solitaire
   ol_author: Jean-Jacques Rousseau
   note: matched via an English edition
+  pages: 245
 - work: sartre:transcendence-ego
   ol: OL4489235W
   ol_title: La transcendance de l'ego
   ol_author: Jean-Paul Sartre
   note: matched via an English edition
+  pages: 134
 - work: sartre:imagination
   ol: OL4489233W
   ol_title: The psychology of imagination
   ol_author: Jean-Paul Sartre
+  pages: 282
 - work: sartre:nausea
   ol: OL1161171W
   ol_title: La nausée
   ol_author: Jean-Paul Sartre
   note: matched via an English edition
+  pages: 240
 - work: sartre:emotions
   ol: OL1161294W
   ol_title: Sketch for a theory of the emotions
   ol_author: Jean-Paul Sartre
+  pages: 95
 - work: sartre:imaginary
   ol: OL15093488W
   ol_title: Imaginaire
   ol_author: Jean-Paul Sartre
   note: matched via an English edition
+  pages: 264
 - work: sartre:being-nothingness
   ol: OL1161325W
   ol_title: L'être et le néant
   ol_author: Jean-Paul Sartre
   note: matched via an English edition
+  pages: 716
 - work: sartre:humanism
   ol: OL1161181W
   ol_title: Existentialism Is a Humanism
   ol_author: Jean-Paul Sartre
+  pages: 128
 - work: sartre:anti-semite
   ol: OL13574799W
   ol_title: Anti-Semite and Jew
   ol_author: Jean-Paul Sartre
+  pages: 153
 - work: sartre:no-exit
   ol: OL1161329W
   ol_title: No Exit (and Three Other Plays)
   ol_author: Jean-Paul Sartre
+  pages: 127
 - work: sartre:what-is-literature
   ol: OL4489244W
   ol_title: Qu'est-ce que la littérature?
   ol_author: Jean-Paul Sartre
   note: matched via an English edition
+  pages: 306
 - work: sartre:communists-peace
   ol: OL1161328W
   ol_title: Situations
   ol_author: Jean-Paul Sartre
-  note: matched via an English edition
+  note: the record is Situations; no page count for this essay alone
+  pages: null
 - work: sartre:critique-dialectical
   ol: OL1161282W
   ol_title: Critique de la raison dialectique
   ol_author: Jean-Paul Sartre
   note: matched via an English edition
+  pages: 756
 - work: sartre:words
   ol: OL4489217W
   ol_title: Words
   ol_author: Jean-Paul Sartre
+  pages: 213
 - work: sartre:family-idiot
   ol: OL4489209W
   ol_title: The Family Idiot
   ol_author: Jean-Paul Sartre
+  pages: 405
 - work: schelling:of-the-i
   ol: null
   note: no match
@@ -1525,10 +1843,12 @@
   ol_title: Ideen zu einer Philosophie der Natur
   ol_author: Friedrich Wilhelm Joseph von Schelling
   note: matched via an English edition
+  pages: 278
 - work: schelling:sti
   ol: OL8358080W
   ol_title: System of Transcendental Idealism (1800)
   ol_author: Friedrich Wilhelm Joseph von Schelling
+  pages: 284
 - work: schelling:presentation
   ol: null
   note: no match
@@ -1536,23 +1856,28 @@
   ol: OL510092W
   ol_title: Bruno, or, On the natural and the divine principle of things
   ol_author: Friedrich Wilhelm Joseph von Schelling
+  pages: 269
 - work: schelling:academic-study
   ol: OL1178087W
   ol_title: On university studies
   ol_author: Friedrich Wilhelm Joseph von Schelling
+  pages: 166
 - work: schelling:freedom
   ol: OL13131683W
   ol_title: Philosophical investigations into the essence of human freedom
   ol_author: Friedrich Wilhelm Joseph von Schelling
+  pages: 183
 - work: schelling:ages-world
   ol: OL510114W
   ol_title: Weltalter
   ol_author: Friedrich Wilhelm Joseph von Schelling
   note: matched via an English edition
+  pages: 251
 - work: schelling:history-modern
   ol: OL510119W
   ol_title: On the history of modern philosophy
   ol_author: Friedrich Wilhelm Joseph von Schelling
+  pages: 195
 - work: schelling:positive-philosophy
   ol: OL25836600W
   ol_title: Grounding of Positive Philosophy
@@ -1561,55 +1886,67 @@
   ol: OL20393863W
   ol_title: The Upanishads
   ol_author: Swami Paramananda
+  pages: 84
 - work: schopenhauer:fourfold-root
   ol: OL24363780W
   ol_title: On the Fourfold Root of the Principle of Sufficient Reason
   ol_author: Karl Hillebrand
+  pages: 424
 - work: schopenhauer:wwr
   ol: OL1183657W
   ol_title: Die Welt als Wille und Vorstellung
   ol_author: Arthur Schopenhauer
-  note: matched via an English edition
+  note: one record covers both volumes
+  pages: null
 - work: schopenhauer:wwr-2
   ol: OL1183657W
   ol_title: Die Welt als Wille und Vorstellung
   ol_author: Arthur Schopenhauer
-  note: matched via an English edition
+  note: one record covers both volumes
+  pages: null
 - work: schopenhauer:will-in-nature
   ol: OL39739294W
   ol_title: On the Will in Nature
   ol_author: Arthur Schopenhauer
+  pages: 128
 - work: schopenhauer:two-problems-ethics
   ol: OL1183584W
   ol_title: The two fundamental problems of ethics
   ol_author: Arthur Schopenhauer
+  pages: 343
 - work: schopenhauer:parerga
   ol: OL1183665W
   ol_title: Parerga und Paralipomena
   ol_author: Arthur Schopenhauer
+  pages: 199
 - work: spinoza:tie
   ol: OL39912259W
   ol_title: Ethics; Treatise on the Emendation of the Intellect; Selected Letters
   ol_author: Benedictus de Spinoza
+  pages: 252
 - work: spinoza:short-treatise
   ol: OL36045W
   ol_title: Spinoza's Short treatise on God, man & his wellbeing
   ol_author: Benedictus de Spinoza
   note: matched via an English edition
+  pages: 246
 - work: spinoza:ppc
   ol: OL36041W
   ol_title: Renati des Cartes Principiorum philosophiae
   ol_author: Benedictus de Spinoza
   note: matched via an English edition
+  pages: 177
 - work: spinoza:ttp
   ol: OL14905827W
   ol_title: Theological-Political Treatise
   ol_author: Benedictus de Spinoza
+  pages: 267
 - work: spinoza:ethics
   ol: OL35989W
   ol_title: Ethica
   ol_author: Benedictus de Spinoza
   note: matched via an English edition
+  pages: 272
 - work: spinoza:letters
   ol: null
   checked: true
@@ -1618,14 +1955,22 @@
   ol_title: A theologico-political treatise and a political treatise
   ol_author: Benedictus de Spinoza
   checked: true
+  pages: 387
 - work: spinoza:della-rocca
   ol: OL2965141W
   ol_title: Spinoza
   ol_author: Michael Della Rocca
+  pages: 346
+- work: spinoza:curley-behind
+  ol: OL4977487W
+  ol_title: Behindthe geometrical method
+  ol_author: E. M. Curley
+  pages: 175
 - work: strauss:spinoza-critique
   ol: OL509277W
   ol_title: Spinoza's critique of religion
   ol_author: Leo Strauss
+  pages: 351
 - work: strauss:notes-schmitt
   ol: null
   note: no match
@@ -1633,40 +1978,50 @@
   ol: OL509284W
   ol_title: The political philosophy of Hobbes
   ol_author: Leo Strauss
+  pages: 172
 - work: strauss:on-tyranny
   ol: OL509283W
   ol_title: On Tyranny
   ol_author: Leo Strauss
+  pages: 228
 - work: strauss:persecution
   ol: OL509275W
   ol_title: Persecution and the art of writing
   ol_author: Leo Strauss
+  pages: 204
 - work: strauss:natural-right
   ol: OL509286W
   ol_title: Natural Right and History
   ol_author: Leo Strauss
+  pages: 326
 - work: strauss:thoughts-machiavelli
   ol: OL509287W
   ol_title: Thoughts on Machiavelli
   ol_author: Leo Strauss
+  pages: 348
 - work: strauss:what-is-pp
   ol: OL14909200W
   ol_title: What is political philosophy? and other studies
   ol_author: Leo Strauss
   note: no English edition listed
+  pages: 315
 - work: strauss:city-and-man
   ol: OL509274W
   ol_title: The city and man
   ol_author: Leo Strauss
+  pages: 245
 - work: strauss:jerusalem-athens
   ol: OL509268W
   ol_title: Jerusalem and Athens
   ol_author: Leo Strauss
+  pages: 236
 - work: strauss:liberalism-ancient-modern
   ol: OL509282W
   ol_title: Liberalism, ancient and modern
   ol_author: Leo Strauss
+  pages: 276
 - work: strauss:rebirth
   ol: OL509261W
   ol_title: The rebirth of classical political rationalism
   ol_author: Leo Strauss
+  pages: 285

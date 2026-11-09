@@ -210,6 +210,19 @@ def cites_block(claim: dict, sources: dict, where: str = "") -> str:
             f'<ul class="cites">{items}</ul></details>')
 
 
+def beginner_html(data: dict, lists: dict, sources: dict) -> str:
+    bg = data.get("beginner")
+    if not bg:
+        return ""
+    tl, tw = b.resolve(bg["work"], data["id"])
+    w = next(x for x in lists[tl]["works"] if x["id"] == tw)
+    href = f"#{tw}" if tl == data["id"] else f"{tl}.html#{tw}"
+    name = data["title"].split()[-1]
+    return (f'<div class="start"><strong>New to {escape(name)}?</strong> Start with '
+            f'<a href="{href}"><em>{escape(w["title"])}</em></a>{" by " + escape(w["author"]) if w.get("author") and tl == data["id"] and w.get("kind") == "secondary" else ""}. '
+            f'{escape(" ".join(bg["why"].split()))}{cites_block(bg, sources, data["id"] + " (beginner)")}</div>')
+
+
 def list_page(data: dict, lists: dict, sources: dict) -> str:
     lid = data["id"]
     by_id = {w["id"]: w for w in data["works"]}
@@ -230,6 +243,7 @@ def list_page(data: dict, lists: dict, sources: dict) -> str:
         f'<p class="sans meta muted"><span class="badge">{escape(data["status"])}</span>'
         f"{len(full_order)} works · {escape(citations.summary(data))}</p>",
         f"<p>{escape(data['scope'].strip())}</p>",
+        beginner_html(data, lists, sources),
         '<details class="chart-box" open><summary class="sans meta">Chart</summary>',
         f'<p><a href="{lid}.svg"><img class="chart" src="{lid}.svg" alt="Reading chart for {escape(data["title"])}"></a></p>',
         "</details>",

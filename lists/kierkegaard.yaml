@@ -66,6 +66,17 @@ survey:
     verified: true
     checked_in: Reading list web page, accessed 2026-11
 
+beginner:
+  work: carlisle-heart
+  why: >
+    A McGill Kierkegaard course requires Clare Carlisle's biography "as preparation for the
+    course", before the pseudonymous works.
+  sources:
+    - source: syl-mcgill-digiovanni
+      locator: "course description"
+      verified: true
+      checked_in: Course syllabus (web page), accessed 2026-11
+
 works:
 
   - id: carlisle-heart

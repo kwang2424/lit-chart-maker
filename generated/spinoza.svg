@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1092" height="870" viewBox="0 0 1092 870" font-family="Georgia, 'Times New Roman', serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="1092" height="1000" viewBox="0 0 1092 1000" font-family="Georgia, 'Times New Roman', serif">
 <defs>
 <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c8072"/></marker>
 </defs>
@@ -60,10 +60,17 @@
 <rect x="752" y="670" width="300" height="96" rx="8" fill="#ebe7e0" stroke="#8c8072" stroke-width="1.5"/>
 <circle cx="774" cy="692" r="14" fill="#8c8072"/>
 <text x="774" y="697" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">8</text>
-<text x="796" y="697" font-size="16" font-weight="bold" fill="#1f1a14">Spinoza (Routledge</text>
-<text x="796" y="716" font-size="16" font-weight="bold" fill="#1f1a14">Philosophers)</text>
-<text x="796" y="737" font-size="13" fill="#6b6256">Michael Della Rocca, 2008</text>
-<text x="766" y="754" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●●○○</text>
-<text x="546.0" y="830" text-anchor="middle" font-size="13" fill="#6b6256">Solid arrow: read first (required / helpful). Dashed: useful context. Every link is sourced — see generated/spinoza.md</text>
-<text x="546.0" y="850" text-anchor="middle" font-size="12" fill="#6b6256">Status: draft · github.com/kwang2424/lit-chart-maker</text>
+<text x="796" y="697" font-size="16" font-weight="bold" fill="#1f1a14">Behind the Geometrical Method:</text>
+<text x="796" y="716" font-size="16" font-weight="bold" fill="#1f1a14">A Reading of Spinoza&#x27;s Ethics</text>
+<text x="796" y="737" font-size="13" fill="#6b6256">Edwin Curley, 1988</text>
+<text x="766" y="754" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●○○○</text>
+<rect x="752" y="800" width="300" height="96" rx="8" fill="#ebe7e0" stroke="#8c8072" stroke-width="1.5"/>
+<circle cx="774" cy="822" r="14" fill="#8c8072"/>
+<text x="774" y="827" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Helvetica, Arial, sans-serif">9</text>
+<text x="796" y="827" font-size="16" font-weight="bold" fill="#1f1a14">Spinoza (Routledge</text>
+<text x="796" y="846" font-size="16" font-weight="bold" fill="#1f1a14">Philosophers)</text>
+<text x="796" y="867" font-size="13" fill="#6b6256">Michael Della Rocca, 2008</text>
+<text x="766" y="884" font-size="12" fill="#6b6256" font-family="Helvetica, Arial, sans-serif">difficulty ●●●○○</text>
+<text x="546.0" y="960" text-anchor="middle" font-size="13" fill="#6b6256">Solid arrow: read first (required / helpful). Dashed: useful context. Every link is sourced — see generated/spinoza.md</text>
+<text x="546.0" y="980" text-anchor="middle" font-size="12" fill="#6b6256">Status: draft · github.com/kwang2424/lit-chart-maker</text>
 </svg>

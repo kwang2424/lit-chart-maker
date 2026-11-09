@@ -55,7 +55,12 @@ def page_body(lists: dict) -> str:
         '<button data-min="helpful" aria-pressed="false">Required + helpful</button>'
         '<button data-min="context" aria-pressed="true">All links</button></div>'
         '<p class="sans meta"><label><input type="checkbox" id="hideread"> Hide books I\'ve read</label></p>'
+        '<p class="sans meta"><label for="pace">Reading pace</label> '
+        '<select id="pace"><option value="10">10 pages a day</option><option value="20">20 pages a day</option>'
+        '<option value="40">40 pages a day</option><option value="60">60 pages a day</option>'
+        '<option value="100">100 pages a day</option></select></p>'
         '<p id="psummary" class="sans meta"></p>'
+        '<p id="ptime" class="sans meta muted"></p>'
         '<div class="bar" id="pbar" aria-hidden="true"><span></span></div>'
         '<ol id="plan" class="plan"></ol>'
         "<noscript><p>This page needs JavaScript. Each list page shows the same links under "
@@ -139,6 +144,17 @@ JS = r"""
   function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
 
   var listEl = document.getElementById('plan');
+  var paceEl = document.getElementById('pace');
+  function pace() { return +paceEl.value; }
+  try { paceEl.value = localStorage.getItem('pace') || '20'; } catch (e) { paceEl.value = '20'; }
+  if (!paceEl.value) paceEl.value = '20';
+  paceEl.addEventListener('change', function () { try { localStorage.setItem('pace', paceEl.value); } catch (e) {} render(); });
+  function duration(days) {
+    days = Math.ceil(days);
+    if (days < 14) return 'about ' + days + ' day' + (days === 1 ? '' : 's');
+    if (days < 70) return 'about ' + Math.round(days / 7) + ' weeks';
+    return 'about ' + Math.round(days / 30.4) + ' months';
+  }
   function render() {
     writeHash();
     document.querySelectorAll('[data-min]').forEach(function (b) { b.setAttribute('aria-pressed', b.dataset.min === S.min ? 'true' : 'false'); });
@@ -167,7 +183,7 @@ JS = r"""
         '<label class="done sans muted"><input type="checkbox"' + (read ? ' checked' : '') + '> read</label>' +
         '<span class="pnum sans">' + (i + 1) + '</span>' +
         '<a href="' + url(id) + '" class="ptitle">' + esc(n.t) + '</a>' +
-        '<div class="sans meta muted">' + esc(D.thinkers[n.l].name) + (n.y ? ' · ' + n.y : '') +
+        '<div class="sans meta muted">' + esc(D.thinkers[n.l].name) + (n.y ? ' · ' + n.y : '') + (n.p ? ' · ~' + n.p + ' pp.' : '') +
         (n.tier === 'core' ? ' · core' : '') + (goal ? ' · <strong>your goal</strong>' : '') +
         (bg ? ' · <span class="bgtag">background</span>' : '') + '</div>' +
         (why ? '<details class="src"><summary>Why it comes first (' + (P.need[id] || []).length + ')</summary><ul class="links">' + why + '</ul></details>' : '') +
@@ -189,6 +205,12 @@ JS = r"""
         (total === S.goals.length && S.min !== 'context' ? '. No ' + (S.min === 'required' ? 'required' : 'required or helpful') +
           ' links lead into ' + (S.goals.length === 1 ? 'this book' : 'these books') + '; try “All links” for background reading.' : '');
     }
+    var tEl = document.getElementById('ptime'), left = P.order.filter(function (id) { return !isRead(id); });
+    var pp = 0, unknown = 0;
+    left.forEach(function (id) { if (D.nodes[id].p) pp += D.nodes[id].p; else unknown++; });
+    tEl.textContent = !left.length ? '' : 'Still to read: about ' + pp.toLocaleString() + ' pages, ' + duration(pp / pace()) +
+      ' at ' + pace() + ' pages a day' + (unknown ? ' (plus ' + unknown + ' book' + (unknown === 1 ? '' : 's') + ' with no page count)' : '') +
+      '. Page counts are the typical length of each book\'s editions on Open Library, introductions and notes included, so treat this as a rough guide.';
     document.querySelector('#pbar span').style.width = (total ? Math.round(100 * done / total) : 0) + '%';
     document.getElementById('pbar').style.display = total ? '' : 'none';
   }
