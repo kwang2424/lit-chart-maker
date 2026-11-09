@@ -1,0 +1,200 @@
+id: medieval-literature
+title: Medieval Literature
+scope: >
+  European literature of the Middle Ages, in Old and Middle English and in translation, as
+  university courses teach it: epic and saga, Arthurian romance, Dante, Boccaccio, Chaucer
+  and the late medieval writers of England. Built from six courses, including two MIT
+  OpenCourseWare courses and Giuseppe Mazzotta's Open Yale lectures on Dante. Dates are
+  approximate, as they are for most medieval works.
+order: year
+
+works:
+  - id: beowulf
+    title: Beowulf
+    author: Anonymous (Old English)
+    year: 1000
+    date: manuscript c. 1000
+  - id: song-of-roland
+    title: The Song of Roland
+    author: Anonymous (Old French)
+    year: 1100
+    date: c. 1100
+  - id: abelard-heloise-letters
+    title: The Letters of Abelard and Heloise
+    author: Peter Abelard and Heloise
+    year: 1135
+    date: 1130s
+  - id: tristan
+    title: Tristan
+    author: Béroul
+    year: 1170
+    date: late 12th century
+  - id: marie-lais
+    title: The Lais of Marie de France
+    author: Marie de France
+    year: 1170
+    date: c. 1170s
+  - id: lancelot
+    title: "Lancelot, or The Knight of the Cart"
+    author: Chrétien de Troyes
+    year: 1180
+    date: c. 1177–1181
+  - id: art-of-courtly-love
+    title: The Art of Courtly Love
+    author: Andreas Capellanus
+    year: 1185
+    date: c. 1185
+  - id: parzival
+    title: Parzival
+    author: Wolfram von Eschenbach
+    year: 1205
+    date: c. 1200–1210
+  - id: laxdaela-saga
+    title: Laxdæla Saga
+    author: Anonymous (Old Norse)
+    year: 1245
+    date: c. 1245
+  - id: vita-nuova
+    title: Vita Nuova
+    author: Dante Alighieri
+    year: 1294
+    date: c. 1292–95
+  - id: inferno
+    title: "The Divine Comedy: Inferno"
+    author: Dante Alighieri
+    year: 1314
+    date: c. 1308–1314
+    after:
+      - work: vita-nuova
+        strength: context
+        why: >
+          The Vita Nuova ends with Dante's hope "that I shall yet write concerning her what
+          hath not before been written of any woman"; in Inferno II Beatrice herself sends
+          Virgil to guide him ("Beatrice am I, who do bid thee go").
+        sources:
+          - source: dante-vita-nuova-text
+            locator: "§XLIII (final chapter)"
+            verified: true
+            checked_in: "Rossetti trans., Project Gutenberg #41085"
+          - source: dante-inferno-text
+            locator: "Canto II"
+            verified: true
+            checked_in: "Longfellow trans., Project Gutenberg #1001"
+  - id: purgatorio
+    title: "The Divine Comedy: Purgatorio"
+    author: Dante Alighieri
+    year: 1315
+    date: c. 1308–1315
+    after:
+      - work: inferno
+        strength: required
+        why: >
+          The second part of one journey. It opens as the "little vessel of my genius ...
+          leaves behind itself a sea so cruel": "And of that second kingdom will I sing".
+        sources:
+          - source: dante-purgatorio-text
+            locator: "Canto I, lines 1–6"
+            verified: true
+            checked_in: "Longfellow trans., Project Gutenberg #1002"
+  - id: paradiso
+    title: "The Divine Comedy: Paradiso"
+    author: Dante Alighieri
+    year: 1320
+    date: c. 1316–1321
+    after:
+      - work: purgatorio
+        strength: required
+        why: >
+          The last part of the journey. Canto II opens by addressing readers "who in some
+          pretty little boat, / Eager to listen, have been following / Behind my ship".
+        sources:
+          - source: dante-paradiso-text
+            locator: "Canto II, lines 1–3"
+            verified: true
+            checked_in: "Longfellow trans., Project Gutenberg #1003"
+  - id: decameron
+    title: The Decameron
+    author: Giovanni Boccaccio
+    year: 1353
+    date: c. 1349–1353
+  - id: piers-plowman
+    title: Piers Plowman
+    author: William Langland
+    year: 1377
+    date: c. 1370–1390
+  - id: troilus
+    title: Troilus and Criseyde
+    author: Geoffrey Chaucer
+    year: 1385
+    date: c. 1385
+    after:
+      - work: medieval-philosophy:consolation
+        strength: context
+        why: >
+          Chaucer translated the Consolation into English, and the SEP names Troilus and
+          Criseyde among the works its "literary features, as well as its arguments, inspired".
+        sources:
+          - source: sep-boethius
+            locator: "§8 Boethius's Influence and Importance"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+  - id: gawain
+    title: Sir Gawain and the Green Knight
+    author: Anonymous (Middle English)
+    year: 1390
+    date: late 14th century
+  - id: canterbury-tales
+    title: The Canterbury Tales
+    author: Geoffrey Chaucer
+    year: 1395
+    date: c. 1387–1400
+  - id: julian-revelation
+    title: Revelations of Divine Love (A Revelation of Love)
+    author: Julian of Norwich
+    year: 1395
+    date: late 14th century
+  - id: city-of-ladies
+    title: The Book of the City of Ladies
+    author: Christine de Pizan
+    year: 1405
+    date: 1405
+  - id: margery-kempe
+    title: The Book of Margery Kempe
+    author: Margery Kempe
+    year: 1438
+    date: c. 1436–1438
+
+courses:
+  - source: syl-mit-21l460-2005
+    includes: [vita-nuova, inferno, purgatorio, paradiso, decameron, troilus]
+    others: ["Troubadour lyrics", "Guido Guinizelli, Al cor gentil", "Guido Cavalcanti, sonnets", "Dante, De vulgari eloquentia", "Petrarch, sonnets"]
+    locator: required texts and readings by session (1–26)
+    verified: true
+    checked_in: OpenCourseWare course page (Spring 2005), accessed 2026-11
+  - source: syl-mit-21l460-2015
+    includes: [canterbury-tales, art-of-courtly-love, abelard-heloise-letters, lancelot, julian-revelation, margery-kempe, gawain]
+    others: ["Middle English lyrics on marriage", "Lay le Freine", "Bernard of Clairvaux, Sermons on the Song of Songs", "Beguine writers (Mechthild of Magdeburg, Beatrice of Nazareth, Hadewijch)", "Thomas Chestre, Sir Launfal", "The Wedding of Sir Gawain and Dame Ragnelle", "Dame Sirith", "Floris and Blancheflour"]
+    locator: required readings and readings by session (1–26)
+    verified: true
+    checked_in: OpenCourseWare course page (Spring 2015), accessed 2026-11
+  - source: syl-uwo-delooze
+    includes: [song-of-roland, tristan, laxdaela-saga, gawain, inferno, decameron]
+    locator: texts and tentative reading program, weeks 1–14
+    verified: true
+    checked_in: Course outline (PDF, Winter 2016), accessed 2026-11
+  - source: syl-plnu-eastin
+    includes: [canterbury-tales, song-of-roland, city-of-ladies, marie-lais, gawain, medieval-philosophy:consolation, piers-plowman, margery-kempe, parzival]
+    others: ["Chaucer, The Parliament of Fowls", "Chaucer, The Book of the Duchess", "The Debate between the Body and the Soul", "Saints' lives (St Andrew, St George, St Margaret)", "Wu Cheng'en, Journey to the West (chs. 1–8)"]
+    locator: "schedule, weeks 1–15 (class readings, not the \"global exploration\" options)"
+    verified: true
+    checked_in: Course syllabus (PDF, Spring 2026), accessed 2026-11
+  - source: syl-manchester-mapping
+    includes: [beowulf, gawain]
+    locator: overview
+    verified: true
+    checked_in: Course unit page (2027 entry), accessed 2026-11
+  - source: syl-oyc-ital310
+    includes: [vita-nuova, inferno, purgatorio, paradiso]
+    locator: texts and sessions 1–26
+    verified: true
+    checked_in: Open Yale Courses page (Fall 2008), accessed 2026-11

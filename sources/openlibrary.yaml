@@ -1450,6 +1450,200 @@
 - work: marx:capital-2-3
   ol: null
   note: no match
+- work: medieval-literature:beowulf
+  ol: OL254325W
+  ol_title: Beowulf
+  ol_author: Anonymous
+  pages: 155
+- work: medieval-literature:song-of-roland
+  ol: OL264744W
+  ol_title: The Song of Roland
+  ol_author: Anonymous
+  pages: 136
+- work: medieval-literature:abelard-heloise-letters
+  ol: OL2935999W
+  ol_title: Héloïse et Abélard
+  ol_author: Peter Abelard
+  note: matched via an English edition
+  pages: 237
+- work: medieval-literature:tristan
+  ol: OL2565782W
+  ol_title: Roman de Tristan
+  ol_author: Béroul
+  pages: 171
+- work: medieval-literature:marie-lais
+  ol: OL2831515W
+  ol_title: Lais
+  ol_author: Marie de France
+  note: matched via an English edition
+  pages: 220
+- work: medieval-literature:lancelot
+  ol: OL26689W
+  ol_title: Chevalier de la charrette
+  ol_author: Chrétien de Troyes
+  note: matched via an English edition
+  pages: 191
+- work: medieval-literature:art-of-courtly-love
+  ol: OL4810255W
+  ol_title: The art of courtly love
+  ol_author: Andreas Capellanus
+  pages: 218
+- work: medieval-literature:parzival
+  ol: OL1098085W
+  ol_title: Parzival
+  ol_author: Wolfram von Eschenbach
+  pages: 405
+- work: medieval-literature:laxdaela-saga
+  ol: OL264668W
+  ol_title: Laxdæla Saga
+  ol_author: Anonymous
+  pages: 232
+- work: medieval-literature:vita-nuova
+  ol: OL93228W
+  ol_title: Vita nuova
+  ol_author: Dante Alighieri
+  pages: 145
+- work: medieval-literature:inferno
+  ol: OL93082W
+  ol_title: La Divina Commedia
+  ol_author: Dante Alighieri
+  note: the record is the whole Comedy, so no page count for one part
+  pages: null
+  checked: true
+- work: medieval-literature:purgatorio
+  ol: OL93082W
+  ol_title: La Divina Commedia
+  ol_author: Dante Alighieri
+  note: the record is the whole Comedy, so no page count for one part
+  pages: null
+  checked: true
+- work: medieval-literature:paradiso
+  ol: OL93082W
+  ol_title: La Divina Commedia
+  ol_author: Dante Alighieri
+  note: the record is the whole Comedy, so no page count for one part
+  pages: null
+  checked: true
+- work: medieval-literature:decameron
+  ol: OL7180368W
+  ol_title: Decamerone
+  ol_author: Giovanni Boccaccio
+  pages: 574
+- work: medieval-literature:piers-plowman
+  ol: OL3053005W
+  ol_title: Piers the Plowman
+  ol_author: William Langland
+  pages: 304
+- work: medieval-literature:troilus
+  ol: OL279290W
+  ol_title: Troilus and Criseyde
+  ol_author: Geoffrey Chaucer
+  pages: 309
+- work: medieval-literature:gawain
+  ol: OL14908919W
+  ol_title: Sir Gawain and the Green Knight
+  ol_author: Anonymous
+  pages: 136
+- work: medieval-literature:canterbury-tales
+  ol: OL531767W
+  ol_title: The Canterbury Tales
+  ol_author: Geoffrey Chaucer
+  pages: 427
+- work: medieval-literature:julian-revelation
+  ol: OL742115W
+  ol_title: Revelations of divine love, recorded by Julian, anchoress at Norwich, A.D. 1373
+  ol_author: Julian of Norwich
+  pages: 208
+- work: medieval-literature:city-of-ladies
+  ol: OL43018924W
+  ol_title: The Book of the City of Ladies - Translated By Earl Jeffrey Richards - Forword By Marina Warner
+  ol_author: CHristinr de Pizan
+  pages: 338
+- work: medieval-literature:margery-kempe
+  ol: OL461742W
+  ol_title: Book of Margery Kempe
+  ol_author: Margery Kempe
+  pages: 343
+- work: medieval-philosophy:augustine-free-choice
+  ol: OL137862W
+  ol_title: De libero arbitrio
+  ol_author: Augustine of Hippo
+  note: matched via an English edition
+  pages: 208
+- work: medieval-philosophy:augustine-confessions
+  ol: OL137872W
+  ol_title: Confessions
+  ol_author: Augustine of Hippo
+  pages: 351
+- work: medieval-philosophy:augustine-city-of-god
+  ol: OL137835W
+  ol_title: De civitate Dei
+  ol_author: Augustine of Hippo
+  note: matched via an English edition
+  pages: 442
+- work: medieval-philosophy:consolation
+  ol: OL1393130W
+  ol_title: De consolatione philosophiae
+  ol_author: Boethius
+  note: matched via an English edition
+  pages: 199
+- work: medieval-philosophy:farabi-political-regime
+  ol: null
+  note: no match
+- work: medieval-philosophy:avicenna-healing
+  ol: null
+  note: the match was the Healing's logic; no record for the parts courses read
+  checked: true
+- work: medieval-philosophy:proslogion
+  ol: OL707174W
+  ol_title: Proslogion
+  ol_author: Anselm of Canterbury
+  pages: 155
+- work: medieval-philosophy:incoherence
+  ol: null
+  note: no match
+- work: medieval-philosophy:deliverance
+  ol: null
+  ol_title: Al-Ghazali
+  ol_author: Al-Ghazali
+  note: weak title match
+- work: medieval-philosophy:abelard-ethics
+  ol: null
+  note: no match
+- work: medieval-philosophy:hayy
+  ol: OL313157W
+  ol_title: Ḥayy ibn Yaqzān
+  ol_author: Muhammad ibn Abd al-Malik Ibn Tufayl
+  pages: 130
+- work: medieval-philosophy:decisive-treatise
+  ol: OL14926605W
+  ol_title: The book of the decisive treatise determining the connection between the law and wisdom
+  ol_author: Averroës
+  pages: 170
+- work: medieval-philosophy:averroes-incoherence
+  ol: OL30227802W
+  ol_title: Incoherence of the Incoherence
+  ol_author: Averroes
+  pages: 326
+- work: medieval-philosophy:guide
+  ol: OL158224W
+  ol_title: The guide of the perplexed of Maimonides
+  ol_author: Moses Maimonides
+  pages: 414
+- work: medieval-philosophy:summa-theologiae
+  ol: OL15314568W
+  ol_title: Summa Theologica
+  ol_author: Thomas Aquinas
+  note: the whole work runs to thousands of pages; courses read short selections
+  pages: null
+- work: medieval-philosophy:scotus
+  ol: null
+  note: courses read different selections
+  checked: true
+- work: medieval-philosophy:ockham
+  ol: null
+  note: courses read different selections
+  checked: true
 - work: merleau-ponty:structure-behavior
   ol: OL2142398W
   ol_title: The structure of behavior

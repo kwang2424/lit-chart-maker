@@ -56,8 +56,13 @@ def entry(lid: str, w: dict, ol: dict) -> dict:
 
 
 def data(lists: dict) -> dict:
+    import topics                        # here, not at the top: topics imports this module
     ol = load_ol()
-    return {f"{lid}:{w['id']}": entry(lid, w, ol) for lid, d in lists.items() for w in d["works"]}
+    out = {f"{lid}:{w['id']}": entry(lid, w, ol) for lid, d in lists.items() for w in d["works"]}
+    for tid, t in topics.load().items():
+        for w in t.get("works") or []:
+            out[f"{tid}:{w['id']}"] = entry(tid, w, ol)
+    return out
 
 
 def worldcat(t: str, a: str) -> str:

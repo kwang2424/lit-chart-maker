@@ -169,11 +169,14 @@ def main() -> int:
         OUT.write_text(header + yaml.safe_dump(entries, sort_keys=False, allow_unicode=True, width=100), encoding="utf-8")
         print(f"pages for {sum(1 for e in entries if e.get('pages'))} of {len(entries)} books")
         return 0
+    import topics
     lists = b.load_lists(b.Report())
     old = {e["work"]: e for e in (b.load_yaml(OUT) or [])} if OUT.exists() else {}
     out = []
-    for lid in sorted(lists):
-        for w in lists[lid]["works"]:
+    books = {lid: d["works"] for lid, d in lists.items()}
+    books.update({tid: t.get("works") or [] for tid, t in topics.load().items()})
+    for lid in sorted(books):
+        for w in books[lid]:
             key = f"{lid}:{w['id']}"
             if key in old and (old[key].get("checked") or not args.all):
                 out.append(old[key])

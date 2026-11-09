@@ -70,6 +70,16 @@ Each book's Open Library record is matched by `python tools/openlibrary.py` and 
 for review, in `sources/openlibrary.yaml`; print availability at a local branch isn't
 shown, because library catalogues don't offer it to other sites.
 
+## Topics
+
+A topic page (`topics/<id>.yaml`) is a reading order for a subject rather than a thinker:
+Existentialism, Political Philosophy, Medieval Philosophy, Medieval Literature. It is built
+from what well-known university courses assign. Books that at least half the courses set
+are core, and the order follows the sourced links between the books. A topic can use books
+from thinkers' lists and can also hold its own books, with their own sourced links (Dante's
+Purgatorio after the Inferno, on Dante's own word). Those links get the same checks as any
+other claim.
+
 ## Usage
 
 ```sh

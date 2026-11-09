@@ -1723,3 +1723,131 @@
   author: Leiden University
   title: "Thinking About Politics: From Machiavelli to Marx (2025–2026)"
   url: https://studiegids-archief.leidenuniv.nl/en/courses/136851/thinking-about-politics-from-machiavelli-to-marx
+
+# Medieval philosophy topic
+- id: syl-guelph-eardley
+  tier: 3
+  author: Peter Eardley, University of Guelph
+  title: "PHIL 3060: Medieval Philosophy (Winter 2018)"
+  url: https://www.uoguelph.ca/arts/sites/uoguelph.ca.arts/files/public/W18%20PHIL3060%2001%20Eardley%20course%20outline.pdf
+
+- id: syl-colorado-pasnau
+  tier: 3
+  author: Robert Pasnau, University of Colorado Boulder
+  title: "PHIL 4030/5020: Medieval Philosophy, readings (2018)"
+  url: https://spot.colorado.edu/~pasnau/4030
+
+- id: syl-marquette-medieval
+  tier: 3
+  author: Richard C. Taylor, Marquette University
+  title: "PHIL 3620: Medieval Philosophy, detailed daily syllabus (Spring 2017)"
+  url: https://academic.mu.edu/taylorr/Medieval_Philosophy_Spring_2017/Medieval_Philosophy_Daily_Syllabus_2017.html
+
+- id: syl-carroll-smillie
+  tier: 3
+  author: Mark Smillie, Carroll College
+  title: "PHIL 202: Medieval Philosophy (Spring 2021)"
+  url: https://www.carroll.edu/sites/default/files/2023-05/medievalsyl2021_0.pdf
+
+- id: syl-yale-ds-philosophy
+  tier: 3
+  author: Yale University, Directed Studies
+  title: "Directed Studies: Philosophy (Fall 2018)"
+  url: https://directedstudies.yale.edu/sites/default/files/files/Syllabus%20philosophy%20Fall%202018-3.pdf
+
+- id: sep-boethius
+  tier: 2
+  author: Stanford Encyclopedia of Philosophy (John Marenbon)
+  title: '"Anicius Manlius Severinus Boethius"'
+  url: https://plato.stanford.edu/entries/boethius/
+
+- id: sep-anselm
+  tier: 2
+  author: Stanford Encyclopedia of Philosophy (Thomas Williams)
+  title: '"Saint Anselm"'
+  url: https://plato.stanford.edu/entries/anselm/
+
+- id: sep-ibn-rushd
+  tier: 2
+  author: Stanford Encyclopedia of Philosophy (Fouad Ben Ahmed and Robert Pasnau)
+  title: '"Ibn Rushd [Averroes]"'
+  url: https://plato.stanford.edu/entries/ibn-rushd/
+
+- id: sep-al-ghazali
+  tier: 2
+  author: Stanford Encyclopedia of Philosophy (Frank Griffel)
+  title: '"Al-Ghazali"'
+  url: https://plato.stanford.edu/entries/al-ghazali/
+
+- id: sep-aquinas-pasnau
+  tier: 2
+  author: Stanford Encyclopedia of Philosophy (Robert Pasnau)
+  title: '"Thomas Aquinas"'
+  url: https://plato.stanford.edu/entries/aquinas/
+
+- id: sep-al-farabi
+  tier: 2
+  author: Stanford Encyclopedia of Philosophy
+  title: '"Al-Farabi"'
+  url: https://plato.stanford.edu/entries/al-farabi/
+
+# Medieval literature topic
+- id: syl-mit-21l460-2005
+  tier: 3
+  author: James Cain, MIT (OpenCourseWare)
+  title: "21L.460 Medieval Literature: Dante, Boccaccio, Chaucer (Spring 2005)"
+  url: https://ocw.mit.edu/courses/21l-460-medieval-literature-dante-boccaccio-chaucer-spring-2005/pages/readings/
+
+- id: syl-mit-21l460-2015
+  tier: 3
+  author: Emily Griffiths Jones, MIT (OpenCourseWare)
+  title: "21L.460 Medieval Literature: Love, Sex, and Marriage (Spring 2015)"
+  url: https://ocw.mit.edu/courses/21l-460-medieval-literature-love-sex-and-marriage-spring-2015/pages/readings/
+
+- id: syl-uwo-delooze
+  tier: 3
+  author: Laurence de Looze, Western University
+  title: "Medieval Studies 1026B: Introduction to the Medieval World (Winter 2016)"
+  url: https://www.uwo.ca/arts/medieval/undergraduate/courses/pdf/1516_syllabi/1026b-001-MS_w16-deLooze.pdf
+
+- id: syl-plnu-eastin
+  tier: 3
+  author: Schuyler Eastin, Point Loma Nazarene University
+  title: "ENG 4025: Literature of the Global Middle Ages (Spring 2026)"
+  url: https://assessment.pointloma.edu/wp-content/uploads/2026/02/ENG_4025-1_Literature_of_the_Global_Middle_Ages.pdf
+
+- id: syl-manchester-mapping
+  tier: 3
+  author: University of Manchester, Department of English
+  title: "ENGL10051: Mapping the Medieval (course unit, 2027 entry)"
+  url: https://www.manchester.ac.uk/study/undergraduate/courses/2027/12152/ba-art-history-and-english-literature/course-details/ENGL10051
+
+- id: syl-oyc-ital310
+  tier: 3
+  author: Giuseppe Mazzotta, Yale University (Open Yale Courses)
+  title: "ITAL 310: Dante in Translation (Fall 2008, recorded)"
+  url: https://oyc.yale.edu/italian-language-and-literature/ital-310
+
+- id: dante-inferno-text
+  tier: 1
+  author: Dante Alighieri
+  title: Inferno (Longfellow trans.)
+  url: https://www.gutenberg.org/ebooks/1001
+
+- id: dante-purgatorio-text
+  tier: 1
+  author: Dante Alighieri
+  title: Purgatorio (Longfellow trans.)
+  url: https://www.gutenberg.org/ebooks/1002
+
+- id: dante-paradiso-text
+  tier: 1
+  author: Dante Alighieri
+  title: Paradiso (Longfellow trans.)
+  url: https://www.gutenberg.org/ebooks/1003
+
+- id: dante-vita-nuova-text
+  tier: 1
+  author: Dante Alighieri
+  title: The New Life (La Vita Nuova) (Rossetti trans.)
+  url: https://www.gutenberg.org/ebooks/41085

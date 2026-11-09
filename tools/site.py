@@ -387,7 +387,7 @@ def main() -> int:
     (SITE / "index.html").write_text(index_page(lists), encoding="utf-8")
     (SITE / "map.html").write_text(page("How they connect", connections.map_page_body(lists)), encoding="utf-8")
     for tid, t in topics.load().items():
-        (SITE / f"topic-{tid}.html").write_text(page(f"{t['title']}: reading order", topics.page_body(tid, t, lists, sources)),
+        (SITE / f"topic-{tid}.html").write_text(page(f"{t['title']}: reading order", topics.page_body(tid, t, lists, sources, cites=lambda l, where: cites_block(l, sources, where))),
                                                encoding="utf-8")
     for lid, data in lists.items():
         core, full = b.compute_order(data)

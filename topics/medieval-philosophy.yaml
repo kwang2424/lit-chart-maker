@@ -1,0 +1,199 @@
+id: medieval-philosophy
+title: Medieval Philosophy
+scope: >
+  Philosophy in the Latin, Arabic and Jewish traditions from Augustine to Ockham, as
+  university survey courses teach it. Built from six courses, including Yale's Directed
+  Studies, Oxford's finals papers and Robert Pasnau's course at Colorado. Most courses
+  read selections rather than whole books, so a book counts as assigned when a course
+  sets any part of it.
+order: year
+
+works:
+  - id: augustine-free-choice
+    title: On Free Choice of the Will
+    author: Augustine
+    year: 395
+    date: 388–395
+  - id: augustine-confessions
+    title: Confessions
+    author: Augustine
+    year: 400
+    date: c. 397–400
+  - id: augustine-city-of-god
+    title: The City of God
+    author: Augustine
+    year: 426
+    date: 413–426
+  - id: consolation
+    title: The Consolation of Philosophy
+    author: Boethius
+    year: 524
+    date: c. 524
+    note: Book V, on divine foreknowledge and free will, is the part most courses set.
+  - id: farabi-political-regime
+    title: The Political Regime (The Principles of Existing Things)
+    author: al-Fārābī
+    year: 945
+    date: 10th century
+    note: >
+      Also called The Principles of Beings (SEP, "Al-Farabi"); one course sets it under each title.
+  - id: avicenna-healing
+    title: "The Healing (al-Shifāʾ): Metaphysics and On the Soul"
+    author: Avicenna (Ibn Sīnā)
+    year: 1027
+    date: c. 1020–1027
+  - id: proslogion
+    title: Proslogion (with Gaunilo's reply)
+    author: Anselm of Canterbury
+    year: 1078
+    date: 1077–78
+    after:
+      - work: augustine-free-choice
+        strength: context
+        why: >
+          Anselm's sense of what makes one being "greater" than another comes, the SEP says,
+          from "the Platonic-Augustinian tradition"; its example is On Free Choice of the
+          Will 2.10, where the eternal is better than the temporal.
+        sources:
+          - source: sep-anselm
+            locator: "§3.1 Proving the divine attributes"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+  - id: incoherence
+    title: The Incoherence of the Philosophers
+    author: al-Ghazālī
+    year: 1095
+    date: 1095
+  - id: deliverance
+    title: Deliverance from Error (al-Munqidh min al-Ḍalāl)
+    author: al-Ghazālī
+    year: 1108
+    date: c. 1106–1110
+    note: Also translated as The Rescuer from Error.
+  - id: abelard-ethics
+    title: "Ethics, or Know Thyself (Scito te ipsum)"
+    author: Peter Abelard
+    year: 1139
+    date: c. 1138–39
+  - id: hayy
+    title: Hayy ibn Yaqzan
+    author: Ibn Ṭufayl
+    year: 1175
+    date: 12th century
+  - id: decisive-treatise
+    title: The Decisive Treatise
+    author: Averroes (Ibn Rushd)
+    year: 1179
+    date: c. 1179
+    after:
+      - work: incoherence
+        strength: context
+        why: >
+          "The implicit target of the Decisive Treatise is al-Ghazālī's notorious fatwa
+          against metaphysics", which al-Ghazālī added at the end of his Incoherence.
+        sources:
+          - source: sep-ibn-rushd
+            locator: "§6.2 Law"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+          - source: sep-al-ghazali
+            locator: "§3 Al-Ghazālī's \"Refutations\" of falsafa and Ismāʿīlism"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+  - id: averroes-incoherence
+    title: The Incoherence of the Incoherence (Tahāfut al-Tahāfut)
+    author: Averroes (Ibn Rushd)
+    year: 1180
+    date: c. 1180
+    after:
+      - work: incoherence
+        strength: helpful
+        why: The SEP calls it "a direct response to al-Ghazālī", answering his Incoherence of the Philosophers.
+        sources:
+          - source: sep-ibn-rushd
+            locator: "§1.2 Works"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+  - id: guide
+    title: The Guide of the Perplexed
+    author: Moses Maimonides
+    year: 1190
+    date: c. 1190
+  - id: summa-theologiae
+    title: Summa Theologiae (selections)
+    author: Thomas Aquinas
+    year: 1270
+    date: 1265–1274
+    note: >
+      Every course here sets part of it; the Five Ways (Ia q. 2) is the most common.
+    after:
+      - work: avicenna-healing
+        strength: context
+        why: >
+          On the senses, "Following the lead of Ibn Sīnā (Avicenna), Aquinas puts
+          considerable weight on" the internal senses.
+        sources:
+          - source: sep-aquinas-pasnau
+            locator: "§6.1 Perception"
+            verified: true
+            checked_in: SEP entry, accessed 2026-11
+  - id: scotus
+    title: "Duns Scotus: selected writings"
+    author: John Duns Scotus
+    year: 1300
+    date: c. 1300
+    note: Courses use different selections, mostly from the Ordinatio.
+  - id: ockham
+    title: "Ockham: selected writings"
+    author: William of Ockham
+    year: 1320
+    date: c. 1317–1347
+    note: Courses use different selections.
+    after:
+      - work: scotus
+        strength: helpful
+        why: >
+          Oxford's paper on the two reads Ockham's "nominalism about universals and the
+          refutation of realism (including the realism of Duns Scotus)" after Scotus's realism.
+        sources:
+          - source: oxford-finals
+            locator: "111. Medieval Philosophy: Duns Scotus and Ockham"
+            verified: true
+            checked_in: Course descriptions (web page), accessed 2026-11
+
+courses:
+  - source: syl-yale-ds-philosophy
+    includes: [augustine-free-choice, hayy, guide, proslogion, summa-theologiae]
+    locator: "weeks 12–14 (the medieval part of a course that starts with Plato)"
+    verified: true
+    checked_in: Course syllabus (PDF, Fall 2018), accessed 2026-11
+  - source: oxford-finals
+    includes: [summa-theologiae, scotus, ockham]
+    others: ["Spade (ed.), Five Texts on the Mediaeval Problem of Universals"]
+    locator: "110. Medieval Philosophy: Aquinas; 111. Medieval Philosophy: Duns Scotus and Ockham (set texts)"
+    verified: true
+    checked_in: Course descriptions (web page), accessed 2026-11
+  - source: syl-colorado-pasnau
+    includes: [consolation, avicenna-healing, proslogion, deliverance, abelard-ethics, guide, summa-theologiae, scotus, ockham]
+    others: ["Augustine, On Christian Doctrine", "Anselm, Monologion", "Gersonides, The Wars of the Lord", "Crescas, Light of the Lord", "Nicholas of Autrecourt, Tractatus and letters", "John Buridan, Questions on the Metaphysics"]
+    locator: readings
+    verified: true
+    checked_in: Course page (2018), accessed 2026-11
+  - source: syl-marquette-medieval
+    includes: [augustine-free-choice, consolation, proslogion, farabi-political-regime, avicenna-healing, deliverance, incoherence, decisive-treatise, averroes-incoherence, summa-theologiae]
+    others: ["Augustine, The Teacher", "Augustine, On the Trinity", "Pseudo-Dionysius, The Divine Names and The Mystical Theology", "Eriugena, On the Division of Nature", "Abelard, Glosses on Porphyry", "al-Kindī, On First Philosophy", "Aquinas, On Being and Essence", "Aquinas, Summa Contra Gentiles", "Siger of Brabant, Question on Creation"]
+    locator: "detailed daily syllabus, classes 2–28"
+    verified: true
+    checked_in: Course page (Spring 2017), accessed 2026-11
+  - source: syl-guelph-eardley
+    includes: [augustine-city-of-god, proslogion, abelard-ethics, decisive-treatise, farabi-political-regime, summa-theologiae, ockham]
+    others: ["Aristotle, On Virtue", "Boethius, \"The Problem of Future Contingents\" (\"Divine Foreknowledge\")"]
+    locator: tentative schedule (Jan. 8 – Apr. 2)
+    verified: true
+    checked_in: Course outline (PDF, Winter 2018), accessed 2026-11
+  - source: syl-carroll-smillie
+    includes: [augustine-confessions, consolation, proslogion, summa-theologiae]
+    others: ["Anselm, On Truth", "Anselm, On Freedom of Choice"]
+    locator: schedule
+    verified: true
+    checked_in: Course syllabus (PDF, Spring 2021), accessed 2026-11
