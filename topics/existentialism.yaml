@@ -1,0 +1,39 @@
+id: existentialism
+title: Existentialism
+scope: >
+  The existentialist tradition as introductory university courses teach it, from
+  Kierkegaard and Nietzsche through Heidegger to Sartre and Merleau-Ponty. Built from
+  five courses, including Hubert Dreyfus's well-known Berkeley lectures. Camus, Beauvoir,
+  Dostoevsky and others these courses read are not yet on this site and are listed below.
+
+courses:
+  - source: syl-bard-colony
+    includes: [kierkegaard:fear-trembling, kierkegaard:sickness, nietzsche:genealogy, heidegger:being-and-time, sartre:being-nothingness, sartre:humanism, sartre:no-exit, sartre:nausea]
+    others: ["Dostoevsky, Notes from Underground", "Dostoevsky, The Grand Inquisitor", "Melville, Bartleby, the Scrivener", "Unamuno, Saint Manuel Bueno, Martyr", "Kafka, The Metamorphosis", "Camus, The Stranger", "Camus, The Myth of Sisyphus", "Beauvoir, The Ethics of Ambiguity"]
+    locator: "schedule, Feb. 1 – May 2"
+    verified: true
+    checked_in: Course syllabus (PDF, Spring 2024), accessed 2026-11
+  - source: syl-berkeley-dreyfus
+    includes: [kierkegaard:fear-trembling, kierkegaard:sickness, nietzsche:twilight, nietzsche:gay-science, nietzsche:antichrist]
+    others: ["Pascal, Pensées", "Dostoevsky, The Brothers Karamazov"]
+    locator: lecture and film schedule (updated 10/5/15)
+    verified: true
+    checked_in: Course page (Fall 2015), accessed 2026-11
+  - source: syl-ucsd-tolley-181
+    includes: [kierkegaard:anxiety, kierkegaard:sickness, nietzsche:gay-science, heidegger:what-is-metaphysics, heidegger:being-and-time, sartre:humanism, sartre:no-exit]
+    others: ["Pascal, Pensées", "Camus, The Myth of Sisyphus", "Camus, The Stranger", "Beauvoir, The Ethics of Ambiguity", "Beauvoir, The Second Sex", "Fanon, Black Skin, White Masks"]
+    locator: schedule of readings, weeks 1–8
+    verified: true
+    checked_in: Course syllabus (PDF, Spring 2024), accessed 2026-11
+  - source: syl-ubc-kraal-2024
+    includes: [kierkegaard:either-or, kierkegaard:fear-trembling, sartre:humanism, kierkegaard:sickness, heidegger:letter-humanism]
+    others: ["Beauvoir, What Is Existentialism?"]
+    locator: schedule (Sept. 6 – Oct. 30)
+    verified: true
+    checked_in: Course syllabus (PDF, Fall 2024), accessed 2026-11
+  - source: syl-mcgill-375
+    includes: [sartre:humanism, sartre:being-nothingness, merleau-ponty:phenomenology-perception]
+    others: ["Camus, The Outsider", "Camus, The Myth of Sisyphus", "Beauvoir, The Ethics of Ambiguity", "Beauvoir, The Second Sex", "Fanon, Black Skin, White Masks"]
+    locator: schedule of readings (Sept. 9 – Dec. 3)
+    verified: true
+    checked_in: Course syllabus (PDF, Fall 2013), accessed 2026-11

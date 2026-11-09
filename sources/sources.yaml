@@ -1691,3 +1691,35 @@
   author: Clinton Tolley, UC San Diego
   title: "PHIL 180: Phenomenology (Fall 2012)"
   url: https://hh-philosophy.ucsd.edu/_files/courses/12fall/phil180fa12.pdf
+
+# ---------- Topic charts ----------
+
+- id: syl-berkeley-dreyfus
+  tier: 3
+  author: Hubert Dreyfus, UC Berkeley
+  title: "Philosophy 7: Existentialism in Literature and Film (Fall 2015)"
+  url: https://philosophy.berkeley.edu/people/page/169
+
+- id: syl-ucsd-tolley-181
+  tier: 3
+  author: Clinton Tolley, UC San Diego
+  title: "PHIL 181: Existentialism (Spring 2024)"
+  url: https://hh-philosophy.ucsd.edu/_files/courses/24spring/PHIL%20181%20Syllabus%20Spring%202024%20Tolley.pdf
+
+- id: syl-ubc-kraal-2024
+  tier: 3
+  author: Anders Kraal, University of British Columbia
+  title: "PHIL 385: Existentialism (Fall 2024)"
+  url: https://phil.cms.arts.ubc.ca/wp-content/uploads/sites/19/2024/08/PHIL385.001_A.Kraals_2024W-term1.pdf
+
+- id: syl-oyc-plsc114
+  tier: 3
+  author: Steven B. Smith, Yale University (Open Yale Courses)
+  title: "PLSC 114: Introduction to Political Philosophy (Fall 2006, recorded)"
+  url: https://oyc.yale.edu/political-science/plsc-114
+
+- id: syl-leiden-politics
+  tier: 3
+  author: Leiden University
+  title: "Thinking About Politics: From Machiavelli to Marx (2025–2026)"
+  url: https://studiegids-archief.leidenuniv.nl/en/courses/136851/thinking-about-politics-from-machiavelli-to-marx

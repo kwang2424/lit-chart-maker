@@ -20,6 +20,7 @@ import findit
 import graph
 import verify_claims
 import plan
+import topics
 import consensus
 
 SITE = b.ROOT / "site"
@@ -319,6 +320,11 @@ def index_page(lists: dict) -> str:
                       key=lambda kv: (kv[1].get("sequence", 99), kv[1]["title"]))
     preds = sorted((l for l in lists.items() if l[1].get("group") == "predecessors"),
                    key=lambda kv: kv[1].get("sequence", 99))
+    tops = topics.load()
+    if tops:
+        h += ["<h2>Topics</h2>", "<p>Reading orders for a subject rather than a thinker, built from what "
+              "well-known university courses assign.</p>", '<div class="cards">']
+        h += [topics.card(tid, t, lists) for tid, t in tops.items()] + ["</div>"]
     h += ["<h2>The thinkers</h2>", '<div class="cards">'] + [card(*l) for l in thinkers] + ["</div>"]
     if preds:
         h += [
@@ -366,6 +372,9 @@ def main() -> int:
     (SITE / "app.js").write_text(JS.strip() + "\n", encoding="utf-8")
     (SITE / "index.html").write_text(index_page(lists), encoding="utf-8")
     (SITE / "map.html").write_text(page("How they connect", connections.map_page_body(lists)), encoding="utf-8")
+    for tid, t in topics.load().items():
+        (SITE / f"topic-{tid}.html").write_text(page(f"{t['title']}: reading order", topics.page_body(tid, t, lists, sources)),
+                                               encoding="utf-8")
     for lid, data in lists.items():
         core, full = b.compute_order(data)
         svg = chart.render_svg(

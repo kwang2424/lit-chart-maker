@@ -615,6 +615,8 @@ def main() -> int:
     sources = load_sources(report)
     lists = load_lists(report)
     validate(lists, sources, report, args.strict)
+    import topics
+    topics.validate(topics.load(), lists, sources, report)
 
     for w in report.warnings:
         print(f"warning: {w}")
