@@ -52,7 +52,7 @@ His first book, on Spinoza's Theologico-Political Treatise. The long preface he 
 
 **Translation:** Sinclair (Schocken 1965)
 
-**★ Good place to start.** In the 1965 preface Strauss "describes the beginnings of his intellectual journey" and the "theologico-political predicament" that the SEP calls his most basic question. Both ordered courses found open with it.
+**★ Good place to start.** In the 1965 preface Strauss "describes the beginnings of his intellectual journey" and the "theologico-political predicament" that the SEP calls his most basic question. Two of the three ordered courses surveyed open with it.
 
 - Stanford Encyclopedia of Philosophy, *"Leo Strauss" (rev. 2021)*, §4 The Theologico-Political Predicament of Modernity [scholarly] ✓ checked by Claude (AI) in SEP entry (rev. 2021), accessed 2026-11; not yet reviewed by a person
 - Steven B. Smith, Yale University, *PLSC 330b/598b: Leo Strauss & Straussianism (Spring 2008)*, outline II, "How Did Strauss Become Strauss?" [teaching] ✓ checked by Claude (AI) in Course syllabus (PDF), accessed 2026-11; not yet reviewed by a person

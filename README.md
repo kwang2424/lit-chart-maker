@@ -39,6 +39,14 @@ Quotes are also re-checked by machine: `python tools/recheck.py` fetches every c
 source it can (encyclopedia entries, syllabi, Project Gutenberg and archive.org texts)
 and confirms each quoted phrase is still there. It runs monthly on GitHub Actions.
 
+Paraphrase needs more than a quote check, so each claim also gets a **second check**:
+`python tools/verify_claims.py --prepare N` pulls, for the next N unchecked claims, the
+passages of the cited sources most likely to bear on them, and a separate review pass
+(so far Claude, not the pass that wrote the claim) records whether the source supports
+the claim in `sources/verification.yaml`. A verdict lapses when the claim or its
+citations change. Pages show it as "second AI check", apart from review by a person;
+claims found overstated or unsupported are fixed or opened as issues.
+
 ## Website
 
 `python tools/site.py` builds a static site into `site/`: a home page, one page per list

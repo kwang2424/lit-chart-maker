@@ -448,7 +448,7 @@ works:
     after:
       - work: anti-oedipus
         strength: helpful
-        why: It is the second volume of Capitalism and Schizophrenia and reworks the first.
+        why: It is the second volume of Capitalism and Schizophrenia, after Anti-Oedipus.
         sources:
           - source: sep-deleuze
             locator: "§4.2 A Thousand Plateaus"
