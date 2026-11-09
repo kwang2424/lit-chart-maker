@@ -43,6 +43,13 @@ def load_ol() -> dict:
     return {e["work"]: e.get("ol") for e in (b.load_yaml(OL_FILE) or [])}
 
 
+def load_pages() -> dict:
+    """Typical page count per book (median across its Open Library editions), where known."""
+    if not OL_FILE.exists():
+        return {}
+    return {e["work"]: e["pages"] for e in (b.load_yaml(OL_FILE) or []) if e.get("pages")}
+
+
 def entry(lid: str, w: dict, ol: dict) -> dict:
     t, a = main_title(w["title"]), surname(w.get("author", ""))
     return {"t": t, "a": a, "ol": ol.get(f"{lid}:{w['id']}")}

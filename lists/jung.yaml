@@ -61,6 +61,18 @@ survey:
     verified: true
     checked_in: Course web page, accessed 2026-11
 
+beginner:
+  work: memories-dreams
+  why: >
+    The Jung Society of Seattle's list "For Absolute Beginners" says "a good place to begin"
+    is Jung's autobiography, then "a secondary interpretive book" such as Murray Stein's
+    Jung's Map of the Soul.
+  sources:
+    - source: jung-seattle-reading
+      locator: "Recommended Reading List For Absolute Beginners"
+      verified: true
+      checked_in: Reading list (web page), accessed 2026-11
+
 works:
 
   # ---------- Background ----------

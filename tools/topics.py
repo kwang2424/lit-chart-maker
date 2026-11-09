@@ -121,6 +121,7 @@ def edges(lists: dict):
 def page_body(tid: str, topic: dict, lists: dict, sources: dict) -> str:
     c = chart(topic, lists)
     ol = findit.load_ol()
+    pages = findit.load_pages()
     core_goals = ",".join(x for x in c["order"] if x in c["core"])
     h = [f"<h1>{escape(topic['title'])}</h1>",
          f'<p class="sans meta muted"><span class="badge">topic</span>{len(c["order"])} books on this site · '
@@ -129,6 +130,7 @@ def page_body(tid: str, topic: dict, lists: dict, sources: dict) -> str:
          '<p class="meta">Books that at least half the courses assign are marked <strong>core</strong>. The order '
          "follows the sourced links between these books (the same links as each thinker's page); where no link "
          "decides, earlier thinkers come first.</p>",
+         reading_time([x for x in c["order"] if x in c["core"]], c["order"], pages),
          f'<p class="sans"><a href="plan.html#goals={escape(core_goals)}&min=context">Make the core books a reading plan →</a></p>',
          '<ol class="plan">']
     for i, x in enumerate(c["order"], 1):
@@ -143,6 +145,7 @@ def page_body(tid: str, topic: dict, lists: dict, sources: dict) -> str:
             f'<li class="pitem{" goal" if core else ""}"><span class="pnum sans">{i}</span>'
             f'<a class="ptitle" href="{lid}.html#{w["id"]}">{escape(w["title"])}</a>'
             f'<div class="sans meta muted">{escape(lists[lid]["title"])}{" · " + str(w["year"]) if w.get("year") else ""}'
+            f'{" · ~" + str(pages[x]) + " pp." if pages.get(x) else ""}'
             f' · assigned by {c["count"][x]} of {c["n"]} courses{" · <strong>core</strong>" if core else ""}</div>'
             + (f'<details class="src"><summary>Why here ({len(into)})</summary><ul class="links">{why}</ul></details>' if into else "")
             + findit.static_html(x, findit.entry(lid, w, ol)) + "</li>")
@@ -164,6 +167,26 @@ def page_body(tid: str, topic: dict, lists: dict, sources: dict) -> str:
     h.append(f'<h2>Courses</h2><ul class="cites">{"".join(rows)}</ul>')
     h.append('<script src="find.js"></script>')
     return "\n".join(h)
+
+
+def weeks(pages: int, pace: int = 20) -> str:
+    days = -(-pages // pace)
+    return f"{days} days" if days < 14 else f"{round(days / 7)} weeks" if days < 70 else f"{round(days / 30.4)} months"
+
+
+def reading_time(core: list, books: list, pages: dict) -> str:
+    """One line: about how long the core books and all books take at 20 pages a day."""
+    def total(xs):
+        return sum(pages.get(x, 0) for x in xs), sum(1 for x in xs if not pages.get(x))
+    (cp, cu), (ap, au) = total(core), total(books)
+    if not ap:
+        return ""
+    def part(label, n, p, u):
+        more = f", plus {u} book{'s' if u > 1 else ''} with no page count" if u else ""
+        return f"{label} ({n}): about {p:,} pages, roughly {weeks(p)} at 20 pages a day{more}"
+    parts = ([part("Core books", len(core), cp, cu)] if core and cp else []) + [part("All books", len(books), ap, au)]
+    return (f'<p class="sans meta muted">{escape("; ".join(parts))}. Page counts are the typical length '
+            "of each book's editions on Open Library, so this is a rough guide.</p>")
 
 
 def card(tid: str, topic: dict, lists: dict) -> str:

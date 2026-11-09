@@ -67,6 +67,18 @@ survey:
     verified: true
     checked_in: Reading list web page, accessed 2026-11
 
+beginner:
+  work: curley-behind
+  why: >
+    Steven Nadler recommends reading Curley's short book alongside the Ethics: "a nice
+    accessible introduction to the main themes of Spinoza's philosophy", about 130 pages and
+    focused mainly on the Ethics.
+  sources:
+    - source: fivebooks-nadler-spinoza
+      locator: "pick 2"
+      verified: true
+      checked_in: Five Books interview (web page), accessed 2026-11
+
 works:
 
   - id: tie
@@ -254,3 +266,11 @@ works:
     tier: optional
     difficulty: 3
     note: A guide to the whole philosophy, listed in the SEP's recommended secondary literature.
+  - id: curley-behind
+    title: "Behind the Geometrical Method: A Reading of Spinoza's Ethics"
+    author: Edwin Curley
+    year: 1988
+    kind: secondary
+    tier: optional
+    difficulty: 2
+    note: A short introduction to the Ethics, about 130 pages.

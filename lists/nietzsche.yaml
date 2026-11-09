@@ -7,6 +7,8 @@ scope: >
   Nietzsche's published books, the background he assumes, and a few
   standard secondary guides. Not his unpublished notebooks (Nachlass).
 status: draft   # draft -> reviewed -> stable
+# beginner: {work, why, sources}  (optional; a book a source says to start with if you are
+#   new to the thinker. It may be a guide, or a book in another list, e.g. berlin:karl-marx.)
 
 # Each work:
 #   tier:        core | extended | optional
@@ -97,6 +99,20 @@ survey:
     locator: "Junior and Senior reading list"
     verified: true
     checked_in: Reading list web page, accessed 2026-11
+
+beginner:
+  work: safranski
+  why: >
+    If you are new to philosophy, Brian Leiter suggests "it might be best to start with the
+    Safranski biography before going to the primary texts": it pairs the life with "an
+    introduction to the philosophical works, which is written at a very appropriate level for
+    the beginner". For those who would rather begin with Nietzsche himself, he suggests Beyond
+    Good and Evil.
+  sources:
+    - source: fivebooks-leiter-nietzsche
+      locator: "pick 1 and on where to start"
+      verified: true
+      checked_in: Five Books interview (web page), accessed 2026-11
 
 works:
 
@@ -611,3 +627,12 @@ works:
             locator: "§1 Life and Works"
             verified: true
             checked_in: SEP online, accessed 2026-11
+  - id: safranski
+    title: "Nietzsche: A Philosophical Biography"
+    author: Rüdiger Safranski
+    year: 2002
+    kind: secondary
+    tier: optional
+    position: start
+    difficulty: 2
+    note: A biography that introduces the works as it goes (trans. Shelley Frisch).

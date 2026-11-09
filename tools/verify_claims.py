@@ -63,6 +63,9 @@ def claims(lists: dict):
                 out.append((f"{base} -> {l['work']}", l["strength"], l.get("why", ""), l.get("sources") or [], rank))
             for i, t in enumerate(w.get("tips") or [], 1):
                 out.append((f"{base} (tip {i})", "tip", t.get("text", ""), t.get("sources") or [], 6))
+        if d.get("beginner"):
+            bg = d["beginner"]
+            out.append((f"{lid} (beginner)", "beginner", bg.get("why", ""), bg.get("sources") or [], 1))
     return sorted(out, key=lambda c: (c[4], c[0]))
 
 
