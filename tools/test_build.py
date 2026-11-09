@@ -217,7 +217,7 @@ class BuildTests(unittest.TestCase):
         entries = b.load_yaml(findit.OL_FILE) or []
         keys = [e["work"] for e in entries]
         self.assertEqual(len(keys), len(set(keys)), "a book is matched twice")
-        books = {f"{lid}:{w['id']}" for lid, d in self.lists.items() for w in d["works"]}
+        books = set(topics.catalog(self.lists, topics.load()))
         for e in entries:
             self.assertIn(e["work"], books, f"openlibrary.yaml names a missing book: {e['work']}")
             if e.get("ol"):
@@ -258,7 +258,7 @@ class BuildTests(unittest.TestCase):
     def test_page_counts_are_plausible(self):
         pages = findit.load_pages()
         self.assertGreater(len(pages), 300)
-        known = {f"{lid}:{w['id']}" for lid, d in self.lists.items() for w in d["works"]}
+        known = set(topics.catalog(self.lists, topics.load()))
         for k, n in pages.items():
             self.assertIn(k, known)
             self.assertTrue(10 <= n <= 2000, f"{k}: {n} pages")
@@ -276,6 +276,24 @@ class BuildTests(unittest.TestCase):
             self.assertEqual(set(pos), set(c["count"]), tid)
             for a_, c_, _, _ in c["links"]:
                 self.assertLess(pos[a_], pos[c_], f"{tid}: {a_} must come before {c_}")
+        # a topic's own books: cross-topic references, sourced links, and loops
+        self.assertIn("medieval-philosophy:consolation", topics.chart(tops["medieval-literature"], self.lists, tops)["count"])
+        lit = topics.chart(tops["medieval-literature"], self.lists, tops)["order"]
+        self.assertLess(lit.index("medieval-literature:inferno"), lit.index("medieval-literature:purgatorio"))
+        loop = copy.deepcopy(tops)
+        works = {w["id"]: w for w in loop["medieval-literature"]["works"]}
+        works["inferno"]["after"].append({"work": "paradiso", "strength": "context", "why": "w",
+                                          "sources": [{"source": "sep-boethius", "locator": "l", "verified": True, "checked_in": "c"}]})
+        r = b.Report()
+        topics.validate(loop, self.lists, self.sources, r)
+        self.assertTrue(any("form a loop" in e for e in r.errors))
+        works["inferno"]["after"][-1]["work"] = "nope"
+        works["purgatorio"]["after"][0]["sources"][0]["source"] = "sep-boethius"   # required needs tier 1 or 2: still fine
+        r = b.Report()
+        topics.validate(loop, self.lists, self.sources, r)
+        self.assertTrue(any("unknown book" in e for e in r.errors))
+        claims = {c[0] for c in verify_claims.claims(self.lists)}
+        self.assertIn("medieval-literature:purgatorio -> medieval-literature:inferno", claims)
         bad = {"x": {"id": "x", "title": "X", "scope": "s", "courses": [
             {"source": "sep-hobbes", "includes": ["hobbes:nope"], "locator": "l", "verified": True, "checked_in": "c"}]}}
         r = b.Report()

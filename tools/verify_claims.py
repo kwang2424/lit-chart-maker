@@ -66,6 +66,10 @@ def claims(lists: dict):
         if d.get("beginner"):
             bg = d["beginner"]
             out.append((f"{lid} (beginner)", "beginner", bg.get("why", ""), bg.get("sources") or [], 1))
+    import topics
+    for (a, c), l in topics.topic_links(topics.load()).items():
+        rank = {"required": 0, "helpful": 2, "context": 4}[l["strength"]] + 1
+        out.append((f"{c} -> {a}", l["strength"], l.get("why", ""), l.get("sources") or [], rank))
     return sorted(out, key=lambda c: (c[4], c[0]))
 
 
