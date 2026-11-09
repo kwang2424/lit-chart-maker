@@ -237,7 +237,7 @@ graph TD
 - *Groundwork of the Metaphysics of Morals* → *The Antichrist* (Friedrich Nietzsche) — context. §11 begins "A word now against Kant as a moralist": a virtue rooted in "mere respect for the concept of 'virtue'", in "duty" and "good for its own sake", is "pernicious".
 - *Critique of the Power of Judgment* → *Ideas for a Philosophy of Nature* (F. W. J. Schelling) — context. The IEP names Kant's Critique of Judgment, with Fichte's Wissenschaftslehre, as "of decisive importance for Schelling's early philosophical career".
 - *Prolegomena to Any Future Metaphysics* → *On the Fourfold Root of the Principle of Sufficient Reason* (Arthur Schopenhauer) — helpful. Its claim that the subject–object distinction is the condition of all knowledge comes from Kant's first Critique.
-- *Prolegomena to Any Future Metaphysics* → *The World as Will and Representation, vol. 1* (Arthur Schopenhauer) — required. "The philosophy of Kant ... is the only philosophy with which a thorough acquaintance is directly presupposed." The Prolegomena is Kant's own summary.
+- *Prolegomena to Any Future Metaphysics* → *The World as Will and Representation, vol. 1* (Arthur Schopenhauer) — required. "The philosophy of Kant ... is the only philosophy with which a thorough acquaintance is directly presupposed." Kant wrote the Prolegomena as "a preliminary exercise" and the "plan" of the Critique, for readers who found the Critique hard to follow.
 - *Critique of Pure Reason* → *The World as Will and Representation, vol. 1* (Arthur Schopenhauer) — helpful. The Kant he presupposes and criticizes in his appendix is above all the Critique.
 
 ## Sources

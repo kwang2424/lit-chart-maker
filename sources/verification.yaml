@@ -1,0 +1,217 @@
+# Second check of each claim against its sources (see tools/verify_claims.py).
+# This is an AI checking AI work: it is shown apart from review by a person.
+
+- claim: schopenhauer:wwr -> fourfold-root
+  hash: bc3ba0e2
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: schopenhauer:wwr -> kant:prolegomena
+  hash: '53750353'
+  verdict: supported
+  note: 'Fixed in this pass: Schopenhauer presupposes Kant''s principal writings, not the Prolegomena
+    as such; the Prolegomena''s role as the plan of the Critique now cites Kant''s own preface.'
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: bergson:introduction-to-metaphysics (start here)
+  hash: 70aad3d8
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: berlin:two-concepts (start here)
+  hash: 4c9ab110
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: deleuze:holland-ao-guide -> anti-oedipus
+  hash: 694744d2
+  verdict: supported
+  note: The source's title states what the claim says.
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: deleuze:massumi-guide -> anti-oedipus
+  hash: 92dddb71
+  verdict: supported
+  note: The source's title states what the claim says.
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: deleuze:williams-dr-guide -> difference-and-repetition
+  hash: 16372f1a
+  verdict: supported
+  note: The source's title states what the claim says.
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: derrida:positions (start here)
+  hash: 700580f9
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: descartes:objections-replies -> meditations
+  hash: 284eaf51
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: descartes:principles -> meditations
+  hash: 1dad0164
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: freud:introductory-lectures (start here)
+  hash: abc3819c
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: hegel:phenomenology (start here)
+  hash: a1c31309
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: heidegger:early-greek-thinking -> presocratics
+  hash: 8d4de13c
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: heidegger:hegels-phenomenology -> hegel:phenomenology
+  hash: 8d30ab31
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: heidegger:platos-sophist -> plato:sophist
+  hash: 3898868b
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: heidegger:schelling-lectures -> schelling:freedom
+  hash: a3642ae0
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: hobbes:leviathan (start here)
+  hash: 8c20173b
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: hume:first-enquiry (start here)
+  hash: 6ff11888
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: husserl:cartesian-meditations (start here)
+  hash: fb1ad4a9
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: jung:zarathustra-seminar -> nietzsche:zarathustra
+  hash: 5f6e5317
+  verdict: unclear
+  note: The publisher page can't be fetched; the title supports a seminar on Zarathustra, but 'running
+    psychological commentary' could not be re-read.
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: kant:cprr -> groundwork
+  hash: 7b0c280f
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: kant:prolegomena (start here)
+  hash: f7f94a8a
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: lyotard:lessons-sublime -> kant:cj
+  hash: ff475e4c
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: machiavelli:prince (start here)
+  hash: 8884df91
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: marx:capital-2-3 -> capital-1
+  hash: aeff45d4
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: nietzsche:lampert-teaching -> zarathustra
+  hash: f4588317
+  verdict: supported
+  note: The source's title states what the claim says.
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: nietzsche:leiter-guidebook -> genealogy
+  hash: 1f73ca15
+  verdict: unclear
+  note: The publisher's table of contents can't be fetched; the book's title and subject support the link,
+    the chapter-per-essay detail could not be re-read.
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: nietzsche:twilight (start here)
+  hash: 12f9e768
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: rousseau:inequality (start here)
+  hash: c4d0dee4
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: sartre:humanism (start here)
+  hash: ddcb4c90
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: schopenhauer:wwr-2 -> wwr
+  hash: 9774de19
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: strauss:spinoza-critique (start here)
+  hash: f40eb827
+  verdict: supported
+  note: 'Fixed in this pass: the survey now has three ordered courses, of which two (not both) open with
+    it.'
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: bergson:creative-evolution -> matter-and-memory
+  hash: a9ed5944
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: bergson:creative-evolution -> time-and-free-will
+  hash: 807f6267
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: deleuze:anti-oedipus -> difference-and-repetition
+  hash: 7127bb85
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: deleuze:difference-and-repetition -> bergsonism
+  hash: aef2d2f1
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: deleuze:difference-and-repetition -> nietzsche-and-philosophy
+  hash: 5399f06e
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: deleuze:nietzsche-and-philosophy -> nietzsche:genealogy
+  hash: c6a407a4
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: deleuze:thousand-plateaus -> anti-oedipus
+  hash: 19dadcf0
+  verdict: supported
+  note: 'Fixed in this pass: ''reworks the first'' was not in the cited SEP text; now says only that it
+    is the second volume.'
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: derrida:voice-phenomenon -> husserl:logical-investigations
+  hash: bf7cff81
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)

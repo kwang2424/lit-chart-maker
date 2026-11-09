@@ -10,6 +10,7 @@ import recheck
 import findit
 import graph
 import plan
+import verify_claims
 
 import build as b
 
@@ -232,6 +233,16 @@ class BuildTests(unittest.TestCase):
         for field in ("citation", "claim", "locator"):
             self.assertIn(field, fields)
             self.assertIn(f"{field}=", url)
+
+    def test_second_check_records_are_well_formed(self):
+        entries = b.load_yaml(verify_claims.OUT) or []
+        ids = {c[0] for c in verify_claims.claims(self.lists)}
+        for e in entries:
+            self.assertIn(e["verdict"], verify_claims.VERDICTS, e["claim"])
+            self.assertIn(e["claim"], ids, f"verification.yaml names a claim that no longer exists: {e['claim']}")
+            self.assertRegex(e["hash"], r"^[0-9a-f]{8}$")
+            if e["verdict"] != "supported":
+                self.assertTrue(e.get("note"), f"{e['claim']}: a non-supported verdict needs a note")
 
 
 if __name__ == "__main__":

@@ -18,6 +18,7 @@ import citations
 import connections
 import findit
 import graph
+import verify_claims
 import plan
 import consensus
 
@@ -178,11 +179,34 @@ def cite_html(c: dict, sources: dict, where: str = "", claim_text: str = "") -> 
     return f"<li>{text}</li>"
 
 
+VERDICTS = verify_claims.load_verdicts()
+SECOND_CHECK = {
+    "supported": ('ok', "second AI check: supported"),
+    "overstated": ('warn', "second AI check: overstated"),
+    "unsupported": ('warn', "second AI check: not supported"),
+    "unclear": ('muted', "second AI check: couldn't confirm"),
+}
+
+
+def second_check(where: str, claim: dict) -> str:
+    """The verifier's verdict for this claim, if it still applies to the current text."""
+    if not where:
+        return ""
+    text = claim.get("why") or claim.get("text") or ""
+    v = verify_claims.current(VERDICTS, where, verify_claims.claim_hash(text, claim.get("sources") or []))
+    if not v:
+        return ""
+    cls, label = SECOND_CHECK[v["verdict"]]
+    note = f' title="{escape(v["note"])}"' if v.get("note") else ""
+    return f' · <span class="{cls}"{note}>{label}</span>'
+
+
 def cites_block(claim: dict, sources: dict, where: str = "") -> str:
     text = claim.get("why") or claim.get("text") or ""
     items = "".join(cite_html(c, sources, where, text) for c in claim.get("sources") or [])
     n = len(claim.get("sources") or [])
-    return f'<details class="src"><summary>{n} source{"s" if n != 1 else ""}</summary><ul class="cites">{items}</ul></details>'
+    return (f'<details class="src"><summary>{n} source{"s" if n != 1 else ""}{second_check(where, claim)}</summary>'
+            f'<ul class="cites">{items}</ul></details>')
 
 
 def list_page(data: dict, lists: dict, sources: dict) -> str:
@@ -253,8 +277,8 @@ def list_page(data: dict, lists: dict, sources: dict) -> str:
             parts.append(f'<p class="meta"><strong>Translation:</strong> {escape(w["translation"])}</p>')
         if w.get("tips"):
             parts.append('<p class="meta"><strong>Reading tips</strong></p><ul class="links">')
-            for t in w["tips"]:
-                parts.append(f"<li>{escape(t['text'].strip())}{cites_block(t, sources, f'{lid}:{n} (tip)')}</li>")
+            for ti, t in enumerate(w["tips"], 1):
+                parts.append(f"<li>{escape(t['text'].strip())}{cites_block(t, sources, f'{lid}:{n} (tip {ti})')}</li>")
             parts.append("</ul>")
         if w.get("after"):
             parts.append('<p class="meta"><strong>Read first</strong></p><ul class="links">')

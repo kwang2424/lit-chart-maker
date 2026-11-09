@@ -252,7 +252,7 @@ Some consider it his masterwork alongside Difference and Repetition. Start with 
 
 **Read first:**
 
-- *Anti-Oedipus (Capitalism and Schizophrenia, vol. 1)* — *helpful*. It is the second volume of Capitalism and Schizophrenia and reworks the first.
+- *Anti-Oedipus (Capitalism and Schizophrenia, vol. 1)* — *helpful*. It is the second volume of Capitalism and Schizophrenia, after Anti-Oedipus.
   - Daniel Smith, John Protevi, Daniela Voss, *"Gilles Deleuze", Stanford Encyclopedia of Philosophy*, §4.2 A Thousand Plateaus [scholarly] ✓ checked by Claude (AI) in SEP online (2022 revision), accessed 2026-11; not yet reviewed by a person
 
 ### 18. Monadology; Theodicy (1710)

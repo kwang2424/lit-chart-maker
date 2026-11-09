@@ -147,12 +147,18 @@ works:
         strength: required
         why: >
           "The philosophy of Kant ... is the only philosophy with which a thorough
-          acquaintance is directly presupposed." The Prolegomena is Kant's own summary.
+          acquaintance is directly presupposed." Kant wrote the Prolegomena as "a
+          preliminary exercise" and the "plan" of the Critique, for readers who found the
+          Critique hard to follow.
         sources:
           - source: schopenhauer-wwr-preface
             locator: Preface to the first edition
             verified: true
             checked_in: "Haldane & Kemp trans., Project Gutenberg #38427"
+          - source: kant-prolegomena-text
+            locator: Preface
+            verified: true
+            checked_in: "Carus trans. (Open Court, 1912), Project Gutenberg #52821"
       - work: kant:kant-cpr
         strength: helpful
         why: The Kant he presupposes and criticizes in his appendix is above all the Critique.
