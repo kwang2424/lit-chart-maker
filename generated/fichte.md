@@ -91,8 +91,8 @@ His "best-known philosophical treatise", written as a handout for students and m
 
 **Read first:**
 
-- *Concerning the Concept of the Wissenschaftslehre* — *helpful*. The manifesto announcing the system came first, and courses read it first: Hagen's seminar opens with an overview of its argument before the Foundation's principles.
-  - Thomas Sören Hoffmann, FernUniversität in Hagen, *Fichtes transzendentaler Idealismus: Grundlegung und Entfaltung (seminar, November 2024)*, sessions 1–4 [teaching] ✓ checked by Claude (AI) in Seminar page (FernUniversität in Hagen, November 2024), accessed 2026-11; not yet reviewed by a person
+- *Concerning the Concept of the Wissenschaftslehre* — *helpful*. The manifesto announcing the system came first, and Hagen's seminar takes it first: its first presentation topic is an overview of its argument, before the Foundation's principles.
+  - Thomas Sören Hoffmann, FernUniversität in Hagen, *Fichtes transzendentaler Idealismus: Grundlegung und Entfaltung (seminar, November 2024)*, presentation topics (Referatthemen) 1–3 [teaching] ✓ checked by Claude (AI) in Seminar page (FernUniversität in Hagen, November 2024), accessed 2026-11; not yet reviewed by a person
 - *Critique of Pure Reason* (from the [Immanuel Kant list](kant.md)) — *helpful*. Fichte presents it as completing Kant: "Kant's celebrated question, which he placed at the head of his Critic of Pure Reason, How are synthetical judgments à priori possible? has now been answered."
   - J. G. Fichte, *The Science of Knowledge, with Concerning the Concept (Kroeger trans., 1889)*, Part I, §3 [author] ✓ checked by Claude (AI) in Kroeger trans. (1889), archive.org/details/scienceofknowle00fich; not yet reviewed by a person
 - *Discourse on the Method* (from the [René Descartes list](descartes.md)) — *context*. Its first principle is compared with Descartes: "Before Kant, Descartes has suggested a similar one, Cogito, ergo sum."

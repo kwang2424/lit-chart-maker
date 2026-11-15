@@ -134,7 +134,7 @@ The unfinished manuscript he was working on when he died in 1961, published post
 
 **Read first:**
 
-- *Phenomenology of Perception* — *helpful*. It aims "to clarify the ontological implications of a phenomenology that would self-critically account for its own limitations", reworking the earlier book.
+- *Phenomenology of Perception* — *helpful*. It aims "to clarify the ontological implications of a phenomenology that would self-critically account for its own limitations": in his later writings he criticizes the phenomenological method of his earlier work, "with the intention of reforming rather than abandoning it".
   - Stanford Encyclopedia of Philosophy, *"Maurice Merleau-Ponty"*, preamble; §6 [scholarly] ✓ checked by Claude (AI) in SEP entry, accessed 2026-11; not yet reviewed by a person
 
 ## Map

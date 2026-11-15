@@ -176,7 +176,7 @@ graph TD
 - *Meditations on First Philosophy* → *An Essay Concerning Human Understanding* (John Locke) — context. The SEP: "In writing An Essay Concerning Human Understanding Locke adopted Descartes' 'way of ideas'", though it is "transformed so as to become an organic part of Locke's philosophy".
 - *Meditations on First Philosophy* → *The World as Will and Representation, vol. 1* (Arthur Schopenhauer) — context. Its opening claim, "The world is idea", was "implicitly involved in the sceptical reflections from which Descartes started".
 - *Principles of Philosophy* → *Principles of Cartesian Philosophy* (Baruch Spinoza) — helpful. It is his critical exposition of Descartes's Principles of Philosophy.
-- *Principles of Philosophy* → *Ethics* (Baruch Spinoza) — helpful. Courses read Part I's definitions alongside Descartes's Principles, or read the Meditations first; Spinoza's vocabulary of substance and attribute is Cartesian.
+- *Principles of Philosophy* → *Ethics* (Baruch Spinoza) — helpful. Garrett's course reads Part I's definitions and axioms alongside Descartes's Principles I §§51–64, on substance and attribute; Duke's reads the Discourse and Meditations before the Ethics.
 
 ## Sources
 

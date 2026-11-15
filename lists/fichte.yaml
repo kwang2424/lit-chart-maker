@@ -128,11 +128,12 @@ works:
       - work: concept-wl
         strength: helpful
         why: >
-          The manifesto announcing the system came first, and courses read it first: Hagen's
-          seminar opens with an overview of its argument before the Foundation's principles.
+          The manifesto announcing the system came first, and Hagen's seminar takes it first:
+          its first presentation topic is an overview of its argument, before the Foundation's
+          principles.
         sources:
           - source: syl-hagen-fichte
-            locator: "sessions 1–4"
+            locator: "presentation topics (Referatthemen) 1–3"
             verified: true
             checked_in: Seminar page (FernUniversität in Hagen, November 2024), accessed 2026-11
       - work: kant:kant-cpr

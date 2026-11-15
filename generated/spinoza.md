@@ -103,7 +103,7 @@ His masterpiece, set out "in geometrical order": God or Nature (I), mind (II), t
 
 **Read first:**
 
-- *Principles of Philosophy* (from the [René Descartes list](descartes.md)) — *helpful*. Courses read Part I's definitions alongside Descartes's Principles, or read the Meditations first; Spinoza's vocabulary of substance and attribute is Cartesian.
+- *Principles of Philosophy* (from the [René Descartes list](descartes.md)) — *helpful*. Garrett's course reads Part I's definitions and axioms alongside Descartes's Principles I §§51–64, on substance and attribute; Duke's reads the Discourse and Meditations before the Ethics.
   - Don Garrett (NYU), at Columbia, *Spinoza's Metaphysics (Fall 2017)*, schedule (Ethics I definitions with Descartes, Principles I §§51–64) [teaching] ✓ checked by Claude (AI) in Course syllabus, accessed 2026-11; not yet reviewed by a person
   - Kenneth Surin, Duke University, *LIT 284: Descartes, Spinoza, and Leibniz (Fall 2001)*, schedule [teaching] ✓ checked by Claude (AI) in Course syllabus, accessed 2026-11; not yet reviewed by a person
 - *Treatise on the Emendation of the Intellect* — *context*. Two of four surveyed courses open with the Emendation's first sections before Part I.
@@ -179,7 +179,7 @@ graph TD
 
 - *Principles of Philosophy* (René Descartes) → *Principles of Cartesian Philosophy* — helpful. It is his critical exposition of Descartes's Principles of Philosophy.
 - *Leviathan* (Thomas Hobbes) → *Theological-Political Treatise* — context. Its account of the state of nature (ch. 16) echoes Hobbes; the SEP: "Spinoza was clearly influenced by his reading of that British thinker".
-- *Principles of Philosophy* (René Descartes) → *Ethics* — helpful. Courses read Part I's definitions alongside Descartes's Principles, or read the Meditations first; Spinoza's vocabulary of substance and attribute is Cartesian.
+- *Principles of Philosophy* (René Descartes) → *Ethics* — helpful. Garrett's course reads Part I's definitions and axioms alongside Descartes's Principles I §§51–64, on substance and attribute; Duke's reads the Discourse and Meditations before the Ethics.
 
 **Who builds on Baruch Spinoza**
 

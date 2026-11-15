@@ -56,7 +56,7 @@ His dissertation, and the "centerpiece of his later philosophy" according to the
 
 **Read first:**
 
-- *Prolegomena to Any Future Metaphysics* (from the [Immanuel Kant list](kant.md)) — *helpful*. Its claim that the subject–object distinction is the condition of all knowledge comes from Kant's first Critique.
+- *Critique of Pure Reason* (from the [Immanuel Kant list](kant.md)) — *helpful*. Its claim that the subject–object distinction is the condition of all knowledge comes from Kant's first Critique.
   - Robert Wicks, *"Arthur Schopenhauer", Stanford Encyclopedia of Philosophy*, §2 The Fourfold Root [scholarly] ✓ checked by Claude (AI) in SEP online, accessed 2026-11; not yet reviewed by a person
 
 ### 2. The Upanishads (a selection)
@@ -90,8 +90,8 @@ Four books: the world as representation, as will, art, and ethics. Nietzsche's s
 - *Prolegomena to Any Future Metaphysics* (from the [Immanuel Kant list](kant.md)) — *required*. "The philosophy of Kant ... is the only philosophy with which a thorough acquaintance is directly presupposed." Kant wrote the Prolegomena as "a preliminary exercise" and the "plan" of the Critique, for readers who found the Critique hard to follow.
   - Arthur Schopenhauer, *The World as Will and Representation, Preface to the first edition*, Preface to the first edition [author] ✓ checked by Claude (AI) in Haldane & Kemp trans., Project Gutenberg #38427; not yet reviewed by a person
   - Immanuel Kant, *Prolegomena to Any Future Metaphysics (Preface)*, Preface [author] ✓ checked by Claude (AI) in Carus trans. (Open Court, 1912), Project Gutenberg #52821; not yet reviewed by a person
-- *Critique of Pure Reason* (from the [Immanuel Kant list](kant.md)) — *helpful*. The Kant he presupposes and criticizes in his appendix is above all the Critique.
-  - Arthur Schopenhauer, *The World as Will and Representation, Preface to the first edition*, Preface to the first edition [author] ✓ checked by Claude (AI) in Haldane & Kemp trans., Project Gutenberg #38427; not yet reviewed by a person
+- *Critique of Pure Reason* (from the [Immanuel Kant list](kant.md)) — *helpful*. The preface asks readers to know "the principal writings of Kant", and the book's criticisms of Kant cite the Critique of Pure Reason by page.
+  - Arthur Schopenhauer, *The World as Will and Representation, Preface to the first edition*, Preface to the first edition; Book I, §15 (on Kant's account of error) [author] ✓ checked by Claude (AI) in Haldane & Kemp trans., Project Gutenberg #38427; not yet reviewed by a person
 - *Republic* (from the [Plato list](plato.md)) — *helpful*. A reader who "has lingered in the school of the divine Plato" will be "so much the better prepared".
   - Arthur Schopenhauer, *The World as Will and Representation, Preface to the first edition*, Preface to the first edition [author] ✓ checked by Claude (AI) in Haldane & Kemp trans., Project Gutenberg #38427; not yet reviewed by a person
 - *The Upanishads (a selection)* — *helpful*. The third preparation he names: a reader who "is a partaker of the benefit conferred by the Vedas" through the Upanishads is best prepared of all.
@@ -167,11 +167,11 @@ graph TD
 
 **Builds on**
 
-- *Prolegomena to Any Future Metaphysics* (Immanuel Kant) → *On the Fourfold Root of the Principle of Sufficient Reason* — helpful. Its claim that the subject–object distinction is the condition of all knowledge comes from Kant's first Critique.
+- *Critique of Pure Reason* (Immanuel Kant) → *On the Fourfold Root of the Principle of Sufficient Reason* — helpful. Its claim that the subject–object distinction is the condition of all knowledge comes from Kant's first Critique.
 - *Foundation of the Entire Wissenschaftslehre (Science of Knowledge)* (J. G. Fichte) → *The World as Will and Representation, vol. 1* — context. §7 sets its starting point against "the idealism of Fichte", which "reduces the object to the effect of the subject", and calls Fichte's "philosophy of appearance" the one example of deriving the object from the subject.
 - *Meditations on First Philosophy* (René Descartes) → *The World as Will and Representation, vol. 1* — context. Its opening claim, "The world is idea", was "implicitly involved in the sceptical reflections from which Descartes started".
 - *Prolegomena to Any Future Metaphysics* (Immanuel Kant) → *The World as Will and Representation, vol. 1* — required. "The philosophy of Kant ... is the only philosophy with which a thorough acquaintance is directly presupposed." Kant wrote the Prolegomena as "a preliminary exercise" and the "plan" of the Critique, for readers who found the Critique hard to follow.
-- *Critique of Pure Reason* (Immanuel Kant) → *The World as Will and Representation, vol. 1* — helpful. The Kant he presupposes and criticizes in his appendix is above all the Critique.
+- *Critique of Pure Reason* (Immanuel Kant) → *The World as Will and Representation, vol. 1* — helpful. The preface asks readers to know "the principal writings of Kant", and the book's criticisms of Kant cite the Critique of Pure Reason by page.
 - *Republic* (Plato) → *The World as Will and Representation, vol. 1* — helpful. A reader who "has lingered in the school of the divine Plato" will be "so much the better prepared".
 
 **Who builds on Arthur Schopenhauer**

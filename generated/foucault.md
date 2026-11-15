@@ -155,7 +155,7 @@ Intended as the introduction to a series on modern sexuality; it sets out the vi
 
 - *The Will to Power* (from the [Friedrich Nietzsche list](nietzsche.md)) — *context*. Its French title, The Will to Knowledge, "is a reference to Nietzsche's Will to Power".
   - Internet Encyclopedia of Philosophy, *"Michel Foucault (1926–1984)"*, §4.b The Will to Knowledge [scholarly] ✓ checked by Claude (AI) in IEP entry, accessed 2026-11; not yet reviewed by a person
-- *Discipline and Punish: The Birth of the Prison* — *helpful*. The history of sexuality "was originally projected as a fairly straightforward extension of the genealogical approach of Discipline and Punish". All three courses surveyed read it straight after.
+- *Discipline and Punish: The Birth of the Prison* — *helpful*. The history of sexuality "was originally projected as a fairly straightforward extension of the genealogical approach of Discipline and Punish". The three surveyed courses that assign both read it straight after.
   - Stanford Encyclopedia of Philosophy, *"Michel Foucault"*, §3.5 History of Modern Sexuality [scholarly] ✓ checked by Claude (AI) in SEP entry, accessed 2026-11; not yet reviewed by a person
 
 ### 11. "What Is Enlightenment?" (1984)
