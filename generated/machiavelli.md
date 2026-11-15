@@ -91,7 +91,7 @@ An exposition of the principles of republican rule "masquerading as a commentary
 
 **Read first:**
 
-- *The Prince* — *helpful*. The Prince sets aside republics, "inasmuch as in another place I have written of them at length"; the SEP reads the two works together and contrasts their conclusions. Every course surveyed that assigns both reads The Prince first.
+- *The Prince* — *helpful*. The Prince sets aside republics, "inasmuch as in another place I have written of them at length"; the SEP notes that he referred to The Prince in the Discourses "in a way that suggests he viewed the former as a companion to the latter". Every course surveyed that assigns both reads The Prince first.
   - Niccolò Machiavelli, *The Prince (with the Marriott edition's introduction)*, ch. II, opening sentence [author] ✓ checked by Claude (AI) in Marriott trans., Project Gutenberg #1232; not yet reviewed by a person
   - Stanford Encyclopedia of Philosophy, *"Niccolò Machiavelli"*, §6 The Discourses on Livy [scholarly] ✓ checked by Claude (AI) in SEP entry (revision of Dec 2023), accessed 2026-11; not yet reviewed by a person
 

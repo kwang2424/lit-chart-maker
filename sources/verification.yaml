@@ -215,3 +215,219 @@
   verdict: supported
   checked: 2026-11
   by: Claude (second AI check)
+- claim: aristotle (beginner)
+  hash: 7dba32b1
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: berlin (beginner)
+  hash: 665b2d2f
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: jung (beginner)
+  hash: d91c8a31
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: kierkegaard (beginner)
+  hash: 52f50a87
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: medieval-literature:paradiso -> medieval-literature:purgatorio
+  hash: 2dec15c7
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: medieval-literature:purgatorio -> medieval-literature:inferno
+  hash: dc85be74
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: nietzsche (beginner)
+  hash: '50983050'
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: schopenhauer (beginner)
+  hash: fa6e9280
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: spinoza (beginner)
+  hash: 0fc3af3f
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: descartes:meditations -> discourse
+  hash: '62574223'
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: fichte:foundation -> concept-wl
+  hash: 71e745e7
+  verdict: supported
+  note: 'Fixed in this pass: the Hagen page lists presentation topics, not dated sessions; the claim now
+    says the overview is the first topic.'
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: fichte:foundation -> kant:kant-cpr
+  hash: 43329ff8
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: foucault:hs1 -> discipline-punish
+  hash: 726c0570
+  verdict: supported
+  note: 'Fixed in this pass: four surveyed courses, three of which assign both; the claim now says ''the
+    three surveyed courses that assign both''.'
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: foucault:ngh -> nietzsche:genealogy
+  hash: b1d09988
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: freud:civilization -> beyond-pleasure
+  hash: 94995fa7
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: husserl:cartesian-meditations -> descartes:meditations
+  hash: a2b34145
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: jung:archetypes-cu -> two-essays
+  hash: e6dd9b41
+  verdict: unclear
+  note: Neither Princeton volume description can be fetched, so the claim could not be re-read against
+    them.
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: kant:kant-cpr -> prolegomena
+  hash: eb752f44
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: kierkegaard:postscript -> fragments
+  hash: f56eaf10
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: lyotard:differend -> postmodern-condition
+  hash: eca2be1b
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: machiavelli:discourses -> prince
+  hash: 2287d556
+  verdict: supported
+  note: 'Fixed in this pass: the SEP does not ''contrast their conclusions''; the claim now quotes its
+    remark that he viewed The Prince as a companion to the Discourses.'
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: merleau-ponty:eye-mind -> cezanne
+  hash: 51ae7080
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: merleau-ponty:visible-invisible -> phenomenology-perception
+  hash: 274248ec
+  verdict: supported
+  note: 'Fixed in this pass: the SEP says he reformed the phenomenological method, not that he reworked
+    the earlier book.'
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: nietzsche:birth-of-tragedy -> greek-tragedy
+  hash: 372ac28e
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: nietzsche:birth-of-tragedy -> schopenhauer:wwr
+  hash: 6427e8f5
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: nietzsche:genealogy -> bge
+  hash: 581ab0e1
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: nietzsche:genealogy -> schopenhauer:wwr
+  hash: af8388f1
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: nietzsche:zarathustra -> gay-science
+  hash: 7797faa6
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: plato:crito -> apology
+  hash: a48ddde2
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: plato:phaedo -> crito
+  hash: 5cbe8db3
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: rousseau:emile -> social-contract
+  hash: cd567e11
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: rousseau:social-contract -> inequality
+  hash: 73b5ef04
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: sartre:being-nothingness -> transcendence-ego
+  hash: fc28d1cc
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: sartre:transcendence-ego -> husserl:ideas-1
+  hash: f80bab2f
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: schelling:sti -> fichte:foundation
+  hash: aaa9fba5
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: schopenhauer:fourfold-root -> kant:kant-cpr
+  hash: 387d039b
+  verdict: supported
+  note: 'Fixed in this pass: the SEP traces this claim to the Critique of Pure Reason, but the link pointed
+    to the Prolegomena; it now points to the Critique.'
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: schopenhauer:wwr -> kant:kant-cpr
+  hash: 8735c8fc
+  verdict: supported
+  note: 'Fixed in this pass: the preface asks for ''the principal writings of Kant'', not the Critique
+    above all; the claim now says only that his criticisms cite the Critique by page (Book I, §15).'
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: schopenhauer:wwr -> plato:republic
+  hash: 130db4c2
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: schopenhauer:wwr -> upanishads
+  hash: 0804df55
+  verdict: supported
+  checked: 2026-11
+  by: Claude (second AI check)
+- claim: spinoza:ethics -> descartes:principles
+  hash: e98ecc86
+  verdict: supported
+  note: 'Fixed in this pass: ''Spinoza''s vocabulary of substance and attribute is Cartesian'' was not
+    in the sources; the claim now says only what the two syllabi assign.'
+  checked: 2026-11
+  by: Claude (second AI check)

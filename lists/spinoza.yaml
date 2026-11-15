@@ -198,8 +198,9 @@ works:
       - work: descartes:principles
         strength: helpful
         why: >
-          Courses read Part I's definitions alongside Descartes's Principles, or read the
-          Meditations first; Spinoza's vocabulary of substance and attribute is Cartesian.
+          Garrett's course reads Part I's definitions and axioms alongside Descartes's
+          Principles I §§51–64, on substance and attribute; Duke's reads the Discourse and
+          Meditations before the Ethics.
         sources:
           - source: syl-garrett-spinoza
             locator: "schedule (Ethics I definitions with Descartes, Principles I §§51–64)"

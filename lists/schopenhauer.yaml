@@ -89,7 +89,7 @@ works:
       His dissertation, and the "centerpiece of his later philosophy" according to the
       SEP: everything we explain falls under one of four kinds of ground.
     after:
-      - work: kant:prolegomena
+      - work: kant:kant-cpr
         strength: helpful
         why: Its claim that the subject–object distinction is the condition of all knowledge comes from Kant's first Critique.
         sources:
@@ -173,10 +173,12 @@ works:
             checked_in: "Carus trans. (Open Court, 1912), Project Gutenberg #52821"
       - work: kant:kant-cpr
         strength: helpful
-        why: The Kant he presupposes and criticizes in his appendix is above all the Critique.
+        why: >
+          The preface asks readers to know "the principal writings of Kant", and the book's
+          criticisms of Kant cite the Critique of Pure Reason by page.
         sources:
           - source: schopenhauer-wwr-preface
-            locator: Preface to the first edition
+            locator: "Preface to the first edition; Book I, §15 (on Kant's account of error)"
             verified: true
             checked_in: "Haldane & Kemp trans., Project Gutenberg #38427"
       - work: plato:republic
